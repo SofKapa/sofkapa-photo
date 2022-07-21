@@ -370,7 +370,7 @@ form label {
 /* ------------------ Card Styles --------------------------------------------*/
 .card {
     padding-top: 2rem;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .card:hover {

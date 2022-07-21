@@ -23,12 +23,14 @@ brands:
 
 
 <!-- GALLERY CATEGORIES ---------------------------------------------------------------->
-<section class="padded">
+<section class="padded horizontal-scroll grid">
 
     {% for name in page.brands %}
 
-        <div class="grid">
-
+        <div class="col-3_xs-11 padded-1">
+            <div class="card bg-familyepl tall-80">
+                <h3>brands & events</h3>
+            </div>
         </div>
 
     {% endfor %}  
