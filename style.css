@@ -5,10 +5,10 @@
 }
 
 /* ---------------- Temporary styles for structural html ---------------------*/
-section{
-    /* padding: 0.5rem; */
+/* section{
+    padding: 0.5rem;
     border:1px solid rgb(240,240,240)
-}
+} */
 
 
 /* html{border:none;} */
@@ -33,6 +33,7 @@ body{
 .padded-05 {padding:0.5rem;}
 .padded-1  {padding:1rem;}
 .padded-2  {padding:2rem;}
+.padded-3  {padding: 3rem;}
 
 .padded-t-0 {padding-top:0rem;}
 .padded-b-0 {padding-bottom:0rem;}
@@ -309,6 +310,7 @@ img {
 
 .special-text {
     font-family: mansory;
+    font-style: oblique;
     font-size: 1.3rem;
     color: white;
 }
