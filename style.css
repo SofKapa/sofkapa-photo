@@ -224,11 +224,6 @@ footer a {
     border: none;
 }
 
-.bold { 
-    font-family: mansory; 
-    font-size: 1.3rem;
-    color:#d5bdaf
-}
 
 
 /* ------------------ Background Images ---------------------------------------*/
@@ -245,7 +240,7 @@ img {
     display: block;
 }
 
-.transparent {opacity: 0.5;}
+.transparent {opacity: 0.8;}
 
 /* Others */
 .bg-piagonzosofa { 
@@ -269,6 +264,13 @@ img {
     background-size: cover;
     background-position: 50% 50%;
 }
+
+.bg-namaste {
+    background-image: url('assets/namaste.jpg');
+    background-size: cover;
+    background-position: 50% 57%;
+}
+
 
 
 /* ------------------ Icons / Quotes / Featured text---------------------------*/
@@ -297,6 +299,18 @@ img {
     color: white;
     text-align: center;
     padding: 4rem;
+}
+
+.bold { 
+    font-family: mansory; 
+    font-size: 1.3rem;
+    color:#d5bdaf
+}
+
+.special-text {
+    font-family: mansory;
+    font-size: 1.3rem;
+    color: white;
 }
 
 
