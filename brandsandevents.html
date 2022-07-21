@@ -3,15 +3,20 @@ layout: default
 title: Brands & Events
 brands:
 - name: O Bom O Mau e o Vilão
-  location: - Lisbon, Portugal
+  location: Lisbon Portugal
+  category: bar
 - name: Eat Pray Love
-  location: - Lisbon, Portugal
+  location: Lisbon Portugal
+  category: cafe
 - name: Le Chat
-  location: - Lisbon, Portugal
+  location: Lisbon Portugal
+  category: restaurant
 - name: Woven
-  location: - Yarravile, Australia
+  location: Yarravile Australia
+  category: cafe
 - name: Stags Head Hotel
-  location: - Williamstown, Australia
+  location: Williamstown Australia
+  category: restaurant
 ---
 
 
@@ -25,11 +30,16 @@ brands:
 <!-- GALLERY CATEGORIES ---------------------------------------------------------------->
 <section class="padded horizontal-scroll grid">
 
-    {% for name in page.brands %}
+    {% for brand in page.brands %}
 
         <div class="col-3_xs-11 padded-1">
-            <div class="card bg-familyepl tall-80">
-                <h3>brands & events</h3>
+            <div class="card bg-bmv tall-50">
+              <img src="{{ brand.profile_image }}">
+              <h2> {{ brand.category }} </h2>
+              <h3> {{ brand.name }} </h3>
+              <div class="grid-center">
+                <button type="see more" class="button col-3">SUBMIT</button>
+            </div>
             </div>
         </div>
 

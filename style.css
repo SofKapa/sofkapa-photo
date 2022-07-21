@@ -272,6 +272,24 @@ img {
     background-position: 50% 57%;
 }
 
+.bg-bmv {
+    background-image: url('assets/brands/BMV/bmv.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-epl {
+    background-image: url('assets/brands/EPL/epl.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-lechat {
+    background-image: url('assets/brands/lechat/lechat.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 
 
 /* ------------------ Icons / Quotes / Featured text---------------------------*/
