@@ -137,7 +137,7 @@ body{
 
 
 /* ----------------- Menu --------------------------------------------------- */
-.hamburger-button {
+/* .hamburger-button {
     padding: 5%;
     cursor: pointer;
 }
@@ -152,7 +152,7 @@ body{
     color: inherit;
     padding: 5vh 5%;
     display: block;
-}
+} */
 
 
 /* ------------------ Typography Style ---------------------------------------*/
@@ -438,6 +438,57 @@ form label {
     padding-left: 0;
     padding-right: 0;
 } */
+
+
+/* ------------------ Overlays -----------------------------------------*/
+.banner-brands {
+    background-image: url('/assets/namaste.jpg');
+    background-size: cover;
+    background-position: 50% 57%;
+    min-height: 70vh;
+    padding: 5%;
+}
+
+.banner-travel {
+    background-image: url('/assets/boatandbirds.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    min-height: 70vh;
+    padding: 5%;
+}
+
+.banner-portrait {
+    background-image: url('/assets/maddyandsam.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    min-height: 70vh;
+    padding: 5%;
+}
+  
+.banner h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+  
+.bg-overlay {
+    position: relative;
+}
+  
+.bg-overlay::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+  
+.bg-overlay > * {
+    position: relative;
+}
 
 
 /* ------------------ Responsiveness -----------------------------------------*/

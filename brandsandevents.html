@@ -24,24 +24,15 @@ brands:
 
 
 <!-- BANNER SECTION -------------------------------------------------------------------->
-<section class="bg-image bg-namaste transparent tall-90 padded-lg">
-    <h2 class="title">BRANDS AND EVENTS</h2>
+<section class="banner-brands grid bg-overlay bg-overlay-gradient">
+  <div class="col-12-middle">
+    <h2 class="text-center title"> BRANDS AND EVENTS </h2> 
     <p class="text-center special-text"> Each brand knows what makes it stand out from the crowd <br> through my photography I focus on capturing this essence <br> and convey it to their clients </p>
+  </div>
 </section>
 
 
-<!-- GALLERY CATEGORIES ---------------------------------------------------------------->
-<section class="padded horizontal-scroll grid">
+<!-- CARDS SECTION --------------------------------------------------------------------->
 
-    {% for brand in page.brands %}
+<button type="see more" class="gallery-button">VIEW GALLERY</button>
 
-        <div class="col-3_xs-11 padded-1">
-              <img src="{{ brand.profile_image }}" class="square">
-              <h2> {{ brand.category }} </h2>
-              <h3> {{ brand.name }} </h3>
-              <button type="see more" class="gallery-button">VIEW GALLERY</button>
-        </div>
-
-    {% endfor %}  
-
-</section>
