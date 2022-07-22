@@ -70,6 +70,10 @@ body{
 .padded-l-8 {padding-left:8rem;}
 .padded-r-8 {padding-right:8rem;}
 
+.padded-tb-3{padding-top: 3%;
+             padding-bottom: 3%;
+}
+
 
 /* Text align */
 .text-left   {text-align: left;}
@@ -90,6 +94,9 @@ body{
 .tall-100 { min-height: 100vh;}
 
 
+.max-width-md {max-width: 768px}
+
+
 /* Color styles */
 .bg-yellow      {background-color: #f5ebe0;}
 .bg-lightorange {background-color: #e3d5ca;}
@@ -97,12 +104,11 @@ body{
 .bg-brown       {background-color: #d6ccc2;}
 .bg-blue        {background-color: #ccd2d8;}
 .bg-green       {background-color: #edede9;}
-.bg-black       {background-color: #676767;
-                 color:white;
-}
+.bg-black       {background-color: #676767;}
+.bg-white       {background-color:white;}
 
 .white          {color: white;}
-
+.gray           {color: #676767;}
 
 
 /* Image styling */
@@ -320,10 +326,18 @@ img {
     size: 6rem;
 }
 
-.title {
+.title-white {
     font-family: mansory;
     font-size: 3rem;
     color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+.title-gray {
+    font-family: mansory;
+    font-size: 3rem;
+    color:#676767;
     text-align: center;
     padding: 4rem;
 }
@@ -489,6 +503,11 @@ form label {
 .bg-overlay > * {
     position: relative;
 }
+
+
+
+/* ------------------ GALLERY CARDS BASED ON IOC TEMPLATE --------------------*/
+
 
 
 /* ------------------ Responsiveness -----------------------------------------*/
