@@ -70,9 +70,17 @@ body{
 .padded-l-8 {padding-left:8rem;}
 .padded-r-8 {padding-right:8rem;}
 
+
+
+.padded-tb-2{padding-top: 2rem;
+             padding-bottom: 2rem;
+}
 .padded-tb-3{padding-top: 3%;
              padding-bottom: 3%;
 }
+
+
+
 
 
 /* Text align */
@@ -507,13 +515,78 @@ form label {
 
 
 /* ------------------ GALLERY CARDS BASED ON IOC TEMPLATE --------------------*/
+/* Whole Section */
+.flex {display: flex;}
+.overflow-x-scroll {overflow-x: scroll;}
+.flex-nowrap {flex-wrap: nowrap;}
+.flex-row {flex-direction: row;}
+
+/* Each card */
+.flex-shrink-0 {flex-shrink: 0;}
+
+.w-32 {width: 32%;}
+.sm-w-32 
 
 
 
-/* ------------------ Responsiveness -----------------------------------------*/
+/* ------------------ Responsiveness / media query ----------------------------*/
+
+/* General */
+.show-xs,
+.show-sm,
+.show-md {
+    display: none;
+}
+
+
+/* Most phones (max 320px) - appear only when viewport is smaller than 320px */
+@media (max-width:320px) {
+
+}
+
+/* XS devices (max 36em/576px))  */
 @media(max-width: 36em) {
+
     .horizontal-scroll{
         overflow-x: auto;
         flex-wrap: nowrap;
     }
 }
+
+@media(max-width: 36em) {
+
+    .show-xs {display: block;}
+    .hide-xs {display: none;}
+}
+
+
+/* SM devices (max 48em/768px) */
+@media(max-width: 48em) {
+
+    .show-sm {display: block;}
+    .hide-sm {display: none;}
+
+    .sm-text-center {text-align: center;}
+    .sm-text-left {text-align: left;}
+    .sm-text-right {text-align: right;}
+
+    .sm-padded-05 {padding: 0.5%;}
+    .sm-padded-1 {padding: 1%;}
+    .sm-padded-5 {padding: 5%;}
+
+    .sm-padded-t-0 {padding-top: 0%;}
+    .sm-padded-b-0 {padding-bottom: 0%;}
+    .sm-padded-l-0 {padding-left: 0%;}
+    .sm-padded-r-0 {padding-right: 0%;}
+
+}
+
+/* MD devices (max 64em/1024px)  */
+@media(max-width: 64em) {
+
+    .show-md {display: block;}
+    .hide-md {display: none;}
+}
+
+/* LG devices (min 1024px) - good for 24px screens and over  */
+
