@@ -330,6 +330,36 @@ img {
     background-position: 50% 50%;
 }
 
+.bg-greece {
+    background-image: url('assets/travel/GREECE/greece.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-prague {
+    background-image: url('assets/travel/PRAGUE/prague.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-melbourne {
+    background-image: url('assets/travel/MELBOURNE/melbourne.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-vietnam {
+    background-image: url('assets/travel/VIETNAM/vietnam.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-myanmar {
+    background-image: url('assets/travel/MYANMAR/myanmar.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 
 
 /* ------------------ Icons / Quotes / Featured text---------------------------*/
