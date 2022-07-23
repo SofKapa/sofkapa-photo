@@ -361,6 +361,27 @@ img {
 }
 
 
+.bg-carolina {
+    background-image: url('assets/portrait/CAROLINA/carolina.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.bg-piaandgonzo {
+    background-image: url('assets/portrait/PIAANDGONZO/piaandgonzo.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.bg-maddyandsam {
+    background-image: url('assets/portrait/MADDYANDSAM/maddyandsam.jpg');
+    background-size: cover;
+    background-position: 50% 55%;
+}
+
+
 
 /* ------------------ Icons / Quotes / Featured text---------------------------*/
 
