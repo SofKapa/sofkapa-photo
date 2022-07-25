@@ -64,24 +64,27 @@ title: Homepage
 
     <h2 class="padded-md gray text-center">latest projects</h2>
 
-    <div class="max-width-lg grid padded-b-3 flip-order-alternate">
+
 
         {% for project in site.projects %}
 
-                <div class="col-6_sm-12 bg-image tall-40" style="background-image: url('{{ project.featured_image }}')">
+        <div class="max-width-lg grid padded-b-3 flip-order-alternate">
+                <div class="col-6_sm-12 bg-image square" style="background-image: url('{{ project.featured_image }}')">
                 </div>
         
-                <div class="col-6_sm-12-middle padded-md space-evenly">
+                <div class="col-6_sm-12-middle padded-md">
                     <h3 class="lightorange padded-b-2 lg-text"> {{ project.title }} </h3>
                     <p class="gray padded-b-1 md-text oblique"> {{ project.description }} </p>
                     <h3 class="gray padded-b-1 sm-text"> {{ project.location }} </h3>
                     <h3 class="gray padded-b-1 sm-text lightorange"> {{ project.category }} </h3>
                     <a href="{{project.live_url}}" class="project-button padded-3"target="_blank"> view project</a>
                 </div>
+
+        </div>
     
         {% endfor %}
 
-    </div>
+
 
 
 

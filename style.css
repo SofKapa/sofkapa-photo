@@ -79,7 +79,6 @@ body{
 }
 
 
-
 /* Text align */
 .text-left    {text-align: left;}
 .text-right   {text-align: right;}
@@ -110,8 +109,6 @@ body{
     max-width: 1000px;
     margin: auto;
  }
-
-
 
 /* Color styles */
 .bg-yellow      {background-color: #f5ebe0;}
@@ -157,7 +154,7 @@ body{
 .column-bottom-to-top  {flex-direction: column-reverse;}
 
 
-.flip-order-alternate:nth-child(odd)  {flex-direction: row-reverse;}
+.flip-order-alternate:nth-child(even){flex-direction: row-reverse;}
 
 
 
