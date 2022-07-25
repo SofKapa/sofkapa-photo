@@ -6,8 +6,8 @@ title: Homepage
 <!-- This is the HOME header ----------------------------->
 <header class="padded-3 padded-t-0 grid tall-40">
     <div class="col-9_sm-12-middle grid">        
-        <h2 class="text-left col-12">SOF KAPA</h2>
-        <h1 class="text-center col-12-right">photography</h1>
+        <h2 class="text-left col-12 gray">SOF KAPA</h2>
+        <h1 class="text-center col-12-right gray">photography</h1>
     </div>
 </header>
 
@@ -43,6 +43,7 @@ title: Homepage
 
 <!-- This is the TEXT ABOUT section ----------------------> 
 <section class="bg-lightorange padded-lg tall-80">
+
     <div class="padded-b-5">
         <h2 class="padded-b-05">about me</h2>
         <p>Hi, I'm Sof. My passion for photography started with my love for travel and connecting with people. There is something special in being able to capture the beauty in a moment, no matter how random or significant it is.</p>
@@ -55,13 +56,41 @@ title: Homepage
         <p class="text-right">I'm currently based & working with clients in Melbourne</p>
     </div>
 
+</section>
+
+
+<!-- FEATURED PROJECTS ----------------------> 
+<section class="padded">
+
+    <h2 class="padded-md gray text-center">latest projects</h2>
+
+    <div class="max-width-lg grid padded-b-3 flip-order-alternate">
+
+        {% for project in site.projects %}
+
+                <div class="col-6_sm-12 bg-image tall-40" style="background-image: url('{{ project.featured_image }}')">
+                </div>
+        
+                <div class="col-6_sm-12-middle padded-md space-evenly">
+                    <h3 class="lightorange padded-b-2 lg-text"> {{ project.title }} </h3>
+                    <p class="gray padded-b-1 md-text oblique"> {{ project.description }} </p>
+                    <h3 class="gray padded-b-1 sm-text"> {{ project.location }} </h3>
+                    <h3 class="gray padded-b-1 sm-text lightorange"> {{ project.category }} </h3>
+                    <a href="{{project.live_url}}" class="project-button padded-3"target="_blank"> view project</a>
+                </div>
+    
+        {% endfor %}
+
+    </div>
+
+
 
 </section>
 
 
-
 <!-- This is the FORM  section --------------------------->
 <section class="padded-l-5 padded-r-5 padded-t-2 padded-b-2">
+
     <h2 class="text-center">your message</h2>
     <div class="grid-center">
         <div class="col-5">
@@ -72,20 +101,18 @@ title: Homepage
                 <label for="_replyto">email</label>
                 <input type="email" name="_replyto" id="_replyto"/>
     
-                <label for="message">what do you have in mind?</label>
+                <label for="message">type your message</label>
                 <textarea name="message" id="message"></textarea>
             </form>
             <div class="grid-center">
                 <button type="submit" class="form-button col-3">SUBMIT</button>
             </div>
-            
         </div>
     </div>
 
-
-
-
 </section>
+
+
 
 <!-- This is the GRID GALLERY section -------------------->
 <section>
