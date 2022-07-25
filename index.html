@@ -66,7 +66,7 @@ title: Homepage
 
 
 
-        {% for project in site.projects %}
+        {% for project in site.projects limit: 3 %}
 
         <div class="max-width-lg grid padded-b-3 flip-order-alternate">
                 <div class="col-6_sm-12 bg-image square" style="background-image: url('{{ project.featured_image }}')">
@@ -92,28 +92,7 @@ title: Homepage
 
 
 <!-- This is the FORM  section --------------------------->
-<section class="padded-l-5 padded-r-5 padded-t-2 padded-b-2">
-
-    <h2 class="text-center">your message</h2>
-    <div class="grid-center">
-        <div class="col-5">
-            <form>
-                <label for="_name">name</label>
-                <input type="text" name="_name" id="_name"/>
-    
-                <label for="_replyto">email</label>
-                <input type="email" name="_replyto" id="_replyto"/>
-    
-                <label for="message">type your message</label>
-                <textarea name="message" id="message"></textarea>
-            </form>
-            <div class="grid-center">
-                <button type="submit" class="form-button col-3">SUBMIT</button>
-            </div>
-        </div>
-    </div>
-
-</section>
+{% include contact-form.html %}
 
 
 

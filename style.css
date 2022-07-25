@@ -154,7 +154,7 @@ body{
 .column-bottom-to-top  {flex-direction: column-reverse;}
 
 
-.flip-order-alternate:nth-child(even){flex-direction: row-reverse;}
+.flip-order-alternate:nth-child(e){flex-direction: row-reverse;}
 
 
 
