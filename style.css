@@ -409,7 +409,7 @@ img {
 .bg-pos-t-l { background-position: 10% 10%; }
 .bg-pos-b-r { background-position: 85% 85%; }
 
-/* Others */
+/* Background Images HomePage */
 .bg-piagonzosofa { 
     background-image: url('assets/coverportrait.jpg'); 
     background-size: cover;
@@ -524,6 +524,23 @@ img {
 .gallery [class*="col-"] {
     padding: 0.2rem;
 }
+
+/* Background Images Gallery Carolina */
+.allbrown         { background-image: url('assets/portrait/CAROLINA/allbrown.jpg');background-position: 25% 50%; }
+.byhouse          { background-image: url('assets/portrait/CAROLINA/byhouse.jpg'); background-position: 50% 86%;}
+.favourite        { background-image: url('assets/portrait/CAROLINA/favourite.jpg'); }
+.fitness          { background-image: url('assets/portrait/CAROLINA/fitness.jpg'); }
+.hat              { background-image: url('assets/portrait/CAROLINA/hat.jpg'); }
+.inwater          { background-image: url('assets/portrait/CAROLINA/inwater.jpg'); }
+.laughinglikemom  { background-image: url('assets/portrait/CAROLINA/laughinglikemom.jpg'); }
+.laughingsitting  { background-image: url('assets/portrait/CAROLINA/laughingsitting.jpg'); }
+.lookinghorizon   { background-image: url('assets/portrait/CAROLINA/lookinghorizon.jpg'); background-position: 69% 50%;}
+.lyingtowel       { background-image: url('assets/portrait/CAROLINA/lyingtowel.jpg'); }
+.reflection       { background-image: url('assets/portrait/CAROLINA/reflection.jpg'); }
+.sittinginwater   { background-image: url('assets/portrait/CAROLINA/sittinginwater.jpg'); }
+.sittingtowel     { background-image: url('assets/portrait/CAROLINA/sittingtowel.jpg'); background-position: 50% 95%;}
+.towel            { background-image: url('assets/portrait/CAROLINA/towel.jpg'); }
+.umberellas       { background-image: url('assets/portrait/CAROLINA/umberellas.jpg'); }
 
 /* ------------------ Icons / Quotes / Featured text---------------------------*/
 
