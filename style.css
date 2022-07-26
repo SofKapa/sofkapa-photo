@@ -32,6 +32,7 @@ body{
     padding: 0;
 }
 
+
 .padded-sm {padding:2.5%;}
 .padded-md {padding:5%;}
 .padded-lg {padding:10%;}
@@ -104,13 +105,14 @@ body{
 .tall-90  { min-height: 90vh;}
 .tall-100 { min-height: 100vh;}
 
-
 .max-width-sm {
     max-width: 600px;
-    margin: auto;}
+    margin: auto;
+}
 .max-width-md {
-    max-width: 768px;
-    margin: auto;}
+    max-width: 900px;
+    margin: auto;
+}
 .max-width-lg {
     max-width: 1000px;
     margin: auto;
@@ -150,8 +152,8 @@ body{
 .column-top-to-bottom  {flex-direction: column;}
 .column-bottom-to-top  {flex-direction: column-reverse;}
 
-
-.flip-order-alternate:nth-child(even){flex-direction: row-reverse;}
+.flip-order-alternate:nth-child(even){
+    flex-direction: row-reverse;}
 
 
 
@@ -367,7 +369,7 @@ footer a {
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    /* min-height: 10rem; */
+    min-height: 10rem;
 }
 
 img {
@@ -385,6 +387,7 @@ img {
 .landscape-wide {padding-bottom: 56%}
 
 .square50       {padding-bottom: 50%}
+.padding-bottom-sm  {padding-bottom: 10%}
 
 
 /* Background position utility classes */
@@ -506,7 +509,11 @@ img {
     background-position: 50% 55%;
 }
 
+/* Gallery styling */
 
+.gallery [class*="col-"] {
+    padding: 0.2rem;
+}
 
 /* ------------------ Icons / Quotes / Featured text---------------------------*/
 
