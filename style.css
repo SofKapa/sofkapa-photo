@@ -32,6 +32,10 @@ body{
     padding: 0;
 }
 
+.marginfix [class*="grid-"] {
+    margin: auto;
+}
+
 
 .padded-sm {padding:2.5%;}
 .padded-md {padding:5%;}
@@ -117,6 +121,7 @@ body{
     max-width: 1000px;
     margin: auto;
  }
+
 
 /* Color styles */
 .bg-yellow      {background-color: #f5ebe0;}

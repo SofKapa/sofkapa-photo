@@ -62,7 +62,7 @@ title: Homepage
 
         {% for project in site.projects limit: 3 %}
 
-        <div class="grid max-width-md padded-b-3 flip-order-alternate">
+            <div class="grid max-width-lg padded-1" style="margin: auto; min-height: 25rem;">
                 <div class="col-6_sm-12 bg-image square" style="background-image: url('{{ project.featured_image }}')">
                 </div>
         
@@ -74,8 +74,9 @@ title: Homepage
                     <a href="{{project.live_url}}" class="project-button padded-3"target="_blank"> view project</a>
                 </div>
 
-        </div>
-    
+            </div>
+
+
         {% endfor %}
 
 
