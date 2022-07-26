@@ -63,10 +63,10 @@ title: Homepage
         {% for project in site.projects limit: 3 %}
 
             <div class="grid max-width-lg padded-1" style="margin: auto; min-height: 25rem;">
-                <div class="col-6_sm-12 bg-image square" style="background-image: url('{{ project.featured_image }}')">
+                <div class="col-6_sm-12 bg-image square" style="background-image: url('{{ project.featured_image }}');padding:0rem;">
                 </div>
         
-                <div class="col-6_sm-12-middle padded-md">
+                <div class="col-6_sm-12-middle" style="padding:1.2rem;">
                     <h3 class="lightorange padded-b-2 lg-text"> {{ project.title }} </h3>
                     <p class="gray padded-b-1 md-text oblique"> {{ project.description }} </p>
                     <h3 class="gray padded-b-1 sm-text"> {{ project.location }} </h3>

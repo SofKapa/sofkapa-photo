@@ -36,6 +36,11 @@ body{
     margin: auto;
 }
 
+[class*="col-"], [class*="col_"], [class~="col"] {
+    box-sizing: border-box;
+    padding: auto;
+    max-width: 100%;
+  }
 
 .padded-sm {padding:2.5%;}
 .padded-md {padding:5%;}
