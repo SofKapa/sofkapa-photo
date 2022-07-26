@@ -2,6 +2,7 @@
 $( document ).ready(function() {
     
 
+    // HAMBURGER MENU 
     // If you click on element with 'hamburger-button' class (in this case 'MENU')... 
 
     $('.hamburger-button').click(function(){
@@ -13,6 +14,12 @@ $( document ).ready(function() {
         $(this).toggleClass('active'); 
 
     });
+
+
+    // ANIMATE ON SCROLL - ACTIVATE
+    AOS.init();
+
+
 
 });
 
