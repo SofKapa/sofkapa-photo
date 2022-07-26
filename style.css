@@ -137,15 +137,6 @@ body{
 
 
 
-/* Image styling */
-.portrait-tall  {padding-bottom: 150%}
-.portrait       {padding-bottom: 125%}
-.square         {padding-bottom: 50%}
-.landscape      {padding-bottom: 66%}
-.landscape-wide {padding-bottom: 56%}
-
-
-
 /* Content positioning */
 .content-start    {justify-items: flex-start;}
 .content-center   {justify-content: center;}
@@ -373,7 +364,6 @@ footer a {
 /* General Style */
 .bg-image {
     background-color:#e3d5ca;
-    background-image:url(/assets/covertravel.jpg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -385,8 +375,26 @@ img {
     display: block;
 }
 
-
 .transparent {opacity: 0.8;}
+
+/* Image styling */
+.portrait-tall  {padding-bottom: 150%}
+.portrait       {padding-bottom: 125%}
+.square         {padding-bottom: 100%}
+.landscape      {padding-bottom: 66%}
+.landscape-wide {padding-bottom: 56%}
+
+.square50       {padding-bottom: 50%}
+
+
+/* Background position utility classes */
+.bg-pos-t {background-position: top;}
+.bg-pos-b {background-position: bottom;}
+.bg-pos-l {background-position: left;}
+.bg-pos-r {background-position: right;}
+
+.bg-pos-t-l { background-position: 10% 10%; }
+.bg-pos-b-r { background-position: 85% 85%; }
 
 /* Others */
 .bg-piagonzosofa { 
