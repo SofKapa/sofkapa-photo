@@ -26,6 +26,7 @@ $( document ).ready(function() {
         speed: 500,
         download: false
     });
+    
 
 
 });
