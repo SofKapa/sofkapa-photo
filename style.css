@@ -84,6 +84,10 @@ body{
              padding-bottom: 3%;
 }
 
+.padded-tb-10{padding-top: 10%;
+              padding-bottom: 10%;
+}
+
 
 /* Text align */
 .text-left    {text-align: left;}
@@ -118,6 +122,11 @@ body{
     max-width: 1000px;
     margin: auto;
  }
+
+.max-width-xl {
+    max-width: 1150px;
+    margin: auto;
+}
 
 
 /* Color styles */
@@ -515,8 +524,28 @@ img {
 /* Gallery styling */
 
 .gallery [class*="col-"] {
-    padding: 0.2rem;
+    padding: 0.3rem;
 }
+
+/* .gallery .gallery-item {
+    border-bottom: none;
+} */
+
+/* Pop-up gallery Background when active */
+.lg-backdrop {
+    background-color: #edede9;
+}
+
+.lg-backdrop.in {
+    opacity: 0.9;
+}
+
+.lg-next, .lg-prev {
+    background-color: #EDEDE9;
+    color: #676767;
+    font-size: 60px;
+  }
+
 
 /* Background Images Gallery Carolina */
 .allbrown         { background-image: url('assets/portrait/CAROLINA/allbrown.jpg');background-position: 25% 50%; }
@@ -528,12 +557,13 @@ img {
 .laughinglikemom  { background-image: url('assets/portrait/CAROLINA/laughinglikemom.jpg'); }
 .laughingsitting  { background-image: url('assets/portrait/CAROLINA/laughingsitting.jpg'); }
 .lookinghorizon   { background-image: url('assets/portrait/CAROLINA/lookinghorizon.jpg'); background-position: 69% 50%;}
-.lyingtowel       { background-image: url('assets/portrait/CAROLINA/lyingtowel.jpg'); }
+.lyingtowel       { background-image: url('assets/portrait/CAROLINA/lyingtowel.jpg'); background-position: 50% 50%;}
 .reflection       { background-image: url('assets/portrait/CAROLINA/reflection.jpg'); }
 .sittinginwater   { background-image: url('assets/portrait/CAROLINA/sittinginwater.jpg'); }
 .sittingtowel     { background-image: url('assets/portrait/CAROLINA/sittingtowel.jpg'); background-position: 50% 95%;}
 .towel            { background-image: url('assets/portrait/CAROLINA/towel.jpg'); }
 .umberellas       { background-image: url('assets/portrait/CAROLINA/umberellas.jpg'); }
+
 
 /* ------------------ Icons / Quotes / Featured text---------------------------*/
 
@@ -544,6 +574,16 @@ img {
 
 .oblique {
     font-style: oblique;
+}
+
+.vertical-text {
+    font-size: 6vw;
+    transform: translateX(-50%) translateY(-50%) rotate(90deg);
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 .location-icon-styles {

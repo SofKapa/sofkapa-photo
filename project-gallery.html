@@ -8,7 +8,7 @@ gallery:
     aspect-ratio: landscape
     background_image: /assets/portrait/CAROLINA/towel.jpg
   - column-size: col-4_sm-12
-    aspect-ratio: square
+    aspect-ratio: portrait
     background_image: /assets/portrait/CAROLINA/favourite.jpg
   - column-size: col-4_sm-12
     aspect-ratio: portrait
@@ -43,14 +43,28 @@ gallery:
 ---
 
 <!--------------- Header Banner ------------------->
-<section class="padded-2">
-  ...
+
+<section class="gray padded-t-8">
+
+    <div class="grid padded-md max-width-xl">
+        <div class="col-6_sm-12">
+          <div class="bg-image square" style="background-image:url(/assets/portrait/CAROLINA/lyingtowel.jpg);"></div>
+          <p class="image-caption-left text-sm gray"> Portrait | Pregnancy by Sof Kapa (Lisbon) </p>
+        </div>
+        <div class="col-6_sm-12 padded title-container relative">
+           <h1 class="big-bold  vertical-text "> Carolina </h1>
+        </div>
+        <div class="col-12 padded-t-2">
+               <p class="oblique">This mom-to-be loves the ocean and we couldn't think of a better place for our photoshoot&nbsp;</p>
+        </div>
+    </div>
+    
 </section>
 
 <!--------------- Gallery ------------------->
-<section class="padded-2">
+<section class="padded-2 padded-tb-10">
 
-    <div class="gallery grid" id="lightgallery">
+    <div class="gallery grid max-width-lg" id="lightgallery">
         {% for item in page.gallery %}
       
           <a class="{{item.column-size}} gallery-item" href="{{item.background_image}}">
