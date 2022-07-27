@@ -21,6 +21,13 @@ $( document ).ready(function() {
 
 
 
+    // POP-UP GALLERY
+    lightGallery(document.getElementById('lightgallery'), {
+        speed: 500,
+        download: false
+    });
+
+
 });
 
 
