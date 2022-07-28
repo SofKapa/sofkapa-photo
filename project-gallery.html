@@ -44,25 +44,28 @@ gallery:
 
 <!--------------- Header Banner ------------------->
 
-<section class="gray padded-t-8">
 
-    <div class="grid padded-md max-width-xl">
-        <div class="col-6_sm-12">
-          <div class="bg-image square" style="background-image:url(/assets/portrait/CAROLINA/lyingtowel.jpg);"></div>
-          <p class="image-caption-left text-sm gray"> Portrait | Pregnancy by Sof Kapa (Lisbon) </p>
+<section class="gray padded-t-3">
+
+  <div class="grid padded-md max-width-xl">
+
+      <div class="col-6_sm-12">
+        <div class="bg-image square" style="background-image:url(/assets/portrait/CAROLINA/lyingtowel.jpg);"></div>
+        <p class="image-caption-left text-sm gray"> Portrait | Pregnancy by Sof Kapa (Lisbon) </p>
+      </div>
+
+        <div class="col-6_sm-12 padded title-container relative bg-green" style="margin-bottom: 1.2rem;">
+          <h1 class="big-text padded-3"> Carolina </h1>
+          <div></div>
+          <p class="oblique padded-lr-3 padded-b-3">This mom-to-be loves the ocean and we couldn't think of a better place for the photoshoot&nbsp;</p>
         </div>
-        <div class="col-6_sm-12 padded title-container relative">
-           <h1 class="big-bold  vertical-text "> Carolina </h1>
-        </div>
-        <div class="col-12 padded-t-2">
-               <p class="oblique">This mom-to-be loves the ocean and we couldn't think of a better place for our photoshoot&nbsp;</p>
-        </div>
-    </div>
-    
+
+  </div>
+  
 </section>
 
 <!--------------- Gallery ------------------->
-<section class="padded-2 padded-tb-10">
+<section class="padded-2 padded-t-5 padded-b-10">
 
     <div class="gallery grid max-width-lg" id="lightgallery">
         {% for item in page.gallery %}
@@ -77,3 +80,42 @@ gallery:
       </div>
 
 </section>
+
+
+<!-- Related Projects ----------------------->
+
+  <section class="v-light-bg padded-1 related-projects bg-green padded-b-5">
+
+    <h4 class="centered subtle-heading gray text-center padded-tb-2"> RELATED PROJECTS </h4>
+    
+    <div class="mob-horizontal-scroll grid max-width-xl content-center padded-tb-2">
+    
+      <!-- Pia & Gonzo -->
+      <div class="col-4_sm-6_xs-12 w-1/4 sm:w-1/2 md:w-1/3 flex-shrink-0 padded-1" style="margin:0.5rem">
+        <div class="bg-piaandgonzo bg-image portrait relative shadow-sm card-hover">
+            <div class="absolute h-2/5 bottom-0 left-0 right-0 bg-gradient-overlay"></div>
+            <div class="absolute inset-0 flex stack space-between padding-15 text-center">
+              <p class="text-sm">Wedding</p>
+              <h3 class="white text-md related-projects leading-none mb-0">Pia & Gonzo</h3>
+              <button type="see more" class="gallery-button  cursor-pointer">VIEW GALLERY</button>
+            </div>
+        </div>
+      </div>
+
+    
+      <!-- Maddy & Sam -->
+      <div class="col-4_sm-6_xs-12 w-1/4 sm:w-1/2 md:w-1/3 flex-shrink-0 padded-1" style="margin:0.5rem">
+        <div class="bg-maddyandsam bg-image portrait relative shadow-sm card-hover">
+            <div class="absolute h-2/5 bottom-0 left-0 right-0 bg-gradient-overlay"></div>
+            <div class="absolute inset-0 flex stack space-between padding-15 text-center">
+              <p class="text-sm">Pregnancy</p>
+              <h3 class="white text-md related-projects leading-none mb-0">Maddy & Sam</h3>
+              <button type="see more" class="gallery-button  cursor-pointer">VIEW GALLERY</button>
+            </div>
+        </div>
+      </div>
+  
+      
+    </div>
+    
+    </section>

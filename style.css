@@ -71,6 +71,8 @@ body{
 .padded-l-5 {padding-left:5rem;}
 .padded-r-5 {padding-right:5rem;}
 
+.padded-b-10 {padding-bottom:10rem;}
+
 .padded-t-8 {padding-top:8rem;}
 .padded-b-8 {padding-bottom:8rem;}
 .padded-l-8 {padding-left:8rem;}
@@ -84,8 +86,12 @@ body{
              padding-bottom: 3%;
 }
 
-.padded-tb-10{padding-top: 10%;
-              padding-bottom: 10%;
+.padded-tb-5{padding-top: 5%;
+              padding-bottom: 5%;
+}
+
+.padded-lr-3{padding-left: 3rem;
+             padding-right: 3rem;
 }
 
 
@@ -199,6 +205,15 @@ h1 {
     font-weight: 100;
 }
 
+h2 {
+    font-size: 2.5rem;
+    font-family: mansory;
+    font-weight: 100;
+    line-height: 0.75; 
+    margin-bottom:1.5rem;
+}
+
+
 h3 {
     font-size: 2.7rem;
     font-family: mansory;
@@ -206,12 +221,11 @@ h3 {
     line-height: 0.8;
 }
 
-h2 {
+h4 {
     font-size: 2.5rem;
     font-family: mansory;
     font-weight: 100;
-    line-height: 0.75; 
-    margin-bottom:1.5rem;
+    padding: 1rem;
 }
 
 p { 
@@ -572,18 +586,21 @@ img {
     font-size: 3.8rem;
 }
 
+.special-text {
+    font-family: mansory;
+    font-style: oblique;
+    font-size: 1.3rem;
+    color: white;
+}
+
 .oblique {
     font-style: oblique;
 }
 
-.vertical-text {
-    font-size: 6vw;
-    transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    margin: 0;
-    padding: 0;
+.bold { 
+    font-family: mansory; 
+    font-size: 1.3rem;
+    color:#d5bdaf
 }
 
 .location-icon-styles {
@@ -591,7 +608,6 @@ img {
     text-align: right;
     font-size: 2rem;
 }
-
 
 .quote-icon {
     display: inline-block;
@@ -614,18 +630,30 @@ img {
     padding: 2rem;
 }
 
-.bold { 
-    font-family: mansory; 
-    font-size: 1.3rem;
-    color:#d5bdaf
+/* Gallery text */
+
+.vertical-text {
+    font-size: 6vw;
+    transform: translateX(-50%) translateY(-50%) rotate(90deg);
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    margin: 0;
+    padding: 0;
 }
 
-.special-text {
-    font-family: mansory;
-    font-style: oblique;
-    font-size: 1.3rem;
-    color: white;
+p.image-caption-left {
+    transform: rotate(270deg);
+    transform-origin: top left 0;
+    margin-left: -1.5rem;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+
+.big-text {
+    font-size: 6vw;
 }
+
 
 
 /* ------------------ Contact Form --------------------------------------------*/
@@ -716,6 +744,33 @@ form label {
     margin: 2rem 0;
 }
 
+/* View related project button */
+.related-project-button {
+    background-color: transparent;
+    font-family: mansory;
+    font-size: 2rem;
+    text-align: center;
+    color: #676767;
+    border: 0px solid;
+    border-bottom: 2px solid #676767;
+    letter-spacing: 0.2rem;
+    padding: 1rem 0.5rem;
+    margin: 2rem 0;
+}
+
+
+.related-project-button:hover {
+    color: white;
+    border: 0px solid;
+    border-bottom: 2px solid white;
+}
+
+.text-md .related-project {
+    font-size: 2rem;
+    font-family: mansory;
+    font-weight: 100;
+    line-height: 1.1;
+  }
 
 
 /* ------------------ Card Styles --------------------------------------------*/
