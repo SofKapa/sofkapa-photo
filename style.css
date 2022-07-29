@@ -94,6 +94,8 @@ body{
              padding-right: 3rem;
 }
 
+.padded-t-4{padding-top:4rem;}
+
 
 /* Text align */
 .text-left    {text-align: left;}
@@ -173,6 +175,10 @@ body{
     flex-direction: row-reverse;}
 
 
+/* The flex-wrap property is a sub-property of the Flexible Box Layout module. 
+It defines whether the flex items are forced in a single line or can be flowed into multiple lines. 
+If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in. */
+.flex-container {flex-wrap: wrap;}
 
 
 /* ----------------- FONTS: Mansory, Malmont, Open Sans --------------------- */
@@ -297,6 +303,7 @@ nav a:hover {
     display: block;
 }
 
+
 /* Dropdown styles */
 
 .dropdown {
@@ -385,7 +392,27 @@ footer a {
     border: none;
 }
 
+/* Contact page footer */
+.logo2 {
+    background-image: url('/assets/logo2.svg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    max-width: 100%;
+    display: block;
+}
 
+a.footer-contact {
+    color: white;
+    font-family: open sans;
+    font-size: 1rem;
+}
+
+a.footer-contact:hover{
+    color: #e3d5ca;
+    font-family: open sans;
+    font-size: 1rem;
+}
 
 /* ------------------ Background Images ---------------------------------------*/
 
@@ -630,17 +657,6 @@ img {
     padding: 2rem;
 }
 
-/* Gallery text */
-
-.vertical-text {
-    font-size: 6vw;
-    transform: translateX(-50%) translateY(-50%) rotate(90deg);
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    margin: 0;
-    padding: 0;
-}
 
 p.image-caption-left {
     transform: rotate(270deg);
@@ -688,6 +704,13 @@ form label {
     font-weight: borld;
     text-align: center;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #676767;
+    opacity: 0.8; /* Firefox */
+    font-style: oblique;
+    text-align: center;
+  }
 
 
 
@@ -919,7 +942,30 @@ form label {
   }
 
 
-/* ------------------ Responsiveness / media query ----------------------------*/
+/* ---- Contact page -------------------------------------------------------- */
+.home-banner {padding: 0;}
+
+.banner, .banner-with-header {
+    background-image: url("/assets/portrait/CAROLINA/fitness.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+.vertical-text{
+    transform: rotate(90deg);
+    font-size: 15vh;
+    position: absolute;
+    left: 42%;
+    top: 61%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ------------------ Responsiveness / media query ---------------------------*/
 
 /* General */
 .show-xs,
@@ -972,7 +1018,18 @@ form label {
 
     .sm\:w-1\/2 {width: 50%;}
 
-}
+    .vertical-text {
+        font-size: 15vw;
+        transform: none;
+        position: static;
+        margin: 0;
+      }
+    
+    .mob-flex-flip {flex-direction: column-reverse;}
+
+    [class*="sm-hidden"] {
+        display: none;
+      }
 
 /* MD devices (max 64em/1024px)  */
 @media(max-width: 64em) {
@@ -988,4 +1045,3 @@ form label {
 
 
 /* LG devices (min 1024px) - good for 24px screens and over  */
-

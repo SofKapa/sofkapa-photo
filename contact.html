@@ -1,7 +1,211 @@
----
-layout: default
-title: Contact
----
+<!DOCTYPE html>
+<html>
+
+
+<!-- This is the head - External Links & Ressources ---------->
+<head>
+<title>Sof Kapa Photography</title>
+
+<!-- Fontawesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Grid Stylesheet -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+<!-- Google Fonts -->
+
+<!-- Lightgallery for pop-up galleries -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css" integrity="sha512-7xAjdVc23n18sYEAZKa79271IRUS1XzylIyJ8feyXvjrbbr4oId92993EiGTAP63Ob6KplRnmbNmBOg6bpLjYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Animate on scroll -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- CSS Stylesheet - always last -->
+<link rel="stylesheet" href="/style.css">
+
+</head>
+
+
+<!-- This is the body -->
+<body>
+
+<!-- HEADER ---------------------------------------------------------------------------->
+<header class="padded-r-2 padded-l-1 padded-t-2 padded-b-5">
+
+    <div class="grid-middle">
+        
+        <div class="col-5_sm-11">
+            <img src="/assets/logo1.jpg" class="logo">
+        </div>
+    
+        <nav class="col-7_sm-12 hide-sm right" style="padding: 0rem 0rem 7rem 1rem;">
+            <a href="/index.html">home</a>
+            <a href="/index.html#about">about</a>
+    
+            <div class="dropdown">
+              <span class="dropdown-title">Portfolio</span>
+              <div class="dropdown-content">
+                <a href="/brandsandevents.html">brands & events</a>
+                <a href="/travelandstreet.html">travel & street</a>
+                <a href="/portraitandlifestyle.html">portrait & lifestyle</a>
+              </div>  
+            </div> 
+
+            <a href="/project-gallery.html">gallery</a>
+            <a href="/contact.html">contact</a>
+        </nav>
+    
+        <div class="col-1 show-sm">
+            <div class="hamburger-button">
+                <i class="fa-solid fa-bars gray"></i>
+            </div>
+        </div>
+
+    </div>
+
+ 
+    <nav class="mobile-menu"> 
+        <a href="/index.html">home</a>
+        <a href="#about">about</a>
+    
+        <div class="dropdown">
+            <span class="dropdown-title">Portfolio</span>
+            <div class="dropdown-content">
+            <a href="/brandsandevents.html">brands & events</a>
+            <a href="/travelandstreet.html">travel & street</a>
+            <a href="/portraitandlifestyle.html">portrait & lifestyle</a>
+            </div>  
+        </div> 
+
+        <a href="/project-gallery.html">gallery</a>
+        <a href="/contact.html">contact</a>
+    </nav>
+
+
+</header>
+
+
+
+<!-- This is the contact section -->
+<section class="grid tall-100 relative">
+    
+    <div class="col-6_sm-12 banner">
+    </div>
+
+    <div class="col-6_sm-12 grid bg-lightorange" style="flex-direction:row;">
+        
+        <div class="col-3_sm-12-bottom padded-sm">
+            <h2 class="vertical-text"> Contact </h2>
+        </div>
+    
+        <div class="col-9_sm-12-bottom text-right padded-lg">
+            <h4 style="font-size: 2rem; padding-right: 0; padding-bottom: 4rem;"> BUSINESS OWNER & PHOTOGRAPHER  </h4>
+            <p style="font-size: 1.5rem; line-height:0; padding-bottom:3rem;"> Sof Kapa </p>
+            <p style="font-size: 1.2rem; line-height:0; padding-bottom:1rem;"> Email: hello@sofkapaphoto.com </p>
+            <p style="font-size: 1.2rem; line-height:0; padding-bottom:1rem;"> Phone | Whatsapp: +62 472 813 028 </p>
+        </div>
+
+    </div>
+
+</section>
+
 
 <!-- This is the FORM  section --------------------------->
-{% include contact-form.html %}
+
+<section class="tall-100">
+
+
+    <!-- Title -->
+    <div class="padded-md padded-t-10 gray text-center">
+        <h3 class="padded-b-2">Let's talk!</h3>
+        <p class="oblique">I wanna hear about your project and help you meet your needs</p>
+    </div>
+
+    <!-- The form -->
+    <div class="padded-lr-5 padded-b-5">
+
+        <h2 class="text-center">your message</h2>
+        <div class="grid-center">
+            <div class="col-5">
+                <form>
+                    <label for="_name">name</label>
+                    <input type="text" name="_name" id="_name"/>
+        
+                    <label for="_replyto">email</label>
+                    <input type="email" name="_replyto" id="_replyto"/>
+        
+                    <label for="message" class="padded-b-2 padded-t-4">type your message</label>
+                    <textarea name="message" id="message" placeholder="tell me a bit about you, your business or brand and the project you'd like to work on"></textarea>
+                </form>
+                <div class="grid-center">
+                    <button type="submit" class="form-button col-3">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+</section>
+
+
+
+
+<!-- FOOTER ---------------------------------------------------------------------------->
+<footer class="grid bg-gray contact-footer padded-sm">
+
+    <!-- column -->
+    <div class="col-3_sm-12 grid">
+        <img src="/assets/logo2.svg" class="transparent-logo" style="padding-bottom: 2rem;">
+    </div>
+
+
+    <div class="col-3 hide-sm"></div>
+
+    <!-- column -->
+    <div class="col-6_sm-12-middle">
+
+        <p style="font-size:1rem;font-style:oblique;margin:0;padding-right:0.5rem;text-align:right;padding-bottom: 0.2rem;">Melbourne based photographer specialized in</p>
+
+        <nav style="text-align:right;">
+            <a href="/brandsandevents.html" class="footer-contact" style="font-size: 1.2rem;"> BRANDS & EVENTS </a>|
+            <a href="/travelandstreet.html" class="footer-contact" style="font-size: 1.2rem;"> TRAVEL & STREET </a>|
+            <a href="/portraitandlifestyle.html" class="footer-contact" style="font-size: 1.2rem;"> PORTRAIT & LIFESTYLE </a>
+        </nav>
+
+        <nav class="inline socials" style="text-align:right;">
+        <a href="http://www.facebook.com/eyesofanomad" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="http://www.instagram.com/eyesofanomad" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        </nav>
+
+    </div>
+
+    <div class="col-12 sub-footer">
+      <p style="font-size:0.8rem; text-align: center;"> All Rights Reserved - Copyright 2022 </p>
+    </div>
+
+</footer>
+
+
+
+<!-- JQUERY ---------------------------------------------------------------------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<!-- Lightgallery for pop-ups  --------------------------------------------------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/lightgallery.min.js"></script>
+
+<!-- ANIMATE ON SCROLL ----------------------------------------------------------------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<!-- CUSTOM JAVASCRIPT FILE ------------------------------------------------------------>
+<script src="/scripts.js"></script>
+
+</body>
+
+
+</html>
