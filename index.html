@@ -63,7 +63,9 @@ title: Homepage
         {% for project in site.projects limit: 3 %}
 
             <div class="grid max-width-md padded-1" style="margin: auto; min-height: 25rem;">
-                <div class="col-6_sm-12 bg-image square" style="background-image: url('{{ project.featured_image }}');padding:0rem;">
+
+                <div class="col-6_sm-12">
+                    <div class="bg-image square" style="background-image: url('{{ project.featured_image }}');"></div>
                 </div>
         
                 <div class="col-6_sm-12-middle" style="padding:1.2rem;">

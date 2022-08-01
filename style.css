@@ -46,16 +46,6 @@ section {position: relative;}
     --green:        #edede9;
 }
 
-.bg-yellow      {background-color: #f5ebe0;}
-.bg-lightorange {background-color: #e3d5ca;}
-.bg-darkorange  {background-color: #d5bdaf;}
-.bg-brown       {background-color: #d6ccc2;}
-.bg-blue        {background-color: #ccd2d8;}
-.bg-green       {background-color: #edede9;}
-
-.bg-gray        {background-color: #676767;}
-.bg-lightgray   {background-color:#8d8d8d;}
-.bg-white       {background-color:white;}
 
 .yellow         {color: #f5ebe0;}
 .lightorange    {color: #e3d5ca;}
@@ -83,7 +73,7 @@ body{
 
 
 
-/* ----------------- NEGATIVE SPACE / PADDING---------------------------------*/
+/* ----------------- NEGATIVE SPACE / PADDING --------------------------------*/
 
 /* Max width */
 .max-width-sm {max-width: 800px; margin: auto;}
@@ -238,11 +228,99 @@ body{
 .margin-lr-5   {margin-left: 5%; margin-right: 5%;}
 
 
+
+/* ----------------- BACKGROUND / BACKGROUND IMAGES / OVERLAYS ---------------*/
+
+/* BACKGROUND COLORS */
+.bg-yellow      {background-color: #f5ebe0;}
+.bg-lightorange {background-color: #e3d5ca;}
+.bg-darkorange  {background-color: #d5bdaf;}
+.bg-brown       {background-color: #d6ccc2;}
+.bg-blue        {background-color: #ccd2d8;}
+.bg-green       {background-color: #edede9;}
+
+.bg-gray        {background-color: #676767;}
+.bg-lightgray   {background-color:#8d8d8d;}
+.bg-white       {background-color:white;}
+
+
+/* BACKGROUND IMAGES */
+.bg-image {
+    background-color:#e3d5ca;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+
+/* ASPECT RATIOS BACKGROUND IMAGES */
+/* Only works if it is the element (the div) is inside a parent container or column
+Can't be applied to the column itself */
+a.bg-image {display: block;}
+
+.portrait-tall  {padding-bottom: 175%}
+.portrait       {padding-bottom: 125%}
+.square         {padding-bottom: 100%}
+.landscape      {padding-bottom: 66%}
+.landscape-wide {padding-bottom: 56%}
+
+
+/* BACKGROUND POSITIONS */
+.bg-pos-t {background-position: top;}
+.bg-pos-b {background-position: bottom;}
+.bg-pos-l {background-position: left;}
+.bg-pos-r {background-position: right;}
+
+.bg-pos-t-l { background-position: 10% 10%; }
+.bg-pos-b-r { background-position: 85% 85%; }
+
+
+
+/* BACKGROUND OVERLAYS */
+.bg-overlay::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.bg-overlay::after,
+.bg-overlay-gradient::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* The gradient color */
+.bg-overlay-gradient::after {
+    background-image: linear-gradient(90deg, black #00000000;)
+}
+
+/* Takes anything inside the banner and pushes it to the front */
+.bg-overlay > *,
+.bg-overlay-gradient > * {
+    z-index: 2;
+    position: relative;
+} 
+
+
+
+/* ----------------- TYPOGRAPHY STYLES ---------------------------------------*/
 /* Text align */
 .text-left    {text-align: left;}
 .text-right   {text-align: right;}
 .text-center  {text-align: center;}
 .text-justify {text-align: justify;}
+.uppercase    {}
 
 
 
@@ -517,35 +595,14 @@ a.footer-contact:hover{
 /* ------------------ Background Images ---------------------------------------*/
 
 /* General Style */
-.bg-image {
-    background-color:#e3d5ca;
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    min-height: 10rem;
-}
 
 .transparent {opacity: 0.8;}
 
-/* Image styling */
-.portrait-tall  {padding-bottom: 150%}
-.portrait       {padding-bottom: 125%}
-.square         {padding-bottom: 100%}
-.landscape      {padding-bottom: 66%}
-.landscape-wide {padding-bottom: 56%}
 
-.square50       {padding-bottom: 50%}
+
 .padding-bottom-sm  {padding-bottom: 10%}
 
 
-/* Background position utility classes */
-.bg-pos-t {background-position: top;}
-.bg-pos-b {background-position: bottom;}
-.bg-pos-l {background-position: left;}
-.bg-pos-r {background-position: right;}
-
-.bg-pos-t-l { background-position: 10% 10%; }
-.bg-pos-b-r { background-position: 85% 85%; }
 
 /* Background Images HomePage */
 .bg-piagonzosofa { 
@@ -912,7 +969,7 @@ form label {
 } */
 
 
-/* ------------------ Overlays -----------------------------------------*/
+/* ------------------ BANNERS -----------------------------------------*/
 .banner-brands {
     background-image: url('/assets/namaste.jpg');
     background-size: cover;
@@ -944,25 +1001,6 @@ form label {
     font-size: 4rem;
 }
   
-.bg-overlay {
-    position: relative;
-}
-  
-.bg-overlay::before {
-    content: ""; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.3);
-}
-  
-.bg-overlay > * {
-    position: relative;
-}
-
-
 
 
 /* ------------------ GALLERY CARDS BASED ON IOC TEMPLATE --------------------*/
