@@ -30,59 +30,7 @@
 <body>
 
 <!-- HEADER ---------------------------------------------------------------------------->
-<header class="padded-r-2 padded-l-1 padded-t-2">
-
-    <div class="grid-middle">
-        
-        <div class="col-5_sm-11">
-            <img src="/assets/logo1.jpg" class="logo">
-        </div>
-    
-        <nav class="col-7_sm-12 hide-sm right" style="padding: 0rem 0rem 7rem 1rem;">
-            <a href="/index.html">home</a>
-            <a href="/index.html#about">about</a>
-    
-            <div class="dropdown">
-              <span class="dropdown-title">Portfolio</span>
-              <div class="dropdown-content">
-                <a href="/brandsandevents.html">brands & events</a>
-                <a href="/travelandstreet.html">travel & street</a>
-                <a href="/portraitandlifestyle.html">portrait & lifestyle</a>
-              </div>  
-            </div> 
-
-            <a href="/project-gallery.html">gallery</a>
-            <a href="/contact.html">contact</a>
-        </nav>
-    
-        <div class="col-1 show-sm">
-            <div class="hamburger-button">
-                <i class="fa-solid fa-bars gray"></i>
-            </div>
-        </div>
-
-    </div>
-
- 
-    <nav class="mobile-menu"> 
-        <a href="/index.html">home</a>
-        <a href="#about">about</a>
-    
-        <div class="dropdown">
-            <span class="dropdown-title">Portfolio</span>
-            <div class="dropdown-content">
-            <a href="/brandsandevents.html">brands & events</a>
-            <a href="/travelandstreet.html">travel & street</a>
-            <a href="/portraitandlifestyle.html">portrait & lifestyle</a>
-            </div>  
-        </div> 
-
-        <a href="/project-gallery.html">gallery</a>
-        <a href="/contact.html">contact</a>
-    </nav>
-
-
-</header>
+{% include header.html %}
 
 
 <!-- CONTENT --------------------------------------------------------------------------->
@@ -90,18 +38,7 @@
 
 
 <!-- FOOTER ---------------------------------------------------------------------------->
-<footer class="padded-md grid-right bg-lightgray text-right">
-    <div class="col-3-bottom">
-            <h3>Let's <span class="featured-text">connect</span></h3>
-            <p></p>
-    </div>
-    <div class="col-3-bottom">
-            <p><span class="bold">call</span> <a href="tel:0472 813 028">0472 813 028</a></p>
-            <p><span class="bold">email</span> <a href="mailto:hello@sofkapa.com">hello@sofkapa.com </a></p>
-            <p><span class="bold">location</span> Melbourne | Naarm</p>
-            <p><span class="bold">instagram</span> <a href="https://www.instagram.com/sofkapa_photo">@sofkapa_photo</a></p>
-    </div>
-</footer>
+{% include footer.html %}
 
 
 <!-- JQUERY ---------------------------------------------------------------------------->
