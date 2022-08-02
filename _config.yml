@@ -1,3 +1,4 @@
 collections:
-  projects:
+  posts:
     output: true
+    permalink: /gallery/:slug
