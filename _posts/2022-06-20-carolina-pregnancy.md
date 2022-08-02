@@ -5,10 +5,10 @@ description: This mom-to-be loves the ocean and we couldn't think of a better pl
 location: Lisbon - Portugal
 featured: true
 live_url: /project-gallery.html
+main_category: Portrait & Lifestyle
 categories:
-  - Portrait
-  - Lifestyle
   - Pregnancy
+  - Portrait
 featured_image: /assets/portrait/CAROLINA/carolina.jpg
 seo:
     title:

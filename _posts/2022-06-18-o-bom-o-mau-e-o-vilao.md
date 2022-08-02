@@ -5,10 +5,11 @@ description: A vibrant bar located in the heart of Lisbon, known by its vibrant 
 location: Lisbon - Portugal
 featured: true
 live_url: https://www.google.com
+main_category: Brands & Events
 categories:
   - Brands
-  - Events
   - Bar
+  - Hospitality
 featured_image: /assets/brands/BMV/bmv.jpg
 seo:
     title:
