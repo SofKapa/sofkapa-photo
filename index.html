@@ -60,19 +60,19 @@ title: Homepage
 
 
 
-        {% for project in site.projects limit: 3 %}
+        {% for project in site.posts limit: 3 %}
 
             <div class="grid max-width-md padded-1" style="margin: auto; min-height: 25rem;">
 
                 <div class="col-6_sm-12">
-                    <div class="bg-image square" style="background-image: url('{{ project.featured_image }}');"></div>
+                    <div class="bg-image square" style="background-image:url({{post.featured_image}})"></div>
                 </div>
         
                 <div class="col-6_sm-12-middle" style="padding:1.2rem;">
                     <h3 class="lightorange padded-b-2 lg-text"> {{ project.title }} </h3>
                     <p class="gray padded-b-1 md-text oblique"> {{ project.description }} </p>
                     <h3 class="gray padded-b-1 sm-text"> {{ project.location }} </h3>
-                    <h3 class="gray padded-b-1 sm-text lightorange"> {{ project.category }} </h3>
+                    <h3 class="gray padded-b-1 sm-text lightorange"> {{ project.categories }} </h3>
                     <a href="{{project.live_url}}" class="project-button padded-3"> view project</a>
                 </div>
 
