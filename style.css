@@ -850,10 +850,12 @@ form label {
 
 /* INDIVIDUAL BLOGPOST PAGES */
 .big-text {
-    font-size: 4.5rem;
-    line-height: 1.5;
-    font-family: 'malmont';
-}
+    font-size: 3rem;
+    line-height: 1;
+    font-family: mansory;
+    font-weight: lighter;
+    padding-top: 2rem;
+  }
 
 p.image-caption-left {
     transform: rotate(270deg);
