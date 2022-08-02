@@ -11,10 +11,13 @@ layout: default
     <div class="grid max-width-md">
   
         <div class="col-6_sm-12">
-              <div class="bg-image square" style="background-image: url({{ page.featured_image }})"></div>
+
+              <div class="bg-image square" style="background-image: url({{page.featured_image}})"></div>
+
             {% for item in page.categories %}
               <p class="image-caption-left text-sm gray"> {{ item }} by Sof Kapa (Lisbon) </p>
             {% endfor %}
+
         </div>
   
         <div class="col-6_sm-12 padded title-container bg-green" style="margin-bottom: 1.2rem;">
