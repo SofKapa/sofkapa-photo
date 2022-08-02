@@ -349,6 +349,7 @@ a.bg-image {display: block;}
 .text-left    {text-align: left;}
 .text-right   {text-align: right;}
 .text-center  {text-align: center;}
+.center       {text-align: center;}
 .text-justify {text-align: justify;}
 .uppercase    {text-transform: uppercase;}
 
@@ -848,6 +849,22 @@ form label {
 
 
 /* INDIVIDUAL BLOGPOST PAGES */
+.big-text {
+    font-size: 4.5rem;
+    line-height: 1.5;
+    font-family: 'malmont';
+}
+
+p.image-caption-left {
+    transform: rotate(270deg);
+    transform-origin: top left 0;
+    margin-left: -1.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+
+
 .blog-content h1 {
     font-family: 'open sans', sans-serif;
     font-weight: 200;
@@ -862,6 +879,7 @@ form label {
     border: none;
     border: 1px solid var(--featured)
 }
+
 
 
 /* SIDEBAR */
@@ -889,14 +907,19 @@ form label {
 
 
 /* LINE BREAKS */
-hr.short {
-    border: 1px solid var(--medium);
-}
 
+
+hr.short {
+    border: 1px solid var(--dark-text);
+    width: 2rem;
+    margin: 1rem 0;
+  }
+  
 hr.short.center {
-    margin: auto;
+    margin:auto;
     margin: 1rem auto;
-}
+    justify-content: center;
+  }
 
 
 /* PAGE NAME */
@@ -915,17 +938,6 @@ hr.short.center {
     size: 6rem;
 }
 
-p.image-caption-left {
-    transform: rotate(270deg);
-    transform-origin: top left 0;
-    margin-left: -1.5rem;
-    font-size: 0.8rem;
-    font-style: italic;
-  }
-
-.big-text {
-    font-size: 6vw;
-}
 
 
 

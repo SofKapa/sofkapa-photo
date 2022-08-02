@@ -6,9 +6,9 @@ location: Lisbon - Portugal
 featured: true
 live_url: https://www.google.com
 categories:
-  - brands
-  - events
-  - bar
+  - Brands
+  - Events
+  - Bar
 featured_image: /assets/brands/BMV/bmv.jpg
 seo:
     title:

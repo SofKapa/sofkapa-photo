@@ -11,18 +11,13 @@ layout: default
     <div class="grid max-width-md">
   
         <div class="col-6_sm-12">
-
               <div class="bg-image square" style="background-image: url({{page.featured_image}})"></div>
-
-            {% for item in page.categories %}
-              <p class="image-caption-left text-sm gray"> {{ item }} by Sof Kapa (Lisbon) </p>
-            {% endfor %}
-
         </div>
   
-        <div class="col-6_sm-12 padded title-container bg-green" style="margin-bottom: 1.2rem;">
-          <h1 class="big-text padded-3"> {{ page.title }} </h1>
-          <p class="oblique padded-lr-3 padded-b-3"> {{ page.description }} </p>
+        <div class="col-6_sm-12 padded title-container bg-green">
+          <h1 class="big-text padded-1 padded-l-2"> {{ page.title }} </h1>
+          <p class="oblique padded-1 padded-l-2"> {{ page.description }} </p>
+          <p class="text-sm gray padded-1 padded-l-2"> {{ page.categories | join: ' | ' }} by Sof Kapa ({{ page.location }}) </p>
         </div>
   
     </div>
@@ -31,14 +26,20 @@ layout: default
   
 
 <!--------------- Gallery ------------------->
-<section class="padded-t-5 padded-b-10">
-  
-    <div class="gallery grid max-width-md" id="lightgallery">
+<section class="padded-tb-5">
 
-        {{content}}
-
+  <div class="gallery grid max-width-md" id="lightgallery">
+      {% for item in page.gallery %}
+    
+        <a class="{{item.column-size}} gallery-item" href="{{item.background_image}}">
+          <div class="bg-image {{item.aspect-ratio}}" 
+              style="background-image: url('{{item.background_image}}');">
+          </div>
+        </a> 
+    
+      {% endfor %}
     </div>
-  
+
 </section>
 
 
