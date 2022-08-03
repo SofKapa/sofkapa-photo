@@ -4,6 +4,6 @@ collections:
     permalink: /gallery/:slug
 
 collections:
-  category:
+  categories:
     output: true
     permalink: /category/:slug
