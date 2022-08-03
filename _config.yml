@@ -2,3 +2,8 @@ collections:
   posts:
     output: true
     permalink: /gallery/:slug
+
+collections:
+  category:
+    output: true
+    permalink: /category/:slug
