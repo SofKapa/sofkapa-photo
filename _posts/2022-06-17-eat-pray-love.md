@@ -18,5 +18,102 @@ seo:
     social_image:
     keywords:
     hide-from-google: false 
+gallery:
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/womeneating.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/plantpots.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/sunnyoutside.jpg
+- column-size: col-12_sm-12
+  aspect-ratio: landscape
+  background_image: /assets/brands/EPL/peopleoutside.jpg
+- column-size: col-6_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/pinktablenight.jpg
+- column-size: col-6_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/sofiagarcio.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: square
+  background_image: /assets/brands/EPL/girlarrangingclothes.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: square
+  background_image: /assets/brands/EPL/drinks3.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: square
+  background_image: /assets/brands/EPL/littlegirlbrunch.jpg
+- column-size: col-12
+  aspect-ratio: landscape
+  background_image: /assets/brands/EPL/cutefamily.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/clothingladies.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/counter.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/couplealldaybrunch.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/coupleinside.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/bartender.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/pancake.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/namaste.jpg
+- column-size: col-12_sm-12
+  aspect-ratio: landscape
+  background_image: /assets/brands/EPL/twocoupleswindow.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/bacheloretteparty.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/dj.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/drinks.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/friendsoutside.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: landscape
+  background_image: /assets/brands/EPL/storesign.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: landscape
+  background_image: /assets/brands/EPL/womentalkingstanding.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: landscape
+  background_image: /assets/brands/EPL/yellowcouch.jpg
+- column-size: col-12
+  aspect-ratio: landscape
+  background_image: /assets/brands/EPL/peopleeatinginside.jpg
+
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/travel/GREECE/stripelady.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/travel/GREECE/lightpassage.jpg
+- column-size: col-4_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/travel/GREECE/fishermannet.jpg
+- column-size: col-12
+  aspect-ratio: landscape-wide
+  background_image: /assets/travel/GREECE/cat.jpg
 ---
+
+## Under the olive trees
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
+
 
