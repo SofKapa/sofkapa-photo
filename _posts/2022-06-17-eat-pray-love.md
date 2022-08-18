@@ -11,7 +11,7 @@ categories:
   - Cafe
   - Hospitality
   - Health
-featured_image: /assets/brands/EPL/couplealldaybrunch.jpg
+featured_image: /assets/brands/EPL/littlegirlbrunch.jpg
 seo:
     title:
     description:
@@ -97,19 +97,36 @@ gallery:
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/brands/EPL/peopleeatinginside.jpg
-
 - column-size: col-4_sm-12
   aspect-ratio: portrait
-  background_image: /assets/travel/GREECE/stripelady.jpg
+  background_image: /assets/brands/EPL/pranchagirl.jpg
 - column-size: col-4_sm-12
   aspect-ratio: portrait
-  background_image: /assets/travel/GREECE/lightpassage.jpg
+  background_image: /assets/brands/EPL/peopleoutside2.jpg
 - column-size: col-4_sm-12
   aspect-ratio: portrait
-  background_image: /assets/travel/GREECE/fishermannet.jpg
+  background_image: /assets/brands/EPL/italianhand.jpg
+- column-size: col-6_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/popupstore.jpg
+- column-size: col-6_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/pinkcouple.jpg
 - column-size: col-12
-  aspect-ratio: landscape-wide
-  background_image: /assets/travel/GREECE/cat.jpg
+  aspect-ratio: landscape
+  background_image: /assets/brands/EPL/drinks2.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/ladyreddress.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/chefs.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/yogagirl.jpg
+- column-size: col-3_sm-12
+  aspect-ratio: portrait
+  background_image: /assets/brands/EPL/viewonlisbon.jpg
 ---
 
 ## Under the olive trees
