@@ -95,7 +95,7 @@ gallery:
   background_image: /assets/brands/BMV/bartenderserving.jpg
 - column-size: col-6_sm-12
   aspect-ratio: square
-  background_image: /assets/brands/BMV/coupledancing.jpg
+  background_image: /assets/brands/BMV/drinklamp.jpg
 - column-size: col-4_sm-12
   aspect-ratio: portrait
   background_image: /assets/brands/BMV/band.jpg
