@@ -90,10 +90,10 @@ gallery:
   background_image: /assets/brands/EPL/storesign.jpg
 - column-size: col-4_sm-12
   aspect-ratio: landscape
-  background_image: /assets/brands/EPL/womentalkingstanding.jpg
+  background_image: /assets/brands/EPL/yellowcouch.jpg
 - column-size: col-4_sm-12
   aspect-ratio: landscape
-  background_image: /assets/brands/EPL/yellowcouch.jpg
+  background_image: /assets/brands/EPL/womentalkingstanding.jpg
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/brands/EPL/peopleeatinginside.jpg
