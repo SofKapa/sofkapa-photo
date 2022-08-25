@@ -267,6 +267,9 @@ a.bg-image {display: block;}
 .landscape      {padding-bottom: 66%}
 .landscape-wide {padding-bottom: 56%}
 
+.two-thirds     {padding-bottom: 60%;}
+.one-third      {padding-bottom: 123%;}
+
 
 /* BACKGROUND POSITIONS */
 .bg-pos-t {background-position: top;}
