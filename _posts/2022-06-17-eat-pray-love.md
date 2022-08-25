@@ -11,6 +11,7 @@ categories:
   - Cafe
   - Hospitality
   - Health
+  - Food
 featured_image: /assets/brands/EPL/littlegirlbrunch.jpg
 seo:
     title:

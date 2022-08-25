@@ -10,6 +10,8 @@ categories:
   - Brands
   - Bar
   - Hospitality
+  - Nightlife
+  - Drinks
 featured_image: /assets/brands/BMV/bmv.jpg
 seo:
     title:
