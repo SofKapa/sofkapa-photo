@@ -12,7 +12,8 @@ categories:
   - Hospitality
   - Nightlife
   - Drinks
-featured_image: /assets/brands/BMV/bmv.jpg
+cover_image: /assets/brands/BMV/bartenderserving.jpg
+featured_image: /assets/brands/BMV/bartenderserving.jpg
 seo:
     title:
     description:

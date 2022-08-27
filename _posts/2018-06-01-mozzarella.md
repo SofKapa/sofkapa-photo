@@ -11,6 +11,7 @@ categories:
   - Restaurant
   - Hospitality
   - Food
+cover_image: /assets/brands/MOZZA/littlegirls.jpg
 featured_image: /assets/brands/MOZZA/guyfriends.jpg
 seo:
     title:

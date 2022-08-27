@@ -9,6 +9,7 @@ main_category: Portrait & Lifestyle
 categories:
   - Pregnancy
   - Portrait
+cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
 featured_image: /assets/portrait/MADDYANDSAM/tallportraitboth.jpg
 seo:
     title:

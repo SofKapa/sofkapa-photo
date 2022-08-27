@@ -11,6 +11,7 @@ categories:
   - Travel
   - Oceania
   - City
+cover_image: /assets/travel/MELBOURNE/blue.jpg
 featured_image: /assets/travel/MELBOURNE/hamilton.jpg
 seo:
     title:

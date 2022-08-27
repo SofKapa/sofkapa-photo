@@ -9,6 +9,7 @@ main_category: Portrait & Lifestyle
 categories:
   - Wedding
   - Portrait
+cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg
 featured_image: /assets/portrait/PIAANDGONZO/cheers.jpg
 seo:
     title:

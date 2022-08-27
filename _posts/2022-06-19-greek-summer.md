@@ -11,7 +11,8 @@ categories:
   - Travel
   - Europe
   - Summer
-featured_image: /assets/travel/GREECE/greece.jpg
+cover_image: /assets/travel/GREECE/manstairs.jpg
+featured_image: /assets/travel/GREECE/manstairs.jpg
 seo:
     title:
     description:

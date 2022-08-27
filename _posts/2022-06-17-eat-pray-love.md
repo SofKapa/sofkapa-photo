@@ -12,6 +12,7 @@ categories:
   - Hospitality
   - Health
   - Food
+cover_image: /assets/brands/EPL/sofiagarcio.jpg
 featured_image: /assets/brands/EPL/littlegirlbrunch.jpg
 seo:
     title:

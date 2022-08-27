@@ -1009,19 +1009,19 @@ hr.short.center {
 /* Project covers */
 /* Brands */
 .bg-bmv {
-    background-image: url('assets/brands/BMV/bmv.jpg');
+    background-image: url('assets/brands/BMV/bartenderserving.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .bg-epl {
-    background-image: url('assets/brands/EPL/epl.jpg');
+    background-image: url('assets/brands/EPL/sofiagarcio.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .bg-lechat {
-    background-image: url('assets/brands/lechat/lechat.jpg');
+    background-image: url('assets/brands/lechat/moscowmule.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -1033,13 +1033,13 @@ hr.short.center {
 }
 
 .bg-woven {
-    background-image: url('assets/brands/WOVEN/woven.jpg');
+    background-image: url('assets/brands/WOVEN/beetrootlatte.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .bg-stagshead {
-    background-image: url('assets/brands/STAGS/stagshead.jpg');
+    background-image: url('assets/brands/STAGS/antipastoboard.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -1047,31 +1047,31 @@ hr.short.center {
 
 /* Travel */
 .bg-greece {
-    background-image: url('assets/travel/GREECE/greece.jpg');
+    background-image: url('assets/travel/GREECE/manstairs.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .bg-prague {
-    background-image: url('assets/travel/PRAGUE/prague.jpg');
+    background-image: url('assets/travel/PRAGUE/bridgeseller.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .bg-melbourne {
-    background-image: url('assets/travel/MELBOURNE/melbourne.jpg');
+    background-image: url('assets/travel/MELBOURNE/blue.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .bg-vietnam {
-    background-image: url('assets/travel/VIETNAM/vietnam.jpg');
+    background-image: url('assets/travel/VIETNAM/foodtruckladies.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .bg-myanmar {
-    background-image: url('assets/travel/MYANMAR/myanmar.jpg');
+    background-image: url('assets/travel/MYANMAR/twoladieslooking.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -1085,21 +1085,21 @@ hr.short.center {
 
 /* Portrait */
 .bg-carolina {
-    background-image: url('assets/portrait/CAROLINA/carolina.jpg');
+    background-image: url('assets/portrait/CAROLINA/favourite.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 
 .bg-piaandgonzo {
-    background-image: url('assets/portrait/PIAANDGONZO/piaandgonzo.jpg');
+    background-image: url('assets/portrait/PIAANDGONZO/flowers.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
 
 .bg-maddyandsam {
-    background-image: url('assets/portrait/MADDYANDSAM/maddyandsam.jpg');
+    background-image: url('assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg');
     background-size: cover;
     background-position: 50% 55%;
 }

@@ -11,6 +11,7 @@ categories:
   - Nature
   - Travel
   - Oceania
+cover_image: /assets/travel/NEWZEALAND/mountcookview.jpg
 featured_image: /assets/travel/NEWZEALAND/redhouseglaciar.jpg
 seo:
     title:

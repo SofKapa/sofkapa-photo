@@ -9,7 +9,8 @@ main_category: Portrait & Lifestyle
 categories:
   - Pregnancy
   - Portrait
-featured_image: /assets/portrait/CAROLINA/carolina.jpg
+cover_image: /assets/portrait/CAROLINA/favourite.jpg
+featured_image: /assets/portrait/CAROLINA/favourite.jpg
 seo:
     title:
     description:
