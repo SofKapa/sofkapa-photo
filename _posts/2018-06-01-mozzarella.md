@@ -58,9 +58,9 @@ gallery:
 - column-size: col-4_sm-12
   aspect-ratio: portrait
   background_image: /assets/brands/MOZZA/italianbeer.jpg
-- column-size: col-12
-  aspect-ratio: square
-  background_image: /assets/brands/MOZZA/guyfriends.jpg
+- column-size: col-12_sm-12
+  aspect-ratio: landscape
+  background_image: /assets/brands/MOZZA/ellaandrob.jpg
 - column-size: col-3_sm-12
   aspect-ratio: square
   background_image: /assets/brands/MOZZA/pizzainair.jpg
@@ -82,9 +82,9 @@ gallery:
 - column-size: col-4_sm-12
   aspect-ratio: portrait
   background_image: /assets/brands/MOZZA/vespa.jpg
-- column-size: col-12_sm-12
+- column-size: col-12
   aspect-ratio: landscape
-  background_image: /assets/brands/MOZZA/ellaandrob.jpg
+  background_image: /assets/brands/MOZZA/guyfriends.jpg
 ---
 
 ## Under the olive trees

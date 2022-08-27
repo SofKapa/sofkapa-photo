@@ -955,34 +955,60 @@ hr.short.center {
 
 
 /* COVER IMAGES */
+/* Homepage category covers */
 .bg-piagonzosofa { 
-    background-image: url('assets/coverportrait.jpg'); 
+    background-image: url('assets/portrait/coverportrait.jpg'); 
     background-size: cover;
     background-position: 30% 50%;
 }
 .bg-familyepl { 
-    background-image: url('assets/coverbrands.jpg');
+    background-image: url('assets/brands/coverbrands.jpg');
     background-size: cover;
     background-position: 33% 50%;
 }
 .bg-fisherman { 
-    background-image: url('assets/covertravel.jpg');
+    background-image: url('assets/travel/covertravel.jpg');
     background-size: cover;
     background-position: 33% 70%;
 }
- 
-.bg-guyslaughing {
-    background-image: url('assets/guyslaughing.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
 
-.bg-namaste {
-    background-image: url('assets/namaste.jpg');
+/* Category Page Banners */
+.banner-brands {
+    background-image: url('/assets/brands/EPL/namaste.jpg');
     background-size: cover;
     background-position: 50% 57%;
+    min-height: 70vh;
+    padding: 5%;
 }
 
+.banner-travel {
+    background-image: url('/assets/travel/MYANMAR/fishermanandbirds.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    min-height: 70vh;
+    padding: 5%;
+}
+
+.banner-portrait {
+    background-image: url('/assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    min-height: 70vh;
+    padding: 5%;
+}
+  
+.banner h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+  
+
+
+
+
+/* Project cover */
 .bg-bmv {
     background-image: url('assets/brands/BMV/bmv.jpg');
     background-size: cover;
@@ -1065,39 +1091,6 @@ hr.short.center {
 }
 
 
-/* CATEGORY INDIVIDUAL PAGES BANNERS */
-.banner-brands {
-    background-image: url('/assets/namaste.jpg');
-    background-size: cover;
-    background-position: 50% 57%;
-    min-height: 70vh;
-    padding: 5%;
-}
-
-.banner-travel {
-    background-image: url('/assets/boatandbirds.jpg');
-    background-size: cover;
-    background-position: 50% 65%;
-    min-height: 70vh;
-    padding: 5%;
-}
-
-.banner-portrait {
-    background-image: url('/assets/maddyandsam.jpg');
-    background-size: cover;
-    background-position: 50% 65%;
-    min-height: 70vh;
-    padding: 5%;
-}
-  
-.banner h2 {
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 4rem;
-}
-  
-
 /* GALLERY STYLES */
 
 .gallery [class*="col-"] {padding: 0.3rem;}
@@ -1131,6 +1124,9 @@ hr.short.center {
 .sittingtowel     { background-image: url('assets/portrait/CAROLINA/sittingtowel.jpg'); background-position: 50% 95%;}
 .towel            { background-image: url('assets/portrait/CAROLINA/towel.jpg'); }
 .umberellas       { background-image: url('assets/portrait/CAROLINA/umberellas.jpg'); }
+
+
+
 
 
 
