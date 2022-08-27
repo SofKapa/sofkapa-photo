@@ -1006,9 +1006,8 @@ hr.short.center {
   
 
 
-
-
-/* Project cover */
+/* Project covers */
+/* Brands */
 .bg-bmv {
     background-image: url('assets/brands/BMV/bmv.jpg');
     background-size: cover;
@@ -1027,6 +1026,12 @@ hr.short.center {
     background-position: 50% 50%;
 }
 
+.bg-mozza {
+    background-image: url('assets/brands/MOZZA/littlegirls.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 .bg-woven {
     background-image: url('assets/brands/WOVEN/woven.jpg');
     background-size: cover;
@@ -1039,6 +1044,8 @@ hr.short.center {
     background-position: 50% 50%;
 }
 
+
+/* Travel */
 .bg-greece {
     background-image: url('assets/travel/GREECE/greece.jpg');
     background-size: cover;
@@ -1069,7 +1076,14 @@ hr.short.center {
     background-position: 50% 50%;
 }
 
+.bg-newzealand {
+    background-image: url('assets/travel/NEWZEALAND/mountcookview.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
+
+/* Portrait */
 .bg-carolina {
     background-image: url('assets/portrait/CAROLINA/carolina.jpg');
     background-size: cover;
