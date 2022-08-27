@@ -5,7 +5,7 @@ description: Capturing the light in this holistic health cafe was easy. From del
 location: Lisbon - Portugal
 featured: true
 live_url: https://www.google.com
-main_category: Brands & Events
+main_category: brands
 categories:
   - Brands
   - Cafe

@@ -5,7 +5,7 @@ description: A country where nature is the queen and everything looks like a pai
 location: New Zealand
 featured: true
 live_url: https://www.google.com
-main_category: Travel & Street
+main_category: travel
 categories:
   - Landscape
   - Nature

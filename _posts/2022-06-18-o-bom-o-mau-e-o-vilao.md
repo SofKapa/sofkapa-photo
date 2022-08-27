@@ -5,7 +5,7 @@ description: A vibrant bar located in the heart of Lisbon, known by its vibrant 
 location: Lisbon - Portugal
 featured: true
 live_url: https://www.google.com
-main_category: Brands & Events
+main_category: brands
 categories:
   - Brands
   - Bar

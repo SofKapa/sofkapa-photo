@@ -5,7 +5,7 @@ description: Small moments of love and celebration in the middle of the longest 
 location: Melbourne - Australia
 featured: true
 live_url: /project-gallery.html
-main_category: Portrait & Lifestyle
+main_category: portrait
 categories:
   - Wedding
   - Portrait

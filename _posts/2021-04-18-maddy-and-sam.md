@@ -5,7 +5,7 @@ description: Back to the forest where they first met...
 location: Victoria - Australia
 featured: true
 live_url: /project-gallery.html
-main_category: Portrait & Lifestyle
+main_category: portrait
 categories:
   - Pregnancy
   - Portrait

@@ -5,7 +5,7 @@ description: White walls, translucid waters and a slow paced life ponctuated by 
 location: Greece
 featured: true
 live_url: https://www.google.com
-main_category: Travel & Street
+main_category: travel
 categories:
   - Street
   - Travel

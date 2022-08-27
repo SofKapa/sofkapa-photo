@@ -5,7 +5,7 @@ description: Graffitied laneways, cultural diversity, endless entertainment and 
 location: Australia
 featured: true
 live_url: https://www.google.com
-main_category: Travel & Street
+main_category: travel
 categories:
   - Street
   - Travel

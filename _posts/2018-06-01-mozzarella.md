@@ -5,7 +5,7 @@ description: Authentic Italian cuisine and cozy atmosphere in the heart of Seddo
 location: Melbourne - Australia
 featured: true
 live_url: https://www.google.com
-main_category: Brands & Events
+main_category: brands
 categories:
   - Brands
   - Restaurant
