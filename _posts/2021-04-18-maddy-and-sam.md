@@ -18,14 +18,16 @@ seo:
     hide-from-google: false
 gallery:
   - column-size: col-12
-    aspect-ratio: landscape
+    aspect-ratio: square
+    background_image: /assets/portrait/MADDYANDSAM/crossedlegsmaddy.jpg 
+
+  - column-size: col-6_sm-12
+    aspect-ratio: portrait
+    background_image: /assets/portrait/MADDYANDSAM/littleshoes.jpg 
+  - column-size: col-6_sm-12
+    aspect-ratio: portrait
     background_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
-  - column-size: col-6_sm-12
-    aspect-ratio: portrait
-    background_image: /assets/portrait/MADDYANDSAM/littleshoes.jpg
-  - column-size: col-6_sm-12
-    aspect-ratio: portrait
-    background_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
+
   - column-size: col-4_sm-12
     aspect-ratio: portrait-tall
     background_image: /assets/portrait/MADDYANDSAM/samandmaddyfullbody.jpg
@@ -35,12 +37,11 @@ gallery:
   - column-size: col-4_sm-12
     aspect-ratio: portrait-tall
     background_image: /assets/portrait/MADDYANDSAM/tallportraitbotheco.jpg
-  - column-size: col-12
-    aspect-ratio: square
-    background_image: /assets/portrait/MADDYANDSAM/crossedlegsmaddy.jpg 
+
+  
   - column-size: col-6_sm-12
     aspect-ratio: portrait
-    background_image: /assets/portrait/MADDYANDSAM/tallportraitboth.jpg
+    background_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
   - column-size: col-6_sm-12
     aspect-ratio: portrait
     background_image: /assets/portrait/MADDYANDSAM/tallportraitmaddyside.jpg 
