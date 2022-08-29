@@ -1148,10 +1148,14 @@ hr.short.center {
 
 /* ------------------ GALLERY CARDS BASED ON IOC TEMPLATE --------------------*/
 /* THE SECTION */
+/* Parent container set as a flexible element */
 .flex {display: flex;}
-.overflow-x-scroll {overflow-x: scroll;}
+/* Parent container set as  */
 .flex-nowrap {flex-wrap: nowrap;}
+/* Children elements of the flex container will display in a row */
 .flex-row {flex-direction: row;}
+
+.overflow-x-scroll {overflow-x: scroll;}
 
 /* EACH CARD */
 .card {
