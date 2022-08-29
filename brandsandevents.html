@@ -33,100 +33,43 @@ brands:
 
 
 <!-- CARDS SECTION --------------------------------------------------------------------->
+<section class="padded-tb-5 white bg-white">
 
 <!-- TITLE OF SECTION -->
-<section class="padded-tb-5 white bg-white">
+
   <div class="padded-tb-2">
     <h2 class="title-gray">view the gallery</h2>
   </div>
 
 
-<section>
-    {% include cards.html %}
-</section>
-
-
-
 <!-- SCROLLING GALLERY -->
-  <div class="flex flex-row flex-nowrap overflow-x-scroll scrolling-touch padded-b-3">
-  
-    <!-- O Bom o Mau e o Vilao -->
-      <div class="w-1/4 sm:w-1/2 md:w-1/3 flex-shrink-0 margin-r-15 first:margin-l-6">
-          <div class="bg-bmv bg-image portrait-tall relative shadow-sm card-hover">
-              <div class="absolute h-2/5 bottom-0 left-0 right-0 rounded-2xl bg-gradient-overlay"></div>
-              <div class="absolute inset-0 flex stack space-between padding-15 text-center">
-                <p class="tag">Lisbon - Portugal</p>
-                <h3 class="white text-md leading-none mb-0">o Bom<br>o Mau<br>e o Vilão</h3>
-                <button type="see more" class="gallery-button cursor-pointer">VIEW GALLERY</button>
-              </div>
-          </div>
-      </div>
+  <div class="flex flex-row flex-nowrap overflow-x-scroll padded-b-3">
 
-    <!-- Le Chat -->
-      <div class="w-1/4 sm:w-1/2 md:w-1/3 flex-shrink-0 margin-r-15 first:margin-l-6">
-        <div class="bg-lechat bg-image portrait-tall relative shadow-sm card-hover">
+    <!-- Filter only projects that I want on this page -->
+    {% assign brand-posts = site.posts | where: 'main_category', 'brands' %}
+    <!-- Loop through projects -->
+    {% for post in brand-posts %}
+
+    <div class="w-1/4 md:w-1/3 sm:w-1/2 flex-shrink-0 margin-r-15 first:margin-l-6">
+
+      <a href="{{ post.url }}" class="bg-image portrait relative shadow-sm card-hover" style="background-image: url('{{ post.cover_image }}');">
             <div class="absolute h-2/5 bottom-0 left-0 right-0 rounded-2xl bg-gradient-overlay"></div>
             <div class="absolute inset-0 flex stack space-between padding-15 text-center">
-              <p class="tag">Lisbon - Portugal</p>
-              <h3 class="white text-md leading-none mb-0">Le Chat</h3>
-              <button type="see more" class="gallery-button cursor-pointer">VIEW GALLERY</button>
+
+              <p class="tag">{{ post.location }}</p>
+              <h3 class="white text-md leading-none mb-0">{{ post.title }} </h3>
+              <button href="{{ post.url }}" class="gallery-button cursor-pointer">VIEW GALLERY</button>
+
             </div>
-        </div>
-      </div>
+      </a>
 
-    <!-- Eat Pray Love -->
-      <div class="w-1/4 sm:w-1/2 md:w-1/3 flex-shrink-0 margin-r-15 first:margin-l-6">
-        <div class="bg-epl bg-image portrait-tall relative shadow-sm card-hover">
-            <div class="absolute h-2/5 bottom-0 left-0 right-0 rounded-2xl bg-gradient-overlay"></div>
-            <div class="absolute inset-0 flex stack space-between padding-15 text-center">
-              <p class="tag">Lisbon - Portugal</p>
-              <h3 class="white text-md leading-none mb-0">Eat<br>Pray<br>Love</h3>
-              <button type="see more" class="gallery-button cursor-pointer">VIEW GALLERY</button>
-            </div>
-        </div>
-      </div>
-
-
-    <!-- Mozzarella Bar -->
-    <div class="w-1/4 sm:w-1/2 md:w-1/3 flex-shrink-0 margin-r-15 first:margin-l-6">
-      <div class="bg-mozza bg-image portrait-tall relative shadow-sm card-hover">
-          <div class="absolute h-2/5 bottom-0 left-0 right-0 rounded-2xl bg-gradient-overlay"></div>
-          <div class="absolute inset-0 flex stack space-between padding-15 text-center">
-            <p class="tag">Seddon - Australia</p>
-            <h3 class="white text-md leading-none mb-0">Mozzarella Bar</h3>
-            <button type="see more" class="gallery-button cursor-pointer">VIEW GALLERY</button>
-          </div>
-      </div>
     </div>
 
-
-    <!-- Woven -->
-      <div class="w-1/4 sm:w-1/2 md:w-1/3 flex-shrink-0 margin-r-15 first:margin-l-6">
-        <div class="bg-woven bg-image portrait-tall relative shadow-sm card-hover">
-            <div class="absolute h-2/5 bottom-0 left-0 right-0 rounded-2xl bg-gradient-overlay"></div>
-            <div class="absolute inset-0 flex stack space-between padding-15 text-center">
-              <p class="tag">Yarraville - Australia</p>
-              <h3 class="white text-md leading-none mb-0">Woven</h3>
-              <button type="see more" class="gallery-button cursor-pointer">VIEW GALLERY</button>
-            </div>
-        </div>
-      </div>
-
-
-    <!-- Stags Head Hotel -->
-      <div class="w-1/4 sm:w-1/2 md:w-1/3 flex-shrink-0 margin-r-15 first:margin-l-6">
-        <div class="bg-stagshead bg-image portrait-tall relative shadow-sm card-hover">
-            <div class="absolute h-2/5 bottom-0 left-0 right-0 rounded-2xl bg-gradient-overlay"></div>
-            <div class="absolute inset-0 flex stack space-between padding-15 text-center">
-              <p class="tag">Williamstown - Australia</p>
-              <h3 class="white text-md leading-none mb-0">Stags Head<br>Hotel</h3>
-              <button type="see more" class="gallery-button cursor-pointer">VIEW GALLERY</button>
-            </div>
-        </div>
-      </div>
-
+  {% endfor %}
 
   </div>
+
+
 </section>
 
 
