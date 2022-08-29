@@ -47,7 +47,7 @@ title: Homepage
         <div class="padded-b-5">
             <h2 class="padded-b-05">about me</h2>
             <p>Hi, I’m Sof! I was born in Prague to a Czechoslovakian mom and a Portuguese dad. When I was growing up my dad's work made us move around a lot and sparked a love for travel that stayed with me ever since. As a result, I lived in many different countries in Europe, Africa, and Oceania before I turned 30 and connected with people from all kinds of backgrounds</p>
-            <p>Why am I telling you all this?  Well, somewhere along this itinerant life my camera became the most powerful storytelling tool I owned. It's not only a window on how I see the world but it also pushes me to be more aware of my surroundings and connect with others</p>
+            <p>Why am I telling you all this?  Well, somewhere along this itinerant life my camera became the most powerful storytelling tool I owned. It's not only the window on how I see the world but it also pushes me to be more aware of my surroundings and connect with others</p>
             <p>Fast forward a few years and traveled kilometers and you will now also find me using  my photography skills to help people immortalize the special moments in their lives and brands to showcase their full potential online</p>
         </div>
     
@@ -79,7 +79,7 @@ title: Homepage
     
         <div class="col-6_sm-12-middle" style="padding:1.2rem;">
             <h3 class="lightorange padded-b-2 lg-text"> {{ post.title }} </h3>
-            <p class="gray padded-b-1 md-text oblique"> {{ post.description }} </p>
+            <p class="gray padded-b-1 oblique"> {{ post.description }} </p>
             <h3 class="gray padded-b-1 sm-text"> {{ post.location }} </h3>
             <h3 class="gray padded-b-1 sm-text lightorange"> {{ post.categories | join: ' | '}} </h3>
             <a href="{{post.url}}" class="project-button padded-3"> view project</a>
@@ -109,16 +109,6 @@ title: Homepage
 
 
 
-<!-- This is the GRID GALLERY section -------------------->
-<section class="padded-2">
-
-    {% for post in site.posts %}
-
-    <a href="{{post.url}}"> {{post.title}}</a>
- 
-    {% endfor %}
-    
-</section>
 
 
 
