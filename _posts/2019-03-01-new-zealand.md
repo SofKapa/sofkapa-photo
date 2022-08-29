@@ -2,7 +2,7 @@
 layout: post
 title: New Zealand
 description: A country where nature is the queen and everything looks like a painting
-location: New Zealand
+location: Oceania
 featured: true
 live_url: https://www.google.com
 main_category: travel

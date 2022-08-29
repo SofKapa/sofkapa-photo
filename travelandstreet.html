@@ -28,9 +28,9 @@ title: Travel & Street
   <div class="flex flex-row flex-nowrap overflow-x-scroll padded-b-3">
 
     <!-- Filter only projects that I want on this page -->
-    {% assign brand-posts = site.posts | where: 'main_category', 'travel' %}
+    {% assign travel-posts = site.posts | where: 'main_category', 'travel' %}
     <!-- Loop through projects -->
-    {% for post in brand-posts %}
+    {% for post in travel-posts %}
 
     <div class="w-1/4 md:w-1/3 sm:w-1/2 flex-shrink-0 margin-r-15 first:margin-l-6">
 
