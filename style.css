@@ -1265,6 +1265,8 @@ hr.short.center {
 /* MOST PHONES (max 320px) - appear only when viewport is smaller than 320px */
 @media (max-width:320px) {
 
+    .phone-padded  {padding-bottom: 1rem;}
+
 }
 
 /* XS DEVICES (max 36em/576px))  */
@@ -1325,8 +1327,13 @@ hr.short.center {
 /* MD DEVICES (max 64em/1024px)  */
 @media(max-width: 64em) {
 
-    .show-md {display: block;}
-    .hide-md {display: none;}
+    .show-md   {display: block;}
+    .hide-md   {display: none;}
+
+    .md-portrait-tall {padding-bottom: 175%;}
+    .md-portrait      {padding-bottom: 125%;}
+    .md-square        {padding-bottom: 100%;}
+    .md-landscape     {padding-bottom: 66%;}
 }
 
 @media(max-width: 72em) {
