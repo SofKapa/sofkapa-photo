@@ -257,7 +257,7 @@ body{
 
 
 /* ASPECT RATIOS BACKGROUND IMAGES */
-/* Only works if it is the element (the div) is inside a parent container or column
+/* Only works if it is the element (the div) inside a parent container or column
 Can't be applied to the column itself */
 a.bg-image {display: block;}
 
