@@ -1226,10 +1226,6 @@ hr.short.center {
    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2); 
 }
 
-.relative h3 {
-    color: var(--dark-text);
-
-}
 
 .card .content {
     flex: 1 1 auto;
@@ -1330,7 +1326,7 @@ hr.short.center {
 @media (max-width:320px) {
 
     .phone-padded  {padding-bottom: 1rem;}
-
+    .hide-phone    {display: none;}
 }
 
 /* XS DEVICES (max 36em/576px))  */
@@ -1343,6 +1339,7 @@ hr.short.center {
         overflow-x: auto;
         flex-wrap: nowrap;
     }
+
 
 }
 
