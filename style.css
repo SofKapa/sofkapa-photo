@@ -319,7 +319,7 @@ a.bg-image {display: block;}
 
 
 /* Banner with gradient overlay for homepage main cards */
-  .overlay {
+.overlay {
     background-color: rgba(0,0,0,0.2);
   }
   
@@ -410,6 +410,7 @@ p:last-child {
 .sm-text  {font-size: 1rem;}
 .md-text  {font-size: 1.5rem;}
 .lg-text  {font-size: 1.7rem;}
+.xl-text  {font-size: 3rem;}
 
 
 /* UNIQUE TEXT */
@@ -746,7 +747,7 @@ footer a {
 a.footer-contact {
     color: white;
     font-family: open sans;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 a.footer-contact:hover{
@@ -1326,7 +1327,6 @@ hr.short.center {
 @media (max-width:320px) {
 
     .phone-padded  {padding-bottom: 1rem;}
-    .hide-phone    {display: none;}
 }
 
 /* XS DEVICES (max 36em/576px))  */
@@ -1339,7 +1339,6 @@ hr.short.center {
         overflow-x: auto;
         flex-wrap: nowrap;
     }
-
 
 }
 
@@ -1372,12 +1371,6 @@ hr.short.center {
 
     .sm\:w-1\/2 {width: 50%;}
 
-    .vertical-text {
-        font-size: 15vw;
-        transform: none;
-        position: static;
-        margin: 0;
-      }
     
     .mob-flex-flip {flex-direction: column-reverse;}
 
@@ -1389,18 +1382,23 @@ hr.short.center {
 @media(max-width: 64em) {
 
     .show-md   {display: block;}
-    .hide-md   {display: none;}
+    .hide-md    {display: none;}
 
     .md-portrait-tall {padding-bottom: 175%;}
     .md-portrait      {padding-bottom: 125%;}
     .md-square        {padding-bottom: 100%;}
     .md-landscape     {padding-bottom: 66%;}
+
+
 }
 
 @media(max-width: 72em) {
 
     .md\:w-1\/3 {width: 33.33%;}
+
+
 }
 
 
 /* LG DEVICES (min 1024px) - good for 24px screens and over  */
+.hide-lg    {display: none;}
