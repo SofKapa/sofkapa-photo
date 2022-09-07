@@ -1168,6 +1168,10 @@ hr.short.center {
 
 
 /* EACH CARD */
+.card {
+    padding: auto;
+    /* border-radius: 10px; */
+}
 
 /* Hover fade effect*/
 .fade-container {
@@ -1208,11 +1212,16 @@ hr.short.center {
     -ms-transform: translate(-50%, -50%);
   }
 
-
-.card {
-    /* padding-top: 2rem; */
-    /* border-radius: 10px; */
+.center.show-sm {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
+
+
 
 /* Center text on image */
 .center {
@@ -1310,7 +1319,9 @@ hr.short.center {
 
 /* ------------------ RESPONSIVENESS / MEDIA QUERIES -------------------------*/
 
-/* GENERAL */
+/* General styles (apply everywhere) */
+ .show-phone {display: none;}
+
 .show-xs,
 .show-sm,
 .show-md,
@@ -1323,13 +1334,13 @@ hr.short.center {
     vertical-align: top;
 }
 
-/* MOST PHONES (max 320px) - appear only when viewport is smaller than 320px */
+/* XSS DEVICES (max 320px) - appear only when viewport is smaller than 320px */
 @media (max-width:320px) {
 
-    .phone-padded  {padding-bottom: 1rem;}
+
 }
 
-/* XS DEVICES (max 36em/576px))  */
+/* XS DEVICES (max 36em/576px) - when viewport is smaller than 576px */
 @media(max-width: 36em) {
 
     .show-xs {display: block;}
@@ -1339,13 +1350,13 @@ hr.short.center {
         overflow-x: auto;
         flex-wrap: nowrap;
     }
-
 }
 
 
 
-/* SM DEVICES (max 48em/768px) */
+/* SM DEVICES (max 48em/768px) / MOST PHONES - when viewport is smaller than 768px */
 @media(max-width: 48em) {
+
 
     .show-sm {display: block;}
     .hide-sm {display: none;}
@@ -1368,6 +1379,7 @@ hr.short.center {
     .sm-square        {padding-bottom: 100%;}
     .sm-landscape     {padding-bottom: 66%;}
 
+    .phone-padded  {padding-bottom: 1rem;}
 
     .sm\:w-1\/2 {width: 50%;}
 
@@ -1377,6 +1389,24 @@ hr.short.center {
     [class*="sm-hidden"] {
         display: none;
       }
+
+
+    .image-faded-sm {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.7;
+        transition: .5s ease;
+        background-color: var(--green);
+    }
+
+
+}
+
 
 /* MD DEVICES (max 64em/1024px)  */
 @media(max-width: 64em) {
@@ -1401,4 +1431,8 @@ hr.short.center {
 
 
 /* LG DEVICES (min 1024px) - good for 24px screens and over  */
-.hide-lg    {display: none;}
+@media(min-width: 72em) {
+
+    .hide-lg    {display: none;}
+
+}
