@@ -54,14 +54,14 @@ title: Homepage
 
         <div class="padded-b-5">
             <h2 class="padded-b-05">about me</h2>
-            <p class="sm-padded">Hi, I’m Sof! I was born in Prague to a Czechoslovakian mom and a Portuguese dad. When I was growing up my dad's work made us move around a lot and sparked a love for travel that stayed with me ever since. As a result, I lived in many different countries in Europe, Africa, and Oceania before I turned 30 and connected with people from all kinds of backgrounds</p>
-            <p>Why am I telling you all this?  Well, somewhere along this itinerant life my camera became the most powerful storytelling tool I owned. It's not only the window on how I see the world but it also pushes me to be more aware of my surroundings and connect with others</p>
-            <p>Fast forward a few years and traveled kilometers and you will now also find me using  my photography skills to help people immortalize the special moments in their lives and brands to showcase their full potential online</p>
+            <p class="sm-padded text-sm">Hi, I’m Sof! I was born in Prague to a Czechoslovakian mom and a Portuguese dad. When I was growing up my dad's work made us move around a lot and sparked a love for travel that stayed with me ever since. As a result, I lived in many different countries in Europe, Africa, and Oceania before I turned 30 and connected with people from all kinds of backgrounds</p>
+            <p class="text-sm">Why am I telling you all this?  Well, somewhere along this itinerant life my camera became the most powerful storytelling tool I owned. It's not only the window on how I see the world but it also pushes me to be more aware of my surroundings and connect with others</p>
+            <p class="text-sm">Fast forward a few years and traveled kilometers and you will now also find me using  my photography skills to help people immortalize the special moments in their lives and brands to showcase their full potential online</p>
         </div>
     
         <div>
             <h2 class="text-right padded-b-05">where</h2>
-            <p class="text-right">I'm currently based and working with clients in Melbourne</p>
+            <p class="text-right text-sm">I'm currently based and working with clients in Melbourne</p>
         </div>
     </div>
 </section>
@@ -79,17 +79,17 @@ title: Homepage
 
         {% for post in featured_posts limit:3 %}
 
-    <div class="grid max-width-sm padded-1" style="margin: auto; padding-bottom: 2rem;">
+    <div class="grid max-width-sm padded-1 sm-padded-1" style="margin: auto; padding-bottom: 4rem;">
 
-        <div class="col-6_sm-12">
+        <div class="col-6_sm-12 ">
             <div class="bg-image square" style="background-image:url({{post.featured_image}})"></div>
         </div>
     
         <div class="col-6_sm-12-middle" style="padding:1.2rem;">
-            <h3 class="lightorange padded-b-2 lg-text"> {{ post.title }} </h3>
-            <p class="gray padded-b-1 oblique"> {{ post.description }} </p>
-            <h3 class="gray padded-b-1 sm-text"> {{ post.location }} </h3>
-            <h3 class="gray padded-b-1 sm-text lightorange"> {{ post.categories | join: ' | '}} </h3>
+            <h3 class="lightorange padded-b-2 sm-padded-b-0 lg-text"> {{ post.title }} </h3>
+            <p class="gray padded-b-1 oblique sm-padded-b-0"> {{ post.description }} </p>
+            <h3 class="gray padded-b-1 sm-text sm-padded-b-0"> {{ post.location }} </h3>
+            <h3 class="gray padded-b-1 sm-text lightorange oblique sm-padded-b-0"> {{ post.categories | join: ' | '}} </h3>
             <a href="{{post.url}}" class="project-button padded-3"> view project</a>
         </div>
 
@@ -103,7 +103,7 @@ title: Homepage
 
 <!-- This is the FORM  section --------------------------->
 <!-- Title -->
-<div class="padded-2 padded-t-5 gray text-center">
+<div class="padded-2 padded-t-5 sm-padded-t-0 sm-padded-lr-3 gray text-center">
     <h3 class="padded-b-2">let's talk!</h3>
     <p style="font-size: 1.2rem; font-style:italic;">I wanna hear about your project and help you meet your needs</p>
 </div>

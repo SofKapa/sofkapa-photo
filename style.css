@@ -1320,6 +1320,7 @@ hr.short.center {
 /* ------------------ RESPONSIVENESS / MEDIA QUERIES -------------------------*/
 
 /* General styles (apply everywhere) */
+/* They won't be showing unless we activate them later */
  .show-phone {display: none;}
 
 .show-xs,
@@ -1334,27 +1335,41 @@ hr.short.center {
     vertical-align: top;
 }
 
-/* XSS DEVICES (max 320px) - appear only when viewport is smaller than 320px */
-@media (max-width:320px) {
 
+
+/* LG DEVICES (min 1024px)
+good for 24px screens and over  */
+@media(min-width: 72em) {
+
+    .hide-lg    {display: none;}
 
 }
 
-/* XS DEVICES (max 36em/576px) - when viewport is smaller than 576px */
-@media(max-width: 36em) {
 
-    .show-xs {display: block;}
-    .hide-xs {display: none;}
+/* MD DEVICES (max 64em/1024px)  
+apply to devices smaller than 10204px */
+@media(max-width: 64em) {
 
-    .horizontal-scroll{
-        overflow-x: auto;
-        flex-wrap: nowrap;
-    }
+    .show-md   {display: block;}
+    .hide-md    {display: none;}
+
+    .md-portrait-tall {padding-bottom: 175%;}
+    .md-portrait      {padding-bottom: 125%;}
+    .md-square        {padding-bottom: 100%;}
+    .md-landscape     {padding-bottom: 66%;}
+
+}
+
+@media(max-width: 72em) {
+
+    .md\:w-1\/3 {width: 33.33%;}
+
 }
 
 
 
-/* SM DEVICES (max 48em/768px) / MOST PHONES - when viewport is smaller than 768px */
+/* SM DEVICES (max 48em/768px) MOST PHONES
+apply to devices smaller than 768px */
 @media(max-width: 48em) {
 
 
@@ -1374,12 +1389,21 @@ hr.short.center {
     .sm-padded-l-0 {padding-left: 0%;}
     .sm-padded-r-0 {padding-right: 0%;}
 
+    .sm-padded-lr-3 {padding-left: 3rem;
+                     padding-right: 3rem;}
+
     .sm-portrait-tall {padding-bottom: 175%;}
     .sm-portrait      {padding-bottom: 125%;}
     .sm-square        {padding-bottom: 100%;}
     .sm-landscape     {padding-bottom: 66%;}
 
     .phone-padded  {padding-bottom: 1rem;}
+
+    
+    .text-sm { 
+        font-size:1rem;
+    }
+
 
     .sm\:w-1\/2 {width: 50%;}
 
@@ -1408,31 +1432,32 @@ hr.short.center {
 }
 
 
-/* MD DEVICES (max 64em/1024px)  */
-@media(max-width: 64em) {
+/* XS DEVICES (max 36em/576px) 
+apply to devices smaller than 576px */
+@media(max-width: 36em) {
 
-    .show-md   {display: block;}
-    .hide-md    {display: none;}
+    .show-xs {display: block;}
+    .hide-xs {display: none;}
 
-    .md-portrait-tall {padding-bottom: 175%;}
-    .md-portrait      {padding-bottom: 125%;}
-    .md-square        {padding-bottom: 100%;}
-    .md-landscape     {padding-bottom: 66%;}
+    .horizontal-scroll{
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+}
+
+
+/* XSS DEVICES (max 320px)
+apply to devices smaller than 320px */
+@media (max-width:320px) {
 
 
 }
 
-@media(max-width: 72em) {
-
-    .md\:w-1\/3 {width: 33.33%;}
 
 
-}
 
 
-/* LG DEVICES (min 1024px) - good for 24px screens and over  */
-@media(min-width: 72em) {
 
-    .hide-lg    {display: none;}
 
-}
+
+
