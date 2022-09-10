@@ -641,6 +641,7 @@ nav a:hover {
 }
 
 
+
 /* DROPDOWN MENU */
 
 .dropdown {
@@ -717,6 +718,11 @@ nav a:hover {
 } */
 
 .fa solid{
+    display: inline-block;
+    text-align: right;
+}
+
+.fa bars{
     display: inline-block;
     text-align: right;
 }
