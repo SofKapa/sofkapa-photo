@@ -430,7 +430,9 @@ p:last-child {
     padding: 2rem;
 }
 
-.featured-text {color: var(--featured-text)}
+.featured-text {
+    color: white;
+    font-family: malmont;}
 
 .special-text {
     font-family: mansory;
@@ -736,6 +738,11 @@ footer p {
 
 footer a {
     border: none;
+    color: var(--featured);
+}
+
+footer a:hover {
+    color: white;
 }
 
 
