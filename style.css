@@ -1474,6 +1474,29 @@ apply to devices smaller than 768px */
 
     .sm\:w-1\/2 {width: 50%;}
 
+    .tag {font-size: 0.7rem;}
+
+    .text-md {
+        font-size: 1.7rem;
+        font-family: mansory, sans-serif;
+        font-weight: 100;
+        line-height: 1.1;
+      }
+    
+    .gallery-button {margin: 1rem 0;}
+    .gallery-button:hover {
+        color:white;
+        border: 0px solid;
+        border-bottom: 2px solid white;
+    }
+    
+
+    p a:hover {
+        color: white;
+    }
+
+    a:hover {color: white;}
+
     
     .mob-flex-flip {flex-direction: column-reverse;}
 
