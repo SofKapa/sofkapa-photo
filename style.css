@@ -1497,6 +1497,13 @@ apply to devices smaller than 768px */
 
     a:hover {color: white;}
 
+    .lg-next, .lg-prev {
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+      }
+    
+
     
     .mob-flex-flip {flex-direction: column-reverse;}
 
