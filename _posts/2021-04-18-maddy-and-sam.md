@@ -22,28 +22,25 @@ gallery:
     aspect-ratio: square
     background_image: /assets/portrait/MADDYANDSAM/crossedlegsmaddy.jpg 
 
-  - column-size: col-6_sm-12
+  - column-size: col-6
     aspect-ratio: portrait
     background_image: /assets/portrait/MADDYANDSAM/littleshoes.jpg 
-  - column-size: col-6_sm-12
+  - column-size: col-6
     aspect-ratio: portrait
     background_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
-
-  - column-size: col-4_sm-12
+  - column-size: col-4
     aspect-ratio: portrait-tall
     background_image: /assets/portrait/MADDYANDSAM/samandmaddyfullbody.jpg
-  - column-size: col-4_sm-12
+  - column-size: col-4
     aspect-ratio: portrait-tall
     background_image: /assets/portrait/MADDYANDSAM/tallportraitmaddyfront.jpg
-  - column-size: col-4_sm-12
+  - column-size: col-4
     aspect-ratio: portrait-tall
     background_image: /assets/portrait/MADDYANDSAM/tallportraitbotheco.jpg
-
-  
-  - column-size: col-6_sm-12
+  - column-size: col-6
     aspect-ratio: portrait
     background_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
-  - column-size: col-6_sm-12
+  - column-size: col-6
     aspect-ratio: portrait
     background_image: /assets/portrait/MADDYANDSAM/tallportraitmaddyside.jpg 
 ---
