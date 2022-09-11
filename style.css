@@ -1395,6 +1395,13 @@ apply to devices smaller than 10204px */
     .md-square        {padding-bottom: 100%;}
     .md-landscape     {padding-bottom: 66%;}
 
+    .special-text {
+        font-family: mansory, sans-serif;
+        font-style: oblique;
+        font-size: 1.1rem;
+        color: white;
+    }
+
 }
 
 @media(max-width: 72em) {
@@ -1418,8 +1425,9 @@ apply to devices smaller than 768px */
     .sm-text-right {text-align: right;}
 
     .sm-padded-05 {padding: 0.5%;}
-    .sm-padded-1 {padding: 1%;}
-    .sm-padded-5 {padding: 5%;}
+    .sm-padded-1  {padding: 1%;}
+    .sm-padded-3  {padding: 3%;}
+    .sm-padded-5  {padding: 5%;}
     .sm-padded-10 {padding: 10%;}
 
     .sm-padded-t-0 {padding-top: 0%;}
@@ -1439,7 +1447,26 @@ apply to devices smaller than 768px */
 
     .phone-padded  {padding-bottom: 1rem;}
 
-    
+    .banner-brands,
+    .banner-portrait,
+    .banner-travel {padding: 10%;}
+
+    .title-white {
+        font-family: mansory, sans-serif;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        padding: 0.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .special-text {
+        font-family: mansory, sans-serif;
+        font-style: oblique;
+        font-size: 1.1rem;
+        color: white;
+    }
+
     .text-sm { 
         font-size:1rem;
     }
