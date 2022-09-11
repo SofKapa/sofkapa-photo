@@ -1504,7 +1504,11 @@ apply to devices smaller than 768px */
       }
     
 
-    
+    a.padded-2 {
+        padding: 2%;
+    }
+
+
     .mob-flex-flip {flex-direction: column-reverse;}
 
     [class*="sm-hidden"] {
