@@ -1403,8 +1403,37 @@ hr.short.center {
 good for 24px screens and over  */
 @media(min-width: 72em) {
 
+/* General */
     .hide-lg    {display: none;}
 
+
+/* Contact Page */
+    .vertical-text {
+        transform: rotate(90deg);
+        font-size: 13vh;
+        position: absolute;
+        left: -37%;
+        top: 57%;
+        margin: 0;
+        padding: 10%;
+    }
+
+    .padded-lg {
+        padding: 9%;
+      }
+
+    a.footer-contact {
+        color: white;
+        font-family: open sans, sans-serif;
+        font-size: 1rem;
+      }
+
+    
+    a.footer-contact:hover {
+    color: white;
+    font-family: open sans, sans-serif;
+    font-size: 1rem;
+    }
 
 }
 
