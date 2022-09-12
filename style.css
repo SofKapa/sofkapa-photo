@@ -569,6 +569,7 @@ p a:hover {
     margin: 2rem 0;
 }
 
+
 /* VIEW RELATED PROJECT BUTTON */
 .related-posts-button {
     background-color: transparent;
@@ -1384,7 +1385,7 @@ hr.short.center {
 
 /* General styles (apply everywhere) */
 /* They won't be showing unless we activate them later */
- .show-phone {display: none;}
+.show-phone {display: none;}
 
 .show-xs,
 .show-sm,
