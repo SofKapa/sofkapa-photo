@@ -441,6 +441,8 @@ p:last-child {
     color: white;
 }
 
+.orange {color: var(--featured-text);}
+
 .subtitle {
     font-size: 0.8rem;
     font-style: italic;
@@ -1518,6 +1520,11 @@ apply to devices smaller than 768px */
     .sm-padded-l-0 {padding-left: 0%;}
     .sm-padded-r-0 {padding-right: 0%;}
 
+    .sm-padded-tb-0 {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
     .sm-padded-lr-3 {padding-left: 3rem; padding-right: 3rem;}
     .sm-padded-lr-1 {padding-left: 1rem;padding-right: 1rem;}
 
@@ -1528,6 +1535,10 @@ apply to devices smaller than 768px */
     .sm-portrait      {padding-bottom: 125%;}
     .sm-square        {padding-bottom: 100%;}
     .sm-landscape     {padding-bottom: 66%;}
+
+
+/* Homepage */
+    a.project-button:hover {color: #676767;}
 
 
 /* Category Pages */
@@ -1683,12 +1694,13 @@ apply to devices smaller than 576px */
 }
 
 
-/* XSS DEVICES (max 320px)
+/* XXS DEVICES (max 320px)
 apply to devices smaller than 320px */
 @media (max-width:320px) {
 
+
 /* Contact Page */
-    .xss-padded-b-2 {padding-bottom: 1rem;}
+    .xxs-padded-b-2 {padding-bottom: 1rem;}
 
     .xl-text {font-size: 3.4rem;}
 
@@ -1746,9 +1758,16 @@ apply to devices smaller than 320px */
         padding-bottom: 1rem;
     }
 
+/* Footer */
+
+footer h3 {font-size: 2rem;}
+
+.xxs-padded-b-0 {padding-bottom: 0rem;}
+
+footer p {font-size: 1rem;}
+
+
 }
-
-
 
 
 
