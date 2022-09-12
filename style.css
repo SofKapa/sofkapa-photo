@@ -1397,20 +1397,14 @@ hr.short.center {
     display: none;
 }
 
-.show-lg {display:inline-block;}
-
-.side-by-side {
-    display: inline-block;
-    vertical-align: top;
-}
-
-
+.show-inline   {display:inline-block;}
 
 /* LG DEVICES (min 1024px)
 good for 24px screens and over  */
 @media(min-width: 72em) {
 
     .hide-lg    {display: none;}
+
 
 }
 
@@ -1419,6 +1413,7 @@ good for 24px screens and over  */
 apply to devices smaller than 1024px */
 @media(max-width: 64em) {
 
+/* General  */
     .show-md   {display: block;}
     .hide-md    {display: none;}
 
@@ -1427,6 +1422,8 @@ apply to devices smaller than 1024px */
     .md-square        {padding-bottom: 100%;}
     .md-landscape     {padding-bottom: 66%;}
 
+
+/* Category pages */
     .special-text {
         font-family: mansory, sans-serif;
         font-style: oblique;
@@ -1434,7 +1431,7 @@ apply to devices smaller than 1024px */
         color: white;
     }
 
-
+/* Contact Page */
     .vertical-text {
         transform: rotate(90deg);
         font-size: 15vh;
@@ -1457,6 +1454,8 @@ apply to devices smaller than 1024px */
 
 }
 
+
+
 @media(max-width: 72em) {
 
     .md\:w-1\/3 {width: 33.33%;}
@@ -1469,7 +1468,7 @@ apply to devices smaller than 1024px */
 apply to devices smaller than 768px */
 @media(max-width: 48em) {
 
-
+/* General */
     .show-sm {display: block;}
     .hide-sm {display: none;}
 
@@ -1501,8 +1500,8 @@ apply to devices smaller than 768px */
     .sm-square        {padding-bottom: 100%;}
     .sm-landscape     {padding-bottom: 66%;}
 
-    .phone-padded  {padding-bottom: 1rem;}
 
+/* Category Pages */
     .banner-brands,
     .banner-portrait,
     .banner-travel {padding: 10%;}
@@ -1523,11 +1522,13 @@ apply to devices smaller than 768px */
         color: white;
     }
 
+/* About Section */
     .text-sm { 
         font-size:1rem;
     }
 
 
+/* Scrolling gallery */
     .sm\:w-1\/2 {width: 50%;}
 
     .tag {font-size: 0.7rem;}
@@ -1538,14 +1539,14 @@ apply to devices smaller than 768px */
         font-weight: 100;
         line-height: 1.1;
       }
-    
+
     .gallery-button {margin: 1rem 0;}
+
     .gallery-button:hover {
         color:white;
         border: 0px solid;
         border-bottom: 2px solid white;
     }
-    
 
     p a:hover {
         color: white;
@@ -1553,6 +1554,8 @@ apply to devices smaller than 768px */
 
     a:hover {color: white;}
 
+
+/* Individual Gallery Pages */
     .lg-next, .lg-prev {
         background-color: transparent;
         color: white;
@@ -1560,18 +1563,13 @@ apply to devices smaller than 768px */
       }
     
 
+/* Related Posts */
     a.padded-2 {
         padding: 2%;
     }
 
 
-    .mob-flex-flip {flex-direction: column-reverse;}
-
-    [class*="sm-hidden"] {
-        display: none;
-      }
-
-
+/* Cards Homepage */
     .image-faded-sm {
         position: relative;
         top: 0;
@@ -1585,8 +1583,8 @@ apply to devices smaller than 768px */
         background-color: var(--green);
     }
 
-    .padded-b-5 {padding-bottom: 2rem;}
 
+/* Contact Page */
     .banner {
         background-image: url("/assets/portrait/CAROLINA/fitness.jpg");
         background-size: cover;
@@ -1640,14 +1638,18 @@ apply to devices smaller than 768px */
 apply to devices smaller than 576px */
 @media(max-width: 36em) {
 
+
+/* General */
     .show-xs {display: block;}
     .hide-xs {display: none;}
 
+/* Scrolling Gallery */
     .horizontal-scroll{
         overflow-x: auto;
         flex-wrap: nowrap;
     }
 
+/* Contact Page */
     .xs-padded-3 {padding: 3%;}
 }
 
@@ -1656,9 +1658,9 @@ apply to devices smaller than 576px */
 apply to devices smaller than 320px */
 @media (max-width:320px) {
 
-    /* Contact Page */
+/* Contact Page */
+    .xss-padded-b-2 {padding-bottom: 1rem;}
 
-    .padded-b-5 {padding-bottom: 1rem;}
     .xl-text {font-size: 3.4rem;}
 
     .big-title {
