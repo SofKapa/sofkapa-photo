@@ -1705,7 +1705,31 @@ apply to devices smaller than 320px */
 
 
 /* Homepage */
-.responsive-paragraph {font-size: 1rem;}
+    .responsive-paragraph {font-size: 1rem;}
+
+/* Gallery Page */
+    .title-white {margin-bottom: 2rem;}
+
+    .special-text {font-size: 0.85rem;}
+
+    .title-gray {font-size: 2.5rem;}
+
+/* Scrolling Gallery */
+
+    .sm\:w-1\/2 {width: 64%;}
+
+    .text-md {font-size: 1.5rem;}
+
+    p.tag {font-size: 0.8rem;}
+
+    button.gallery-button {
+        margin: 0;
+        font-size: 0.7rem;
+    }
+
+    .padding-15 {
+        padding-bottom: 0.8rem;
+      }
 
 /* Contact Page */
     .xxs-padded-b-2 {padding-bottom: 1rem;}
@@ -1768,13 +1792,13 @@ apply to devices smaller than 320px */
 
 /* Footer */
 
-footer h3 {font-size: 2rem;}
+    footer h3 {font-size: 2rem;}
 
-.xxs-padded-b-0 {padding-bottom: 0rem;}
+    .xxs-padded-b-0 {padding-bottom: 0rem;}
 
-footer p {font-size: 1rem;}
+    footer p {font-size: 1rem;}
 
-span.bold {font-size: 1rem;}
+    span.bold {font-size: 1rem;}
 
 }
 
