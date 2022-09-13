@@ -1,6 +1,6 @@
 <!-- Related Projects ----------------------->
 
-<section class="padded-1 related-posts bg-green padded-b-5">
+<section class="padded-lr-10 related-posts bg-green padded-b-5">
 
     <h4 class="centered subtle-heading gray text-center padded-tb-2"> RELATED PROJECTS </h4>
     
@@ -13,10 +13,10 @@
           {% for post in relevant-posts limit:3 %}
     
         
-              <a href="{{post.url}}" class="col-4 padded-2 post-item fade-container">
+              <a href="{{post.url}}" class="col-3 padded-2 post-item fade-container">
                     <div class="bg-image square relative fade-image image-faded-sm" style="background-image:url({{post.featured_image}});"> 
                         <div class="fade-overlay hide-sm">
-                            <h3 class="absolute center fade-text"> {{post.title}} </h3>
+                            <h3 class="absolute center fade-text-related"> {{post.title}} </h3>
                         </div>
 
                     </div>
