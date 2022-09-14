@@ -1,12 +1,16 @@
-<header class="padded-r-2 padded-l-1 padded-t-2">
+<header class="padded-r-2 padded-l-1 padded-t-2 xs-padded-5">
 
     <div class="grid-middle">
         
-        <div class="col-5_sm-11">
-            <img src="/assets/logo1.jpg" class="logo">
+        <!-- LOGO ON LEFT-->
+        <div class="col-5_sm-11_xs-10">
+            <a href="/index.html">
+                <img src="/assets/logo1.jpg" class="logo">
+            </a>
         </div>
     
-        <nav class="col-7_sm-12 hide-md right" style="padding: 0rem 0rem 7rem 1rem;">
+        <!-- FULL MENU / BIG SCREENS -->
+        <nav class="col-7_sm-12 hide-sm right full-menu">
             <a href="/index.html">home</a>
             <a href="/index.html#about">about</a>
     
@@ -20,17 +24,22 @@
             </div> 
 
             <a href="/contact.html">contact</a>
-        </nav>
+        </nav>  
+
     
-        <div class="col-7_sm-1 show-md">
+        <!-- HAMBURGER BUTTON ON SMALL SCREEN -->
+        <div class="col-7_sm-1_xs-2 show-sm">
             <div class="hamburger-button">
                 <i class="fa-solid fa-bars gray"></i>
             </div>
         </div>
 
+
+
     </div>
 
  
+    <!-- DROPDOWN MENU ON SMALL SCREEN WHEN WE CLICK ON HAMBURGER -->
     <nav class="mobile-menu"> 
         <a href="/index.html">home</a>
         <a href="#about">about</a>
