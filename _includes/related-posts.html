@@ -1,8 +1,8 @@
 <!-- Related Projects ----------------------->
 
-<section class="padded-lr-10 related-posts bg-green padded-b-5">
+<section class="padded-lr-10 related-posts bg-green padded-b-5 sm-padded-b-3">
 
-    <h4 class="centered subtle-heading gray text-center padded-tb-2"> RELATED PROJECTS </h4>
+    <h4 class="centered subtle-heading gray text-center padded-tb-2 sm-padded-10"> RELATED PROJECTS </h4>
     
     <div class="grid-center">
 
@@ -13,8 +13,10 @@
           {% for post in relevant-posts limit:3 %}
     
         
-              <a href="{{post.url}}" class="col-3 padded-2 post-item fade-container">
-                    <div class="bg-image square relative fade-image image-faded-sm" style="background-image:url({{post.featured_image}});"> 
+              <a href="{{post.url}}" class="col-3_sm-4_xs-12 padded-2 post-item fade-container">
+                    <div class="bg-image square xs-landscape-wide relative fade-image image-faded-sm" style="background-image:url({{post.featured_image}});"> 
+
+                        <h3 class="absolute center fade-text-related-white show-sm"> {{post.title}} </h3> 
                         <div class="fade-overlay hide-sm">
                             <h3 class="absolute center fade-text-related"> {{post.title}} </h3>
                         </div>
