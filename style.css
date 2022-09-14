@@ -1515,8 +1515,13 @@ h3.absolute.center.fade-text-related {
         color: white;
     }
 
+
 /* Contact Page */
-    .vertical-text {
+
+
+    .tall-100 {min-height: 50vh;}
+
+    /* .vertical-text {
         transform: rotate(90deg);
         font-size: 15vh;
         position: absolute;
@@ -1524,17 +1529,39 @@ h3.absolute.center.fade-text-related {
         top: 52%;
         margin: 0;
         padding: 10%;
-      }
+      } */
 
-    .big-title {font-size: 1.4rem;}
+
+    .vertical-text {
+        transform: rotate(90deg);
+        font-size: 8vh;
+        position: absolute;
+        left: -63%;
+        top: 22%;
+        margin: 0;
+        padding: 10%;
+    }
+
+
+    .big-title {font-size: 2rem;}
+
+    .name {font-size: 1.9rem;}
 
     .contacts {
-    font-size: 1rem;
-    line-height:0;
-    padding-bottom:1rem;
+        font-size: 1.4rem;
+        line-height:0;
+        padding-bottom:1rem;
       }
     
+    p.oblique {font-size: 1.65rem;}
+
     .transparent-logo {padding-bottom: 5rem;}
+
+    h3.text-center {font-size: 3rem;}
+
+    form label,
+    form input,
+    form textarea {font-size: 1.8rem;}
 
 }
 
