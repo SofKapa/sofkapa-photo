@@ -630,7 +630,7 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 
 /* ------------------ HEADER STYLES ------------------------------------------*/ 
 header {
-    padding: 1rem 5%;
+    padding: 3rem 5%;
     min-height: 10vh;
     background-color:white; 
   }
@@ -675,7 +675,7 @@ nav a:hover {
 
 
 /* MAIN NAV MENU */
-nav.col-7_sm-12.hide-sm.right.full-menu {padding: 0rem 0rem 7rem 1rem;}
+nav.col-7_sm-12.hide-sm.right.full-menu {padding: 2rem 0rem 7rem 1rem;}
 
 /* DROPDOWN MENU */
 
@@ -695,7 +695,7 @@ nav.col-7_sm-12.hide-sm.right.full-menu {padding: 0rem 0rem 7rem 1rem;}
 
 .dropdown-content {
     position: absolute;
-    top: 100%;
+    top: 95%;
     left: 0.5rem;
     padding: 0rem;
     display: none;
@@ -1439,6 +1439,13 @@ good for 24px screens and over  */
 }
 
 
+
+@media(max-width: 72em) {
+
+    .md\:w-1\/3 {width: 33.33%;}
+
+}
+
 /* MD DEVICES (max 64em/1024px)  
 apply to devices smaller than 1024px */
 @media(max-width: 64em) {
@@ -1462,7 +1469,23 @@ apply to devices smaller than 1024px */
 
 
 /* MAIN NAVIGATION MENU */
-nav.col-7_sm-12.hide-sm.right.full-menu {padding: 0rem 0rem 6rem 1rem;}
+    nav.col-7_sm-12.hide-sm.right.full-menu {padding: 0rem 0rem 5rem 1rem;}
+
+    .hamburger-button {
+        padding: 2%;
+        font-size: 3rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        padding: 0rem 0rem 6rem 0rem;
+    }
+
+    header nav {
+        font-family: open sans;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem 0rem 0rem 1rem;
+      }
 
 /* Homepage */
 
@@ -1517,13 +1540,6 @@ h3.absolute.center.fade-text-related {
 
 
 
-@media(max-width: 72em) {
-
-    .md\:w-1\/3 {width: 33.33%;}
-
-}
-
-
 
 /* SM DEVICES (max 48em/768px) MOST PHONES
 apply to devices smaller than 768px */
@@ -1562,6 +1578,13 @@ apply to devices smaller than 768px */
     .sm-square        {padding-bottom: 100%;}
     .sm-landscape     {padding-bottom: 66%;}
 
+
+/* Navigation Menu */
+header nav {
+    font-family: open sans;
+    font-size: 1.2rem;
+    text-align: center;
+  }
 
 /* Homepage */
     a.project-button:hover {color: #676767;}
@@ -1730,83 +1753,12 @@ apply to devices smaller than 768px */
 apply to devices smaller than 576px */
 @media(max-width: 36em) {
 
-    .xs-padded-5 {padding: 5%;}
-
-
-/* MAIN NAVIGATION MENU - SMALL SCREEN STYLING (XS) */
-.mobile-menu {
-    background-color:var(--blue);
-    padding: 5%;
-    position: fixed;
-    top: 0;
-    bottom:0;
-    left:0;
-    right:0;
-    z-index: 2;
-}
-
-.mobile-menu a {
-    text-decoration: none;
-    color: #676767;
-    padding: 5vh 5%;
-    display: block;
-}
-
-.mobile-menu a:hover {
-    text-decoration: none;
-    color: white;
-    padding: 5vh 5%;
-    display: block;
-}
-
-/* Drop-down menu styling on XS screens only */
-/* DROPDOWN MENU */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    /* border: 1px solid #b15c2b; */
-}
-
-.dropdown-title {
-    color: #676767;
-    text-transform: uppercase;
-    padding: 0.5rem 0.5rem;
-    display: inline-block;
-
-}
-
-.dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: 0.5rem;
-    padding: 0rem;
-    display: none;
-    background-color: white;
-    z-index: 3;
-    text-align: left;
-    min-width: 15rem;
-    /* border: 1px solid #676767; */
-}
-
-
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-
-.dropdown-content a{
-    display: block;
-    padding: 0.55rem;
-    margin: 0.5rem;
-    background-color: #f5ebe0;
-    color: #676767;
-    font-size: 1.1rem;
-    font-style: oblique;
-}
-
+    
 /* General */
     .show-xs {display: block;}
     .hide-xs {display: none;}
+
+    .xs-padded-5 {padding: 5%;}
 
 /* Scrolling Gallery */
     .horizontal-scroll{
@@ -1824,6 +1776,35 @@ apply to devices smaller than 576px */
 apply to devices smaller than 320px */
 @media (max-width:320px) {
 
+
+
+/* Main Navigation Menu */
+.hamburger-button {
+    padding: 2%;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    padding: 0rem 0rem 2rem 1rem;
+}
+
+header nav {
+    font-family: open sans;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 124%;
+    left: -0.5rem;
+    padding: 0rem;
+    display: none;
+    background-color: white;
+    z-index: 3;
+    text-align: left;
+    min-width: 15rem;
+  }
 
 /* Homepage */
     .responsive-paragraph {font-size: 1rem;}
