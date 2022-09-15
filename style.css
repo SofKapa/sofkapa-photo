@@ -717,8 +717,9 @@ nav.col-7_sm-12.hide-sm.right.full-menu {padding: 2rem 0rem 7rem 1rem;}
     margin: 0.5rem;
     background-color: #f5ebe0;
     color: #676767;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-style: oblique;
+    font-family: 'mansory', sans-serif;
 }
 
 
