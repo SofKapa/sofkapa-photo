@@ -1498,8 +1498,10 @@ apply to devices smaller than 1024px */
         font-family: open sans;
         font-size: 1.5rem;
         text-align: center;
-        padding: 1rem 0rem 0rem 1rem;
+        padding: 2rem 0rem 2rem 0rem;
+        margin: auto;
       }
+
 
 /* Homepage */
 
@@ -1622,12 +1624,6 @@ apply to devices smaller than 768px */
 
 /* Navigation Menu */
     div.col-7_md-2_xs-3.show-md {padding: 0rem 0rem 4rem 1rem;}
-
-    header nav {
-        font-family: open sans;
-        font-size: 1rem;
-        text-align: center;
-    }
 
     .dropdown-content a {font-size: 0.9rem;}
 
@@ -1814,6 +1810,11 @@ apply to devices smaller than 576px */
     div.col-7_md-2_xs-3.show-md {padding: 0rem 1rem 3rem 2rem;}
 
     .hamburger-button {font-size: 2.5rem;}
+
+    header nav {font-size: 1rem;}
+
+    .dropdown-title {padding: 0.1rem 0.1rem;}
+
 
 /* Scrolling Gallery */
     .horizontal-scroll{
