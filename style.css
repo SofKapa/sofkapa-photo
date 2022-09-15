@@ -1870,6 +1870,14 @@ apply to devices smaller than 320px */
         min-width: 15rem;
     }
 
+    nav a {font-size:0.7rem;
+           padding:0.1rem;}
+    
+    span.dropdown-title {font-size: 0.7rem;
+                         padding: 0.1rem;}
+
+    .dropdown-content a {font-size: 0.7rem;}
+
 /* Homepage */
     .responsive-paragraph {font-size: 1rem;}
 
