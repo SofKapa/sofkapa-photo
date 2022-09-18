@@ -474,15 +474,10 @@ a {
     text-decoration: none;
 }
 
+p a:hover {color: var(--featured);}
 
-p a {
-    text-decoration: none;
-    border-bottom: 1px solid;
-}
-
-p a:hover {
-    color: var(--featured);
-}
+a.link-in-text {text-decoration:none;}
+a.link-in-text:hover {color: white;}
 
 
 
