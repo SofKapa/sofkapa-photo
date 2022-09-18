@@ -1394,6 +1394,39 @@ hr.short.center {
 
 
 
+/* ------------------ COOKIE BANNER ------------------------------------------*/
+
+
+#cookie-notice {
+    padding: 0.5rem 1rem;
+    display: none;
+    text-align: center;
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: 0;
+    width: calc(100% - 2rem);
+    background: #676767;
+    color: rgba(255,255,255,0.8);
+}
+
+#cookie-notice a {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+#cookie-notice .button-subtle {
+  opacity: 0.8;
+}
+
+#close-cookie-banner {
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  opacity: 0.5
+}
+
 /* ------------------ RESPONSIVENESS / MEDIA QUERIES -------------------------*/
 
 /* General styles (apply everywhere) */
