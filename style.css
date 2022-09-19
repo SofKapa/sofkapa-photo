@@ -336,31 +336,94 @@ a.bg-image {display: block;}
 
 /* ----------------- TYPOGRAPHY STYLES ---------------------------------------*/
 /* FONTS */
+
+/* Open Sans --------------------------------------------------*/
+.opensans {font-family: 'Open Sans', sans-serif;}
+
+
+/* Malmont ----------------------------------------------------*/
 @font-face {
-    font-family:'mansory', sans-serif;
-    src:         url("Font Bundle/OTF/Mansory.otf");
-    font-style:  normal;
-    font-weight: medium;
+    font-family: 'Malmont';
+    src:          url("/assets/Malmont/Malmont-Regular.otf");
 }
 
+.malmont  {font-family: 'Malmont', sans-serif;}
+
+
+/* Mansory ----------------------------------------------------*/
+/* Regular */
 @font-face {
-    font-family: 'malmont', sans-serif;
-    src:          url("Font Bundle/OTF/Malmont.otf");
-    font-style:   normal;
-    font-weight:  100;
+    font-family: 'Mansory Regular';
+    src:         url("/assets/Mansory/Mansory-Regular.otf");
 }
+.mansory-regular {font-family: 'Mansory Regular', sans-serif;}
+
 
 @font-face {
-    font-family: 'open sans', sans-serif;
-    src:          url("Font Bundle/OTF/Open Sans.otf");
-    font-style:   normal;
-    font-weight:  100;
+    font-family: 'Mansory Medium';
+    src:         url("/assets/Mansory/Mansory-Medium.otf");
 }
+.mansory-medium  {font-family: 'Mansory Medium', sans-serif;}
 
 
-.mansory  {font-family: 'mansory', sans-serif;}
-.malmont  {font-family: 'malmont', sans-serif;}
-.opensans {font-family: 'open sans', sans-serif;}
+@font-face {
+    font-family: 'Mansory Semi Bold';
+    src:         url("/assets/Mansory/Mansory-SemiBold.otf");
+}
+.mansory-semibold  {font-family: 'Mansory Semi Bold', sans-serif;}
+
+
+@font-face {
+    font-family: 'Mansory Bold';
+    src:         url("/assets/Mansory/Mansory-Bold.otf");
+}
+.mansory-bold  {font-family: 'Mansory Bold', sans-serif;}
+
+
+/* Oblique */
+@font-face {
+    font-family: 'Mansory Regular Oblique';
+    src:         url("/assets/Mansory/Mansory-RegularOblique.otf");
+}
+.mansory-regular-oblique  {font-family: 'Mansory Regular Oblique', sans-serif;}
+
+
+@font-face {
+    font-family: 'Mansory Medium Oblique';
+    src:         url("/assets/Mansory/Mansory-MediumOblique.otf");
+}
+.mansory-medium-oblique  {font-family: 'Mansory Medium Oblique', sans-serif;}
+
+
+@font-face {
+    font-family: 'Mansory Semibold Oblique';
+    src:         url("/assets/Mansory/Mansory-SemiBoldOblique.otf");
+}
+.mansory-semibold-oblique  {font-family: 'Mansory Semibold Oblique', sans-serif;}
+
+
+@font-face {
+    font-family: 'Mansory Bold Oblique';
+    src:         url("/assets/Mansory/Mansory-BoldOblique.otf");
+}
+.mansory-bold-oblique  {font-family: 'Mansory Bold Oblique', sans-serif;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* TEXT ALIGN */
