@@ -343,7 +343,7 @@ a.bg-image {display: block;}
 
 /* Malmont ----------------------------------------------------*/
 @font-face {
-    font-family: 'Malmont', sans-serif;
+    font-family: 'Malmont';
     src:          url("/assets/Malmont/Malmont-Regular.otf");
 }
 
