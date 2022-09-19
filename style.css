@@ -70,7 +70,7 @@ section {position: relative;}
 body{
     /* border: none; */
     color:var(--dark-text);
-    font-family: 'open sans', sans-serif ;
+    font-family: 'Open Sans', sans-serif;
 }
  
 .border {
@@ -343,7 +343,7 @@ a.bg-image {display: block;}
 
 /* Malmont ----------------------------------------------------*/
 @font-face {
-    font-family: 'Malmont';
+    font-family: 'Malmont', sans-serif;
     src:          url("/assets/Malmont/Malmont-Regular.otf");
 }
 
@@ -415,17 +415,6 @@ a.bg-image {display: block;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* TEXT ALIGN */
 .text-left    {text-align: left;}
 .text-right   {text-align: right;}
@@ -441,19 +430,19 @@ h2, h3, h4, h5, h6 {
 }
 
 h2 {font-size: 3rem;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-weight: lighter;
 }
 
 h3 {
     font-size: 3rem;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-weight: lighter;
 }
 
 h4 {
     font-size: 2rem;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-weight: lighter;
 }
 
@@ -462,7 +451,7 @@ h6 {font-size: 1.2rem;}
 
 p, li { 
     font-size:1.2rem;
-    font-family: open sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 50;
     line-height: 1.3;
     margin-bottom:1rem;
@@ -490,7 +479,7 @@ p:last-child {
 
 /* UNIQUE TEXT */
 .title-white {
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-size: 3rem;
     color: white;
     text-align: center;
@@ -498,7 +487,7 @@ p:last-child {
 }
 
 .title-gray {
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-size: 3rem;
     color:#676767;
     text-align: center;
@@ -507,10 +496,11 @@ p:last-child {
 
 .featured-text {
     color: white;
-    font-family: 'malmont', sans-serif;}
+    font-family: 'Malmont', sans-serif;
+}
 
 .special-text {
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-style: oblique;
     font-size: 1.3rem;
     color: white;
@@ -526,7 +516,7 @@ p:last-child {
 .oblique {font-style: oblique;}
 .italic  {font-style: italic;}
 .bold    {
-          font-family: mansory, sans-serif; 
+          font-family: 'Mansory Regular', sans-serif;
           font-size: 1.3rem;
         }
 
@@ -604,7 +594,7 @@ a.link-in-text:hover {color: white;}
 /* VIEW GALLERY BUTTON */
 .gallery-button {
     background-color: transparent;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-size: 1rem;
     color: white;
     border: 0px solid;
@@ -625,7 +615,7 @@ a.link-in-text:hover {color: white;}
 /* VIEW PROJECT BUTTON */
 .project-button {
     background-color: transparent;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-size: 1rem;
     color: #676767;
     border: 0px solid;
@@ -640,7 +630,7 @@ a.link-in-text:hover {color: white;}
 /* VIEW RELATED PROJECT BUTTON */
 .related-posts-button {
     background-color: transparent;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-size: 2rem;
     text-align: center;
     color: #676767;
@@ -660,7 +650,7 @@ a.link-in-text:hover {color: white;}
 
 .text-md .related-posts {
     font-size: 2rem;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-weight: 100;
     line-height: 1.1;
   }
@@ -715,7 +705,7 @@ header h1 {
 div.col-7_sm-12.hide-md.right {padding: 0%;}
 
 header nav {
-    font-family: open sans;
+    font-family: 'Open Sans', sans-serif;
     font-size:1.2rem;
     text-align: right;
     padding: 0rem 0rem 6rem 0rem;
@@ -788,7 +778,7 @@ nav.col-7_sm-12.hide-sm.right.full-menu {padding: 2rem 0rem 7rem 1rem;}
     color: #676767;
     font-size: 1rem;
     font-style: oblique;
-    font-family: 'mansory', sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
 }
 
 
@@ -846,7 +836,7 @@ footer a:hover {
 
 a.footer-contact.sm-padded-0:hover {
     color: var(--featured-text);
-    font-family: open sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
 
@@ -883,7 +873,7 @@ form textarea {
     border: none;
     border-bottom: 1px solid #8b8b8b;
     outline: none;
-    font-family: open sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     color: #d5bdaf;
     background-color: transparent;
@@ -901,7 +891,7 @@ textarea {
 form label {
     margin-top: 1rem;
     display: block;
-    font-family: open sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     color: #878787;
     font-weight: borld;
@@ -1004,7 +994,7 @@ h3.absolute.center.fade-text-related {
 .big-text {
     font-size: 3rem;
     line-height: 1;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-weight: lighter;
     padding-top: 2rem;
   }
@@ -1019,7 +1009,7 @@ p.image-caption-left {
 
 
 .blog-content h1 {
-    font-family: 'open sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     font-size: 3rem;
 }
@@ -1043,7 +1033,7 @@ p.image-caption-left {
 }
 
 .sidebar-item p {
-    font-family: 'open sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
@@ -1439,7 +1429,7 @@ hr.short.center {
 
 .tag {
     display: inline-block;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     text-transform: uppercase;
     font-size: 1rem;
     font-style: oblique;
@@ -1449,7 +1439,7 @@ hr.short.center {
 
 .text-md {
     font-size: 2.7rem;
-    font-family: mansory, sans-serif;
+    font-family: 'Mansory Regular', sans-serif;
     font-weight: 100;
     line-height: 1.1;
   }
@@ -1535,14 +1525,14 @@ good for 24px screens and over  */
 
     a.footer-contact {
         color: white;
-        font-family: open sans, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 1rem;
       }
 
     
     a.footer-contact:hover {
     color: white;
-    font-family: open sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     }
 
@@ -1594,7 +1584,7 @@ apply to devices smaller than 1024px */
     }
 
     header nav {
-        font-family: open sans;
+        font-family: 'Open Sans', sans-serif;
         font-size: 1.5rem;
         text-align: center;
         padding: 2rem 0rem 2rem 0rem;
@@ -1624,7 +1614,7 @@ h3.absolute.center.fade-text-related {
 
 /* Category pages */
     .special-text {
-        font-family: mansory, sans-serif;
+        font-family: 'Mansory Regular', sans-serif;
         font-style: oblique;
         font-size: 1.1rem;
         color: white;
@@ -1736,7 +1726,7 @@ apply to devices smaller than 768px */
     .banner-travel {padding: 10%;}
 
     .title-white {
-        font-family: mansory, sans-serif;
+        font-family: 'Mansory Regular', sans-serif;
         font-size: 2rem;
         color: white;
         text-align: center;
@@ -1745,7 +1735,7 @@ apply to devices smaller than 768px */
     }
 
     .special-text {
-        font-family: mansory, sans-serif;
+        font-family: 'Mansory Regular', sans-serif;
         font-style: oblique;
         font-size: 1.1rem;
         color: white;
@@ -1764,7 +1754,7 @@ apply to devices smaller than 768px */
 
     .text-md {
         font-size: 1.7rem;
-        font-family: mansory, sans-serif;
+        font-family: 'Mansory Regular', sans-serif;
         font-weight: 100;
         line-height: 1.1;
       }
@@ -1848,14 +1838,14 @@ apply to devices smaller than 768px */
 
     a.footer-contact {
         color: white;
-        font-family: open sans, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 0.75rem;
         padding: 0.2rem;
     }
     
     a.footer-contact:hover{
         color: #e3d5ca;
-        font-family: open sans, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 0.75rem;
         padding: 0.2rem;
     }
@@ -1915,6 +1905,10 @@ apply to devices smaller than 576px */
     .dropdown-title {padding: 0.1rem 0.1rem;}
 
 
+/* About Section */
+    .sm-text-left    {text-align: left;}
+
+
 /* Scrolling Gallery */
     .horizontal-scroll{
         overflow-x: auto;
@@ -1952,7 +1946,7 @@ apply to devices smaller than 320px */
     div.col-7_md-2_xs-3.show-md {padding: 0rem 1rem 3rem 2rem;}
 
     header nav {
-        font-family: open sans;
+        font-family: 'Open Sans', sans-serif;
         font-size: 0.8rem;
         text-align: center;
     }
@@ -2062,14 +2056,14 @@ apply to devices smaller than 320px */
 
     a.footer-contact {
         color: white;
-        font-family: open sans, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 0.58rem;
         padding: 0.2rem;
     }
     
     a.footer-contact:hover{
         color: #e3d5ca;
-        font-family: open sans, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 0.58rem;
         padding: 0.2rem;
     }
