@@ -1591,10 +1591,6 @@ apply to devices smaller than 1024px */
         margin: auto;
       }
 
-    .dropdown:hover .dropdown:active .dropdown-content{
-        display: block;
-    }
-
 
 /* Homepage */
 
