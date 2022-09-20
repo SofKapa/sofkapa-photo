@@ -795,6 +795,8 @@ div.hamburger-button {text-align: right;}
     padding: 0rem 0rem 2rem 0rem;
 }
 
+.hamburger-button.active {color: white;}
+
 .fa solid{
     display: inline-block;
     text-align: right;
@@ -804,6 +806,41 @@ div.hamburger-button {text-align: right;}
     display: inline-block;
     text-align: right;
 }
+
+.mobile-menu {
+    display: none; 
+    background-color: white; 
+    padding: 5%;
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+}
+
+.mobile-menu a {
+    font-family: 'Mansory';
+    text-decoration: none; 
+    color: #676767; 
+    padding: 3vh 5%;
+    display: block;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.mobile-menu a:hover {
+    text-decoration: none; 
+    color: var(--dark-orange); 
+    padding: 3vh 5%;
+    display: block;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+
+
 
 /* ------------------ MAIN FOOTER STYLES -------------------------------------*/ 
 footer p {
