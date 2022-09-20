@@ -4,7 +4,10 @@
 
 <!-- This is the head - External Links & Ressources ---------->
 <head>
-<title>Contact</title>
+
+
+    <!-- Responsiveness Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon - Website Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -13,27 +16,34 @@
     <link rel="manifest" href="/icons/site.webmanifest">
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#ccd2d8">
     <link rel="shortcut icon" href="/icons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-config" content="/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+
+    <title>{{page.title}}</title>
+    
+
     <!-- Fontawesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <!-- Grid Stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-
+    
     <!-- Google Fonts -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,800&display=swap" rel="stylesheet">
+    
     <!-- Lightgallery for pop-up galleries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css" integrity="sha512-7xAjdVc23n18sYEAZKa79271IRUS1XzylIyJ8feyXvjrbbr4oId92993EiGTAP63Ob6KplRnmbNmBOg6bpLjYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <!-- Animate on scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    
     <!-- CSS Stylesheet - always last -->
     <link rel="stylesheet" href="/style.css">
-
+    
 </head>
 
 
@@ -45,7 +55,7 @@
 
         
     <!-- LOGO ON LEFT-->
-    <div class="col-5_md-7_xs-7">
+    <div class="col-5_md-7">
         <a href="/index.html">
             <img src="/assets/logo1.jpg" class="logo">
         </a>
@@ -78,30 +88,24 @@
         <div class="hamburger-button">
             <i class="fa-solid fa-bars gray"></i>
         </div>
+
+        <!-- DROPDOWN MENU ON SMALL SCREEN WHEN WE CLICK ON HAMBURGER -->
+        <div class="mobile-menu">
+            <nav>
+                <a href="/index.html">home</a>
+                <a href="#about">about</a>
+                <a href="/brandsandevents.html">brands & events</a>
+                <a href="/travelandstreet.html">travel & street</a>
+                <a href="/portraitandlifestyle.html">portrait & lifestyle</a>
+                <a href="/contact.html">contact</a>
+            </nav>
+        </div>
+
+
     </div>
 
 
-<!-- DROPDOWN MENU ON SMALL SCREEN WHEN WE CLICK ON HAMBURGER -->
-
-    <nav class="mobile-menu">
-        <a href="/index.html">home</a>
-        <a href="#about">about</a>
-    
-        <div class="dropdown">
-            <span class="dropdown-title">Portfolio</span>
-            <div class="dropdown-content">
-            <a href="/brandsandevents.html">brands & events</a>
-            <a href="/travelandstreet.html">travel & street</a>
-            <a href="/portraitandlifestyle.html">portrait & lifestyle</a>
-            </div>  
-        </div> 
-
-        <a href="/contact.html">contact</a>
-    </nav>
-
-
 </header>
-
 
 
 <!-- This is the contact section -->

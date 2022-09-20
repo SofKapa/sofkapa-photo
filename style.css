@@ -810,7 +810,7 @@ div.hamburger-button {text-align: right;}
 .mobile-menu {
     display: none; 
     background-color: white; 
-    padding: 5%;
+    padding: 3%;
     position: fixed; 
     top: 0;
     bottom: 0;
@@ -1629,6 +1629,20 @@ apply to devices smaller than 1024px */
       }
 
 
+/* Mobile Menu */
+    .mobile-menu {
+        display: none; 
+        background-color: white; 
+        padding: 3%;
+        position: fixed; 
+        top: 200px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 3;
+    }
+
 /* Homepage */
 
 h3.sm-text.lightorange {font-size: 0.9rem;}
@@ -1752,6 +1766,21 @@ apply to devices smaller than 768px */
     div.col-7_md-2_xs-3.show-md {padding: 0rem 0rem 4rem 1rem;}
 
     .dropdown-content a {font-size: 0.9rem;}
+
+
+/* Mobile Menu */
+    .mobile-menu {
+        display: none; 
+        background-color: white; 
+        padding: 3%;
+        position: fixed; 
+        top: 155px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 3;
+    }
 
 /* Homepage */
     a.project-button:hover {color: #676767;}
@@ -1942,6 +1971,21 @@ apply to devices smaller than 576px */
     .dropdown-title {padding: 0.1rem 0.1rem;}
 
 
+/* Mobile Menu */
+    .mobile-menu {
+        display: none; 
+        background-color: white; 
+        padding: 3%;
+        position: fixed; 
+        top: 120px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 3;
+    }
+
+
 /* About Section */
     .sm-text-left    {text-align: left;}
 
@@ -2007,6 +2051,21 @@ apply to devices smaller than 320px */
                          padding: 0.1rem;}
 
     .dropdown-content a {font-size: 0.7rem;}
+
+
+/* Mobile Menu */
+    .mobile-menu {
+        display: none; 
+        background-color: white; 
+        padding: 3%;
+        position: fixed; 
+        top: 95px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 3;
+    }
 
 /* Homepage */
     .responsive-paragraph {font-size: 1rem;}
