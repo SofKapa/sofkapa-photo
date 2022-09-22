@@ -2049,19 +2049,17 @@ apply to devices smaller than 576px */
 
 /* Main Navigation Menu */
 
-    img.logo {padding: 0rem 0rem 1rem 0rem;}
+    a.link {font-size: 1.3rem;}
 
-    div.col-7_md-2_xs-3.show-md {padding: 0rem 1rem 3rem 2rem;}
-
-    .hamburger-button {font-size: 2.5rem;}
-
-    header nav {font-size: 1rem;}
-
-    .dropdown-title {padding: 0.1rem 0.1rem;}
+    a.link:hover {font-size: 1.3rem;}
 
 
 /* About Section */
     .sm-text-left    {text-align: left;}
+
+    .text-sm {font-size: 1.1rem;}
+
+    a.link-in-text {font-size: 1rem;}
 
 
 /* Scrolling Gallery */
