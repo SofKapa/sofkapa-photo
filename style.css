@@ -1861,7 +1861,40 @@ apply to devices smaller than 768px */
     }
 
 /* About Section */
-    .text-sm {font-size:1rem;}
+
+
+    .text-sm {font-size:1.2rem;}
+
+
+/* Lets Talk Section */
+
+    div.lets-talk {padding:15%;}
+
+    p.lets-talk {font-size: 1.2rem;}
+
+
+/* Contact Form */
+    .form label, .form input, .form textarea {
+        font-size: 1.2rem;
+    }
+
+    .form {padding-bottom: 0;}
+
+
+/* Footer Styles */
+    .featured-text-light {font-size: 3rem;}
+
+
+    footer a {
+        border: none;
+        color: #c9c9c9;
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+
+    span.bold {font-size: 1.2rem;}
+    span.light {font-size: 1.2rem;}
+
 
 
 /* Scrolling gallery */
