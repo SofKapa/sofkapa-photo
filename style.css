@@ -503,6 +503,13 @@ p:last-child {
 
 /* HOMEPAGE STYLES --------*/
 
+/* About Section */
+
+h2.about-section {
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
+
 /* Latest Project */
 
 .latest-projects-title {
@@ -546,18 +553,6 @@ p.lets-talk {
     padding: 0;
   }
 
-
-/* Form styles */
-.form-title {
-    font-size: 2rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    color: var(--featured-text);
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.form {padding-bottom: 5rem;}
 
 
 /* CATEGORY PAGE TEXT */
@@ -794,6 +789,7 @@ nav a:hover {
 /* MAIN NAV MENU */
 nav.col-7_sm-12.hide-sm.right.full-menu {padding: 2rem 0rem 7rem 1rem;}
 
+
 /* DROPDOWN MENU */
 
 .dropdown {
@@ -964,6 +960,18 @@ p.footer-contact {
 
 
 /* ------------------ CONTACT FORM -------------------------------------------*/
+.form-title {
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: var(--featured-text);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.form {padding-bottom: 5rem;}
+
+
 form input,
 form textarea {
     width: 100%;
@@ -1003,6 +1011,8 @@ form label {
     font-style: oblique;
     text-align: center;
   }
+
+
 
 
 /* ---- CONTACT PAGE STYLES ------------------------------------------------- */
@@ -1047,6 +1057,7 @@ form label {
 .dark-gray {
     color:#4E4E4E;
 }
+
 
 
 /* RELATED POST STYLING ----------------------------------------------------- */
@@ -1667,7 +1678,7 @@ apply to devices smaller than 1024px */
     }
 
 
-/* MAIN NAVIGATION MENU */
+/* Main navigation menu */
 
     div.col-7_md-2_xs-3.show-md {padding: 1rem 1rem 6rem 2rem;}
 
@@ -1693,22 +1704,31 @@ apply to devices smaller than 1024px */
 
 /* Homepage */
 
-h3.sm-text.lightorange {font-size: 0.9rem;}
+    h3.sm-text.lightorange {font-size: 0.9rem;}
 
 
+/* Contact Page */
+    .form label, .form input, .form textarea {
+        font-size: 1.3rem;
+    }
+
+    #message {
+        font-size: 1.1rem;
+        font-weight: lighter;
+    }
 
 /* Gallery Page */
-.max-width-md {max-width: 840px; margin: auto;}
+    .max-width-md {max-width: 840px; margin: auto;}
 
-h3.absolute.center.fade-text-related {
-    color:#676767;
-    font-size: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+    h3.absolute.center.fade-text-related {
+        color:#676767;
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
 
 
 /* Category pages */
