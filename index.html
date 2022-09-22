@@ -88,12 +88,15 @@ title: Homepage
             <div class="bg-image square" style="background-image:url({{post.featured_image}})"></div>
         </div>
     
-        <div class="col-6_sm-12-middle" style="padding:1.2rem;">
-            <h3 class="lightorange padded-b-2 md-padded-b-0 lg-text"> {{ post.title }} </h3>
-            <p class="gray padded-b-1 oblique md-padded-b-0"> {{ post.description }} </p>
-            <h3 class="gray padded-b-1 sm-text md-padded-b-0"> {{ post.location }} </h3>
-            <h3 class="gray padded-b-1 sm-text lightorange oblique md-padded-b-0"> {{ post.categories | join: ' | '}} </h3>
-            <a href="{{post.url}}" class="project-button padded-3"> view project</a>
+        <div class="col-6_sm-12-middle latest-projects" style="padding:1.2rem;">
+            <h3 class="latest-projects-title md-padded-b-0"> {{ post.title }} </h3>
+            <p class="latest-projects-text"> {{ post.description }} </p>
+            <h3 class="location-tag md-padded-b-0"> {{ post.location }} </h3>
+            <h3 class="category-tag md-padded-b-0"> {{ post.categories | join: ' | '}} </h3>
+            <div class="padded-t-2">
+                <a href="{{post.url}}" class="view-project-button">VIEW PROJECT</a>
+            </div>
+
         </div>
 
     </div>
@@ -106,9 +109,9 @@ title: Homepage
 
 <!-- This is the FORM  section --------------------------->
 <!-- Title -->
-<div class="padded-2 padded-t-5 md-padded-tb-0 lg-padded-t-0 gray text-center">
+<div class="lets-talk md-padded-tb-0">
     <h3 class="padded-b-2 sm-padded-b-0">let's talk!</h3>
-    <p class="responsive-paragraph">I wanna hear about your project and help you meet your needs</p>
+    <p class="lets-talk">I wanna hear about your project and help you meet your needs</p>
 </div>
 
 <!-- Form -->
