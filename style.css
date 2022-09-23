@@ -969,7 +969,7 @@ p.footer-contact {
     margin-bottom: 0;
 }
 
-.form {padding-bottom: 5rem;}
+.form {padding-bottom: 3rem;}
 
 
 form input,
@@ -1475,7 +1475,6 @@ hr.short.center {
     top: 50%;
     width: 100%;
     text-align: center;
-    font-size: 3rem;
   }
 
 .card:hover {
@@ -1714,8 +1713,10 @@ apply to devices smaller than 1024px */
 
     #message {
         font-size: 1.1rem;
-        font-weight: lighter;
+        font-weight:lighter;
     }
+
+    .textarea {min-height: 6rem;}
 
 /* Gallery Page */
     .max-width-md {max-width: 840px; margin: auto;}
@@ -1818,6 +1819,7 @@ apply to devices smaller than 768px */
     .sm-padded-l-0 {padding-left: 0%;}
     .sm-padded-r-0 {padding-right: 0%;}
 
+    .sm-padded-tb-0 {padding-top: 0%; padding-bottom: 0%;}
     .sm-padded-lr-3 {padding-left: 3rem; padding-right: 3rem;}
     .sm-padded-lr-1 {padding-left: 1rem;padding-right: 1rem;}
 
@@ -1838,30 +1840,11 @@ apply to devices smaller than 768px */
 
 
 
-/* Category Pages */
-    .banner-brands,
-    .banner-portrait,
-    .banner-travel {padding: 10%;}
-
-    .category-text-title {
-        font-family: 'Mansory Regular', sans-serif;
-        font-size: 2rem;
-        color: white;
-        text-align: center;
-        padding: 0.5rem;
-        margin-bottom: 4rem;
-    }
-
-    .category-text-p {
-        font-family: 'Mansory Regular', sans-serif;
-        font-style: oblique;
-        font-size: 1.1rem;
-        color: white;
-        text-align:center;
-    }
-
 /* About Section */
 
+    h2.about-section {
+        padding-bottom: 2rem;
+        padding-top:1rem;}
 
     .text-sm {font-size:1.2rem;}
 
@@ -1881,6 +1864,30 @@ apply to devices smaller than 768px */
     .form {padding-bottom: 0;}
 
 
+
+/* Category Pages */
+.banner-brands,
+.banner-portrait,
+.banner-travel {padding: 10%;}
+
+.category-text-title {
+    font-family: 'Mansory Regular', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 4rem;
+}
+
+.category-text-p {
+    font-family: 'Mansory Regular', sans-serif;
+    font-style: oblique;
+    font-size: 1.1rem;
+    color: white;
+    text-align:center;
+}
+
+
 /* Footer Styles */
     .featured-text-light {font-size: 3rem;}
 
@@ -1888,17 +1895,23 @@ apply to devices smaller than 768px */
     footer a {
         border: none;
         color: #c9c9c9;
-        font-size: 1.2rem;
+        font-size: 1rem;
+        line-height: 1;
         font-weight: bolder;
     }
 
-    p.footer {
-        font-size: 1.2rem;
-        line-height: 0.8;
-      }
+    span.bold {font-size: 1rem;}
+    span.light {font-size: 1rem;}
 
-    span.bold {font-size: 1.2rem;}
-    span.light {font-size: 1.2rem;}
+
+    footer p {
+        font-size: 1rem;
+        line-height: 0.7;}
+
+    footer h3 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
 
 
 
@@ -1953,11 +1966,11 @@ apply to devices smaller than 768px */
 
       h4 {font-size: 1.8rem;}
 
+
 /* Related Posts */
     a.padded-2 {
         padding: 2%;
     }
-
 
 
 /* Cards Homepage */
@@ -2021,16 +2034,6 @@ apply to devices smaller than 768px */
     }
 
 
-/* Footer */
-    footer p {
-        font-size: 1rem;
-        line-height: 0.6;}
-
-    footer h3 {
-        font-size: 2rem;
-        padding-bottom: 2rem;
-    }
-
 }
 
 
@@ -2054,6 +2057,13 @@ apply to devices smaller than 576px */
     a.link:hover {font-size: 1.3rem;}
 
 
+/* Homepage Cards */
+    h2, h3 {
+        font-size: 3rem;
+        line-height: 0.9;
+    }
+
+
 /* About Section */
     .sm-text-left    {text-align: left;}
 
@@ -2062,11 +2072,44 @@ apply to devices smaller than 576px */
     a.link-in-text {font-size: 1rem;}
 
 
+/* Latest Projects */
+    .location-tag {font-size: 1rem;}
+    .category-tag {font-size: 1rem;}
+
+    div.padded-t-2{padding: 0rem;}
+
+    h3.latest-projects-title {padding-bottom: 1rem;}
+
+    a.view-project-button:hover {color: #c9c9c9;}
+
+    p.latest-projects-text {font-size: 1.1rem;}
+
+
+/* Contact Form */
+    .form-title {
+        font-size: 1.6rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;}
+
+    .form label {margin-top: 3rem;}
+
+    .form input {padding: 0.2rem;}
+    
+
 /* Scrolling Gallery */
     .horizontal-scroll{
         overflow-x: auto;
         flex-wrap: nowrap;
     }
+
+
+/* Footer Styles */
+
+    footer a {font-size: 1.1rem;}
+
+    span.bold {font-size: 1.2rem;}
+    span.light {font-size: 1.2rem;}
+
 
 
 /* Contact Page */
@@ -2124,8 +2167,12 @@ apply to devices smaller than 320px */
 
     .dropdown-content a {font-size: 0.7rem;}
 
-/* Homepage */
-    .responsive-paragraph {font-size: 1rem;}
+
+/* Latest Porjects */
+    .category-tag {
+        font-size: 1rem;
+        line-height: 1.2;
+      }
 
 /* Category Page */
     .category-text-title {margin-bottom: 2rem;}
@@ -2247,6 +2294,9 @@ apply to devices smaller than 320px */
     footer p {font-size: 1rem;}
 
     span.bold {font-size: 1rem;}
+    span.light {font-size: 1rem;}
+
+    footer a {font-size: 1rem;}
 
 }
 
