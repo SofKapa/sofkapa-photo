@@ -1019,6 +1019,17 @@ form label {
 
 
 
+/* ---- GALLERY PAGE STYLE -------------------------------------------------- */
+.sof-kapa-tag {
+    font-family: 'Mansory Regular', sans-serif;
+}
+
+.project-description {
+    font-style: oblique;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
 
 /* ---- CONTACT PAGE STYLES ------------------------------------------------- */
 .banner {
@@ -1953,7 +1964,7 @@ apply to devices smaller than 768px ------------------------------------------*/
 
 
 /* Individual Gallery Pages */
-    p.oblique.padded-1.padded-l-2 {font-size: 1rem; }
+    .sof-kapa-tag{font-size: 1rem; }
 
     .gallery [class*="col-"] {
         padding: 0.5%;
@@ -2250,9 +2261,8 @@ apply to devices smaller than 320px --------------------------------------------
 
 
 /* Individual Gallery Pages */
-    p.oblique.padded-1.padded-l-2 {font-size: 1rem; }
 
-    p.oblique.padded-b-1.padded-l-2 {font-size: 1rem;}
+    .sof-kapa-tag {font-size: 1rem;}
 
     .lg-next, .lg-prev {
         background-color: transparent;
