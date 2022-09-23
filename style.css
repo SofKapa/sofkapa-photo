@@ -1743,9 +1743,32 @@ apply to devices smaller than 1024px */
     }
 
 
-/* Footer */
+/* Footer Styles */
 
-    footer a {font-size: 1.3rem;}
+    footer h3 {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .featured-text-light {font-size: 3rem;}
+
+
+    footer a {
+        border: none;
+        color: #c9c9c9;
+        font-size: 1.2rem;
+        line-height: 1;
+        font-weight: bolder;
+    }
+
+    span.bold {font-size: 1.4rem;}
+    span.light {font-size: 1.2rem;}
+
+
+    footer p {
+        font-size: 1.5rem;
+        line-height: 0.7;}
+
 
 /* Contact Page */
 
