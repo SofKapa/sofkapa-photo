@@ -1443,7 +1443,7 @@ hr.short.center {
 
 .fade-text {
     color:#676767;
-    font-size: 20px;
+    font-size: 35px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1701,9 +1701,10 @@ apply to devices smaller than 1024px */
       }
 
 
-/* Homepage */
+/* Cards Homepage */
 
-    h3.sm-text.lightorange {font-size: 0.9rem;}
+      h3 {font-size: 4rem;}
+
 
 
 /* Contact Page */
@@ -1741,6 +1742,10 @@ apply to devices smaller than 1024px */
         text-align:center;
     }
 
+
+/* Footer */
+
+    footer a {font-size: 1.3rem;}
 
 /* Contact Page */
 
