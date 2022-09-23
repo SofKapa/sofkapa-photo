@@ -174,6 +174,11 @@ body{
 .padded-r-10 {padding-right:10rem;}
 
 
+.padded-tb {
+    padding-top: 8%;
+    padding-bottom: 10%;
+  }
+
 .padded-tb-1   {padding-top: 1%; padding-bottom: 1%;}
 .padded-tb-2   {padding-top: 2%; padding-bottom: 2%;}
 .padded-tb-3   {padding-top: 3%; padding-bottom: 3%;}
@@ -480,7 +485,7 @@ p:last-child {
     font-size: 3rem;
     color:#676767;
     text-align: center;
-    padding: 2rem;
+    padding-bottom: 2rem;
 }
 
 .featured-text-light {
@@ -1225,7 +1230,7 @@ hr.short.center {
     background-image: url('/assets/brands/EPL/namaste.jpg');
     background-size: cover;
     background-position: 50% 57%;
-    min-height: 70vh;
+    min-height: 50vh;
     padding: 5%;
 }
 
@@ -1233,7 +1238,7 @@ hr.short.center {
     background-image: url('/assets/travel/MYANMAR/fishermanandbirds.jpg');
     background-size: cover;
     background-position: 50% 65%;
-    min-height: 70vh;
+    min-height: 50vh;
     padding: 5%;
 }
 
@@ -1241,7 +1246,7 @@ hr.short.center {
     background-image: url('/assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg');
     background-size: cover;
     background-position: 50% 65%;
-    min-height: 70vh;
+    min-height: 50vh;
     padding: 5%;
 }
   
@@ -1605,7 +1610,7 @@ hr.short.center {
 .show-inline   {display:inline-block;}
 
 /* LG DEVICES (min 1024px)
-good for 24px screens and over  */
+good for 24px screens and over --------------------------------------------- */
 @media(min-width: 72em) {
 
 /* General */
@@ -1614,6 +1619,9 @@ good for 24px screens and over  */
 /* Homepage */
     .lg-padded-t-0 {padding-top: 0%;}
 
+
+/* Scrolling Gallery */
+    .flex.flex-row.flex-nowrap.overflow-x-scroll.padded-b-3 {justify-content: space-around;}
 
 
 /* Contact Page */
@@ -1656,7 +1664,7 @@ good for 24px screens and over  */
 }
 
 /* MD DEVICES (max 64em/1024px)  
-apply to devices smaller than 1024px */
+apply to devices smaller than 1024px----------------------------------------- */
 @media(max-width: 64em) {
 
 /* General  */
@@ -1706,6 +1714,25 @@ apply to devices smaller than 1024px */
       h3 {font-size: 4rem;}
 
 
+/* Category Page Banner */
+    .category-text-title {padding: 0rem;}
+    .category-text-p {
+        font-family: 'Mansory Regular', sans-serif;
+        font-style: oblique;
+        font-size: 1.4rem;
+        color: white;
+        text-align:center;
+        padding-top: 1rem;
+    }
+
+
+/* Scrolling Gallery */
+    .flex.flex-row.flex-nowrap.overflow-x-scroll.padded-b-3 {justify-content: baseline;}
+
+    h3.white {font-size: 2.8rem;}
+
+
+
 
 /* Contact Page */
     .form label, .form input, .form textarea {
@@ -1718,6 +1745,7 @@ apply to devices smaller than 1024px */
     }
 
     .textarea {min-height: 6rem;}
+
 
 /* Gallery Page */
     .max-width-md {max-width: 840px; margin: auto;}
@@ -1732,15 +1760,6 @@ apply to devices smaller than 1024px */
         -ms-transform: translate(-50%, -50%);
     }
 
-
-/* Category pages */
-    .category-text-p {
-        font-family: 'Mansory Regular', sans-serif;
-        font-style: oblique;
-        font-size: 1.1rem;
-        color: white;
-        text-align:center;
-    }
 
 
 /* Footer Styles */
@@ -1823,7 +1842,7 @@ apply to devices smaller than 1024px */
 
 
 /* SM DEVICES (max 48em/768px) MOST PHONES
-apply to devices smaller than 768px */
+apply to devices smaller than 768px ------------------------------------------*/
 @media(max-width: 48em) {
 
 /* General */
@@ -1899,21 +1918,10 @@ apply to devices smaller than 768px */
 .banner-travel {padding: 10%;}
 
 .category-text-title {
-    font-family: 'Mansory Regular', sans-serif;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    padding: 0.5rem;
-    margin-bottom: 4rem;
+    padding: 0rem;
+    line-height: 1;
 }
-
-.category-text-p {
-    font-family: 'Mansory Regular', sans-serif;
-    font-style: oblique;
-    font-size: 1.1rem;
-    color: white;
-    text-align:center;
-}
+.category-text-p {font-size: 1.2rem;}
 
 
 
@@ -2042,7 +2050,7 @@ apply to devices smaller than 768px */
 
 
 /* XS DEVICES (max 36em/576px) 
-apply to devices smaller than 576px */
+apply to devices smaller than 576px ------------------------------------*/
 @media(max-width: 36em) {
 
     
@@ -2089,6 +2097,7 @@ apply to devices smaller than 576px */
     p.latest-projects-text {font-size: 1.1rem;}
 
 
+
 /* Contact Form */
     .form-title {
         font-size: 1.6rem;
@@ -2100,11 +2109,26 @@ apply to devices smaller than 576px */
     .form input {padding: 0.2rem;}
     
 
+/* Category page banner */
+    .category-text-title {
+        font-size: 3rem;
+        padding: 0rem;
+        line-height: 1;
+    }
+    .category-text-p {font-size: 1.5rem;}
+
+
 /* Scrolling Gallery */
     .horizontal-scroll{
         overflow-x: auto;
         flex-wrap: nowrap;
     }
+
+    h3.white {font-size: 2.6rem;}
+
+    .tag {font-size: 1rem;}
+
+    .sm\:w-1\/2 {width: 75%;}
 
 
 /* Footer Styles */
@@ -2121,8 +2145,10 @@ apply to devices smaller than 576px */
 }
 
 
-/* XXS DEVICES (max 320px)
-apply to devices smaller than 320px */
+
+
+/* XXS DEVICES (max 320px) 
+apply to devices smaller than 320px ----------------------------------------------*/
 @media (max-width:320px) {
 
 
@@ -2172,35 +2198,56 @@ apply to devices smaller than 320px */
     .dropdown-content a {font-size: 0.7rem;}
 
 
-/* Latest Porjects */
+/* Latest Projects */
     .category-tag {
         font-size: 1rem;
         line-height: 1.2;
       }
 
-/* Category Page */
-    .category-text-title {margin-bottom: 2rem;}
 
-    .category-text-p {font-size: 0.85rem;}
+/* Category Page Banner */
 
-    .title-gray {font-size: 2.5rem;}
+
+    .category-text-title {
+        margin-bottom: 3rem;
+        font-size: 2.3rem;
+        padding: 0rem;
+        line-height: 1.1;
+        margin-top: 3rem;
+    }
+    
+
+    .category-text-p {font-size: 1.3rem;}
+
+
+
 
 /* Scrolling Gallery */
 
-    .sm\:w-1\/2 {width: 64%;}
-
-    .text-md {font-size: 1.5rem;}
-
-    p.tag {font-size: 0.8rem;}
-
-    button.gallery-button {
-        margin: 0;
-        font-size: 0.7rem;
+    .title-gray {
+        font-size: 3rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
     }
+
+    .horizontal-scroll{
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+
+
+    h3.white {font-size: 2rem;}
+
+    .tag {font-size: 0.9rem;}
+
+
+    button.gallery-button {font-size: 1rem;}
 
     .padding-15 {
         padding-bottom: 0.8rem;
       }
+
+
 
 /* Individual Gallery Pages */
     p.oblique.padded-1.padded-l-2 {font-size: 1rem; }
