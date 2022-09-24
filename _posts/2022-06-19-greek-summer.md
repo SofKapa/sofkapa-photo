@@ -12,7 +12,7 @@ categories:
   - Europe
   - Summer
 cover_image: /assets/travel/GREECE/manstairs.jpg
-featured_image: /assets/travel/GREECE/manstairs.jpg
+featured_image: /assets/travel/GREECE/ladyinblue.jpg
 seo:
     title:
     description:

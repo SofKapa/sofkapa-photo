@@ -10,7 +10,7 @@ categories:
   - Pregnancy
   - Portrait
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
-featured_image: /assets/portrait/MADDYANDSAM/tallportraitboth.jpg
+featured_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
 seo:
     title:
     description:

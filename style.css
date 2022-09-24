@@ -1241,7 +1241,7 @@ hr.short.center {
     background-image: url('/assets/brands/EPL/namaste.jpg');
     background-size: cover;
     background-position: 50% 57%;
-    min-height: 50vh;
+    min-height: 70vh;
     padding: 5%;
 }
 
@@ -1249,7 +1249,7 @@ hr.short.center {
     background-image: url('/assets/travel/MYANMAR/fishermanandbirds.jpg');
     background-size: cover;
     background-position: 50% 65%;
-    min-height: 50vh;
+    min-height: 70vh;
     padding: 5%;
 }
 
@@ -1257,7 +1257,7 @@ hr.short.center {
     background-image: url('/assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg');
     background-size: cover;
     background-position: 50% 65%;
-    min-height: 50vh;
+    min-height: 70vh;
     padding: 5%;
 }
   
@@ -1380,7 +1380,7 @@ hr.short.center {
 .lg-backdrop.in {opacity: 0.9;}
 
 .lg-next, .lg-prev {
-    background-color: #EDEDE9;
+    background-color: transparent;
     color: #676767;
     font-size: 60px;
   }
@@ -1743,6 +1743,33 @@ apply to devices smaller than 1024px----------------------------------------- */
     h3.white {font-size: 2.8rem;}
 
 
+/* Gallery Page */
+
+    h2.big-text {font-size: 2.5rem;}
+
+    .tag {font-size: 0.9rem;}
+
+    .sof-kapa-tag {font-size: 1.1rem;}
+
+    .max-width-md {max-width: 840px; margin: auto;}
+
+    h3.absolute.center.fade-text-related {
+        color:#676767;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+
+/* Related Projects */
+
+    .fade-container {padding: 1rem;}
+
+    h3.absolute.center.fade-text-related {font-size: 30px;}
+
 
 
 /* Contact Page */
@@ -1756,21 +1783,6 @@ apply to devices smaller than 1024px----------------------------------------- */
     }
 
     .textarea {min-height: 6rem;}
-
-
-/* Gallery Page */
-    .max-width-md {max-width: 840px; margin: auto;}
-
-    h3.absolute.center.fade-text-related {
-        color:#676767;
-        font-size: 25px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-    }
-
 
 
 /* Footer Styles */
@@ -1897,7 +1909,6 @@ apply to devices smaller than 768px ------------------------------------------*/
     .dropdown-content a {font-size: 0.9rem;}
 
 
-
 /* About Section */
 
     h2.about-section {
@@ -1924,17 +1935,17 @@ apply to devices smaller than 768px ------------------------------------------*/
 
 
 /* Category Pages */
-.banner-brands,
-.banner-portrait,
-.banner-travel {padding: 10%;}
+    .banner-brands,
+    .banner-portrait,
+    .banner-travel {
+        padding: 10%;
+        min-height: 50vh;}
 
-.category-text-title {
-    padding: 0rem;
-    line-height: 1;
-}
-.category-text-p {font-size: 1.2rem;}
-
-
+    .category-text-title {
+        padding: 0rem;
+        line-height: 1;
+    }
+    .category-text-p {font-size: 1.2rem;}
 
 
 
@@ -1964,6 +1975,9 @@ apply to devices smaller than 768px ------------------------------------------*/
 
 
 /* Individual Gallery Pages */
+
+    div.bg-image.square.gallery-banner {padding-bottom: 80%;}
+    
     .sof-kapa-tag{font-size: 1rem; }
 
     .gallery [class*="col-"] {
@@ -1976,9 +1990,18 @@ apply to devices smaller than 768px ------------------------------------------*/
         font-size: 30px;
       }
 
+    h4 {font-size: 1.8rem;}
+
+    p.tag.gray.margin-b-0{padding-bottom: 1rem;}
+
+
+/* Related Posts */
+
+    .sm-landscape-wide {padding-bottom: 70%}
+
     h3.absolute.center.fade-text-related-white {
         color:white;
-        font-size: 20px;
+        font-size: 30px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1987,10 +2010,6 @@ apply to devices smaller than 768px ------------------------------------------*/
         line-height: 1;
       }
 
-      h4 {font-size: 1.8rem;}
-
-
-/* Related Posts */
     a.padded-2 {
         padding: 2%;
     }
@@ -2095,20 +2114,6 @@ apply to devices smaller than 576px ------------------------------------*/
     a.link-in-text {font-size: 1rem;}
 
 
-/* Latest Projects */
-    .location-tag {font-size: 1rem;}
-    .category-tag {font-size: 1rem;}
-
-    div.padded-t-2{padding: 0rem;}
-
-    h3.latest-projects-title {padding-bottom: 1rem;}
-
-    a.view-project-button:hover {color: #c9c9c9;}
-
-    p.latest-projects-text {font-size: 1.1rem;}
-
-
-
 /* Contact Form */
     .form-title {
         font-size: 1.6rem;
@@ -2118,7 +2123,7 @@ apply to devices smaller than 576px ------------------------------------*/
     .form label {margin-top: 3rem;}
 
     .form input {padding: 0.2rem;}
-    
+
 
 /* Category page banner */
     .category-text-title {
@@ -2142,6 +2147,47 @@ apply to devices smaller than 576px ------------------------------------*/
     .sm\:w-1\/2 {width: 75%;}
 
 
+
+/* Latest Projects */
+    .location-tag {font-size: 1rem;}
+    .category-tag {font-size: 1rem;}
+
+    div.padded-t-2{padding: 0rem;}
+
+    h3.latest-projects-title {padding-bottom: 1rem;}
+
+    a.view-project-button:hover {color: #c9c9c9;}
+
+    p.latest-projects-text {font-size: 1.1rem;}
+
+
+
+/* Gallery Page */
+ 
+
+    h2.big-text {font-size: 2rem;}
+
+    .big-text {
+        line-height: 1;
+        padding-top: 0.5rem;}
+
+    .project-description {margin-bottom: 3rem;}
+
+    .tag {font-size: 0.8rem;}
+
+    p.tag.gray.margin-b-0{padding-bottom: 1rem;}
+
+
+/* Related Projects */
+
+    h3.absolute.center.fade-text-related-white {font-size: 25px;}
+
+
+/* Contact Page */
+   .xs-padded-3 {padding: 3%;}
+
+
+
 /* Footer Styles */
 
     footer a {font-size: 1.1rem;}
@@ -2150,10 +2196,7 @@ apply to devices smaller than 576px ------------------------------------*/
     span.light {font-size: 1.2rem;}
 
 
-
-/* Contact Page */
-    .xs-padded-3 {padding: 3%;}
-}
+  }
 
 
 
@@ -2265,24 +2308,11 @@ apply to devices smaller than 320px --------------------------------------------
     .sof-kapa-tag {font-size: 1rem;}
 
     .lg-next, .lg-prev {
-        background-color: transparent;
         color: white;
         font-size: 20px;
     }
 
-
-    .xs-landscape-wide {padding-bottom: 56%}
-
-    h3.absolute.center.fade-text-related-white {
-        color:white;
-        font-size: 14px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        line-height: 1;
-    }
+    h3.absolute.center.fade-text-related-white {font-size: 18px;}
 
     h4 {font-size: 1.2rem;}
 
