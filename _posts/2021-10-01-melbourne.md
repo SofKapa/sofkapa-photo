@@ -12,7 +12,7 @@ categories:
   - Oceania
   - City
 cover_image: /assets/travel/MELBOURNE/blue.jpg
-featured_image: /assets/travel/MELBOURNE/hamilton.jpg
+featured_image: /assets/travel/MELBOURNE/manwithcocacola.jpg
 seo:
     title:
     description:

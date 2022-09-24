@@ -12,7 +12,7 @@ categories:
   - Hospitality
   - Food
 cover_image: /assets/brands/MOZZA/littlegirls.jpg
-featured_image: /assets/brands/MOZZA/guyfriends.jpg
+featured_image: /assets/brands/MOZZA/pizzainair.jpg
 seo:
     title:
     description:

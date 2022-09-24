@@ -12,7 +12,7 @@ categories:
   - Travel
   - Oceania
 cover_image: /assets/travel/NEWZEALAND/mountcookview.jpg
-featured_image: /assets/travel/NEWZEALAND/redhouseglaciar.jpg
+featured_image: /assets/travel/NEWZEALAND/tongariro4.jpg
 seo:
     title:
     description:
