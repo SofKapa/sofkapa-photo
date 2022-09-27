@@ -6,11 +6,7 @@ location: Australia
 featured: true
 live_url: https://www.google.com
 main_category: travel
-categories:
-  - Street
-  - Travel
-  - Oceania
-  - City
+categories: [travel, street, city, oceania]
 cover_image: /assets/travel/MELBOURNE/blue.jpg
 featured_image: /assets/travel/MELBOURNE/manwithcocacola.jpg
 seo:

@@ -6,11 +6,7 @@ location: Greece
 featured: true
 live_url: https://www.google.com
 main_category: travel
-categories:
-  - Street
-  - Travel
-  - Europe
-  - Summer
+categories: [travel, street, europe, summer]
 cover_image: /assets/travel/GREECE/manstairs.jpg
 featured_image: /assets/travel/GREECE/ladyinblue.jpg
 seo:

@@ -6,12 +6,7 @@ location: Lisbon - Portugal
 featured: true
 live_url: https://www.google.com
 main_category: brands
-categories:
-  - Brands
-  - Bar
-  - Hospitality
-  - Nightlife
-  - Drinks
+categories: [brands, hospitality, bar, small event, music, drinks, nightlife]
 cover_image: /assets/brands/BMV/bartenderserving.jpg
 featured_image: /assets/brands/BMV/bartenderserving.jpg
 seo:

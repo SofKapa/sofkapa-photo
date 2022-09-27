@@ -6,11 +6,7 @@ location: Oceania
 featured: true
 live_url: https://www.google.com
 main_category: travel
-categories:
-  - Landscape
-  - Nature
-  - Travel
-  - Oceania
+categories: [travel, landscape, nature, oceania]
 cover_image: /assets/travel/NEWZEALAND/mountcookview.jpg
 featured_image: /assets/travel/NEWZEALAND/tongariro4.jpg
 seo:

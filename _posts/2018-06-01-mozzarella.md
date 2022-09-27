@@ -6,11 +6,7 @@ location: Melbourne - Australia
 featured: true
 live_url: https://www.google.com
 main_category: brands
-categories:
-  - Brands
-  - Restaurant
-  - Hospitality
-  - Food
+categories: [brands, hospitality, restaurant, food]
 cover_image: /assets/brands/MOZZA/littlegirls.jpg
 featured_image: /assets/brands/MOZZA/pizzainair.jpg
 seo:

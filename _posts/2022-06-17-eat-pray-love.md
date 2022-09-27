@@ -6,12 +6,7 @@ location: Lisbon - Portugal
 featured: true
 live_url: https://www.google.com
 main_category: brands
-categories:
-  - Brands
-  - Cafe
-  - Hospitality
-  - Health
-  - Food
+categories: [brands, hospitality, restaurant, cafe, health, food]
 cover_image: /assets/brands/EPL/sofiagarcio.jpg
 featured_image: /assets/brands/EPL/cutefamily.jpg
 seo:

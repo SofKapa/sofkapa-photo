@@ -6,9 +6,7 @@ location: Victoria - Australia
 featured: true
 live_url: /project-gallery.html
 main_category: portrait
-categories:
-  - Pregnancy
-  - Portrait
+categories: [portrait, pregnancy, forest]
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
 featured_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
 seo:

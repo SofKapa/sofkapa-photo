@@ -6,9 +6,7 @@ location: Lisbon - Portugal
 featured: true
 live_url: /project-gallery.html
 main_category: portrait
-categories:
-  - Pregnancy
-  - Portrait
+categories: [portrait, pregnancy, beach]
 cover_image: /assets/portrait/CAROLINA/favourite.jpg
 featured_image: /assets/portrait/CAROLINA/favourite.jpg
 seo:
