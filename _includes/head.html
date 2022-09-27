@@ -7,6 +7,15 @@
       
     <!-- SEO METADATA --------------------------------------->
     <!-- General SEO -->
+    <title> {{ page.seo.title | default: site.data.site-settings.seo.title }} </title> 
+    <meta name="description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}">
+    <meta name="keywords" content="{{ page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
+
+    {% if page.seo.hide-from-google == true %}
+        <meta name="robots" content="noindex, nofollow">
+    {% else %}
+        <meta name="robots" content="index, follow">
+    {% endif %}
 
     <!--  Social media sharing META Tags -->
     <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
@@ -30,12 +39,9 @@
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-config" content="/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+ 
 
 
-    <title>{{page.title}}</title>
-    
-
-    
     <!-- EXTERNAL STYLESHEETS ------------------------------->
     <!-- Fontawesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
