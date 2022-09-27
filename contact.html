@@ -126,23 +126,18 @@
 
 
 <!-- This is the contact section -->
-<section class="grid tall-100">
+<section class="grid tall-80">
     
-    <div class="col-6_md-7_sm-12 banner">
+    <div class="col-6_md-5_sm-12 banner">
     </div>
 
-    <div class="col-6_md-5_sm-12 grid bg-lightorange relative">
-        
-        <div class="col-3_sm-12-bottom padded-lg">
-            <h2 class="vertical-text hide-sm"> contact </h2>
-            <h2 class="show-sm text-right xl-text"> contact </h2>
-        </div>
+    <div class="col-6_md-7_sm-12 grid bg-lightorange relative">
     
         <div class="col-12-bottom text-right padded-lg">
-            <h4 class="big-title"> OWNER & PHOTOGRAPHER  </h4>
+            <h4 class="big-title white"> OWNER & PHOTOGRAPHER  </h4>
             <p class="name"> SOF KAPA </p>
-            <p class="contacts"> <span class="dark-gray show-inline hide-md show-sm-inline padded-lr-2">Email </span><a href="mailto:hello@sofkapaphotography.com" class="link-in-text">hello@sofkapaphotography.com </a></p>
-            <p class="contacts"> <span class="dark-gray show-inline hide-md show-sm-inline padded-lr-2">Phone | Whatsapp</span><a href="tel:0061 472 813 028" class="link-in-text"> +62 472 813 028 </a></p>
+            <p class="contacts"> <span class="dark-gray show-inline padded-lr-2 hide-xs">Email </span><a href="mailto:hello@sofkapaphotography.com" class="contacts">hello@sofkapaphotography.com </a></p>
+            <p class="contacts"> <span class="dark-gray show-inline padded-lr-2 hide-xs">Phone | Whatsapp</span><a href="tel:0061 472 813 028" class="contacts"> +62 472 813 028 </a></p>
         </div>
 
     </div>
@@ -155,33 +150,37 @@
 
 
     <!-- Title -->
-    <div class="padded-md sm-padded-10 gray text-center">
-        <h3 class="padded-b-2">let's talk!</h3>
-        <p class="oblique">I wanna hear about your project and help you meet your needs</p>
+    <div class="lets-talk">
+        <h3 class="padded-b-2 sm-padded-b-0">let's talk!</h3>
+        <p class="lets-talk">I wanna hear about your project and help you meet your needs</p>
     </div>
 
     <!-- The form -->
-    <div class="padded-lr-5">
+    <div class="max-width-md padded-b-5 sm-padded-b-0 xs-bg-green">
 
-        <h3 class="text-center" style="padding-bottom: 3rem;padding-top:3rem;color:#d5bdaf; font-size:1.5rem;">YOUR MESSAGE</h3>
-        <div class="grid-center">
-            <div class="col-5_md-7_sm-10">
-                <form action="https://formspree.io/f/mrgdpoqd" method="POST">
-                    <label for="_name">name</label>
-                    <input type="text" name="_name" id="_name"/>
-        
-                    <label for="_replyto">email</label>
-                    <input type="email" name="_replyto" id="_replyto"/>
-        
-                    <label for="message" class="padded-b-2 padded-t-4 sm-padded-t-2">type your message</label>
-                    <textarea name="message" id="message" placeholder="tell me a bit about you, your business or brand and the project you'd like to work on"></textarea>
-                </form>
-                <div class="grid-center sm-padded-5">
-                    <button type="submit" class="form-button-contact-page col-3_sm-6" style="padding: 0.5rem 0.5rem;">SUBMIT</button>
+        <div class="bg-green margin-lr-5 margin-tb-5">
+    
+            <h3 class="form-title sm-padded-0">YOUR MESSAGE</h3>
+    
+            <div class="grid-center form">
+                <div class="col-9_sm-10">
+                    <form action="https://formspree.io/f/mrgdpoqd" method="POST">
+                        <label for="_name">NAME</label>
+                        <input type="text" name="_name" id="_name"/>
+    
+                        <label for="_replyto">EMAIL</label>
+                        <input type="email" name="_replyto" id="_replyto"/>
+    
+                        <label for="message" class="padded-b-2 padded-t-4 sm-padded-tb-0">TYPE YOUR MESSAGE</label>
+                        <textarea name="message" id="message" placeholder="tell me a bit about you, your business or brand and the project you'd like to work on"></textarea>
+                    </form>
+                    <div class="grid-center sm-padded-5">
+                        <button type="submit" class="form-button col-3_sm-6" style="padding: 0.5rem 0.5rem">SUBMIT</button>
+                    </div>
                 </div>
             </div>
-        </div>
     
+        </div>
     </div>
 
 </section>
@@ -189,11 +188,11 @@
 
 
 <!-- FOOTER ---------------------------------------------------------------------------->
-<footer class="grid bg-lightgray contact-footer padded-sm sm-padded-5 xs-padded-3">
+<footer class="grid bg-lightgray padded-sm padded-t-5 md-padded-t-3 sm-padded-lr-2 xs-padded-3">
 
 
     <!-- column -->
-    <div class="col-3_md-6_sm-12_xs-8 grid">
+    <div class="col-3_md-5_sm-12_xs-10 grid">
         <a href="/index.html">
             <img src="/assets/logo2.svg" class="transparent-logo">
         </a>
@@ -203,13 +202,13 @@
     <div class="col-3 hide-md"></div>
 
     <!-- column -->
-    <div class="col-6_md-12-middle">
+    <div class="col-6_md-12-middle footer-contact">
 
         <p class="footer-contact">Melbourne based photographer specialized in</p>
 
         <nav style="text-align:right;">
-            <a href="/brandsandevents.html" class="footer-contact sm-padded-0"> BRANDS & EVENTS </a>|
-            <a href="/travelandstreet.html" class="footer-contact sm-padded-0"> TRAVEL & STREET </a>|
+            <a href="/brandsandevents.html" class="footer-contact sm-padded-0"> BRANDS & EVENTS </a><span class="hide-xs">|</span>
+            <a href="/travelandstreet.html" class="footer-contact sm-padded-0"> TRAVEL & STREET </a><span class="hide-xs">|</span>
             <a href="/portraitandlifestyle.html" class="footer-contact sm-padded-0"> PORTRAIT & LIFESTYLE </a>
         </nav>
 
@@ -224,8 +223,8 @@
 
     </div>
 
-    <div class="col-12 sub-footer">
-      <p style="font-size:0.7rem; text-align: center;"> All Rights Reserved - Copyright 2022 </p>
+    <div class="col-12">
+      <p class="copyright"> All Rights Reserved - Copyright 2022 </p>
     </div>
 
 </footer>
