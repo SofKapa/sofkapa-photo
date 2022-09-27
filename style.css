@@ -548,7 +548,7 @@ h2.about-section {
 
 .lets-talk {
     text-align: center;
-    padding: 10%;
+    padding: 10rem 10rem 6rem 10rem;
 }
 
 p.lets-talk {
@@ -1903,7 +1903,7 @@ apply to devices smaller than 768px ------------------------------------------*/
 
 /* Lets Talk Section */
 
-    div.lets-talk {padding:15%;}
+    div.lets-talk {padding: 5rem 5rem 1rem 5rem;}
 
     p.lets-talk {font-size: 1.2rem;}
 
@@ -2107,6 +2107,9 @@ apply to devices smaller than 576px ------------------------------------*/
 
 
 /* Contact Form */
+
+    div.lets-talk {padding: 9rem 2.5rem 4rem 2.5rem;}
+
     .form-title {
         font-size: 1.6rem;
         padding-top: 3rem;
@@ -2115,6 +2118,7 @@ apply to devices smaller than 576px ------------------------------------*/
     .form label {margin-top: 3rem;}
 
     .form input {padding: 0.2rem;}
+
 
 
 /* Category page banner */
