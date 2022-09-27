@@ -1049,6 +1049,11 @@ form label {
   }
 
 
+.border-bottom {border-bottom: 2px solid #676767 ;}
+
+h2.border-bottom {padding-bottom: 1rem;}
+
+
 .big-title {
     font-size: 2.5rem;
     padding-bottom: 4rem;
