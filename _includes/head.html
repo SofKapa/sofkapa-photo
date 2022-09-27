@@ -1,8 +1,24 @@
 <head>
 
 
-    <!-- Responsiveness Meta Tag -->
+    <!-- RESPONSIVENESS META TAG ---------------------------->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      
+    <!-- SEO METADATA --------------------------------------->
+    <!-- General SEO -->
+
+    <!--  Social media sharing META Tags -->
+    <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
+    <meta property="og:description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}"> 
+    <meta property="og:image" content="{{ page.seo.social_image | default: site.data.site-settings.seo.social_image }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:card" content="{{ page.seo.twitter_card | default: site.data.site-settings.seo.twitter_card }}">
+    <meta name="og:site_name" content="{{ site.data.site-settings.seo.site_name }}">
+    <link rel="icon" type="image/png" href="{{ site.data.site-settings.seo.favicon_image }}">
+
+    <!-- Pinterest Meta Tags ------------>
+    <meta property="article:author" content="{{ page.author | default: site.seo.author }}" />
 
     <!-- Favicon - Website Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -19,6 +35,8 @@
     <title>{{page.title}}</title>
     
 
+    
+    <!-- EXTERNAL STYLESHEETS ------------------------------->
     <!-- Fontawesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
