@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Melbourne
-description: Graffitied laneways, cultural diversity, endless entertainment and best coffee breaks are just a few words to describe you...
+description: Busy laneways, cultural diversity, endless entertainment and best coffee breaks are just a few words to describe you...
 location: Australia
 featured: true
 live_url: https://www.google.com
