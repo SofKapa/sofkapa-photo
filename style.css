@@ -1389,6 +1389,8 @@ hr.short.center {
     font-size: 60px;
   }
 
+picture.lg-img-wrap {padding-bottom: 3rem;}
+
 
 /* CAROLINA GALLERY */
 .allbrown         { background-image: url('assets/portrait/CAROLINA/allbrown.jpg');background-position: 25% 50%; }

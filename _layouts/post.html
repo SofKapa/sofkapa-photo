@@ -32,7 +32,7 @@ layout: default
   <div class="gallery grid max-width-md sm-padded-lr-1" id="lightgallery">
       {% for item in page.gallery %}
     
-        <a class="{{item.column-size}} gallery-item" href="{{item.background_image}}">
+        <a class="{{item.column-size}} gallery-item" href="{{item.background_image}}" alt="{{item.alt}}">
           <div class="bg-image {{item.aspect-ratio}}" 
               style="background-image: url('{{item.background_image}}');">
           </div>
