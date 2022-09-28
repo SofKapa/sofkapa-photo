@@ -1,12 +1,12 @@
 seo:
   site_name: Sof Kapa Photography
-  title: Photography Portfolio
-  description:
-  keywords:
-  social_image:
-  author:
+  title: Sof Kapa Photography | Melbourne Photographer
+  description: Melbourne photographer specializing in brand, food, travel, street and lifestyle photography
+  keywords: [photography, photographer, melbourne, brand, lifestyle, food, travel, street, small business]
+  social_image: /assets/social_images/site_social.jpg
+  author: Sof Kapa
   favicon_image:
 social:
-  instagram_username:
+  instagram_username: sofkapa_photo
   facebook_url:
   twitter_username:
