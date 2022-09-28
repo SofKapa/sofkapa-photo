@@ -10,10 +10,10 @@ categories: [portrait, small event, wedding]
 cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg
 featured_image: /assets/portrait/PIAANDGONZO/cheers.jpg
 seo:
-    title:
-    description:
-    social_image:
-    keywords:
+    title: Pia & Gonzo | Sof Kapa Photography
+    description: Captures of an intimate wedding ceremony in the heart of Melbourne
+    social_image: /assets/portrait/PIAANDGONZO/cheers.jpg
+    keywords: [melbourne photographer, small wedding, portrait, small ceremony, small event]
     hide-from-google: false
 gallery:
   - column-size: col-12

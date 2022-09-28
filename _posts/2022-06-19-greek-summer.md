@@ -10,10 +10,10 @@ categories: [travel, street, europe, summer]
 cover_image: /assets/travel/GREECE/manstairs.jpg
 featured_image: /assets/travel/GREECE/ladyinblue.jpg
 seo:
-    title:
-    description:
-    social_image:
-    keywords:
+    title: Greek Summer | Sof Kapa Photography
+    description: Photos of my summer travels accross the Greek Islands
+    social_image: /assets/travel/GREECE/ladyinblue.jpg
+    keywords: [travel photographer, street, europe, greece, greek islands]
     hide-from-google: false 
 gallery:
 - column-size: col-4

@@ -10,10 +10,10 @@ categories: [portrait, pregnancy, forest]
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
 featured_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
 seo:
-    title:
-    description:
-    social_image:
-    keywords:
+    title: Maddy & Sam | Sof Kapa Photography
+    description: Pregnancy shoot in a special place - the forest where they first met
+    social_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
+    keywords: [melbourne photographer, portrait, pregnancy, forest]
     hide-from-google: false
 gallery:
   - column-size: col-12

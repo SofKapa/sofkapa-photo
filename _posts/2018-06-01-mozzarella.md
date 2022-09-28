@@ -10,10 +10,10 @@ categories: [brands, hospitality, restaurant, food]
 cover_image: /assets/brands/MOZZA/littlegirls.jpg
 featured_image: /assets/brands/MOZZA/pizzainair.jpg
 seo:
-    title:
-    description:
-    social_image:
-    keywords:
+    title: Mozzarella Bar | Sof Kapa Photography
+    description: Authentic Italian cuisine and cozy atmosphere in the heart of Seddon
+    social_image: /assets/brands/MOZZA/pizzainair.jpg
+    keywords: [melbourne photographer, mozzarella bar, brands, hospitality, restaurant, food]
     hide-from-google: false 
 gallery:
 - column-size: col-4

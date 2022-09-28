@@ -10,10 +10,10 @@ categories: [brands, hospitality, bar, small event, music, drinks, nightlife]
 cover_image: /assets/brands/BMV/bartenderserving.jpg
 featured_image: /assets/brands/BMV/bartenderserving.jpg
 seo:
-    title:
-    description:
-    social_image:
-    keywords:
+    title: O Bom O Mau e O Vilao | Sof Kapa Photography
+    description: My photography gallery of this busy bar located in the heart of Lisbon
+    social_image: /assets/brands/BMV/bartenderserving.jpg
+    keywords: [brand photographer, bar, small event, music, drinks, nightlife, lisbon]
     hide-from-google: false 
 gallery:
 - column-size: col-4

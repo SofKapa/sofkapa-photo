@@ -10,10 +10,10 @@ categories: [travel, landscape, nature, oceania]
 cover_image: /assets/travel/NEWZEALAND/mountcookview.jpg
 featured_image: /assets/travel/NEWZEALAND/tongariro4.jpg
 seo:
-    title:
-    description:
-    social_image:
-    keywords:
+    title: New Zealand | Sof Kapa Photography
+    description: A country where nature is the queen and everything looks like a painting
+    social_image: /assets/travel/NEWZEALAND/tongariro4.jpg
+    keywords: [travel photographer, new zealand, travel, landscape, nature, oceania]
     hide-from-google: false 
 gallery:
 - column-size: col-12

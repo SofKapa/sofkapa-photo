@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Carolina's pregnancy
-description: This mom-to-be loves the ocean and we couldn't think of a better place for the photoshoot
+description: This mom-to-be loves the Portuguese ocean and we couldn't think of a better place for the photoshoot
 location: Lisbon - Portugal
 featured: true
 live_url: /project-gallery.html
@@ -10,10 +10,10 @@ categories: [portrait, pregnancy, beach]
 cover_image: /assets/portrait/CAROLINA/favourite.jpg
 featured_image: /assets/portrait/CAROLINA/favourite.jpg
 seo:
-    title:
-    description:
-    social_image:
-    keywords:
+    title: Carolina's Pregnancy | Sof Kapa Photography
+    description: This mom-to-be loves the Portuguese ocean and we couldn't think of a better place for the photoshoot
+    social_image: /assets/portrait/CAROLINA/reflection.jpg
+    keywords: [portrait photographer, pregnancy, beach]
     hide-from-google: false
 gallery:
   - column-size: col-6
