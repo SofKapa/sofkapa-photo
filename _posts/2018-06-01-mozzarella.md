@@ -106,8 +106,5 @@ gallery:
   alt: A group of male friends eating lunch and drinking beer in a restaurant with vintage Italian signs
 ---
 
-## Under the olive trees
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum maiores, necessitatibus explicabo cum officiis deserunt ea reprehenderit in quod corporis adipisci voluptatum. Voluptatum rem alias quaerat deleniti minima pariatur.
 
 
