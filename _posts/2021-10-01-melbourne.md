@@ -111,6 +111,6 @@ gallery:
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/MELBOURNE/oldgreekman.jpg
-  alt: Old man sitting on a bench and observing people - Melbourne, Australia
+  alt: Old man sitting on a bench in Yarraville and observing people - Melbourne, Australia
 ---
 
