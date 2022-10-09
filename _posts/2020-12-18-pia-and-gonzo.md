@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pia and Gonzo Wedding
-description: Small moments of love and celebration in the middle of the longest lockdown in the world
+description: Moments of love and celebration in the middle of the longest lockdown in the world
 location: Melbourne - Australia
 featured: true
 live_url: /project-gallery.html
