@@ -546,10 +546,16 @@ h2.about-section {
 
 /* Let's Talk Section */
 
-.lets-talk {
+.lets-talk.homepage {
     text-align: center;
-    padding: 10rem 10rem 6rem 10rem;
+    padding: 10%;
 }
+
+.lets-talk.contact-page  {
+    text-align: center;
+    padding: 14rem 10rem 10rem 10rem;
+}
+
 
 p.lets-talk {
     font-size: 1.5rem;
@@ -904,7 +910,8 @@ a.link:hover {
 
 
 /* ------------------ MAIN FOOTER STYLES -------------------------------------*/ 
-div.col-12-top.padded-b-2 h3 {padding-bottom: 2rem;}
+
+/* div.col-12-top.padded-b-2 h3 {padding-bottom: 2rem;}
 
 div.col-12-bottom.main-footer a{
     color: #c9c9c9;
@@ -914,7 +921,7 @@ div.col-12-bottom.main-footer a:hover{color: white;}
 
 div.col-12-bottom.main-footer p {line-height: 1;}
 
-.light {font-weight: bolder;}
+.light {font-weight: bolder;} */
 
 
 
@@ -2110,7 +2117,9 @@ apply to devices smaller than 576px ------------------------------------*/
 
 /* Contact Form */
 
-    div.lets-talk {padding: 9rem 2.5rem 4rem 2.5rem;}
+    .lets-talk.homepage {padding: 4rem 2.5rem;}
+
+    .lets-talk.contact-page {padding: 8rem 2.5rem 4rem 2.5rem;}
 
     .form-title {
         font-size: 1.6rem;
