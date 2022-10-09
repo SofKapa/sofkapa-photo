@@ -3,15 +3,15 @@ $( document ).ready(function() {
     
 
     // HAMBURGER MENU 
-    // If you click on element with 'hamburger-button' class (in this case 'MENU')... 
+    // If you click on element with 'burger-button' class... 
 
-    $('.hamburger-button').click(function(){
+    $('.burger-button').click(function(){
   
-        // ...the element with the class of 'mobile-menu' (in this case our div containing the links) will fade toggle:
-        $('.mobile-menu').slideToggle(); 
+        // ...the element with the class of 'burger-button' (in this case our div containing the links) will slide toggle:
+        $(".burger-button").toggleClass("active");
     
         // ...the hamburger element itself:
-        $(this).toggleClass('active'); 
+        $(".burger-menu").toggleClass("active");
 
     });
 
