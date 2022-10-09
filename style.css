@@ -461,6 +461,7 @@ p, li {
     margin-bottom:1rem;
 }
 
+h1:last-child,
 h2:last-child,
 h3:last-child,
 h4:last-child,
@@ -510,7 +511,7 @@ p:last-child {
 
 /* About Section */
 
-h2.about-section {
+h1.about-section {
     margin-bottom: 0;
     padding-bottom: 3rem;
 }
@@ -851,7 +852,7 @@ nav.col-7_sm-12.hide-sm.right.full-menu {padding: 2rem 0rem 7rem 1rem;}
 
 /* HAMBURGER MENU  */
 
-div.hamburger-button {text-align: right;}
+div.hamburger-button {text-align: center;}
 
 .hamburger-button {
     padding: 2%;
@@ -1058,7 +1059,7 @@ form label {
 
 .border-bottom {border-bottom: 2px solid #676767 ;}
 
-h2.border-bottom {padding-bottom: 1rem;}
+h1.border-bottom {padding-bottom: 1rem;}
 
 
 .big-title {
@@ -1272,14 +1273,7 @@ hr.short.center {
     min-height: 70vh;
     padding: 5%;
 }
-  
-.banner h2 {
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 4rem;
-}
-  
+
 
 
 /* Project covers */
@@ -1754,7 +1748,7 @@ apply to devices smaller than 1024px----------------------------------------- */
 
 /* Gallery Page */
 
-    h2.big-text {font-size: 2.5rem;}
+    h1.big-text {font-size: 2.5rem;}
 
     .tag {font-size: 0.9rem;}
 
@@ -1904,7 +1898,7 @@ apply to devices smaller than 768px ------------------------------------------*/
 
 /* About Section */
 
-    h2.about-section {
+    h1.about-section {
         padding-bottom: 2rem;
         padding-top:1rem;}
 
@@ -2172,7 +2166,7 @@ apply to devices smaller than 576px ------------------------------------*/
 /* Gallery Page */
  
 
-    h2.big-text {font-size: 2rem;}
+    h1.big-text {font-size: 2rem;}
 
     .big-text {
         line-height: 1;
