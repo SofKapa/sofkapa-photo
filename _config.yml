@@ -1,8 +1,7 @@
 collections:
   posts:
     output: true
-    permalink: /gallery/:slug
-    
+    permalink: /gallery/:slug 
 url: "https://sofkapaphotography.com" # the base hostname & protocol for my site
 plugins:
   - jekyll-sitemap
