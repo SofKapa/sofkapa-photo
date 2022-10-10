@@ -1155,9 +1155,9 @@ form label {
 
 /* ---- CONTACT PAGE STYLES ------------------------------------------------- */
 .banner {
-    background-image: url("/assets/travel/MYANMAR/twoladieslooking.jpg");
+    background-image: url("/assets/myportrait.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 100%;
     position: relative;
   }
 
