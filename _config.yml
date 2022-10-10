@@ -1,4 +1,4 @@
-permalink: /:title
+permalink: /:slug
 collections:
   posts:
     output: true
