@@ -74,7 +74,7 @@ gallery:
     alt: Old cobbler working on a shoe
   - column-size: col-6
     aspect-ratio: landscape
-    background_image: /assets/portrait/PETERCALLEA/cobblewifelandscape.jpg
+    background_image: /assets/portrait/PETERCALLEA/cobblerwifelandscape.jpg
     alt: Old lady working in a shoe repairs' shop front
 ---
 
