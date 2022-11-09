@@ -54,7 +54,7 @@ gallery:
     alt: Kingsville (Melbourne) shoe repair shop street front
   - column-size: col-4
     aspect-ratio: landscape
-    background_image: /assets/portrait/PETERCALLEA/shoerepairshopdoor.jpg
+    background_image: /assets/portrait/PETERCALLEA/shoerepairsshopdoor.jpg
     alt: Opening hours sign in shop's glass door
   - column-size: col-4
     aspect-ratio: landscape
