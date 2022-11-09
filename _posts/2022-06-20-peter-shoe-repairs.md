@@ -68,30 +68,14 @@ gallery:
     aspect-ratio: landscape
     background_image: /assets/portrait/PETERCALLEA/cobblerandwife2.jpg
     alt: Old cobbler and his wife smiling at the camera
-  - column-size: col-4
-    aspect-ratio: portrait
-    background_image: /assets/portrait/PETERCALLEA/portraitcobbler3.jpg
-    alt: Old cobbler working on a pair of shoes on his machine
-  - column-size: col-4
-    aspect-ratio: portrait
-    background_image: /assets/portrait/PETERCALLEA/cobblerwife.jpg
-    alt: Old lady looking at the camera and laughing
-  - column-size: col-4
-    aspect-ratio: portrait
-    background_image: /assets/portrait/PETERCALLEA/portraitcobbler6.jpg
-    alt: Old cobbler reparing his machine
-  - column-size: col-12
-    aspect-ratio: landscape
-    background_image: /assets/portrait/PETERCALLEA/cobblerwifelandscape.jpg  
-    alt: Old lady working in the front of a shoe repair shop
   - column-size: col-6
     aspect-ratio: landscape
     background_image: /assets/portrait/PETERCALLEA/landscapecobbler1.jpg
     alt: Old cobbler working on a shoe
   - column-size: col-6
     aspect-ratio: landscape
-    background_image: /assets/portrait/PETERCALLEA/landscapecobbler2.jpg
-    alt: Old cobbler working on a shoe on his machine
+    background_image: /assets/portrait/PETERCALLEA/cobblewifelandscape.jpg
+    alt: Old lady working in a shoe repairs' shop front
 ---
 
 
