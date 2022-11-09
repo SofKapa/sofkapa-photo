@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Peter Callea Shoe Repairs 
-description: Peter was born in South of Italy and emigrated to Australia as a young man. In 1957, 24 years old Peter opened this shoe repair shop in Kingsville (Melbourne), and has been working as a cobbler alongside his wife ever since...
+description: Peter was born in South of Italy and emigrated to Australia as a young man. In 1957, 24 year old Peter opened this shoe repair shop in Kingsville (Melbourne), and has been working as a cobbler alongside his wife ever since...
 location: Melbourne - Australia
 featured: true
 live_url: /project-gallery.html
