@@ -52,18 +52,22 @@ gallery:
   aspect-ratio: square
   background_image: /assets/brands/MOZZA/passata.jpg
   alt: La Bella San Marzano tomato can and Pasta Fresca flour
-- column-size: col-12
+- column-size: col-6
   aspect-ratio: portrait
   background_image: /assets/brands/MOZZA/littlegirls.jpg
   alt: Two little girls standing on chairs and leaning over restaurant's bench to watch pizzaiolo make pizza
+- column-size: col-6
+  aspect-ratio: portrait
+  background_image: /assets/brands/MOZZA/venue2.jpg
+  alt: Restaurant shelf filled with Italian products and vintage signs
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/brands/MOZZA/aperol.jpg
   alt: Aperol Spritz cocktail served in a wine glass with an orange slice next to a plant
 - column-size: col-4
   aspect-ratio: portrait
-  background_image: /assets/brands/MOZZA/venue2.jpg
-  alt: Restaurant shelf filled with Italian products and vintage signs
+  background_image: /assets/brands/MOZZA/outdoordining.jpg
+  alt: Three people eating pizza outdoors on a sunny day
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/brands/MOZZA/italianbeer.jpg
