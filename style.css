@@ -1745,7 +1745,7 @@ good for 24px screens and over --------------------------------------------- */
 
 
 /* Scrolling Gallery */
-    .flex.flex-row.flex-nowrap.overflow-x-scroll.padded-b-3 {justify-content: space-around;}
+    /* .flex.flex-row.flex-nowrap.overflow-x-scroll.padded-b-3 {justify-content: space-around;} */
 
 
 /* Contact Page */
