@@ -3,7 +3,7 @@ layout: post
 title: Carolina's pregnancy
 description: This mom-to-be loves the Portuguese ocean and we couldn't think of a better place for the photoshoot
 location: Lisbon - Portugal
-featured: true
+featured: false
 live_url: /project-gallery.html
 main_category: portrait
 categories: [portrait, pregnancy, beach]

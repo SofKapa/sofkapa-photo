@@ -3,7 +3,7 @@ layout: post
 title: Maddy and Sam
 description: Back to the forest where they first met...
 location: Victoria - Australia
-featured: true
+featured: false
 live_url: /project-gallery.html
 main_category: portrait
 categories: [portrait, pregnancy, forest]

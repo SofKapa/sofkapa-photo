@@ -3,7 +3,7 @@ layout: post
 title: Melbourne
 description: Busy laneways, cultural diversity, endless entertainment and best coffee breaks are just a few words to describe you...
 location: Australia
-featured: true
+featured: false
 live_url: https://www.google.com
 main_category: travel
 categories: [travel, street, city, oceania]

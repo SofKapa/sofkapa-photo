@@ -3,7 +3,7 @@ layout: post
 title: Mozzarella Bar
 description: Authentic Italian cuisine and cozy atmosphere in the heart of Seddon 
 location: Melbourne - Australia
-featured: true
+featured: false
 live_url: https://www.google.com
 main_category: brands
 categories: [brands, hospitality, restaurant, food]
