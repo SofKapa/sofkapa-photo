@@ -18,12 +18,12 @@ seo:
 gallery:
 - column-size: col-4
   aspect-ratio: portrait
-  background_image: /assets/travel/THAILAND/frenchhatladybeach.jpg
-  alt: Lady in a french hat sitting and smoking at the beach | Sairee - Koh Tao, Thailand
-- column-size: col-4
-  aspect-ratio: portrait
-  background_image: /assets/travel/THAILAND/tropicalbeachbar.jpg
-  alt: Tropical Beach Bar in the middle of trees | Shark Bay - Koh Tao, Thailand
+  background_image: /assets/travel/AUSTRALIA/kalbarrinationalpark.jpg
+  alt: River running through gorge in dry land | Kalbarri National Park - Western Australia, Australia
+- column-size: col-8
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/kakaduubirrsunset.jpg
+  alt: Two people sitting down watching a sunset on a mountain | Kakadu National Park - Northern Territory, Australia
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/THAILAND/girlbangkokgrandpalace.jpg
