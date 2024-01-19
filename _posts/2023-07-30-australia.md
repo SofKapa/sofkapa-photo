@@ -31,6 +31,12 @@ gallery:
   alt: Australia Aboriginal rock art in Kakadu | Kakadu National Park - Northern Territory, Australia
 
 
+- column-size: col-12
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
+  alt: Natural pool surrounded by rocks and trees and overlooking mountains | Kakadu National Park - Northern Territory, Australia
+
+
 - column-size: col-6
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/karijinihamersleygorge.jpg
