@@ -41,7 +41,7 @@ gallery:
   alt: Gorge in between red rocks leading to a natural pool | Karijini National Park - Western Australia
 - column-size: col-4
   aspect-ratio: square
-  background_image: /assets/travel/AUSTRALIA/karijinirockformations.jpg
+  background_image: /assets/travel/AUSTRALIA/karijiniredrockformations.jpg
   alt: Ancient rock formation showing different layers and shapes of red sediment | Karijini National Park - Western Australia
 - column-size: col-4
   aspect-ratio: square
