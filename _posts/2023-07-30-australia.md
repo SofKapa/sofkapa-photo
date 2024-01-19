@@ -53,14 +53,6 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/karijininationalparkpools.jpg
   alt: Green natural pool meeting red rock formations next to a tree | Karijini National Park - Western Australia
 
-- column-size: col-6
-  aspect-ratio: portrait
-  background_image: /assets/travel/AUSTRALIA/kangarooislandkangaroos.jpg
-  alt: Two kangaroos in the middle of native grass | Kangaroo Island - South Australia
-- column-size: col-6
-  aspect-ratio: portrait
-  background_image: /assets/travel/AUSTRALIA/kangarooislandroad.jpg
-  alt: Famous road in Kangaroo Island before it burnt down in the 2020 bushfires | Kangaroo Island - South Australia
 
 ---
 
