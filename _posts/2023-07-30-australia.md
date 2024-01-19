@@ -54,6 +54,10 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/karijininationalparkpools.jpg
   alt: Green natural pool meeting red rock formations next to a tree | Karijini National Park - Western Australia
 
+
+
+
+
 - column-size: col-6
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/karijinihamersleygorge.jpg
@@ -64,8 +68,8 @@ gallery:
   alt: Moody picture of cliffs meeting the ocean | Kangaroo Island
 
 
-- column-size: col-4
-  aspect-ratio: portrait
+- column-size: col-12
+  aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/australianredcentre.jpg
   alt: Footpath going through a red dirt dry landscape with a native tree and grass | Red Centre, Australia
 
