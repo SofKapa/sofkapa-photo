@@ -24,17 +24,31 @@ gallery:
 - column-size: col-6
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kalbarrinationalpark.jpg
-  alt: River running through gorge in dry land | Kalbarri National Park - Western Australia, Australia
+  alt: River running through gorge in dry land | Kalbarri National Park - Western Australia
 - column-size: col-6
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kakadurockart.jpg
   alt: Australia Aboriginal rock art in Kakadu | Kakadu National Park - Northern Territory, Australia
 
-
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
   alt: Natural pool surrounded by rocks and trees and overlooking mountains | Kakadu National Park - Northern Territory, Australia
+
+- column-size: col-4
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/karijiniredgorge.jpg
+  alt: Gorge in between red rocks leading to a natural pool | Karijini National Park - Western Australia
+- column-size: col-4
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/karijinirockformations.jpg
+  alt: Ancient rock formation showing different layers and shapes of red sediment | Karijini National Park - Western Australia
+- column-size: col-4
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/redrocks.jpg
+  alt: Red rocks covered in sand | Red Rock Beach - New South Wales, Australia
+
+
 
 
 - column-size: col-6
