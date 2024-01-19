@@ -29,7 +29,7 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/kakadurockart.jpg
   alt: Australia Aboriginal rock art in Kakadu | Kakadu National Park - Northern Territory, Australia
 
-- column-size: col-8
+- column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/kakaduubirrsunset.jpg
   alt: Two people sitting down watching a sunset on a mountain | Kakadu National Park - Northern Territory, Australia
