@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Patterns of Australia
-description: Breathtaking views and spectacular diversity are uncovered with every step on this red country
+description: Breathtaking views and spectacular diversity are uncovered with every step on this red dirt country
 location: Australia
 featured: true
 live_url: https://www.google.com
 main_category: travel
-categories: [travel, nature, australia, vibrant colours]
+categories: [travel, nature, australia]
 cover_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
-featured_image: /assets/travel/AUSTRALIA/redrocks.jpg
+featured_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
 seo:
     title: Patterns of Australia | Sof Kapa Photography
     description: Travel and nature photos that uncover one of the most diverse and vast countries in the world, Australia
