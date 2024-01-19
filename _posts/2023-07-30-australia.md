@@ -20,14 +20,19 @@ gallery:
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kalbarrinationalpark.jpg
   alt: River running through gorge in dry land | Kalbarri National Park - Western Australia, Australia
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/australianredcentre.jpg
+  alt: Footpath going through a red dirt dry landscape with a native tree and grass | Red Centre, Australia
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/kakadurockart.jpg
+  alt: Australia Aboriginal rock art in Kakadu | Kakadu National Park - Northern Territory, Australia
+
 - column-size: col-8
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/kakaduubirrsunset.jpg
   alt: Two people sitting down watching a sunset on a mountain | Kakadu National Park - Northern Territory, Australia
-- column-size: col-4
-  aspect-ratio: portrait
-  background_image: /assets/travel/THAILAND/girlbangkokgrandpalace.jpg
-  alt: Lady posing in front of a temple in the Grand Palace | Grand Palace - Bangkok, Thailand
 
 - column-size: col-6
   aspect-ratio: portrait
