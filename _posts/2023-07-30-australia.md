@@ -35,15 +35,14 @@ gallery:
   alt: Australia Aboriginal rock art in Kakadu | Kakadu National Park - Northern Territory, Australia
 
 
-
 - column-size: col-6
   aspect-ratio: portrait
-  background_image: /assets/travel/THAILAND/flowermarketlady.jpg
-  alt: Lady preparing flower at the flower market | Pak Khlong Talat - Bangkok, Thailand
+  background_image: /assets/travel/AUSTRALIA/karijinihamersleygorge.jpg
+  alt: Small waterfall falling in a natural pool inside of rock formations | Karijini National Park - Western Australia, Australia
 - column-size: col-6
   aspect-ratio: portrait
-  background_image: /assets/travel/THAILAND/manwithdreadlocks.jpg
-  alt: Man with dreadlocks sitting and smoking | Koh Tao, Thailand
+  background_image: /assets/travel/AUSTRALIA/kangarooislandcliffs.jpg
+  alt: Moody picture of cliffs meeting the ocean | Kangaroo Island
 
 - column-size: col-12
   aspect-ratio: landscape
