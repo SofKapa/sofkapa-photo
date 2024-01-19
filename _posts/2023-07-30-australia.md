@@ -49,7 +49,10 @@ gallery:
   alt: Red rocks covered in sand | Red Rock Beach - New South Wales, Australia
 
 
-
+- column-size: col-12
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/karijininationalparkpools.jpg
+  alt: Green natural pool meeting red rock formations next to a tree | Karijini National Park - Western Australia
 
 - column-size: col-6
   aspect-ratio: portrait
