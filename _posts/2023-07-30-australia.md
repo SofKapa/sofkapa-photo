@@ -21,15 +21,11 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/kakaduubirrsunset.jpg
   alt: Two people sitting down watching a sunset on a mountain | Kakadu National Park - Northern Territory, Australia
 
-- column-size: col-4
+- column-size: col-6
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kalbarrinationalpark.jpg
   alt: River running through gorge in dry land | Kalbarri National Park - Western Australia, Australia
-- column-size: col-4
-  aspect-ratio: portrait
-  background_image: /assets/travel/AUSTRALIA/australianredcentre.jpg
-  alt: Footpath going through a red dirt dry landscape with a native tree and grass | Red Centre, Australia
-- column-size: col-4
+- column-size: col-6
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kakadurockart.jpg
   alt: Australia Aboriginal rock art in Kakadu | Kakadu National Park - Northern Territory, Australia
@@ -43,6 +39,13 @@ gallery:
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kangarooislandcliffs.jpg
   alt: Moody picture of cliffs meeting the ocean | Kangaroo Island
+
+
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/australianredcentre.jpg
+  alt: Footpath going through a red dirt dry landscape with a native tree and grass | Red Centre, Australia
+
 
 - column-size: col-12
   aspect-ratio: landscape
