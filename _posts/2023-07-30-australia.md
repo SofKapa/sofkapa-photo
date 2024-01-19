@@ -48,13 +48,23 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/redrocks.jpg
   alt: Red rocks covered in sand | Red Rock Beach - New South Wales, Australia
 
-
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/karijininationalparkpools.jpg
   alt: Green natural pool meeting red rock formations next to a tree | Karijini National Park - Western Australia
 
-
+- column-size: col-4
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/kangarooislandkangaroos.jpg
+  alt: Two kangaroos in the middle of native grass | Kangaroo Island - South Australia
+- column-size: col-4
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/windingriver.jpg
+  alt: Winding river among lush green landscape seen from airplane | Great Barrier Reef - Queensland, Australia
+- column-size: col-4
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/kangarooislandroad.jpg
+  alt: Famous road in Kangaroo Island before it burnt down in the 2020 bushfires | Kangaroo Island - South Australia
 
 
 
