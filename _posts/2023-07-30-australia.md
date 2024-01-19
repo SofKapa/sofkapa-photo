@@ -16,6 +16,11 @@ seo:
     keywords: [travel photographer, nature photography, australia, australian nature]
     hide-from-google: false
 gallery:
+- column-size: col-12
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/kakaduubirrsunset.jpg
+  alt: Two people sitting down watching a sunset on a mountain | Kakadu National Park - Northern Territory, Australia
+
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kalbarrinationalpark.jpg
@@ -29,10 +34,7 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/kakadurockart.jpg
   alt: Australia Aboriginal rock art in Kakadu | Kakadu National Park - Northern Territory, Australia
 
-- column-size: col-12
-  aspect-ratio: landscape
-  background_image: /assets/travel/AUSTRALIA/kakaduubirrsunset.jpg
-  alt: Two people sitting down watching a sunset on a mountain | Kakadu National Park - Northern Territory, Australia
+
 
 - column-size: col-6
   aspect-ratio: portrait
