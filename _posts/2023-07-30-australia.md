@@ -98,7 +98,7 @@ gallery:
   alt: Arial view of the Whitehaven beach on the Whitsundays | Great Barrier Reef - Queensland, Australia
 - column-size: col-3
   aspect-ratio: square
-  background_image: /assets/travel/AUSTRALIA/whitsundays.jpg
+  background_image: /assets/travel/AUSTRALIA/greatbarrierreefisland.jpg
   alt: Arial view of the Whitehaven beach on the Whitsundays | Great Barrier Reef - Queensland, Australia
 ---
 
