@@ -123,5 +123,10 @@ gallery:
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/huttlagoonpinklake.jpg
   alt: Close-up of a pink lake and Australian native bushland | Hutt Lagoon Pink Lake - Western Australia, Australia
+
+- column-size: col-12
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/broomesunsetonthebeach.jpg
+  alt: Pastel colour sunset view of a white sand beach from the top of a hill | Tomaree National Park - New South Wales, Australia
 ---
 
