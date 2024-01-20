@@ -114,14 +114,14 @@ gallery:
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/byronbaylighthouse.jpg
-  alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
+  alt: Sunset on the Cape Byron Lighthouse | Byron Bay - New South Wales, Australia
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/goldcoastsunset.jpg
-  alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
+  alt: Pastel colour sunset on Surfers Paradise beach | Gold Coast - Queensland, Australia
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/huttlagoonpinklake.jpg
-  alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
+  alt: Close-up of a pink lake and Australian native bushland | Hutt Lagoon Pink Lake - Western Australia, Australia
 ---
 
