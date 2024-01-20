@@ -44,7 +44,7 @@ gallery:
   alt: Sun setting on massive orange rock in Australian red centre | Uluru-Kata Tjuta National Park - Northern Territory, Australia
 
 - column-size: col-12
-  aspect-ratio: landscape
+  aspect-ratio: landscape-wide
   background_image: /assets/travel/AUSTRALIA/windingriver.jpg
   alt: Arial view of a winding river among lush green landscape | Great Barrier Reef - Queensland, Australia
 
