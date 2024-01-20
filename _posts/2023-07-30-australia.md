@@ -79,6 +79,23 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/karijinifortescuefalls.jpg
   alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
 
+- column-size: col-3
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/greatbarrierreefisland.jpg
+  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+- column-size: col-3
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/kangarooislandkangaroos.jpg
+  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+- column-size: col-3
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/kangarooislandroad.jpg
+  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+- column-size: col-3
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/whitsundays.jpg
+  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
@@ -127,6 +144,6 @@ gallery:
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/broomesunsetonthebeach.jpg
-  alt: Pastel colour sunset view of a white sand beach from the top of a hill | Tomaree National Park - New South Wales, Australia
+  alt: Cotton candy sunset over a beach | Broome Town Beach - Western Australia
 ---
 
