@@ -84,6 +84,19 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/windingriver.jpg
   alt: Arial view of a winding river among lush green landscape | Great Barrier Reef - Queensland, Australia
 
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/kangarooislandocean.jpg
+  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/kangarooislandrocks.jpg
+  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/kangarooislandcliffs.jpg
+  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+
 - column-size: col-6
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/turquoisegreatbarrierreef.jpg
@@ -92,5 +105,6 @@ gallery:
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/greatbarrierreef.jpg
   alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
+
 ---
 
