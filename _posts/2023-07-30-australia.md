@@ -111,13 +111,17 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/tomareenationalparklookout.jpg
   alt: Pastel colour sunset view of a white sand beach from the top of a hill | Tomaree National Park - New South Wales, Australia
 
-- column-size: col-6
+- column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/byronbaylighthouse.jpg
   alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
-- column-size: col-6
+- column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/goldcoastsunset.jpg
+  alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/huttlagoonpinklake.jpg
   alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
 ---
 
