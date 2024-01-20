@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Patterns of Australia
-description: Breathtaking views and spectacular diversity are uncovered with every step on this red dirt country
+description: Breathtaking views and spectacular diversity are uncovered with every step on this blood red country
 location: Australia
 featured: true
 live_url: https://www.google.com
@@ -82,16 +82,16 @@ gallery:
 - column-size: col-12
   aspect-ratio: landscape-wide
   background_image: /assets/travel/AUSTRALIA/kangarooislandroad.jpg
-  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+  alt: Famous road on Kangaroo Island that burnt during the 2020 bushfires | Kangaroo Island - South Australia
 
 - column-size: col-6
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/greatbarrierreefisland.jpg
-  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+  alt: Arial view of an island in the Great Barrier reef | Great Barrier Reef - Queensland, Australia
 - column-size: col-6
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/whitsundays.jpg
-  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+  alt: Arial view of the Whitehaven beach in the Whitsundays | Great Barrier Reef - Queensland, Australia
 
 - column-size: col-12
   aspect-ratio: landscape
