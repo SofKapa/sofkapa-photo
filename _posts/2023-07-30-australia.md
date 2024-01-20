@@ -30,6 +30,19 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/kakadurockart.jpg
   alt: Australia Aboriginal rock art in Kakadu | Kakadu National Park - Northern Territory, Australia
 
+- column-size: col-4
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/australianflora.jpg
+  alt: Dry Australian landscape with rocks and native grass | Australian Red Centre
+- column-size: col-4
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/uluruayersrocksunset.jpg
+  alt: Pastel sunset setting over Uluru | Uluru, Ayers Rock - Northern Territory, Australia
+- column-size: col-4
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/australianredcenter.jpg
+  alt: Sun setting on massive orange rock in Australian red centre | Uluru-Kata Tjuta National Park - Northern Territory, Australia
+
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
