@@ -108,7 +108,7 @@ gallery:
 
 - column-size: col-12
   aspect-ratio: landscape
-  background_image: /assets/travel/AUSTRALIA/kangarooislandroad.jpg
+  background_image: /assets/travel/AUSTRALIA/tomareenationalparklookout.jpg
   alt: Natural pool surrounded by rocks and trees and overlooking mountains | Kakadu National Park - Northern Territory, Australia
 
 ---
