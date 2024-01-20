@@ -66,6 +66,19 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/karijininationalparkpools.jpg
   alt: Green natural pool meeting red rock formations next to a tree | Karijini National Park - Western Australia
 
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/karijinihamersleygorge.jpg
+  alt: Small waterfall in a natural pool surounded by rock formations | Karijini National Park - Western Australia
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/wallamanwaterfalls.jpg
+  alt: Highest single-drop waterfall in Australia | Girringun National Park - Queensland, Australia
+- column-size: col-4
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/karijinifortescuefalls.jpg
+  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+
 
 ---
 
