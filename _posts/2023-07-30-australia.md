@@ -45,8 +45,8 @@ gallery:
 
 - column-size: col-12
   aspect-ratio: landscape
-  background_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
-  alt: Natural pool surrounded by rocks and trees and overlooking mountains | Kakadu National Park - Northern Territory, Australia
+  background_image: /assets/travel/AUSTRALIA/windingriver.jpg
+  alt: Arial view of a winding river among lush green landscape | Great Barrier Reef - Queensland, Australia
 
 - column-size: col-4
   aspect-ratio: square
@@ -81,8 +81,8 @@ gallery:
 
 - column-size: col-12
   aspect-ratio: landscape
-  background_image: /assets/travel/AUSTRALIA/windingriver.jpg
-  alt: Arial view of a winding river among lush green landscape | Great Barrier Reef - Queensland, Australia
+  background_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
+  alt: Natural pool surrounded by rocks and trees and overlooking mountains | Kakadu National Park - Northern Territory, Australia
 
 - column-size: col-4
   aspect-ratio: portrait
