@@ -109,7 +109,15 @@ gallery:
 - column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/tomareenationalparklookout.jpg
-  alt: Natural pool surrounded by rocks and trees and overlooking mountains | Kakadu National Park - Northern Territory, Australia
+  alt: Pastel colour sunset view of a white sand beach from the top of a hill | Tomaree National Park - New South Wales, Australia
 
+- column-size: col-6
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/byronbaylighthouse.jpg
+  alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
+- column-size: col-6
+  aspect-ratio: portrait
+  background_image: /assets/travel/AUSTRALIA/goldcoastsunset.jpg
+  alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
 ---
 
