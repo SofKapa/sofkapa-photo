@@ -139,7 +139,7 @@ gallery:
   alt: Close-up of a pink lake and Australian native bushland | Hutt Lagoon Pink Lake - Western Australia, Australia
 
 - column-size: col-12
-  aspect-ratio: landscape
+  aspect-ratio: landscape-wide
   background_image: /assets/travel/AUSTRALIA/broomesunsetonthebeach.jpg
   alt: Cotton candy sunset over a beach | Broome Town Beach - Western Australia
 ---
