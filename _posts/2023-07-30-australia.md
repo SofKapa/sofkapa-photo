@@ -83,5 +83,22 @@ gallery:
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/windingriver.jpg
   alt: Arial view of a winding river among lush green landscape | Great Barrier Reef - Queensland, Australia
+
+- column-size: col-3
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/turquoisegreatbarrierreef.jpg
+  alt: Arial view of the turquoise blue great barrier reef | Great Barrier Reef - Queensland, Australia
+- column-size: col-3
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/greatbarrierreef.jpg
+  alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
+- column-size: col-3
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/whitsundays.jpg
+  alt: Arial view of the Whitehaven beach on the Whitsundays | Great Barrier Reef - Queensland, Australia
+- column-size: col-3
+  aspect-ratio: square
+  background_image: /assets/travel/AUSTRALIA/whitsundays.jpg
+  alt: Arial view of the Whitehaven beach on the Whitsundays | Great Barrier Reef - Queensland, Australia
 ---
 
