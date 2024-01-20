@@ -79,6 +79,9 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/karijinifortescuefalls.jpg
   alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
 
-
+- column-size: col-12
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/windingriver.jpg
+  alt: Arial view of a winding river among lush green landscape | Great Barrier Reef - Queensland, Australia
 ---
 
