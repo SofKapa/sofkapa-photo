@@ -79,7 +79,7 @@ gallery:
   background_image: /assets/travel/AUSTRALIA/karijinifortescuefalls.jpg
   alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
 
-- column-size: col-6
+- column-size: col-12
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/kangarooislandroad.jpg
   alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
