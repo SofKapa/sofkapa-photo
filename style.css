@@ -1343,6 +1343,11 @@ hr.short.center {
     background-size: cover;
     background-position: 30% 50%;
 }
+.bg-carolinafavourite { 
+    background-image: url('assets/portrait/CAROLINA/favourite.jpg'); 
+    background-size: cover;
+    background-position: 30% 50%;
+}
 .bg-familyepl { 
     background-image: url('assets/brands/coverbrands.jpg');
     background-size: cover;
