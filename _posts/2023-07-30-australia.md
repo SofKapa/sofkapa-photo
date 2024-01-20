@@ -87,15 +87,15 @@ gallery:
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kangarooislandocean.jpg
-  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+  alt: Native Australian landscape meeting the ocean | Kangaroo Island - South Australia
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kangarooislandrocks.jpg
-  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+  alt: Close-up of ocean hitting rock formation | Kangaroo Island - South Australia
 - column-size: col-4
   aspect-ratio: portrait
   background_image: /assets/travel/AUSTRALIA/kangarooislandcliffs.jpg
-  alt: Waterfall on orange rock formations surrounded by trees | Karijini National Park - Western Australia
+  alt: Cliff meeting the ocean lookout | Kangaroo Island - South Australia
 
 - column-size: col-6
   aspect-ratio: landscape
@@ -105,6 +105,11 @@ gallery:
   aspect-ratio: landscape
   background_image: /assets/travel/AUSTRALIA/greatbarrierreef.jpg
   alt: Arial view of the great barrier reef meeting the deep ocean | Great Barrier Reef - Queensland, Australia
+
+- column-size: col-12
+  aspect-ratio: landscape
+  background_image: /assets/travel/AUSTRALIA/kangarooislandroad.jpg
+  alt: Natural pool surrounded by rocks and trees and overlooking mountains | Kakadu National Park - Northern Territory, Australia
 
 ---
 
