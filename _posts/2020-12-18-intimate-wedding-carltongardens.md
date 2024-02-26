@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intimate wedding in Melbourne's Carlton Gardens
+title: Intimate wedding in Carlton Gardens
 description: Moments of love and celebration in the middle of the longest lockdown in the world
 location: Melbourne - Australia
 featured: true
