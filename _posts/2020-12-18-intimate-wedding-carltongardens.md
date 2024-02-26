@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pia and Gonzo Wedding
+title: Intimate wedding in Melbourne's Carlton Gardens
 description: Moments of love and celebration in the middle of the longest lockdown in the world
 location: Melbourne - Australia
 featured: true
@@ -10,7 +10,7 @@ categories: [portrait, small event, wedding]
 cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg
 featured_image: /assets/portrait/PIAANDGONZO/cheers.jpg
 seo:
-    title: Pia & Gonzo | Sof Kapa Photography
+    title: Intimate wedding in Melbourne's Carlton Gardens | Sof Kapa Photography
     description: Captures of an intimate wedding ceremony in the heart of Melbourne
     social_image: /assets/portrait/PIAANDGONZO/cheers.jpg
     keywords: [melbourne photographer, small wedding, portrait, small ceremony, small event]
