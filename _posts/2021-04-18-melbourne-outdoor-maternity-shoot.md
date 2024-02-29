@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maddy and Sam
+title: Melbourne outdoor pregnancy shoot
 description: Back to the forest where they first met...
 location: Victoria - Australia
 featured: false
