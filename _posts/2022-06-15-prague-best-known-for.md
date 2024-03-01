@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prague
+title: All that Prague is best known for
 description: Magical streets in the city of a hundred spires
 location: Czech Republic
 featured: false
@@ -10,7 +10,7 @@ categories: [travel, street, city, europe]
 cover_image: /assets/travel/PRAGUE/bridgeseller.jpg
 featured_image: /assets/travel/PRAGUE/charlesbridge.jpg
 seo:
-    title: Prague | Sof Kapa Photography
+    title: All that Prague is best known for | Sof Kapa Photography
     description: Capturing the magical streets in the city of a hundred spires
     social_image: /assets/travel/PRAGUE/charlesbridge.jpg
     keywords: [travel photographer, street photography, city, europe]
