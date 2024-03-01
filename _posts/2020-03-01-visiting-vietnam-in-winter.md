@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vietnam
+title: Visiting Vietnam in Winter
 description: Among rice fields, lovely people and delicious street food
 location: Southeast Asia
 featured: true
@@ -10,7 +10,7 @@ categories: [travel, street, asia]
 cover_image: /assets/travel/VIETNAM/foodtruckladies.jpg
 featured_image: /assets/travel/VIETNAM/girllanterns.jpg
 seo:
-    title: Vietnam | Sof Kapa Photography
+    title: Visiting Vietnam in Winter | Sof Kapa Photography
     description: Among rice fields, lovely people and delicious Vietnamese street food
     social_image: /assets/travel/VIETNAM/girllanterns.jpg
     keywords:  [travel photographer, vietnam, travel, street, asia]

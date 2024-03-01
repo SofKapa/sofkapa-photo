@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Melbourne
+title: Melbourne city captured
 description: Busy laneways, cultural diversity, endless entertainment and best coffee breaks are just a few words to describe you...
 location: Australia
 featured: false
@@ -10,7 +10,7 @@ categories: [travel, street, city, oceania]
 cover_image: /assets/travel/MELBOURNE/blue.jpg
 featured_image: /assets/travel/MELBOURNE/manwithcocacola.jpg
 seo:
-    title: Melbourne | Sof Kapa Photography
+    title: Melbourne city captured | Sof Kapa Photography
     description: Photographs of Melbourne's busy laneways, cultural diversity, endless entertainment and best coffee breaks
     social_image: /assets/travel/MELBOURNE/manwithcocacola.jpg
     keywords: [melbourne photographer, australian, travel photographer, street photography melbourne, city, oceania]

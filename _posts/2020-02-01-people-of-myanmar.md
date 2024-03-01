@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Myanmar
+title: People of Myanmar 
 description: Mysterious and captivating are the two first words that come to my mind when thinking of you...
 location: Southeast Asia
 featured: false
@@ -10,7 +10,7 @@ categories: [travel, street, asia]
 cover_image: /assets/travel/MYANMAR/twoladieslooking.jpg
 featured_image: /assets/travel/MYANMAR/threemonks.jpg
 seo:
-    title: Myanmar | Sof Kapa Photography
+    title: People of Myanmar | Sof Kapa Photography
     description: A photo series of the captivating and mysterious Burmese country 
     social_image: /assets/travel/MYANMAR/threemonks.jpg
     keywords: [travel photographer, myanmar, travel, street, asia]
