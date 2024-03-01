@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Zealand Landscapes
+title: New Zealand landscapes
 description: A country where nature is the queen and everything looks like a painting
 location: Oceania
 featured: false
@@ -10,7 +10,7 @@ categories: [travel, landscape, nature, oceania]
 cover_image: /assets/travel/NEWZEALAND/mountcookview.jpg
 featured_image: /assets/travel/NEWZEALAND/tongariro4.jpg
 seo:
-    title: New Zealand Landscapes | Sof Kapa Photography
+    title: New Zealand landscapes | Sof Kapa Photography
     description: A country where nature is the queen and everything looks like a painting
     social_image: /assets/travel/NEWZEALAND/tongariro4.jpg
     keywords: [travel photographer, new zealand, travel, landscape, nature, oceania]
