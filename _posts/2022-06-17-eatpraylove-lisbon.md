@@ -2,7 +2,7 @@
 layout: post
 title: Eat Pray Love, Lisbon
 description: Capturing the light in this holistic health cafe was easy. From their delicious brunches to restoring yoga classes... 
-location: Lisbon - Portugal
+location: Portugal
 featured: false
 live_url: https://www.google.com
 main_category: brands
