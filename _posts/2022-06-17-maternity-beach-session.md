@@ -10,7 +10,7 @@ categories: [portrait, pregnancy, beach]
 cover_image: /assets/portrait/CAROLINA/favourite.jpg
 featured_image: /assets/portrait/CAROLINA/favourite.jpg
 seo:
-    title: Carolina's Pregnancy | Sof Kapa Photography
+    title: Maternity session at the beach | Sof Kapa Photography
     description: This mom-to-be loves the Portuguese ocean and we couldn't think of a better place for the photoshoot
     social_image: /assets/portrait/CAROLINA/reflection.jpg
     keywords: [portrait photographer, pregnancy, beach]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eat Pray Love
+title: Eat Pray Love, Lisbon
 description: Capturing the light in this holistic health cafe was easy. From their delicious brunches to restoring yoga classes... 
 location: Lisbon - Portugal
 featured: false
@@ -10,7 +10,7 @@ categories: [brands, hospitality, restaurant, cafe, health, food]
 cover_image: /assets/brands/EPL/sofiagarcio.jpg
 featured_image: /assets/brands/EPL/cutefamily.jpg
 seo:
-    title: Eat Pray Love | Sof Kapa Photography
+    title: Eat Pray Love Lisbon | Sof Kapa Photography
     description: Capturing the light in this holistic health cafe was easy. From their delicious brunches to restoring yoga classes... 
     social_image: /assets/brands/EPL/cutefamily.jpg
     keywords: [food photographer, brands, restaurant, cafe, health, food, lisbon]

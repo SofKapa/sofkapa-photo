@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Woven Cafe
+title: Woven Cafe, Yarraville
 description: Former textile factory transformed into a cozy industrial cafe in the heart of Yarraville
 location: Melbourne - Australia
 featured: false
@@ -10,7 +10,7 @@ categories: [brands, hospitality, cafe, food]
 cover_image: /assets/brands/WOVEN/beetrootlatte.jpg
 featured_image: /assets/brands/WOVEN/phonecoffee.jpg
 seo:
-    title: Woven Cafe | Sof Kapa Photography
+    title: Woven Cafe Yarraville | Sof Kapa Photography
     description: Former textile factory transformed into a cozy industrial cafe in the heart of Yarraville
     social_image: /assets/brands/WOVEN/phonecoffee.jpg
     keywords: [melbourne photographer, woven cafe, brands, hospitality, cafe, food]

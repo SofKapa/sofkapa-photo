@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mozzarella Bar
+title: Mozzarella Bar, Seddon
 description: Authentic Italian cuisine and cozy atmosphere in the heart of Seddon 
 location: Melbourne - Australia
 featured: false
@@ -10,7 +10,7 @@ categories: [brands, hospitality, restaurant, food]
 cover_image: /assets/brands/MOZZA/littlegirls.jpg
 featured_image: /assets/brands/MOZZA/pizzainair.jpg
 seo:
-    title: Mozzarella Bar | Sof Kapa Photography
+    title: Mozzarella Bar Seddon | Sof Kapa Photography
     description: Authentic Italian cuisine and cozy atmosphere in the heart of Seddon
     social_image: /assets/brands/MOZZA/pizzainair.jpg
     keywords: [melbourne photographer, mozzarella bar, brands, hospitality, restaurant, food]

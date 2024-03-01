@@ -1,6 +1,6 @@
 ---
 layout: post
-title: O Bom o Mau e o Vilão
+title: O Bom o Mau e o Vilão, Lisbon
 description: A busy bar located in the heart of Lisbon, known by its vibrant colours and cheerful live music
 location: Lisbon - Portugal
 featured: true
@@ -10,7 +10,7 @@ categories: [brands, hospitality, bar, small event, music, drinks, nightlife]
 cover_image: /assets/brands/BMV/bartenderserving.jpg
 featured_image: /assets/brands/BMV/bartenderserving.jpg
 seo:
-    title: O Bom O Mau e O Vilao | Sof Kapa Photography
+    title: O Bom O Mau e O Vilao Lisbon | Sof Kapa Photography
     description: My photography gallery of this busy bar located in the heart of Lisbon
     social_image: /assets/brands/BMV/bartenderserving.jpg
     keywords: [brand photographer, bar, small event, music, drinks, nightlife, lisbon]
