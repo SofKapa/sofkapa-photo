@@ -29,20 +29,21 @@
     function eraseCookie(name) {
         createCookie(name,"",-1);
     }
-  
-    function runCookiedCodes() {
-              // Add tracking scripts here
-              console.log("cookies ran")
-              alert(‘Tracking codes activated’);
-              {% include personal-tracking-scripts.html %}
-              // End tracking scripts
-    }
-  
+
+
     if(readCookie('cookie-notice-accepted')=='true') {
-  
-        runCookiedCodes()
-        //removes cookies while testing
-        //eraseCookie('cookie-notice-accepted')
+        
+        //To see if its working
+        alert{'Tracking codes activated'};
+
+        // Add tracking scripts here
+
+        {% include personal-tracking-scripts.html %}
+
+
+        // End tracking scripts here
+
+
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
