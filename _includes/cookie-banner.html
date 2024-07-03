@@ -1,8 +1,10 @@
-{% include google-analytics.html %}
+<!-- Google Analytics - First script  -->
+<script async src="<https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID>"></script>
+
 
 <div id="cookie-notice">
-    <span>We would like to use third party cookies and scripts to improve the functionality of this website</span>
-
+    <span>We would like to use third party cookies and scripts to improve the functionality of this website.</span>
+    
     <a href="/privacy" class="button-subtle">More info</a>
     <a id="cookie-notice-accept" class="button">Approve</a>
 
@@ -32,32 +34,36 @@
         createCookie(name,"",-1);
     }
 
+    function runCookiedCodes() {
+
+            // Add tracking scripts here 
+            {% include personal-tracking-scripts.html %};
+
+            console.log("cookies ran")
+
+            // End tracking scripts 
+  }
 
     if(readCookie('cookie-notice-accepted')=='true') {
-        
-        //To see if its working
-        alert{'Tracking codes activated'};
 
-        // Add tracking scripts here
+        // alert('Tracking codes activated');  
 
-        {% include personal-tracking-scripts.html %}
+        runCookiedCodes()
 
-
-        // End tracking scripts here
+        //removes cookies while testing
+        //eraseCookie('cookie-notice-accepted')
 
 
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-        createCookie('cookie-notice-accepted','true',31);
+        createCookie('cookie-notice-dismissed','true',31);
         document.getElementById('cookie-notice').style.display = 'none';
-        runCookiedCodes()
+        location.reload();
     });
-  
     document.querySelector("#close-cookie-banner").addEventListener("click", (e) => {
-  
+        
         document.querySelector("#cookie-notice").style.display = 'none';
     });
-  
-  </script>
+</script>
