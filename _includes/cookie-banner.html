@@ -38,9 +38,15 @@
     function runCookiedCodes() {
 
             // Add tracking scripts here 
-            {% include personal-tracking-scripts.html %};
-
             console.log("cookies ran")
+
+            // Google Anlytics (second script without the tags)
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-9M78DLKD8V');
+
 
             // End tracking scripts 
   }
