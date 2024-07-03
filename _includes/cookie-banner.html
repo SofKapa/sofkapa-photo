@@ -35,25 +35,15 @@
         createCookie(name,"",-1);
     }
 
-    function runCookiedCodes() {
-
-        // Add tracking scripts here 
-        console.log("cookies ran")
-
-        // Google Anlytics (second script without the tags)
-        {% include personal-tracking-scripts.js %}
-
-        // End tracking scripts 
-  }
 
     if(readCookie('cookie-notice-accepted')=='true') {
 
+        //Add tracking scripts here
+        alert(Tracking codes activated)
+
+        {% include personal-tracking-scripts.js %}
+
         // alert('Tracking codes activated');  
-
-        runCookiedCodes()
-
-        //removes cookies while testing
-        //eraseCookie('cookie-notice-accepted')
 
 
     } else {
