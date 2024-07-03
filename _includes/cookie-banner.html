@@ -41,7 +41,11 @@
             console.log("cookies ran")
             
             // Google Analytics tracking (second script, without the tags) and other scripts
-            {% include personal-tracking-scripts.js %};
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-9M78DLKD8V');
 
             // End tracking scripts 
   }
@@ -53,7 +57,7 @@
         runCookiedCodes()
 
         //removes cookies while testing
-        eraseCookie('cookie-notice-accepted')
+        // eraseCookie('cookie-notice-accepted')
 
 
     } else {
