@@ -27,13 +27,6 @@ $( document ).ready(function() {
         download: false
     });
 
-    //COOKIE BANNER
-    $("#cookie-notice-accept").click(function(){
-        $("cookie-notice").hide(); 
-    });
-    
-
-
 });
 
 
