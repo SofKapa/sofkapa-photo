@@ -26,6 +26,11 @@ $( document ).ready(function() {
         speed: 500,
         download: false
     });
+
+    //COOKIE BANNER
+    $("#cookie-notice-accept").click(function(){
+        $("cookie-notice").hide(); 
+    });
     
 
 
