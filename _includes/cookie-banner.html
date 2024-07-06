@@ -37,29 +37,16 @@
     function eraseCookie(name) {
         createCookie(name,"",-1);
     }
-    function runCookiedCodes() {
 
-        // Add tracking scripts here 
-        console.log("cookies ran")
-            
-        // Google Analytics tracking (second script, without the tags) and other scripts
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    if(readCookie('cookie-notice-dismissed')=='true') {
 
-        gtag('config', 'G-9M78DLKD8V');
+        //Add tracking scripts here
 
-        // End tracking scripts 
-    }
-    if(readCookie('cookie-notice-accept')=='true') {
+        alert('Tracking codes running');
+                
+        {% include personal-tracking-scripts.js %}
 
-        // alert('Tracking codes activated');  
-
-        runCookiedCodes()
-
-        //removes cookies while testing
-        // eraseCookie('cookie-notice-accept')
-
+        //End tracking scripts here
 
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
@@ -67,10 +54,12 @@
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
         createCookie('cookie-notice-dismissed','true',31);
         document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
+        runCookiedCodes()
     });
+  
     document.querySelector("#close-cookie-banner").addEventListener("click", (e) => {
         
         document.querySelector("#cookie-notice").style.display = 'none';
     });
-</script>
+  
+  </script>
