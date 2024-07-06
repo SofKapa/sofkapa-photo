@@ -37,22 +37,15 @@
     function eraseCookie(name) {
         createCookie(name,"",-1);
     }
-    function runCookiedCodes() {
-        // Add tracking scripts here 
-        console.log("cookies ran")
-        // End tracking scripts 
-    } 
-    if(readCookie('cookie-notice-accept')=='true') {
 
-        runCookiedCodes()
+    if(readCookie('cookie-notice-dismissed')=='true') {
 
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        //Add tracking scripts here
+                
+        {% include personal-tracking-scripts.js %}
 
-        gtag('config', 'G-9M78DLKD8V');
-        //removes cookies while testing 
-        //eraseCookie('cookie-notice-accepted')
+        //End tracking scripts here
+
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
