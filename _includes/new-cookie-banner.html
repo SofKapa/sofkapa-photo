@@ -37,7 +37,9 @@
     function eraseCookie(name) {
         createCookie(name,"",-1);
     }
-
+    function runCookiedCodes() {
+        console.log("cookies ran")
+    }
     if(readCookie('cookie-notice-accept')=='true') {
 
         // Add tracking scripts here
