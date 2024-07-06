@@ -44,6 +44,10 @@
     } 
     if(readCookie('cookie-notice-accept')=='true') {
 
+        alert('Tracking codes activted');
+
+        runCookiedCodes()
+
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
