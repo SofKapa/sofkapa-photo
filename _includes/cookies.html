@@ -38,39 +38,33 @@
         createCookie(name,"",-1);
     }
     function runCookiedCodes() {
-
         // Add tracking scripts here 
         console.log("cookies ran")
-            
-        // Google Analytics tracking (second script, without the tags) and other scripts
+        // End tracking scripts 
+    }
+  
+    if(readCookie('cookie-notice-accept')=='true') {
+        runCookiedCodes()
+
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-9M78DLKD8V');
-
-        // End tracking scripts 
-    }
-    if(readCookie('cookie-notice-accept')=='true') {
-
-        // alert('Tracking codes activated');  
-
-        runCookiedCodes()
-
-        //removes cookies while testing
-        // eraseCookie('cookie-notice-accept')
-
-
+        //removes cookies while testing 
+        //eraseCookie('cookie-notice-accepted')
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-        createCookie('cookie-notice-dismissed','true',31);
+        createCookie('cookie-notice-accepted','true',31);
         document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
+        runCookiedCodes()
     });
+  
     document.querySelector("#close-cookie-banner").addEventListener("click", (e) => {
         
         document.querySelector("#cookie-notice").style.display = 'none';
     });
-</script>
+  
+  </script>
