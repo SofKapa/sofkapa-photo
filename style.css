@@ -39,7 +39,6 @@ section {position: relative;}
     --kapa-dark:    #4E4C4C;
     --kapa-blue:    #AAC7CB; 
     --kapa-featured:#FE654F;
-    
     --dark-text:    #676767;
     --medium-text:  #8d8d8d;
     --light-text:   white;
@@ -253,6 +252,9 @@ body{
 /* ----------------- BACKGROUND / BACKGROUND IMAGES / OVERLAYS ---------------*/
 
 /* BACKGROUND COLORS */
+.bg-kapablue   {background-color: var(--kapa-blue)}
+
+
 .bg-yellow      {background-color: #f5ebe0;}
 .bg-lightorange {background-color: #e3d5ca;}
 .bg-darkorange  {background-color: #d5bdaf;}
@@ -765,6 +767,8 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 
 
 /* ------------------ HEADER STYLES ------------------------------------------*/ 
+
+
 header {
     padding: 3rem 5%;
     min-height: 10vh;
@@ -1021,64 +1025,50 @@ a.link:hover {
 
 
 
-/* ------------------ MAIN FOOTER STYLES -------------------------------------*/ 
-
-/* div.col-12-top.padded-b-2 h3 {padding-bottom: 2rem;}
-
-div.col-12-bottom.main-footer a{
-    color: #c9c9c9;
-    font-weight: bolder;}
-
-div.col-12-bottom.main-footer a:hover{color: white;}
-
-div.col-12-bottom.main-footer p {line-height: 1;}
-
-.light {font-weight: bolder;} */
-
-
-
-/* ------------------ CONTACT PAGE FOOTER STYLES -----------------------------*/ 
-.logo2 {
-    background-image: url('/assets/logo2.svg');
+/* ------------------ FOOTER STYLES -----------------------------*/ 
+.submark-logo {
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    max-width: 100%;
     display: block;
+    max-width: 60%;
 }
 
-a.footer-contact.sm-padded-0 {
+
+
+a.footer.sm-padded-0 {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    font-style: lighter;
 }
 
-a.footer-contact.sm-padded-0:hover {
-    color: var(--featured-text);
+a.footer.sm-padded-0:hover {
+    color: var(--kapa-featured);
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
 
 
-p.footer-contact {
+p.footer {
     font-size:1.1rem;
-    font-style:italic;
+    font-family: 'Mansory', 'Open Sans';
+    letter-spacing: 0.1rem;
+    font-style: italic;
     margin:0;
     padding-right:0.5rem;
-    text-align:right;
+    text-align: right;
     padding-bottom: 0.2rem;
-    color:#e3d5ca;
+    color:var(--kapa-dark);
 }
 
 /* ICONS SOCIAL MEDIA */
 .fa-facebook-square{
-    color: #e3d5ca;
+    color: var(--kapa-featured);
     font-size: 1.5rem;
 }
 
 .fa-instagram{
-    color: #e3d5ca;
+    color: var(--kapa-featured);
     font-size: 1.5rem;
 }
 
@@ -1767,17 +1757,11 @@ good for 24px screens and over --------------------------------------------- */
       }
 
 
-/* Contact Page Footer */
-
-    a.footer-contact.sm-padded-0 {
-        color: white;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1rem;
-      }
+/* Footer */
 
     
-    a.footer-contact:hover {
-    color: white;
+    a.footer:hover {
+    color: var(--kapa-dark);
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     }
@@ -1815,6 +1799,11 @@ apply to devices smaller than 1024px----------------------------------------- */
         padding-bottom: 0%;
     }
 
+/* Header styles */
+
+    .secondary-logo {
+        max-width: 75%;
+    }
 
 /* Main navigation menu */
 
@@ -1926,9 +1915,15 @@ apply to devices smaller than 1024px----------------------------------------- */
     }
 
 
-/* Footer Contact */
+/* Footer  */
+
+    .submark-logo {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        max-width: 60%;
+    }
     
-    p.footer-contact {
+    p.footer {
         padding-top: 3rem;
         padding-bottom: 0.5rem;
     }
@@ -1937,32 +1932,12 @@ apply to devices smaller than 1024px----------------------------------------- */
 
 /* Footer Styles */
 
-    h3.main-footer {
-        font-size: 3rem;
-        padding-bottom: 2rem;
-    }
 
     .featured-text-light {font-size: 3rem;}
 
 
-    a.main-footer{
-        border: none;
-        color: #c9c9c9;
-        font-size: 1.2rem;
-        line-height: 1;
-        font-weight: bolder;
-    }
-
     span.bold {font-size: 1.4rem;}
     span.light {font-size: 1.2rem;}
-
-
-    p.main-footer {
-        font-size: 1.5rem;
-        line-height: 0.7;}
-
-
-}
 
 
 
@@ -2006,6 +1981,11 @@ apply to devices smaller than 768px ------------------------------------------*/
     .sm-square        {padding-bottom: 100%;}
     .sm-landscape     {padding-bottom: 66%;}
 
+
+/* Header Stlyes */
+    .secondary-logo {
+        max-width: 60%;
+    }
 
 /* Navigation Menu */
     div.col-7_md-2_xs-3.show-md {padding: 0rem 0rem 4rem 1rem;}
@@ -2152,26 +2132,27 @@ apply to devices smaller than 768px ------------------------------------------*/
     }
 
 
-/* Footer Contact Page */
+/* Footer */
 
-    .transparent-logo {
+    .submark-logo {
         padding-top: 1rem;
         padding-bottom: 3rem;
+        max-width: 75%;
     }
 
-    p.footer-contact {
+    p.footer {
         padding-top: 0;
         font-size: 1.1rem;
         padding-bottom: 0.5rem;
     }
 
 
-    a.footer-contact.sm-padded-0 {
+    a.footer.sm-padded-0 {
         font-size: 1rem;
         padding: 0.1rem;
     }
     
-    a.footer-contact.sm-padded-0:hover{
+    a.footer.sm-padded-0:hover{
         font-size: 1rem;
         padding: 0.1rem;
     }
@@ -2331,20 +2312,22 @@ apply to devices smaller than 576px ------------------------------------*/
    }
 
 
-/* Footer Contact Page */
+/* Footer  */
 
-   .transparent-logo {padding-top: 0rem;}
+   .submark-logo {
+    padding-top: 0rem;
+}
 
-    p.footer-contact {
+    p.footer {
         font-size: 1.2rem;
         padding-bottom: 1.5rem;
     }
 
-    .footer-contact.sm-padded-0 {display: block;}
+    .footer.sm-padded-0 {display: block;}
 
-    a.footer-contact.sm-padded-0 {font-size: 1.1rem;}
+    a.footer.sm-padded-0 {font-size: 1.1rem;}
 
-    a.footer-contact.sm-padded-0:hover{font-size: 1.1rem;}
+    a.footer.sm-padded-0:hover{font-size: 1.1rem;}
 
     nav.inline.socials {
         padding-top: 2rem;
@@ -2521,9 +2504,9 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* Footer Contact Page */
 
-    a.footer-contact.sm-padded-0 {font-size: 1rem;}
+    a.footer.sm-padded-0 {font-size: 1rem;}
 
-    a.footer-contact.sm-padded-0:hover{font-size: 1rem;}
+    a.footer.sm-padded-0:hover{font-size: 1rem;}
 
     nav.inline.socials {
         padding-top: 2rem;
