@@ -1569,7 +1569,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     transition: .5s ease;
     background-color: var(--green);
     border-radius: 25px;
-    border: solid var(--kapa-featured);
+    border: 2px solid var(--kapa-featured);
   }
   
 
