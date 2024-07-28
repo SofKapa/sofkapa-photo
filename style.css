@@ -35,6 +35,7 @@ section {position: relative;}
 
 /* ---------------- COLOR VARIABLES ------------------------------------------*/
 :root {
+    --kapa-light:   #EDEDE9;
     --dark-text:    #676767;
     --medium-text:  #8d8d8d;
     --light-text:   white;
@@ -72,6 +73,7 @@ body{
     /* border: none; */
     color:var(--dark-text);
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--kapa-light);
 }
  
 .border {
@@ -762,7 +764,7 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 header {
     padding: 3rem 5%;
     min-height: 10vh;
-    background-color:white; 
+    background-color: var(--kapa-light); 
   }
 
 header h2 {
