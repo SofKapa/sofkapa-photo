@@ -36,6 +36,10 @@ section {position: relative;}
 /* ---------------- COLOR VARIABLES ------------------------------------------*/
 :root {
     --kapa-light:   #EDEDE9;
+    --kapa-dark:    #4E4C4C;
+    --kapa-blue:    #AAC7CB; 
+    --kapa-featured:#FE654F;
+    
     --dark-text:    #676767;
     --medium-text:  #8d8d8d;
     --light-text:   white;
