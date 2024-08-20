@@ -838,7 +838,6 @@ header h1 {
 } */
 
 nav a {
-    color:#676767;
     padding: 0.5rem;
     text-transform: uppercase;
     display: inline-block;
@@ -863,19 +862,22 @@ nav a:hover {
 .dropdown {
     position: relative;
     display: block;
-    border: 1px solid #b15c2b;
 }
 
 
 .dropdown-title {
     font-family: 'Mansory Regular', sans-serif;
-    color: var(--kapa-featured); 
+    color: var(--kapa-dark); 
     text-transform: uppercase;
     padding: 3vh 5%;
     display: block;
     text-align: center;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.dropdown-title:hover {
+    color: var(--kapa-featured); 
 }
 
 .dropdown-content {
@@ -884,7 +886,7 @@ nav a:hover {
     left: 0rem;
     padding: 0rem;
     display: none;
-    background-color: white;
+    background-color: var(--kapa-featured);
     z-index: 2;
     text-align: left;
     min-width: 15rem;
@@ -897,14 +899,23 @@ nav a:hover {
 }
 
 .dropdown-content a{
-    display: block;
-    padding: 0.55rem;
-    margin: 0.5rem;
-    background-color: #f5ebe0;
-    color: #676767;
+    margin: 0.05rem;
+    background-color: var(--kapa-light);
     font-size: 1rem;
     font-style: oblique;
     font-family: 'Mansory Regular', sans-serif;
+    padding: 2rem;
+}
+
+a.dropdown-link {
+    font-family: 'Mansory Regular', sans-serif;
+    text-transform: lowercase;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.dropdown-link:hover {
+    color:var(--kapa-blue);
 }
 
 
@@ -998,72 +1009,28 @@ nav a:hover {
 
   .burger-menu a {
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 300;
-    color: #C3BFBC;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    color: var(--kapa-dark);
     display:block;
-    padding:5px 15px;
     text-align:center;
     white-space:nowrap;
   }
-  
-
-
-/* 
-div.hamburger-button {text-align: center;}
-
-.hamburger-button {
-    padding: 2%;
-    font-size: 2rem;
-    cursor: pointer;
-    position: relative;
-    z-index: 2;
-    padding: 0rem 0rem 2rem 0rem;
-}
-
-.hamburger-button.active {color: white;}
-
-.fa solid{
-    display: inline-block;
-    text-align: right;
-}
-
-.fa bars{
-    display: inline-block;
-    text-align: right;
-}
-
-.mobile-menu {
-    display: none; 
-    background-color: white; 
-    padding: 3%;
-    position: fixed; 
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 3;
-} */
 
 a.link {
     font-family: 'Mansory Regular', sans-serif;
+    text-decoration: none; 
+    color: var(--kapa-dark); 
+    padding: 3vh 5%;
+    display: block;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+a.link:hover {
     text-decoration: none; 
     color: var(--kapa-featured); 
     padding: 3vh 5%;
     display: block;
     font-weight: normal;
-    font-size: 1.5rem;
-}
-
-a.link:hover {
-    text-decoration: none; 
-    color: var(--kapa-blue); 
-    padding: 3vh 5%;
-    display: block;
-    font-weight: normal;
-    font-size: 1.5rem;
 }
 
 
