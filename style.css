@@ -515,6 +515,11 @@ p:last-child {
     padding-right: 0rem;
 }
 
+.featured {
+    color: var(--kapa-featured);
+    font-weight:400;
+}
+
 .featured-text-light {
     color: var(--kapa-dark);
     font-family: 'Mansory', sans-serif;
@@ -637,10 +642,11 @@ a {
     text-decoration: none;
 }
 
-p a:hover {color: var(--featured);}
+p a:hover {
+    color: var(--kapa-featured);
+    font-style: italic;
+}
 
-a.link-in-text {text-decoration:none;}
-a.link-in-text:hover {color: white;}
 
 
 
