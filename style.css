@@ -1166,6 +1166,8 @@ a.contacts:hover {color: white;}
 
 
 
+
+
 /* RELATED POST STYLING ----------------------------------------------------- */
 h4.centered.subtle-heading {
     margin-bottom: 0;
@@ -1663,6 +1665,17 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
   }
 
 
+/* ------------------ SLICK SLIDER GALLERY & TESTIMONIALS ------------------- */
+
+.slider-container {
+    padding: 5%;
+    border: 2px solid var(--kapa-blue);
+}
+    
+.slider-item {
+    padding: 1rem;
+    border: 2px solid var(--kapa-featured);
+    }
 
 
 /* ------------------ COOKIE BANNER ------------------------------------------*/
