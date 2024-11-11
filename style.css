@@ -1667,16 +1667,27 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 /* ------------------ SLICK SLIDER GALLERY & TESTIMONIALS ------------------- */
 
+/* Slider container */
 .slider-container {
     padding: 5%;
     border: 2px solid var(--kapa-blue);
 }
     
+
+.slick-slider {}
+
+.slick-image-loop {}
+
+.hide-arrows {}
+
+.slick-initialized {}
+
+
+
 .slider-item {
     padding: 1rem;
     border: 2px solid var(--kapa-featured);
     }
-
 
 /* ------------------ COOKIE BANNER ------------------------------------------*/
 
