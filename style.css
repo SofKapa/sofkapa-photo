@@ -39,7 +39,13 @@ section {position: relative;}
     --kapa-dark:    #4E4C4C;
     --kapa-blue:    #AAC7CB; 
     --kapa-featured:#FE654F;
+    --kapa-white:   white;
 }
+
+/* BACKGROUND COLORS */
+.bg-kapablue   {background-color: var(--kapa-blue)}
+.bg-kapawhite       {background-color: var(--kapa-white);}
+
 
 
 /* ----------------- BODY STYLES ---------------------------------------------*/
@@ -55,7 +61,6 @@ body{
     padding: 0.5rem;
     border:1px solid #676767;
 } 
-
 
 
 /* ----------------- NEGATIVE SPACE / PADDING --------------------------------*/
@@ -237,22 +242,6 @@ body{
 
 /* ----------------- BACKGROUND / BACKGROUND IMAGES / OVERLAYS ---------------*/
 
-/* BACKGROUND COLORS */
-.bg-kapablue   {background-color: var(--kapa-blue)}
-
-
-.bg-yellow      {background-color: #f5ebe0;}
-.bg-lightorange {background-color: #e3d5ca;}
-.bg-darkorange  {background-color: #d5bdaf;}
-.bg-brown       {background-color: #d6ccc2;}
-.bg-blue        {background-color: #ccd2d8;}
-.bg-green       {background-color: #edede9;}
-
-.bg-gray        {background-color: #676767;}
-.bg-lightgray   {background-color:#8d8d8d;}
-.bg-white       {background-color:white;}
-
-
 /* BACKGROUND IMAGES */
 .bg-image {
     background-color:#e3d5ca;
@@ -260,7 +249,6 @@ body{
     background-position:center;
     background-repeat:no-repeat;
 }
-
 
 
 /* ASPECT RATIOS BACKGROUND IMAGES */
@@ -2178,9 +2166,6 @@ apply to devices smaller than 576px ------------------------------------*/
 
     .xs-padded-5 {padding: 5%;}
     .xs-padded-b-0 {padding-bottom: 0%;}
-
-    .xs-bg-green {background-color: var(--green);}
-
 
 /* Main Navigation Menu */
 
