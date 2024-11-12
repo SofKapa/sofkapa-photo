@@ -1667,8 +1667,8 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 /* ------------------ SLICK SLIDER GALLERY & TESTIMONIALS ------------------- */
 
-/* Slider container */
-.slider-container {
+
+/* .slider-container {
     padding: 5%;
     border: 2px solid var(--kapa-blue);
 }
@@ -1683,7 +1683,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 }
 
 
-/* .slick-slider {
+/* .slick-slide {
         position: relative;
         display: block;
         box-sizing: border-box;
@@ -1721,7 +1721,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 }
 
 .draggable {
-    
+
 }
 
 .slick-track {
@@ -1744,8 +1744,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 }
     
- 
-
+  */
 
 
 
