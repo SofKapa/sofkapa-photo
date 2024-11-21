@@ -85,6 +85,9 @@ body{
 .tall-90  { min-height: 90vh;}
 .tall-100 { min-height: 100vh;}
 
+.small-50  {max-height: 50vh;}
+
+
 /* PADDING */
 .padded-sm {padding:2.5%;}
 .padded-md {padding:5%;}
@@ -1672,30 +1675,47 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 /* Base code -----------------------*/
 .slider-container {
     padding: 5%;
-    border: 2px solid lightblue;
+    /* border: 2px solid lightblue; */
 }
     
 .slider-item {
     padding: 1rem;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
 }
 
 /* Slider dots ---------------------*/
-
-.slick-dots {
-    bottom: 3%;
-    left: 0; /* This align the dots perfectly to the center, do not delete */
-}
-
+/* Size & colour */
 .slick-dots li button::before {
-    font-size: 8px;
+    font-size: 6px;
     color: var(--kapa-dark);
 }
 
+/* Colour when hovered */
 .slick-dots li.slick-active button::before {
     color: var(--kapa-featured);
 }
 
+/* Position in (positive)/out (negative) of container  */
+.slick-dots {
+    bottom: 7%;
+    left: 0; /* This align the dots perfectly to the center, do not delete */
+}
+
+/* Space in between dots */
+.slick-dots li,
+.slick-dots li button {
+    width: 6px;
+}
+
+/* Image Tag */
+.slider-tag {
+    font-family: 'Mansory Regular Oblique', sans-serif;
+    font-style: oblique;
+    color: var(--kapa-dark);
+    font-weight: lighter;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
 
 /* Images ------------------------- */
 
