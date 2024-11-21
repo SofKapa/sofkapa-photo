@@ -1679,6 +1679,22 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     border: 2px solid orange;
 }
 
+/* Slider dots ---------------------*/
+
+.slick-dots {
+    bottom: 3%;
+    left: 0; /* This align the dots perfectly to the center, do not delete */
+}
+
+.slick-dots li button::before {
+    font-size: 8px;
+    color: var(--kapa-dark);
+}
+
+.slick-dots li.slick-active button::before {
+    color: var(--kapa-featured);
+}
+
 
 /* Images ------------------------- */
 
