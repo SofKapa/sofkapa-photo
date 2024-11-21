@@ -1667,7 +1667,15 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 /* ------------------ SLICK SLIDER GALLERY & TESTIMONIALS ------------------- */
 
-
+.slider-container {
+    padding: 5%;
+    border: 2px solid lightblue;
+}
+    
+.slider-item {
+    padding: 1rem;
+    border: 2px solid orange;
+}
 
 
 /* ------------------ COOKIE BANNER ------------------------------------------*/
