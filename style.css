@@ -485,6 +485,7 @@ p:last-child {
 .featured {
     color: var(--kapa-featured);
     font-weight:400;
+    font-style:italic;
 }
 
 .featured-text-light {
@@ -1383,7 +1384,7 @@ hr.short.center {
 }
 
 .bg-lechat {
-    background-image: url('assets/brands/lechat/moscowmule.jpg');
+    background-image: url('assets/brands/LECHAT/moscowmule.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -1698,7 +1699,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 /* Position in (positive)/out (negative) of container  */
 .slick-dots {
-    bottom: 7%;
+    bottom: 0%;
     left: 0; /* This align the dots perfectly to the center, do not delete */
 }
 
@@ -1724,7 +1725,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 /* Images ------------------------- */
 
-/* Slider Travel */
+/* Travel Slider */
 
 .bg-moonbeach { 
     background-image: url('assets/travel/GREECE/moonbeach.jpg'); 
@@ -1753,6 +1754,66 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     background-position: 50% 50%; 
     border-radius: 25px;
 }
+
+/* Food Slider  */
+.bg-coffee {
+    background-image: url('assets/brands/WOVEN/phonecoffee.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+}
+
+.bg-cocktails {
+    background-image: url('assets/brands/BMV/twococktails.jpg'); 
+    background-size: cover;
+    background-position: 65% 50%; 
+    border-radius: 25px;
+}
+
+.bg-tikibar {
+    background-image: url('assets/brands/VAULT/tikibar.jpeg'); 
+    background-size: cover;
+    background-position: 50% 72%; 
+    border-radius: 25px;
+}
+
+.bg-mozzarellabar {
+    background-image: url('assets/brands/MOZZA/outdoordining.jpg'); 
+    background-size: cover;
+    background-position: 50% 65%; 
+    border-radius: 25px;
+}
+
+
+/* Portrait Slider */
+.bg-studiobaby {
+    background-image: url('assets/portrait/BABIES/studiobaby.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+}
+
+.bg-francesperry {
+    background-image: url('assets/portrait/BABIES/hospital.JPEG'); 
+    background-size: cover;
+    background-position: 50% 20%; 
+    border-radius: 25px;
+}
+
+.bg-babysmile {
+    background-image: url('assets/portrait/BABIES/babysmile.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+}
+
+.bg-baptism {
+    background-image: url('assets/portrait/BABIES/baptism.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+}
+
 
 
 /* ------------------ COOKIE BANNER ------------------------------------------*/
