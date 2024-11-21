@@ -35,11 +35,12 @@ section {position: relative;}
 
 /* ---------------- COLOR VARIABLES ------------------------------------------*/
 :root {
-    --kapa-light:   #EDEDE9;
-    --kapa-dark:    #4E4C4C;
-    --kapa-blue:    #AAC7CB; 
-    --kapa-featured:#FE654F;
-    --kapa-white:   white;
+    --kapa-light:      #EDEDE9;
+    --kapa-dark:       #4E4C4C;
+    --kapa-blue:       #AAC7CB; 
+    --kapa-featured:   #FE654F;
+    --kapa-white:      white;
+    --kapa-background: #e3d5ca;
 }
 
 /* BACKGROUND COLORS */
@@ -244,7 +245,7 @@ body{
 
 /* BACKGROUND IMAGES */
 .bg-image {
-    background-color:#e3d5ca;
+    background-color:var(--kapa-background);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -1667,6 +1668,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 /* ------------------ SLICK SLIDER GALLERY & TESTIMONIALS ------------------- */
 
+/* Base code -----------------------*/
 .slider-container {
     padding: 5%;
     border: 2px solid lightblue;
@@ -1675,6 +1677,35 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 .slider-item {
     padding: 1rem;
     border: 2px solid orange;
+}
+
+
+/* Images ------------------------- */
+
+/* Slider Travel */
+
+.bg-moonbeach { 
+    background-image: url('assets/travel/GREECE/moonbeach.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-ricefields {
+    background-image: url('assets/travel/VIETNAM/ricefields.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+}
+
+.bg-saovicente {
+    background-image: url('assets/travel/CAPEVERDE/saovicentecapeverde.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+}
+
+.bg-petra {
+    background-image: url('assets/travel/JORDAN/petrajordan.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
 }
 
 
