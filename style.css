@@ -166,6 +166,7 @@ body{
     padding-bottom: 10%;
   }
 
+.padded-tb-0   {padding-top: 0%; padding-bottom: 0%;}
 .padded-tb-1   {padding-top: 1%; padding-bottom: 1%;}
 .padded-tb-2   {padding-top: 2%; padding-bottom: 2%;}
 .padded-tb-3   {padding-top: 3%; padding-bottom: 3%;}
@@ -177,6 +178,7 @@ body{
 .padded-tb-9   {padding-top: 9%; padding-bottom: 9%;}
 .padded-tb-10  {padding-top: 10%; padding-bottom: 10%;}
 
+.padded-lr-0   {padding-left: 0%; padding-right: 0%;}
 .padded-lr-1   {padding-left: 1%; padding-right: 1%;}
 .padded-lr-2   {padding-left: 2%; padding-right: 2%;}
 .padded-lr-3   {padding-left: 3%; padding-right: 3%;}
@@ -1674,12 +1676,12 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 /* Base code -----------------------*/
 .slider-container {
-    padding: 5%;
+    padding: 10%;
     /* border: 2px solid lightblue; */
 }
     
 .slider-item {
-    padding: 1rem;
+    /* padding: 1rem; */
     /* border: 2px solid orange; */
 }
 
@@ -1707,6 +1709,10 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     width: 6px;
 }
 
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
 /* Image Tag */
 .slider-tag {
     font-family: 'Mansory Regular Oblique', sans-serif;
@@ -1725,24 +1731,28 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     background-image: url('assets/travel/GREECE/moonbeach.jpg'); 
     background-size: cover;
     background-position: 50% 50%;
+    border-radius: 25px;
 }
 
 .bg-ricefields {
     background-image: url('assets/travel/VIETNAM/ricefields.jpg'); 
     background-size: cover;
-    background-position: 50% 50%; 
+    background-position: 100% 100%; 
+    border-radius: 25px;
 }
 
 .bg-saovicente {
     background-image: url('assets/travel/CAPEVERDE/saovicentecapeverde.jpg'); 
     background-size: cover;
     background-position: 50% 50%; 
+    border-radius: 25px;
 }
 
 .bg-petra {
     background-image: url('assets/travel/JORDAN/petrajordan.jpg'); 
     background-size: cover;
     background-position: 50% 50%; 
+    border-radius: 25px;
 }
 
 
