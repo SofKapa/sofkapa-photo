@@ -258,6 +258,7 @@ Can't be applied to the column itself */
 a.bg-image {display: block;}
 
 .portrait-tall  {padding-bottom: 175%}
+.portrait-medium{padding-bottom: 140%}
 .portrait       {padding-bottom: 125%}
 .square         {padding-bottom: 100%}
 .landscape      {padding-bottom: 66%}
