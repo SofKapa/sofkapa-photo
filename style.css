@@ -35,17 +35,19 @@ section {position: relative;}
 
 /* ---------------- COLOR VARIABLES ------------------------------------------*/
 :root {
-    --kapa-light:      #EDEDE9;
+    --kapa-background: #e3d5ca;
     --kapa-dark:       #4E4C4C;
     --kapa-blue:       #AAC7CB; 
     --kapa-featured:   #FE654F;
-    --kapa-white:      white;
-    --kapa-background: #e3d5ca;
 }
 
+.white {color: white;}
+
 /* BACKGROUND COLORS */
-.bg-kapablue   {background-color: var(--kapa-blue)}
-.bg-kapawhite       {background-color: var(--kapa-white);}
+.bg-kapablue        {background-color: var(--kapa-blue)}
+.bg-kapafeatured    {background-color: var(--kapa-featured);}
+.bg-kapadark        {background-color: var(--kapa-dark);}
+.bg-kapabackground  {background-color: var(--kapa-background);}
 
 
 
@@ -55,7 +57,7 @@ body{
     /* border: none; */
     color:var(--dark-text);
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--kapa-light);
+    background-color: var(--kapa-background);
 }
  
 .border {
@@ -193,6 +195,8 @@ body{
 
 
 /* MARGIN*/
+.margin-0 {margin: 0;}
+
 .margin-t {margin-top: 5%;}
 .margin-b {margin-bottom: 5%;}
 .margin-l {margin-left: 5%;}
@@ -256,6 +260,9 @@ body{
     background-repeat:no-repeat;
 }
 
+.bg-image-round {
+    border-radius: 25px;
+}
 
 /* ASPECT RATIOS BACKGROUND IMAGES */
 /* Only works if it is the element (the div) inside a parent container or column
@@ -425,6 +432,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2 {font-size: 3rem;
         font-family: 'Mansory Regular', sans-serif;
+        color: var(--kapa-dark);
         font-weight: lighter;
 }
 
@@ -502,7 +510,7 @@ p:last-child {
     font-weight: 600;
     letter-spacing: 4.2px;
     text-transform: uppercase;
-    color: var(--kapa-light);
+    color: var(--kapa-background);
 }
 
 .sketch-underline {
@@ -522,9 +530,7 @@ p:last-child {
 
 
 
-/* HOMEPAGE STYLES --------*/
-
-/* About Section */
+/* HOMEPAGE | STYLES -----------------------------------*/
 
 h1.about-section {
     margin-bottom: 0;
@@ -559,7 +565,6 @@ h1.about-section {
 }
 
 
-
 /* Let's Talk Section */
 
 .lets-talk.homepage {
@@ -582,7 +587,10 @@ p.lets-talk {
 
 
 
-/* CATEGORY PAGE TEXT */
+/* ABOUT PAGE | STYLES ---------------------------------*/
+
+
+/* CATEGORY PAGE | STYLES ------------------------------*/
 .category-text-title {
     font-family: 'Mansory Regular', sans-serif;
     font-size: 3rem;
@@ -600,7 +608,6 @@ p.lets-talk {
     color: white;
     text-align:center;
 }
-
 
 
 
@@ -642,7 +649,7 @@ p a:hover {
 /* FOOTER GET IN TOUCH BUTTON */
 .contact-button {
     background-color: var(--kapa-featured);  
-    color: var(--kapa-light);
+    color: var(--kapa-background);
     padding: 0.5rem 1.5rem;
     border-radius: 10px;
 }
@@ -789,7 +796,7 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 header {
     padding: 3rem 5%;
     min-height: 10vh;
-    background-color: var(--kapa-light); 
+    background-color: var(--kapa-background); 
   }
 
 header h2 {
@@ -874,7 +881,7 @@ nav a:hover {
 
 .dropdown-content a{
     margin: 0.05rem;
-    background-color: var(--kapa-light);
+    background-color: var(--kapa-background);
     font-size: 1rem;
     font-style: oblique;
     font-family: 'Mansory Regular', sans-serif;
@@ -965,7 +972,7 @@ a.dropdown-link {
       left:100vw;
       right: -100vw;
       bottom: 0vh;
-      background-color: var(--kapa-light);
+      background-color: var(--kapa-background);
       padding:5px;
       box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
       z-index: 8;
@@ -1303,13 +1310,6 @@ hr.short.center {
     font-size: 2rem;
 }
 
-.quote-icon {
-    display: inline-block;
-    size: 6rem;
-}
-
-
-
 
 
 /* ------------------ IMAGES & IMAGE GALLERY STYLES---------------------------*/
@@ -1368,6 +1368,14 @@ hr.short.center {
 }
 
 
+/* Testimonials Banner */
+.banner-testimonials {
+    background-image: url('/assets/portrait/BABIES/hospital-bts.JPEG');
+    background-size: cover;
+    background-position: 50% 20%;
+    min-height: 60vh;
+    padding: 5%;
+}
 
 /* Project covers */
 /* Brands */
@@ -1509,8 +1517,6 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 
 
-
-
 /* ------------------ GALLERY CARDS BASED ON IOC TEMPLATE --------------------*/
 /* THE SECTION */
 /* Parent container set as a flexible element */
@@ -1529,6 +1535,13 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 .card {
     padding: auto;
     /* border-radius: 10px; */
+    border-radius: 25px;
+    border: 2px solid var(--kapa-featured);
+}
+
+.round-corners {
+    border-radius: 25px;
+    border: 2px solid var(--kapa-featured);
 }
 
 /* Hover fade effect*/
@@ -1645,6 +1658,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 .bg-gradient-overlay {
     background: linear-gradient(0deg,rgba(22,22,30,.9) 3%,rgba(22,22,30,0) 100%);
+    border-radius: 25px;
 }
 
 
@@ -1673,7 +1687,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
   }
 
 
-/* ------------------ SLICK SLIDER GALLERY & TESTIMONIALS ------------------- */
+/* ------------------ SLICK SLIDER - GALLERY --------------------------- */
 
 /* Base code -----------------------*/
 .slider-container {
@@ -1815,6 +1829,42 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 }
 
 
+/* ------------------ SLICK SLIDER - TESTIMONIALS --------------------------- */
+
+.testimonial-slider-container {
+    padding-top: 5%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.quote-icon {
+    font-size: 3rem;
+    color: var(--kapa-background);
+}
+
+.slider-item {
+    padding: 1rem;
+}
+
+
+.slider-item p {
+    text-align: center;
+    font-family: "Mansory", serif;
+    font-style: italic;
+    font-size: 1.8rem;
+    color: var(--kapa-background);
+}
+
+.author.text-right {
+    font-size: 1.3rem;
+    color: var(--kapa-blue);
+    margin-top: 0.5rem;
+    font-style: italic;
+    text-align: right;
+}
+
+
+
 
 /* ------------------ COOKIE BANNER ------------------------------------------*/
 
@@ -1831,7 +1881,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     bottom: 0;
     width: 100%;
     background: var(--kapa-blue);
-    color: var(--kapa-light);
+    color: var(--kapa-background);
 }
 
 #cookie-notice a {
@@ -2267,6 +2317,12 @@ apply to devices smaller than 768px ------------------------------------------*/
         padding-bottom:1rem;
     }
 
+/* About Page */
+
+    .slider-item p {
+        text-align: left;
+        font-size: 1.2rem;
+    }
 
 /* Footer */
 
