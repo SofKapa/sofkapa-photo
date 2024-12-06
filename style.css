@@ -265,7 +265,7 @@ body{
     background-repeat:no-repeat;
 }
 
-.bg-image-round {
+.round {
     border-radius: 25px;
 }
 
@@ -1701,16 +1701,29 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 /* Package Page Cards */
 
+.rounded-top {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.rounded-bottom {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.package-title {
+    text-align: center;
+    padding: 2.5%;
+    margin-bottom: 0;
+    color: white;
+}
+
 .shadow {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .w-9\/12 {width: 75%;}
 
-.rounded-top {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-}
 
 /* ------------------ SLICK SLIDER - GALLERY --------------------------- */
 
@@ -1980,7 +1993,9 @@ good for 24px screens and over --------------------------------------------- */
         width: 33.333333%;
     }
 
-
+    .lg\:w-3\/12 {
+        width: 25%;
+    }
 /* Contact Page */
 
     .padded-lg {
