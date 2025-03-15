@@ -323,7 +323,7 @@ a.bg-image {display: block;}
     left:0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* The gradient color */
@@ -1199,7 +1199,7 @@ h4.centered.subtle-heading {
 
 
 h3.absolute.center.fade-text-related {
-    color:#676767;
+    color:white;
     font-size: 30px;
     position: absolute;
     top: 50%;
@@ -1575,15 +1575,15 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: var(--green);
+    background-color: var(--kapa-blue);
     border-radius: 25px;
     border: 2px solid var(--kapa-featured);
   }
   
 
 .fade-text {
-    color: var(--kapa-dark);
-    font-size: 50px;
+    color: white;
+    font-size: 70px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1593,7 +1593,8 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 
 .fade-container:hover .fade-overlay {
-    opacity: 0.7;
+    opacity: 0.8;
+    border:none;
   }
   
   
@@ -2139,7 +2140,7 @@ apply to devices smaller than 1024px----------------------------------------- */
     .max-width-md {max-width: 840px; margin: auto;}
 
     h3.absolute.center.fade-text-related {
-        color:#676767;
+        color:white;
         font-size: 30px;
         position: absolute;
         top: 50%;
