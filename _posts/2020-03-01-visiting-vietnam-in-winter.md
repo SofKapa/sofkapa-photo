@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visiting Vietnam in Winter
+title: Winter in Vietnam
 description: Among rice fields, lovely people and delicious street food
 location: Southeast Asia
 featured: true

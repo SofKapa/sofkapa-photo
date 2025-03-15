@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Patterns of Australia
+title: Australian Patterns
 description: Breathtaking views and spectacular diversity are uncovered with every step on this blood red country
 location: Australia
 featured: true

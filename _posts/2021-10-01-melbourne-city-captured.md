@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Melbourne city captured
+title: Melbourne Vibes
 description: Busy laneways, cultural diversity, endless entertainment and best coffee breaks are just a few words to describe you...
 location: Australia
 featured: false
