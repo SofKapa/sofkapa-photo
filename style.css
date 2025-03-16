@@ -515,6 +515,11 @@ p:last-child {
     font-size: 30px;
 }
 
+p.handwritten-text{
+    margin-bottom: 0;
+}
+
+
 .featured-text-light {
     color: var(--kapa-dark);
     font-family: 'Mansory', sans-serif;
@@ -529,6 +534,7 @@ p:last-child {
     font-weight: 600;
     letter-spacing: 4.2px;
     text-transform: uppercase;
+    color: white;
 }
 
 .sketch-underline {
