@@ -823,6 +823,10 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 .flex-container {flex-wrap: wrap;}
 
 
+/* Vertically align items */
+.items-center {align-items: center;}
+
+
 
 /* ------------------ HEADER STYLES ------------------------------------------*/ 
 
@@ -1173,6 +1177,13 @@ form label {
     margin-top: 2rem;
     margin-bottom: 5rem;
   }
+
+/* Packages page styles */
+.favicon-logo {
+    display: inline;
+
+}
+
 
 
 /* ---- CONTACT PAGE STYLES ------------------------------------------------- */
