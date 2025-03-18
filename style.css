@@ -1112,6 +1112,38 @@ p.copyright {
   }
 
 
+/* ------------------ ROLLING BANNER ---------------------------------------- */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.scroll-text {
+    display: flex;
+    animation: scrollText 12s infinite linear;
+    transition: all 1s ease;
+    margin-bottom: 0;
+}
+
+@keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+/* IOC Rolling banner styles */
+
+
 /* ------------------ CONTACT FORM -------------------------------------------*/
 .form-title {
     font-size: 2rem;
