@@ -1125,14 +1125,35 @@ p.copyright {
     white-space: nowrap;
 }
 
-.scroll-text {
+.scroll-banner {
     display: flex;
-    animation: scrollText 12s infinite linear;
+    animation: scrollBanner 12s infinite linear;
     transition: all 1s ease;
     margin-bottom: 0;
 }
 
-@keyframes scrollText {
+.scroll-banner img {
+    height: auto;
+    width: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.scroll-banner span {
+    display: inline-block; /* or 'block' */
+}
+
+
+.scroll-text {
+    display: inline-block;
+    padding-right: 3rem;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Malmont', sans-serif;
+}
+
+@keyframes scrollBanner {
     0% {
       transform: translateX(100%);
     }
@@ -1141,7 +1162,6 @@ p.copyright {
     }
   }
 
-/* IOC Rolling banner styles */
 
 
 /* ------------------ CONTACT FORM -------------------------------------------*/
