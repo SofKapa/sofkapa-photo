@@ -690,6 +690,12 @@ p a:hover {
     font-family: 'Mansory Regular', sans-serif;
 }
 
+.book-button:hover {
+    background-color: transparent;  
+    color: var(--kapa-featured);
+    border: 2px solid var(--kapa-featured);
+}
+
 
 
 /* FOOTER GET IN TOUCH BUTTON */
