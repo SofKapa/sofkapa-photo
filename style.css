@@ -531,7 +531,7 @@ p.handwritten-text{
 .featured-text-bold {
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
+    line-height: 2;
     font-weight: 600;
     letter-spacing: 4.2px;
     text-transform: uppercase;
@@ -542,11 +542,12 @@ p.handwritten-text{
 .sketch-underline {
     background: url(assets/underlines/underline-scribble.svg) bottom left no-repeat;
     background-size: 100% 0.75rem;
-    padding-bottom: 6px;
+    padding-bottom: 0.6rem;
 }
 
 .sketch-title {
-    background: url(assets/underlines/underline-scribble.svg) 50% 75% no-repeat;
+    background: url(assets/underlines/underline-scribble.svg) no-repeat;
+    background-position: 50% 75%;
     background-size: 100% 1rem;
 }
 
@@ -1463,9 +1464,9 @@ hr.short.center {
 
 /* Category Page Banners */
 .banner-brands {
-    background-image: url('/assets/brands/EPL/namaste.jpg');
+    background-image: url('/assets/brands/EPL/peopleeatinginside.jpg');
     background-size: cover;
-    background-position: 50% 57%;
+    background-position: 50% 65%;
     min-height: 60vh;
     padding: 5%;
 }
