@@ -656,8 +656,8 @@ p.lets-talk {
 
 .gradient {
     background: #C6FFDD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FE654F, #FBD786, #AAC7CB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FE654F, #FBD786, #AAC7CB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #AAC7CB, #FBD786, #FE654F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AAC7CB, #FBD786, #FE654F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     ;
 }
 
@@ -1891,7 +1891,13 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 li::marker {
     content: "✓ "; /* Adds a checkmark before each list item */
     color: var(--kapa-featured);
+    padding-right: 1rem;
 }
+
+ul {
+    list-style-position: inside;
+}
+
 
 
 /* Overlay - Packages Section */
