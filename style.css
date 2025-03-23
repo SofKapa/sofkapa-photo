@@ -638,6 +638,28 @@ p.lets-talk {
     text-align:center;
 }
 
+.handwritten-text-big {
+    font-family: 'Malmont', sans-serif;
+    font-size: 6rem;
+    color: var(--kapa-blue);
+    text-align: center;
+    margin-bottom:0;
+}
+
+
+.gradient-2 {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+
+.gradient {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FE654F, #FBD786, #AAC7CB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FE654F, #FBD786, #AAC7CB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
 
 
 /* LINKS */
@@ -695,7 +717,7 @@ p a:hover {
 }
 
 .book-button:hover {
-    background-color: transparent;  
+    background-color: transparent;
     color: var(--kapa-featured);
     border: 2px solid var(--kapa-featured);
     box-shadow: rgba(	254, 101, 79, 0.8) 0px 3px 8px;
