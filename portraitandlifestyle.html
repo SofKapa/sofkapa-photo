@@ -12,27 +12,30 @@ seo:
 ---
 
 
-<!-- BANNER SECTION -------------------------------------------------------------------->
+<!-- BANNER SECTION ------------------------------------------------------------------
 <section class="banner-portrait grid bg-overlay bg-overlay-gradient border-t-b">
     <div class="col-12-middle">
       <h1 class="category-text-title sm-padded-2"> PORTRAIT </h1> 
       <p class="category-text-p sm-padded-3"> While working on these intimate occasions, <br>I focus on capturing the greatness of a transient yet unforgettable moment of my subjects' lives<br>Whether it is self-love or love for another, the attention is always put towards the details that they'll want to remember and cherish forever</p>
     </div>
+</section> -->
+
+<!-- BANNER SECTION -------------------------------------------------------------------->
+<section class="banner-portrait grid-spaceAround-middle bg-overlay bg-overlay-gradient border-t-b">
+
+  <div>
+      <h1 class="category-text-title sm-padded-2"> <span class="sketch-title">Portrait</span></h1> 
+  </div>
+
 </section>
 
 
 <!-- CARDS SECTION --------------------------------------------------------------------->
 <section class="padded-b-3 white bg-kapawhite">
-  
-<!-- TITLE OF SECTION -->
-
-  <div>
-    <h2 class="title-gray">view the gallery</h2>
-  </div>
 
 
-<!-- SCROLLING GALLERY -->
-  <div class="flex flex-row flex-nowrap overflow-x-scroll padded-tb-3">
+<!-- SCROLLING GALLERY ------------------------------------------------------------------>
+  <div class="flex flex-row flex-nowrap overflow-x-scroll padded-t-6">
 
     <!-- Filter only projects that I want on this page -->
     {% assign portrait-posts = site.posts | where: 'main_category', 'portrait' %}
@@ -57,5 +60,49 @@ seo:
     {% endfor %}
 
   </div>
+
+<!-- FEATURED TEXT ---------------------------------------------------------------------->
+<section class="padded-md">
+  <!-- <p class="sm-padded-md featured-text-bold text-center">While working on these intimate occasions,<br>I focus on capturing the greatness of a transient yet unforgettable moment of my subjects' lives<br>Whether it is self-love or love for another, the attention is always put towards the details that they'll want to remember and cherish forever</p> -->
+  <p class="sm-padded-md featured-text-bold text-center">​Whether it's the warmth of family gatherings,<br>the heartfelt moments of your intimate wedding,<br>or the intricacies of your skilled craft,<br>your <span class="sketch-underline">authentic stories</span> deserve to be told.</p>
+</section>
+
+
+<!-- TARGET AUDIENCE -------------------------------------------------------------------->
+
+<section class="padded-md grid" style="padding-bottom:8rem;">
+
+  <h2 class="text-center col-12 padded-b-3">Who is this for</h2>
+
+  <div class="col-6 border-b">
+    <h2 class="kapa-featured handwritten-text" style="text-align: left;">Maternity & Newborn</h2>
+    <p>Celebrate the beauty of pregnancy and welcome your little one with intimate, meaningful portraits</p>
+  </div>
+  <div class="col-6"></div>
+
+  <div class="col-6"></div>
+  <div class="col-6 border-b">
+    <h2 class="kapa-featured handwritten-text" style="text-align: right;">Family & Special Milestones</h2>
+    <p class="text-right">Capture the love and connection between family members at any stage</p>
+  </div>
+
+  <div class="col-6 border-b">
+    <h2 class="kapa-featured handwritten-text" style="text-align: left;">Intimate Weddings & Elopements</h2>
+    <p>Document the raw emotion and unique moments of your special day</p>
+  </div>
+  <div class="col-6"></div>
+
+  <div class="col-6"></div>
+  <div class="col-6 border-b">
+    <h2 class="kapa-featured handwritten-text" style="text-align: right;">Artisans & Creatives</h2>
+    <p class="text-right">Showcase your craft and passion through authentic, professional portraits</p>
+  </div>
+
+</section>
+
+
+<!-- CTA - BOOK NOW --------------------------------------------------------------------->
+{% include book-cta.html %}
+
 
 </section>

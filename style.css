@@ -625,7 +625,7 @@ p.lets-talk {
 /* CATEGORY PAGE | STYLES ------------------------------*/
 .category-text-title {
     font-family: 'Malmont', sans-serif;
-    font-size: 13rem;
+    font-size: 10rem;
     color: white;
     text-align: center;
     margin-bottom:0;
@@ -1497,7 +1497,7 @@ hr.short.center {
 }
 
 .banner-portrait {
-    background-image: url('/assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg');
+    background-image: url('/assets/portrait/CAROLINA/reflection.jpg');
     background-size: cover;
     background-position: 50% 65%;
     min-height: 60vh;
