@@ -1257,7 +1257,14 @@ form label {
     text-align: center;
   }
 
+/* CATEGORY PAGE STYLES -----------------------------------------------------*/
 
+.eco-banner {
+    background-image: url("/assets/travel/THAILAND/landscapebeachsharkbay.jpg");
+    background-size: cover;
+    background-position: 50% 100%;
+    position: relative;
+  }
 
 /* ---- GALLERY PAGE STYLE -------------------------------------------------- */
 .sof-kapa-tag {
@@ -1279,7 +1286,7 @@ form label {
 
 
 /* ---- CONTACT PAGE STYLES ------------------------------------------------- */
-.banner {
+.about-banner {
     background-image: url("/assets/myportrait.jpg");
     background-size: cover;
     background-position: 50% 100%;
