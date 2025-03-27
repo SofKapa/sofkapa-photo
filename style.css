@@ -1259,12 +1259,20 @@ form label {
 
 /* CATEGORY PAGE STYLES -----------------------------------------------------*/
 
-.eco-banner {
+.eco-banner-travel {
     background-image: url("/assets/travel/THAILAND/landscapebeachsharkbay.jpg");
     background-size: cover;
     background-position: 50% 100%;
     position: relative;
   }
+
+
+.eco-banner-food {
+    background-image: url("/assets/brands/EPL/pancake.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
 
 /* ---- GALLERY PAGE STYLE -------------------------------------------------- */
 .sof-kapa-tag {
