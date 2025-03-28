@@ -117,6 +117,11 @@ body{
 .padded-l-0 {padding-left:0rem;}
 .padded-r-0 {padding-right:0rem;}
 
+.padded-t-03 {padding-top:0.3rem;}
+.padded-b-03 {padding-bottom:0.3rem;}
+.padded-l-03 {padding-left:0.3rem;}
+.padded-r-03 {padding-right:0.3rem;}
+
 .padded-t-05 {padding-top:0.5rem;}
 .padded-b-05 {padding-bottom:0.5rem;}
 .padded-l-05 {padding-left:0.5rem;}
@@ -179,6 +184,7 @@ body{
   }
 
 .padded-tb-0   {padding-top: 0%; padding-bottom: 0%;}
+.padded-tb-03  {padding-top: 0.3rem; padding-bottom: 0.3rem;}
 .padded-tb-1   {padding-top: 1%; padding-bottom: 1%;}
 .padded-tb-2   {padding-top: 2%; padding-bottom: 2%;}
 .padded-tb-3   {padding-top: 3%; padding-bottom: 3%;}
@@ -549,6 +555,14 @@ p.handwritten-text{
     background: url(assets/underlines/underline-scribble.svg) no-repeat;
     background-position: 50% 75%;
     background-size: 100% 1rem;
+}
+
+.notes {
+    font-family: 'Mansory', sans-serif;
+    font-size:1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0;
 }
 
 
