@@ -1533,6 +1533,15 @@ hr.short.center {
     padding: 5%;
 }
 
+/* Booking Calendar Banner */
+.banner-bookings {
+    background-image: url('/assets/travel/AUSTRALIA/kakadugunlomfalls.jpg');
+    opacity: 0.8;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 60vh;
+    padding: 5%;
+}
 
 /* Testimonials Banner */
 .banner-testimonials {
