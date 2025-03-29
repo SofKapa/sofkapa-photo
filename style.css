@@ -490,7 +490,11 @@ p:last-child {
 
 .sm-text  {font-size: 1rem;}
 .md-text  {font-size: 1.5rem;}
-.lg-text  {font-size: 1.7rem;}
+.lg-text  {
+        text-transform: uppercase;
+        font-size: 5rem;
+        color: white;
+    }
 .xl-text  {font-size: 3rem;}
 
 
@@ -544,6 +548,12 @@ p.handwritten-text{
     color: white;
     text-align: center;
 }
+
+.text-underline {
+    text-decoration: underline 1.5px solid var(--kapa-featured);
+    text-underline-offset: 15px; /* Adjust space between text and underline */
+}
+
 
 .sketch-underline {
     background: url(assets/underlines/underline-scribble.svg) bottom left no-repeat;
