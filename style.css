@@ -550,7 +550,7 @@ p.handwritten-text{
 }
 
 .text-underline {
-    text-decoration: underline 1.5px solid var(--kapa-featured);
+    text-decoration: underline 1.5px dotted var(--kapa-featured);
     text-underline-offset: 15px; /* Adjust space between text and underline */
 }
 
