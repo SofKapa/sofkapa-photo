@@ -1666,13 +1666,24 @@ hr.short.center {
 
 
 /* POP-UP GALLERY WHEN ACTIVE */
-.lg-backdrop {background-color: #edede9;}
+.lg-image {
+border-radius: 25px;
+border: 2px solid var(--kapa-featured);
+}
 
-.lg-backdrop.in {opacity: 0.9;}
+.lg-backdrop {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #AAC7CB, #FBD786, #FE654F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AAC7CB, #FBD786, #FE654F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ;
+}
+
+
+.lg-backdrop.in {opacity: 0.8;}
 
 .lg-next, .lg-prev {
     background-color: transparent;
-    color: #676767;
+    color: white;
     font-size: 60px;
   }
 
