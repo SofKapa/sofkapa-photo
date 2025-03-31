@@ -1,12 +1,12 @@
 ---
 layout: post
 title: O Bom o Mau e o Vilão, Lisbon
-description: A busy bar located in the heart of Lisbon, known by its vibrant colours and cheerful live music
+description: A busy bar located in the heart of Lisbon,<br> known by its vibrant colours and cheerful live music
 location: Portugal
 featured: true
 live_url: https://www.google.com
 main_category: brands
-categories: [brands, hospitality, bar, small event, music, drinks, nightlife]
+categories: [drinks, live music, nightlife]
 cover_image: /assets/brands/BMV/bartenderserving.jpg
 featured_image: /assets/brands/BMV/bartenderserving.jpg
 seo:
