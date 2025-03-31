@@ -56,6 +56,68 @@ $( document ).ready(function() {
         pauseOnDotsHover: true // Pauses the autoplay when hovering over the dots
     });
 
+
+    // Cursor scripts ------------------------------------------------------------------
+    document.addEventListener("DOMContentLoaded", function () {
+    // Select the custom cursor element
+        const cursor = document.querySelector(".custom-cursor");
+
+    // Update cursor position
+    document.addEventListener("mousemove", (e) => {
+      cursor.style.top = `${e.clientY}px`;
+      cursor.style.left = `${e.clientX}px`;
+    });
+
+    // Add event listeners for expanding the cursor on interactive elements
+    document.querySelectorAll("button, a").forEach((el) => {
+      el.addEventListener("mouseenter", () => cursor.classList.add("expand"));
+      el.addEventListener("mouseleave", () =>
+        cursor.classList.remove("expand")
+      );
+    });
+
+
+
+
+
+    html.lenis,
+    html.lenis body {
+        height: auto;
+    }
+
+    .lenis.lenis-smooth {
+        scroll-behavior: auto !important;
+    }
+
+    .lenis.lenis-smooth [data-lenis-prevent] {
+        overscroll-behavior: contain;
+    }
+
+    .lenis.lenis-stopped {
+        overflow: hidden;
+    }
+
+    .lenis.lenis-smooth iframe {
+        pointer-events: none;
+    }
+
+
+    // Initialize Lenis
+    const lenis = new Lenis();
+
+    // Listen for the scroll event and log the event data
+    lenis.on("scroll", (e) => {});
+
+    // Use requestAnimationFrame to continuously update the scroll
+    function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+  //End cursor scripts-------------------------------------------------------------------------
+
 });
 
 
