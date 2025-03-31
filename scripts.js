@@ -61,6 +61,7 @@ $( document ).ready(function() {
     document.addEventListener("DOMContentLoaded", function () {
     // Select the custom cursor element
         const cursor = document.querySelector(".custom-cursor");
+    });
 
     // Update cursor position
     document.addEventListener("mousemove", (e) => {
@@ -75,31 +76,6 @@ $( document ).ready(function() {
         cursor.classList.remove("expand")
       );
     });
-
-
-
-
-
-    html.lenis,
-    html.lenis body {
-        height: auto;
-    }
-
-    .lenis.lenis-smooth {
-        scroll-behavior: auto !important;
-    }
-
-    .lenis.lenis-smooth [data-lenis-prevent] {
-        overscroll-behavior: contain;
-    }
-
-    .lenis.lenis-stopped {
-        overflow: hidden;
-    }
-
-    .lenis.lenis-smooth iframe {
-        pointer-events: none;
-    }
 
 
     // Initialize Lenis
