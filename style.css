@@ -699,8 +699,16 @@ p.lets-talk {
 
 
 
-/* ABOUT PAGE | STYLES ---------------------------------*/
+/* CONTACT PAGE | STYLES ---------------------------------*/
+.arrow-down-left {
+    background: url(assets/arrows/arrow-down-left.svg) bottom left no-repeat;
+    background-size: 100% 5rem;
+}
 
+.arrow-down-right {
+    background: url(assets/arrows/arrow-down-right.svg) bottom left no-repeat;
+    background-size: 100% 5rem;
+}
 
 /* CATEGORY PAGE | STYLES ------------------------------*/
 .category-text-title {
