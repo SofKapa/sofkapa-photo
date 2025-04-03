@@ -96,6 +96,7 @@ body{
 .tall-80  { min-height: 80vh;}
 .tall-90  { min-height: 90vh;}
 .tall-100 { min-height: 100vh;}
+.tall-200 { min-height: 200vh;}
 
 .small-50  {max-height: 50vh;}
 
@@ -1378,7 +1379,12 @@ form label {
 
 }
 
-
+.sticky {
+    position: sticky;
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000; /* Ensures it stays above other content */
+    align-self: start; /* Helps sticky behave properly in a grid */
+}
 
 /* ---- CONTACT PAGE STYLES ------------------------------------------------- */
 .about-banner {
@@ -2662,6 +2668,8 @@ apply to devices smaller than 768px ------------------------------------------*/
     h4 {font-size: 1.8rem;}
 
     p.tag.gray.margin-b-0{padding-bottom: 1rem;}
+
+
 
 
 /* Related Posts */
