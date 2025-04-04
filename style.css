@@ -549,6 +549,7 @@ a.bg-image {display: block;}
 .text-justify {text-align: justify;}
 .uppercase    {text-transform: uppercase;}
 
+
 /* Text sizing */
 .sm-text  {font-size: 1rem;}
 .md-text  {font-size: 1.5rem;}
@@ -556,12 +557,16 @@ a.bg-image {display: block;}
 .xl-text  {font-size: 3rem;}
 
 
-/*  */
+/* Text type */
+.oblique  {font-style: oblique;}
+.italic   {font-style: italic;}
 
+
+/* Unique texts*/
 .featured {
     color: var(--kapa-featured);
-    font-weight:400;
-    font-style:italic;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .handwritten-text {
@@ -570,21 +575,18 @@ a.bg-image {display: block;}
     font-family: 'Malmont', sans-serif;
     font-size: 30px;
 }
-
 p.handwritten-text{
     margin-bottom: 0;
     text-align: center;
 }
 
 
-.featured-text-light {
-    color: var(--kapa-dark);
+.featured-thin {
     font-family: 'Mansory', sans-serif;
     font-size: 2rem;
     margin-bottom: 0%;
   }
-
-.featured-text-bold {
+.featured-bold {
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
     line-height: 2;
@@ -593,18 +595,6 @@ p.handwritten-text{
     text-transform: uppercase;
     color: white;
     text-align: center;
-}
-
-.text-underline {
-    text-decoration: underline 1.5px dotted var(--kapa-featured);
-    text-underline-offset: 15px; /* Adjust space between text and underline */
-}
-
-
-.sketch-underline {
-    background: url(assets/underlines/underline-scribble.svg) bottom left no-repeat;
-    background-size: 100% 0.75rem;
-    padding-bottom: 0.6rem;
 }
 
 .sketch-title {
@@ -621,15 +611,6 @@ p.handwritten-text{
     margin-bottom: 0;
 }
 
-
-.oblique  {font-style: oblique;}
-.italic   {font-style: italic;}
-.subtitle {font-size: 0.8rem;
-           font-style: italic;}
-.bold     {font-family: 'Mansory Regular', sans-serif;
-           font-size: 1.3rem;}
-
-
 .vertical-text {
     writing-mode: vertical-rl; /* Vertical text, top to bottom */
     text-orientation: mixed;
@@ -644,6 +625,26 @@ p.handwritten-text{
 
 
 
+
+
+
+
+
+
+
+
+/* --------- UNIQUE ELEMENTS ----------------------------------------------------------------------------------------------------------*/
+.sketch-underline {
+    background: url(assets/underlines/underline-scribble.svg) bottom left no-repeat;
+    background-size: 100% 0.75rem;
+    padding-bottom: 0.6rem;
+}
+
+
+.underline {
+    text-decoration: underline 1.5px dotted var(--kapa-featured);
+    text-underline-offset: 15px; /* Adjust space between text and underline */
+}
 
 
 
