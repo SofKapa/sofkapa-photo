@@ -109,6 +109,66 @@ body {
   .lenis.lenis-smooth iframe {
       pointer-events: none;
   } */
+   
+  
+  
+  
+  
+/* ---------- TYPOGRAPHY MAIN STYLES ------------------------------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mansory Regular', sans-serif;
+    line-height: 1.1;
+    margin-bottom: 1.2rem;
+}
+
+h1, h2 {
+    font-size: 3rem;
+    color: var(--kapa-dark);
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p { 
+    font-size:1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 50;
+    line-height: 1.3;
+    margin-bottom:1rem;
+}
+
+li { 
+    font-family: 'Mansory Regular', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-bottom:1rem;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child {
+    margin-bottom: 0;
+}
 
 
 
@@ -438,9 +498,9 @@ a.bg-image {display: block;}
 .bg-br { background-position: 85% 85%; }
 
 
-/* ------------------------------------------------------------------------------------------------------------------ */
 
-/* BACKGROUND OVERLAYS CATEGORY BANNERS*/
+
+/* ----- BACKGROUND OVERLAYS  -------------------------------------------------------------------------------------------------------- */
 
 .bg-overlay::before {
     content: ""; 
@@ -476,92 +536,27 @@ a.bg-image {display: block;}
     position: relative;
 } 
 
-/* ---------------------------------------------------------------------------------------------------- */
 
-/* TEXT ALIGN */
+
+
+
+/* ---------- TEXT STYLES ------------------------------------------------------------------------------------------------------------ */
+
+/* Text alignment */
 .text-left    {text-align: left;}
 .text-right   {text-align: right;}
 .text-center  {text-align: center;}
 .text-justify {text-align: justify;}
 .uppercase    {text-transform: uppercase;}
 
-
-/* MAIN STYLES */
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.1;
-    margin-bottom: 1.2rem;
-}
-
-h1, h2 {font-size: 3rem;
-        font-family: 'Mansory Regular', sans-serif;
-        color: var(--kapa-dark);
-        font-weight: lighter;
-}
-
-h3 {
-    font-size: 3rem;
-    font-family: 'Mansory Regular', sans-serif;
-    font-weight: lighter;
-}
-
-h4 {
-    font-size: 2rem;
-    font-family: 'Mansory Regular', sans-serif;
-    font-weight: lighter;
-}
-
-h5 {font-size: 1.4rem;}
-h6 {font-size: 1.2rem;}
-
-p { 
-    font-size:1.2rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 50;
-    line-height: 1.3;
-    margin-bottom:1rem;
-}
-
-li { 
-    font-family: 'Mansory Regular', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3;
-    margin-bottom:1rem;
-}
-
-/* h1:last-child,
-h2:last-child,
-h3:last-child,
-h4:last-child,
-h5:last-child,
-h6:last-child,
-p:last-child {
-    margin-bottom: 0;
-} */
-
-
+/* Text sizing */
 .sm-text  {font-size: 1rem;}
 .md-text  {font-size: 1.5rem;}
-.lg-text  {
-        text-transform: uppercase;
-        font-size: 4.5rem;
-        color: white;
-    }
+.lg-text  {font-size: 4.5rem;}
 .xl-text  {font-size: 3rem;}
 
 
-
-/* UNIQUE TEXT */
-
-.title-gray {
-    font-family: 'Mansory Regular', sans-serif;
-    font-size: 3rem;
-    color:#676767;
-    text-align: center;
-    padding-bottom: 7rem;
-    padding-top: 7rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
+/*  */
 
 .featured {
     color: var(--kapa-featured);
@@ -644,6 +639,14 @@ p.handwritten-text{
     transform: translateY(-50%); /* Adjust for perfect centering */
     white-space: nowrap; /* Prevents text from wrapping */
 }
+
+
+
+
+
+
+
+
 
 /* HOMEPAGE | STYLES -----------------------------------*/
 
@@ -2977,14 +2980,6 @@ apply to devices smaller than 576px ------------------------------------*/
 
 /* Scrolling Gallery */
 
-    .title-gray {
-        padding: 2rem;
-        line-height: 1;
-        padding-bottom: 7rem;
-        padding-top: 7rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
 
     h3.white {font-size: 2.6rem;}
 
@@ -3142,9 +3137,6 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* Scrolling Gallery */
 
-    .title-gray {
-        font-size: 2.5rem;
-    }
 
     h3.white {font-size: 2rem;}
 
