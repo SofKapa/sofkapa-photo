@@ -405,9 +405,8 @@ body {
 
 
 
-/* ---------- BACKGROUND STYLES -------------------------------------------------------------------------------------------------------*/
+/* ---------- BACKGROUND IMAGES -------------------------------------------------------------------------------------------------------*/
 
-/* Background images ------------------------------------------ */
 .bg-image {
     background-color:var(--kapa-background);
     background-size:cover;
@@ -416,37 +415,27 @@ body {
 }
 
 
-
-
-
-
-
-
-
-/* ASPECT RATIOS BACKGROUND IMAGES */
+/* BG Images | Aspect Ratios ------------------------------------------- */
 /* Only works if it is the element (the div) inside a parent container or column
 Can't be applied to the column itself */
 a.bg-image {display: block;}
 
-.portrait-tall  {padding-bottom: 175%}
-.portrait-medium{padding-bottom: 140%}
-.portrait       {padding-bottom: 125%}
-.square         {padding-bottom: 100%}
-.landscape      {padding-bottom: 66%}
-.landscape-wide {padding-bottom: 56%}
-
-.two-thirds     {padding-bottom: 60%;}
-.one-third      {padding-bottom: 123%;}
+.portrait-tall   {padding-bottom: 175%}
+.portrait-medium {padding-bottom: 140%}
+.portrait        {padding-bottom: 125%}
+.square          {padding-bottom: 100%}
+.landscape       {padding-bottom: 66%}
+.landscape-wide  {padding-bottom: 56%}
 
 
-/* BACKGROUND POSITIONS */
-.bg-pos-t {background-position: top;}
-.bg-pos-b {background-position: bottom;}
-.bg-pos-l {background-position: left;}
-.bg-pos-r {background-position: right;}
+/* BG Images | Position ------------------------------------------------- */
+.bg-t {background-position: top;}
+.bg-b {background-position: bottom;}
+.bg-l {background-position: left;}
+.bg-r {background-position: right;}
 
-.bg-pos-t-l { background-position: 10% 10%; }
-.bg-pos-b-r { background-position: 85% 85%; }
+.bg-tl { background-position: 10% 10%; }
+.bg-br { background-position: 85% 85%; }
 
 
 /* ------------------------------------------------------------------------------------------------------------------ */
