@@ -1906,6 +1906,8 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 3; /* Make sure it sits above the fade-overlay */
+    pointer-events: none; /* Optional: allows hover to pass through if needed */
   }
 
 
