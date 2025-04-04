@@ -404,9 +404,10 @@ body {
 
 
 
-/* ----------------- BACKGROUND / BACKGROUND IMAGES / OVERLAYS ---------------*/
 
-/* BACKGROUND IMAGES */
+/* ---------- BACKGROUND STYLES -------------------------------------------------------------------------------------------------------*/
+
+/* Background images ------------------------------------------ */
 .bg-image {
     background-color:var(--kapa-background);
     background-size:cover;
@@ -414,9 +415,13 @@ body {
     background-repeat:no-repeat;
 }
 
-.round {
-    border-radius: 25px;
-}
+
+
+
+
+
+
+
 
 /* ASPECT RATIOS BACKGROUND IMAGES */
 /* Only works if it is the element (the div) inside a parent container or column
@@ -1828,7 +1833,16 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 .round-corners {
     border-radius: 25px;
-    border: 2px solid var(--kapa-featured);
+}
+
+.rounded-top {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.rounded-bottom {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 /* Hover fade effect*/
@@ -2012,16 +2026,6 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     justify-content: center;
 }
 
-
-.rounded-top {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-}
-
-.rounded-bottom {
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-}
 
 .package-title {
     text-align: center;
