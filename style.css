@@ -1,4 +1,4 @@
-/* ---------------- TEMPORARY STRUCTURE STYLES -------------------------------*/
+/* ---------- TEMPORARY STRUCTURE STYLES ----------------------------------------------------------------------------------------------*/
 /* section{
     padding: 0.5rem;
     border:1px solid rgb(240,240,240)
@@ -7,10 +7,13 @@
 
 /* html{border:none;} */
 
-/* ---------------- CSS RESET ------------------------------------------------*/
+
+
+
+/* ---------- CSS RESET ---------------------------------------------------------------------------------------------------------------*/
 *{ padding: 0;
     margin:0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 img {
@@ -19,7 +22,7 @@ img {
     height: auto;
 }
 
-/* Override default Gridlex padding */
+/* Override default Gridlex padding ----------------------------*/
 [class*="col-"], [class*="col_"], [class~="col"] {
     box-sizing: border-box;
     padding: 0;
@@ -28,14 +31,31 @@ img {
 
 [class*=grid] {margin: 0;}
 
-/* Automatically makes banners or other elements with overlay work */
+/* Automatically makes elements with "overlay" work (ex - banners) */
 section {position: relative;}
 
 
 
-/* ---------------- COLOR VARIABLES ------------------------------------------*/
+
+/* ---------- BODY STYLES -------------------------------------------------------------------------------------------------------------*/
+
+body {
+    /* border: none; */
+    color:var(--dark-text);
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--kapa-background);
+}
+ 
+/* .border {
+    padding: 0.5rem;
+    border:1px solid #676767;
+}  */
+
+/* ---------- COLOUR VARIABLES --------------------------------------------------------------------------------------------------------*/
+
+/* Brand colours ------------------------------------------------*/
 :root {
-    --kapa-background: #e3d5ca;
+    --kapa-background: #E3D5CA;
     --kapa-dark:       #4E4C4C;
     --kapa-blue:       #AAC7CB; 
     --kapa-featured:   #FE654F;
@@ -47,7 +67,7 @@ section {position: relative;}
 .kapa-blue          {color: var(--kapa-blue)}
 .kapa-featured      {color: var(--kapa-featured)}
 
-/* BACKGROUND COLORS */
+/* Background colours ------------------------------------------ */
 .bg-kapablue        {background-color: var(--kapa-blue)}
 .bg-kapafeatured    {background-color: var(--kapa-featured);}
 .bg-kapadark        {background-color: var(--kapa-dark);}
@@ -57,23 +77,6 @@ section {position: relative;}
 
 
 
-/* ----------------- BODY STYLES ---------------------------------------------*/
-
-body{
-    /* border: none; */
-    color:var(--dark-text);
-    font-family: 'Open Sans', sans-serif;
-    background-color: var(--kapa-background);
-}
- 
-.border {
-    padding: 0.5rem;
-    border:1px solid #676767;
-} 
-
-.featured-border {
-
-}
 
 
 /* ----------------- NEGATIVE SPACE / PADDING --------------------------------*/
