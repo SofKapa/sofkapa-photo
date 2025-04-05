@@ -624,15 +624,6 @@ p.handwritten-text{
 
 
 
-
-
-
-
-
-
-
-
-
 /* --------- UNIQUE ELEMENTS ----------------------------------------------------------------------------------------------------------*/
 .sketch-underline {
     background: url(assets/underlines/underline-scribble.svg) bottom left no-repeat;
@@ -647,16 +638,38 @@ p.handwritten-text{
 }
 
 
+/* ---------- HEADER | STYLES -------------------------------------------------------------------------------------------------------- */
 
 
-/* HOMEPAGE | STYLES -----------------------------------*/
 
-h1.about-section {
-    margin-bottom: 0;
-    padding-bottom: 3rem;
-}
+/* ---------- FOOTER | STYLES -------------------------------------------------------------------------------------------------------- */
 
-/* Latest Project */
+
+/* ---------- HOMEPAGE | STYLES ------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+/* ---------- CATEGORY PAGES | STYLES ------------------------------------------------------------------------------------------------ */
+
+
+
+
+/* ---------- GALLERY PAGES | STYLES ------------------------------------------------------------------------------------------------- */
+
+
+/* ---------- PACKAGES PAGE | STYLES ------------------------------------------------------------------------------------------------- */
+
+
+/* ---------- ABOUT PAGE | STYLES ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------- CONTACT PAGE | STYLES -------------------------------------------------------------------------------------------------- */
+
+
+/* ---------- FEATURED PROJECTS ------------------------------------------------------------------------------------------------------ */
 
 .latest-projects-title {
     font-family: 'Mansory Medium', sans-serif;
@@ -682,27 +695,6 @@ h1.about-section {
     font-size: 1.1rem;
     color: var(--featured-text);
 }
-
-
-/* Let's Talk Section */
-
-.lets-talk.homepage {
-    text-align: center;
-    padding: 10%;
-}
-
-.lets-talk.contact-page  {
-    text-align: center;
-    padding: 14rem 10rem 10rem 10rem;
-}
-
-
-p.lets-talk {
-    font-size: 1.5rem;
-    font-weight: lighter;
-    font-style: oblique;
-    padding: 0;
-  }
 
 
 
@@ -759,6 +751,13 @@ p.lets-talk {
 
 
 
+
+
+
+
+
+/* ---------- BUTTONS & LINKS ---------------------------------------------------------------------------------------------------------*/
+
 /* LINKS */
 a {
     color: inherit;
@@ -770,11 +769,6 @@ p a:hover {
     font-style: italic;
 }
 
-
-
-
-
-/* ------------------ BUTTONS ------------------------------------------------*/
 /* GENERAL / RESET STYLING */
 .button {
     display: inline-block;
@@ -787,6 +781,8 @@ p a:hover {
 .button:hover {
     color: var(--featured);
 }
+
+
 
 .subtle-button {
     text-decoration: none;
@@ -2725,18 +2721,8 @@ apply to devices smaller than 768px ------------------------------------------*/
 
 /* About Section */
 
-    h1.about-section {
-        padding-bottom: 2rem;
-        padding-top:1rem;}
-
     .text-sm {font-size:1.2rem;}
 
-
-/* Lets Talk Section */
-
-    div.lets-talk {padding: 5rem 5rem 1rem 5rem;}
-
-    p.lets-talk {font-size: 1.2rem;}
 
 
 /* Contact Form */
@@ -2952,10 +2938,6 @@ apply to devices smaller than 576px ------------------------------------*/
 
 
 /* Contact Form */
-
-    .lets-talk.homepage {padding: 4rem 2.5rem;}
-
-    .lets-talk.contact-page {padding: 8rem 2.5rem 4rem 2.5rem;}
 
     .form-title {
         font-size: 1.6rem;
