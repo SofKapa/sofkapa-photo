@@ -705,17 +705,16 @@ p a:hover {
     border-bottom: 1px solid;
 }
 
-.bold-button {
+.featured-button {
     font-weight: bold;
     font-size: 1.5rem;
     display: block;
     margin-bottom: 0.5rem;
     margin-top: 2rem;
+    color: var(--kapa-featured);
 }
 
-
-/* BOOK NOW - BUTTON */
-.book-button {
+.cta-button {
     background-color: var(--kapa-featured);
     color: var(--kapa-background);
     padding: 0.5rem 1.5rem;
@@ -724,8 +723,7 @@ p a:hover {
     font-family: 'Mansory Regular', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-.book-button:hover {
+.cta-button:hover {
     background-color: transparent;
     color: var(--kapa-featured);
     border: 2px solid var(--kapa-featured);
@@ -734,19 +732,14 @@ p a:hover {
 
 
 
-/* FOOTER GET IN TOUCH BUTTON */
-.contact-button {
-    background-color: var(--kapa-featured);  
-    color: var(--kapa-background);
-    padding: 0.5rem 1.5rem;
-    border-radius: 10px;
-}
 
-.contact-button:hover {
-    background-color: transparent;  
-    color: var(--kapa-featured);
-    border: 2px solid var(--kapa-featured);
-}
+
+
+
+
+
+
+
 
 /* FORM BUTTON */
 .form-button {
