@@ -597,11 +597,7 @@ p.handwritten-text{
     text-align: center;
 }
 
-.sketch-title {
-    background: url(assets/underlines/underline-scribble.svg) no-repeat;
-    background-position: 50% 75%;
-    background-size: 100% 1rem;
-}
+
 
 .notes {
     font-family: 'Mansory', sans-serif;
@@ -625,17 +621,34 @@ p.handwritten-text{
 
 
 /* --------- UNIQUE ELEMENTS ----------------------------------------------------------------------------------------------------------*/
-.sketch-underline {
+.sketch-underline-sm {
     background: url(assets/underlines/underline-scribble.svg) bottom left no-repeat;
     background-size: 100% 0.75rem;
     padding-bottom: 0.6rem;
 }
 
+.sketch-underline-lg {
+    background: url(assets/underlines/underline-scribble.svg) no-repeat;
+    background-position: 50% 75%;
+    background-size: 100% 1rem;
+}
 
 .underline {
     text-decoration: underline 1.5px dotted var(--kapa-featured);
     text-underline-offset: 15px; /* Adjust space between text and underline */
 }
+
+.arrow-down-left {
+    background: url(assets/arrows/arrow-down-left.svg) bottom left no-repeat;
+    background-size: 100% 5rem;
+}
+
+.arrow-down-right {
+    background: url(assets/arrows/arrow-down-right.svg) bottom left no-repeat;
+    background-size: 100% 5rem;
+}
+
+
 
 
 /* ---------- HEADER | STYLES -------------------------------------------------------------------------------------------------------- */
@@ -671,7 +684,7 @@ p.handwritten-text{
 
 /* ---------- FEATURED PROJECTS ------------------------------------------------------------------------------------------------------ */
 
-.latest-projects-title {
+/* .latest-projects-title {
     font-family: 'Mansory Medium', sans-serif;
     font-size: 2rem;
     color: var(--featured-text);
@@ -694,23 +707,21 @@ p.handwritten-text{
     font-weight: lighter;
     font-size: 1.1rem;
     color: var(--featured-text);
-}
+} */
 
 
 
-/* CONTACT PAGE | STYLES ---------------------------------*/
-.arrow-down-left {
-    background: url(assets/arrows/arrow-down-left.svg) bottom left no-repeat;
-    background-size: 100% 5rem;
-}
 
-.arrow-down-right {
-    background: url(assets/arrows/arrow-down-right.svg) bottom left no-repeat;
-    background-size: 100% 5rem;
-}
+
+
+
+
+
+
 
 /* CATEGORY PAGE | STYLES ------------------------------*/
-.category-text-title {
+
+.handwritten-text-xl {
     font-family: 'Malmont', sans-serif;
     font-size: 10rem;
     color: white;
@@ -718,20 +729,14 @@ p.handwritten-text{
     margin-bottom:0;
 }
 
-.category-text-p {
+/* .banner-text {
     font-family: 'Mansory Regular Oblique', sans-serif;
     font-size: 2rem;
     color: white;
     text-align:center;
-}
+} */
 
-.handwritten-text-big {
-    font-family: 'Malmont', sans-serif;
-    font-size: 6rem;
-    color: var(--kapa-blue);
-    text-align: center;
-    margin-bottom:0;
-}
+
 
 
 .gradient {
