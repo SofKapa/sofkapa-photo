@@ -697,6 +697,11 @@ If set to multiple lines, it also defines the cross-axis which determines the di
     background-size: 100% 5rem;
 }
 
+/* Social Share Nav --------------------------------------*/
+.social-share a {
+    padding: 0.25rem 0.5rem;
+}
+
 
 
 
@@ -1040,24 +1045,125 @@ p.copyright {
     text-align:center;
 } */
 
+.eco-banner-travel {
+    background-image: url("/assets/travel/THAILAND/landscapebeachsharkbay.jpg");
+    background-size: cover;
+    background-position: 50% 100%;
+    position: relative;
+  }
+.eco-banner-food {
+    background-image: url("/assets/brands/EPL/pancake.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+
 
 
 /* ---------- GALLERY PAGES | STYLES ------------------------------------------------------------------------------------------------- */
 
-.text-md .related-posts {
-    font-size: 2rem;
-    font-family: 'Mansory Regular', sans-serif;
-    font-weight: 100;
-    line-height: 1.1;
+.project-description {
+    font-style: oblique;
+    margin-top: 2rem;
+}
+
+.sticky {
+    position: sticky;
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000; /* Ensures it stays above other content */
+    align-self: start; /* Helps sticky behave properly in a grid */
+}
+
+#title-sm {
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
   }
+
+
+
+
+
+
+
 
 /* ---------- PACKAGES PAGE | STYLES ------------------------------------------------------------------------------------------------- */
 
 
+
 /* ---------- ABOUT PAGE | STYLES ---------------------------------------------------------------------------------------------------- */
+
+.about-banner {
+    background-image: url("/assets/myportrait.jpg");
+    background-size: cover;
+    background-position: 50% 100%;
+    position: relative;
+}
+
+
 
 
 /* ---------- CONTACT PAGE | STYLES -------------------------------------------------------------------------------------------------- */
+
+
+
+/* Contact Form -------------------------------------------*/
+/* .form-title {
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: var(--featured-text);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.form {padding-bottom: 3rem;}
+
+form input,
+form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #8b8b8b;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #d5bdaf;
+    background-color: transparent;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #d5bdaf;
+}
+
+textarea {
+    min-height: 5rem;
+}
+
+form label {
+    margin-top: 1rem;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #878787;
+    font-weight: borld;
+    text-align: center;
+}
+
+::placeholder { 
+    color: #676767;
+    opacity: 0.8; 
+    font-style: oblique;
+    text-align: center;
+  } */
+
 
 
 /* ---------- FEATURED PROJECTS ------------------------------------------------------------------------------------------------------ */
@@ -1109,18 +1215,15 @@ p.copyright {
     transition: all 1s ease;
     margin-bottom: 0;
 }
-
 .scroll-banner img {
     height: auto;
     width: 50px;
     margin-left: 40px;
     margin-right: 40px;
 }
-
 .scroll-banner span {
     display: inline-block; /* or 'block' */
 }
-
 
 .scroll-text {
     display: inline-block;
@@ -1153,243 +1256,6 @@ p.copyright {
 
 
 
-
-
-  
-
-/* ------------------ CONTACT FORM -------------------------------------------*/
-.form-title {
-    font-size: 2rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    color: var(--featured-text);
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.form {padding-bottom: 3rem;}
-
-
-form input,
-form textarea {
-    width: 100%;
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    border: none;
-    border-bottom: 1px solid #8b8b8b;
-    outline: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    color: #d5bdaf;
-    background-color: transparent;
-}
-
-form input:focus,
-form textarea:focus {
-  border-color: #d5bdaf;
-}
-
-textarea {
-    min-height: 5rem;
-}
-
-form label {
-    margin-top: 1rem;
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    color: #878787;
-    font-weight: borld;
-    text-align: center;
-}
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #676767;
-    opacity: 0.8; /* Firefox */
-    font-style: oblique;
-    text-align: center;
-  }
-
-/* CATEGORY PAGE STYLES -----------------------------------------------------*/
-
-.eco-banner-travel {
-    background-image: url("/assets/travel/THAILAND/landscapebeachsharkbay.jpg");
-    background-size: cover;
-    background-position: 50% 100%;
-    position: relative;
-  }
-
-
-.eco-banner-food {
-    background-image: url("/assets/brands/EPL/pancake.jpg");
-    background-size: cover;
-    background-position: 50% 50%;
-    position: relative;
-}
-
-/* ---- GALLERY PAGE STYLE -------------------------------------------------- */
-.sof-kapa-tag {
-    font-family: 'Mansory Regular', sans-serif;
-}
-
-.project-description {
-    font-style: oblique;
-    margin-top: 2rem;
-  }
-
-/* Packages page styles */
-.favicon-logo {
-    display: inline;
-
-}
-
-.sticky {
-    position: sticky;
-    top: 0; /* Sticks to the top of the viewport */
-    z-index: 1000; /* Ensures it stays above other content */
-    align-self: start; /* Helps sticky behave properly in a grid */
-}
-
-/* ---- CONTACT PAGE STYLES ------------------------------------------------- */
-.about-banner {
-    background-image: url("/assets/myportrait.jpg");
-    background-size: cover;
-    background-position: 50% 100%;
-    position: relative;
-  }
-
-
-.border-bottom {border-bottom: 2px solid #676767 ;}
-
-h1.border-bottom {padding-bottom: 1rem;}
-
-
-.big-title {
-    font-size: 2.5rem;
-    padding-bottom: 4rem;
-}
-
-.name {
-    font-size: 1.5rem;
-    line-height:0;
-    padding-bottom:3rem;
-    font-family: 'Mansory Regular', sans-serif;
-}
-
-.contacts {
-    font-size: 1.2rem;
-    line-height:0;
-    padding-bottom:1rem;
-}
-
-a.contacts:hover {color: white;}
-
-.dark-gray {
-    color:#4E4E4E;
-}
-
-
-
-
-
-/* RELATED POST STYLING ----------------------------------------------------- */
-h4.centered.subtle-heading {
-    margin-bottom: 0;
-    padding-top: 3rem;
-}
-
-
-h3.absolute.center.fade-text-related {
-    color:white;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-
-/* ------------------ BLOG ELEMENTS: QUOTES, ICONS, QUOTES -------------------*/
-/* POST LOOP ITEM */
-.post-item {
-    text-decoration: none;
-}
-
-/* INDIVIDUAL ELEMENTS */
-.categories {
-    display: inline-block;
-    font-weight: bold;
-    text-transform: uppercase;
-    opacity: 0.5;
-    font-size: 0.8rem;
-    margin-right: 0.4rem;
-}
-
-.post-info {
-    font-size: 0.8rem;
-    color: var(--light-text)
-
-}
-
-
-/* INDIVIDUAL BLOGPOST PAGES */
-.big-text {
-    font-size: 3rem;
-    line-height: 1;
-    font-family: 'Mansory Regular', sans-serif;
-    font-weight: lighter;
-    padding-top: 2rem;
-  }
-
-p.image-caption-left {
-    transform: rotate(270deg);
-    transform-origin: top left 0;
-    margin-left: -1.5rem;
-    font-size: 0.9rem;
-    font-style: italic;
-  }
-
-
-.blog-content h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-    font-size: 3rem;
-}
-
-.blog-content p {
-    line-height: 1.6;
-}
-
-.blog-content hr {
-    border: none;
-    border: 1px solid var(--featured)
-}
-
-
-
-/* SIDEBAR */
-.sidebar-item {
-    border: 2px solid var(--light);
-    margin-bottom: 1rem;
-    color: var(--medium);
-}
-
-.sidebar-item p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
-
-.recent-posts-nav a {
-    display: block;
-    font-weight: 300;
-}
-
-
-/* SOCIAL SHARE NAV */
-.social-share a {
-    padding: 0.25rem 0.5rem;
-}
 
 
 /* LINE BREAKS */
@@ -2437,15 +2303,13 @@ apply to devices smaller than 1024px----------------------------------------- */
 
 /* Gallery Page */
 
-    h1.big-text {font-size: 2.5rem;}
-
     .tag {font-size: 0.9rem;}
 
     .sof-kapa-tag {font-size: 1.1rem;}
 
     .max-width-md {max-width: 840px; margin: auto;}
 
-    h3.absolute.center.fade-text-related {
+    #title-sm {
         color:white;
         font-size: 30px;
         position: absolute;
@@ -2460,7 +2324,7 @@ apply to devices smaller than 1024px----------------------------------------- */
 
     .fade-container {padding: 1rem;}
 
-    h3.absolute.center.fade-text-related {font-size: 30px;}
+    #title-sm {font-size: 30px;}
 
 
 
@@ -2478,24 +2342,6 @@ apply to devices smaller than 1024px----------------------------------------- */
 
     .textarea {min-height: 6rem;}
 
-
-/* Contact Page */
-
-
-    .big-title {font-size: 2.3rem;}
-
-    .name {
-        font-size: 1.6rem;
-        line-height:0;
-        padding-bottom:3rem;
-        font-family: 'Mansory Regular', sans-serif;
-    }
-
-    .contacts {
-        font-size: 1.2rem;
-        line-height:0;
-        padding-bottom:1rem;
-    }
 
 
 /* Footer  */
@@ -2665,7 +2511,7 @@ apply to devices smaller than 768px ------------------------------------------*/
 
     .sm-landscape-wide {padding-bottom: 50%}
 
-    h3.absolute.center.fade-text-related-white {
+    #title-sm {
         color:white;
         font-size: 40px;
         position: absolute;
@@ -2698,20 +2544,6 @@ apply to devices smaller than 768px ------------------------------------------*/
 /* Contact Page */
     .banner {padding-bottom: 100%;}
 
-    .big-title {font-size: 2rem;}
-
-    .name {
-        font-size: 1.6rem;
-        line-height:0;
-        padding-bottom:3rem;
-        font-family: 'Mansory Regular', sans-serif;
-    }
-
-    .contacts {
-        font-size: 1.2rem;
-        line-height:0;
-        padding-bottom:1rem;
-    }
 
 /* About Page */
 
@@ -2841,13 +2673,6 @@ apply to devices smaller than 576px ------------------------------------*/
 
 /* Gallery Page */
  
-
-    h1.big-text {font-size: 2rem;}
-
-    .big-text {
-        line-height: 1;
-        padding-top: 0.5rem;}
-
     .project-description {margin-bottom: 3rem;}
 
     .tag {font-size: 0.8rem;}
@@ -2857,25 +2682,8 @@ apply to devices smaller than 576px ------------------------------------*/
 
 /* Related Projects */
 
-    h3.absolute.center.fade-text-related-white {font-size: 30px;}
+    #title-sm {font-size: 30px;}
 
-
-/* Contact Page */
-
-   .big-title {font-size: 2rem;}
-
-   .name {
-       font-size: 1.6rem;
-       line-height:0;
-       padding-bottom:3rem;
-       font-family: 'Mansory Regular', sans-serif;
-   }
-
-   .contacts {
-       font-size: 1.2rem;
-       line-height:0;
-       padding-bottom:1rem;
-   }
 
 
 /* Footer  */
@@ -2996,30 +2804,11 @@ apply to devices smaller than 320px --------------------------------------------
         font-size: 20px;
     }
 
-    h3.absolute.center.fade-text-related-white {font-size: 20px;}
+    #title-sm {font-size: 20px;}
 
     h4 {font-size: 1.2rem;}
 
 
-/* Contact Page */
-    .big-title {
-        font-size: 1.3rem;
-        padding-right: 0;
-        padding-bottom: 1rem;
-      }
-
-
-    .name {
-    font-size: 1.2rem;
-    line-height: 0;
-    padding-bottom: 2rem;
-    }
-
-    .contacts {
-        font-size: 1rem;
-        line-height: 0;
-        padding-bottom: 0.6rem;
-      }
 
 /* Footer Contact Page */
 
