@@ -616,8 +616,6 @@ p.handwritten-text{
     text-align: center;
 }
 
-
-
 .notes {
     font-family: 'Mansory', sans-serif;
     font-size:1rem;
@@ -635,6 +633,38 @@ p.handwritten-text{
     transform: translateY(-50%); /* Adjust for perfect centering */
     white-space: nowrap; /* Prevents text from wrapping */
 }
+
+
+
+
+
+
+/* ---------- CONTENT POSITIONING -----------------------------------------------------------------------------------------------------*/
+
+
+.content-start    {justify-items: flex-start;}
+.content-center   {justify-content: center;}
+.content-end      {justify-content: first baseline;}
+
+.space-between    {justify-content: space-between;}
+.space-around     {justify-content: space-around;}
+.space-evenly     {justify-content: space-evenly;}
+
+.flip-order-alternate                {flex-direction: row-reverse;}
+.column-top-to-bottom                {flex-direction: column;}
+.column-bottom-to-top                {flex-direction: column-reverse;}
+.flip-order-alternate:nth-child(even){flex-direction: row-reverse;}
+
+
+/* The flex-wrap property is a sub-property of the Flexible Box Layout module. 
+It defines wheather the flex items are forced in a single line or can be flowed into multiple lines. 
+If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in. */
+.flex-container {flex-wrap: wrap;}
+
+
+/* Vertically align items */
+.items-center {align-items: center;}
+
 
 
 
@@ -700,10 +730,6 @@ p a:hover {
 
 
 /* BUTTONS STYLING ----------------------------------------*/
-.subtle-button {
-    text-decoration: none;
-    border-bottom: 1px solid;
-}
 
 .featured-button {
     font-weight: bold;
@@ -712,6 +738,23 @@ p a:hover {
     margin-bottom: 0.5rem;
     margin-top: 2rem;
     color: var(--kapa-featured);
+}
+
+.subtle-button {
+    background-color: transparent;
+    font-family: 'Mansory Regular', sans-serif;
+    font-size: 1rem;
+    color: white;
+    border: 0px solid;
+    border-bottom: 2px solid white;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem 0.5rem;
+    margin: 2rem 0;
+}
+.subtle-button:hover {
+    color:var(--kapa-featured);
+    border: 0px solid;
+    border-bottom: 2px solid var(--kapa-featured);
 }
 
 .cta-button {
@@ -733,137 +776,252 @@ p a:hover {
 
 
 
-
-
-
-
-
-
-
-
-/* FORM BUTTON */
-.form-button {
-    background-color: #d5bdaf;
-    color: white;
-    border: 2px solid #edede9;
-    font-size:medium;
-    letter-spacing: 0.2rem;
-    padding: 0.5rem 0.5rem;
-    margin: 2rem 0;
-    border-radius: 10px;
-}
-
-.form-button:hover {
-    background-color: var(--green);
-    border: 2px solid #d5bdaf;
-    color: #d5bdaf;
-}
-
-.form-button-contact-page {
-    background-color: #d5bdaf;
-    color: white;
-    border: 2px solid #edede9;
-    font-size:medium;
-    letter-spacing: 0.2rem;
-    padding: 0.5rem 0.5rem;
-    margin: 2rem 0;
-    border-radius: 10px;
-}
-
-.form-button-contact-page:hover {
-    background-color: white;
-    border: 2px solid #d5bdaf;
-    color: #d5bdaf;
-}
-
-
-/* VIEW GALLERY BUTTON */
-.gallery-button {
-    background-color: transparent;
-    font-family: 'Mansory Regular', sans-serif;
-    font-size: 1rem;
-    color: white;
-    border: 0px solid;
-    border-bottom: 2px solid white;
-    letter-spacing: 0.2rem;
-    padding: 0.5rem 0.5rem;
-    margin: 2rem 0;
-}
-
-
-.gallery-button:hover {
-    color:#d5bdaf;
-    border: 0px solid;
-    border-bottom: 2px solid #d5bdaf;
-}
-
-
-/* VIEW PROJECT BUTTON */
-.view-project-button {
-    background-color: transparent;
-    font-family: 'Mansory Regular', sans-serif;
-    font-size: 1rem;
-    color: #676767;
-    border: 0px solid;
-    border-bottom: 2px solid #d5bdaf;
-    letter-spacing: 0.2rem;
-    padding: 1.5rem 0rem 0.3rem 0rem;
-    margin: 2rem 0;
-}
-
-a.view-project-button:hover {color: var(--featured);}
-
-
-
-/* VIEW RELATED PROJECT BUTTON */
-.related-posts-button {
-    background-color: transparent;
-    font-family: 'Mansory Regular', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    color: #676767;
-    border: 0px solid;
-    border-bottom: 2px solid #676767;
-    letter-spacing: 0.2rem;
-    padding: 1rem 0.5rem;
-    margin: 2rem 0;
-}
-
-
-.related-posts-button:hover {
-    color: white;
-    border: 0px solid;
-    border-bottom: 2px solid white;
-}
-
-.text-md .related-posts {
-    font-size: 2rem;
-    font-family: 'Mansory Regular', sans-serif;
-    font-weight: 100;
-    line-height: 1.1;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------- HEADER | STYLES -------------------------------------------------------------------------------------------------------- */
+
+
+header {
+    padding: 3rem 5%;
+    min-height: 10vh;
+    background-color: var(--kapa-background); 
+}
+
+/* Resets padding of the div containing the nav menu to 0 */
+/* div.col-7_sm-12.hide-md.right {padding: 0%;} */
+
+/* header nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.2rem;
+    text-align: right;
+} */
+
+header h2 {
+    font-size: 7rem;
+    line-height: 7rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+
+nav a {
+    padding: 0.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+nav a:hover {
+    color:#ccd2d8;
+}
+
+.logo {
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Hamburger button & menu ----------------------------------------*/
+/* to add more space between the spans, add padding to this div 
+ make sure you also add it to the top and bottom active classes on their top/bottom or else your cross wont line up*/
+
+.burger-button {
+    position:fixed;
+    top: 8vh;
+    right: 8vh;
+    z-index: 9;
+    padding: 8.5px;
+}
+
+/*color of the buttons*/
+.burger-button span{
+    width: 40px;
+    border: 1.5px solid #FE654F;
+    display: block;
+    border-radius: 22px;
+    transition: 1.5s;
+}
+
+.burger-top, .burger-bottom{
+    position: absolute;
+}
+.burger-top{
+top: -02px;
+}
+.burger-bottom{
+bottom: -02px;
+}
+
+
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+    position: absolute;
+    top: 8.5px;
+    transform: rotateZ(45deg);
+}
+.burger-button.active .burger-middle{
+/*   transform: rotateZ(270deg); */
+    border-color: rgba(0,0,0,0);
+    background-color:rgba(0,0,0,0);
+}
+/* make sure this has the same bottom as the burger button has padding*/
+.burger-button.active .burger-bottom{
+    position: absolute;
+    bottom: 8.5px;
+    transform: rotateZ(-45deg);
+}
+
+.burger-menu {
+    display: flex;
+    position: fixed;
+    top: 0vh;
+    left:100vw;
+    right: -100vw;
+    bottom: 0vh;
+    background-color: var(--kapa-background);
+    padding:5px;
+    z-index: 8;
+    transition:1s;
+    justify-content:space-around;
+    flex-direction:column;
+}
+.burger-menu.active{
+    left:0vw;
+    right:0;
+}
+.burger-menu a {
+    text-decoration: none;
+    color: var(--kapa-dark);
+    display:block;
+    text-align:center;
+    white-space:nowrap;
+}
+
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-title {
+    font-family: 'Mansory Regular', sans-serif;
+    color: var(--kapa-dark); 
+    text-transform: uppercase;
+    padding: 3vh 5%;
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+.dropdown-title:hover {
+    color: var(--kapa-featured); 
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0rem;
+    padding: 0rem;
+    display: none;
+    background-color: var(--kapa-featured);
+    z-index: 2;
+    text-align: left;
+    min-width: 15rem;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    min-width: 100%;
+}
+.dropdown-content a{
+    margin: 0.05rem;
+    background-color: var(--kapa-background);
+    font-size: 1rem;
+    font-style: oblique;
+    font-family: 'Mansory Regular', sans-serif;
+    padding: 2rem;
+}
+
+a.dropdown-link {
+    text-transform: lowercase;
+    font-size: 2rem;
+}
+.dropdown-link:hover {
+    color:var(--kapa-blue);
+}
+
+a.link {
+    font-family: 'Mansory Regular', sans-serif;
+    text-decoration: none; 
+    color: var(--kapa-dark); 
+    padding: 3vh 5%;
+    display: block;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+a.link:hover {
+    text-decoration: none; 
+    color: var(--kapa-featured); 
+    padding: 3vh 5%;
+    display: block;
+    font-weight: normal;
+}
+
 
 
 
 /* ---------- FOOTER | STYLES -------------------------------------------------------------------------------------------------------- */
+
+.submark-logo {
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display: block;
+    max-width: 60%;
+}
+
+a.footer.sm-padded-0 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+a.footer.sm-padded-0:hover {
+    color: var(--kapa-featured);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+p.footer {
+    font-size:1.1rem;
+    font-family: 'Mansory', sans-serif;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    margin:0;
+    padding-right:0.5rem;
+    text-align: right;
+    padding-bottom: 0.2rem;
+    color:var(--kapa-dark);
+}
+
+p.copyright {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: white;;
+}
+
+/* Social Media icons ---------------------------------------- */
+.fa-facebook-square{
+    color: var(--kapa-dark);
+    font-size: 1.5rem;
+}
+.fa-instagram{
+    color: var(--kapa-dark);
+    font-size: 1.5rem;
+}
+
 
 
 /* ---------- HOMEPAGE | STYLES ------------------------------------------------------------------------------------------------------ */
@@ -886,6 +1044,12 @@ a.view-project-button:hover {color: var(--featured);}
 
 /* ---------- GALLERY PAGES | STYLES ------------------------------------------------------------------------------------------------- */
 
+.text-md .related-posts {
+    font-size: 2rem;
+    font-family: 'Mansory Regular', sans-serif;
+    font-weight: 100;
+    line-height: 1.1;
+  }
 
 /* ---------- PACKAGES PAGE | STYLES ------------------------------------------------------------------------------------------------- */
 
@@ -933,316 +1097,9 @@ a.view-project-button:hover {color: var(--featured);}
 
 
 
-/* ----------------- CONTENT POSITIONING -------------------------------------*/
-
-
-.content-start    {justify-items: flex-start;}
-.content-center   {justify-content: center;}
-.content-end      {justify-content: first baseline;}
-
-.space-between    {justify-content: space-between;}
-.space-around     {justify-content: space-around;}
-.space-evenly     {justify-content: space-evenly;}
-
-.flip-order-alternate                {flex-direction: row-reverse;}
-.column-top-to-bottom                {flex-direction: column;}
-.column-bottom-to-top                {flex-direction: column-reverse;}
-.flip-order-alternate:nth-child(even){flex-direction: row-reverse;}
-
-
-/* The flex-wrap property is a sub-property of the Flexible Box Layout module. 
-It defines wheather the flex items are forced in a single line or can be flowed into multiple lines. 
-If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in. */
-.flex-container {flex-wrap: wrap;}
-
-
-/* Vertically align items */
-.items-center {align-items: center;}
 
 
 
-/* ------------------ HEADER STYLES ------------------------------------------*/ 
-
-
-header {
-    padding: 3rem 5%;
-    min-height: 10vh;
-    background-color: var(--kapa-background); 
-  }
-
-header h2 {
-    font-size: 7rem;
-    line-height: 7rem;
-}
-
-header h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-}
-
-/* Resets padding of the div containing the nav menu to 0 */
-/* div.col-7_sm-12.hide-md.right {padding: 0%;} */
-
-/* header nav {
-    font-family: 'Open Sans', sans-serif;
-    font-size:1.2rem;
-    text-align: right;
-} */
-
-nav a {
-    padding: 0.5rem;
-    text-transform: uppercase;
-    display: inline-block;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color:#ccd2d8;
-}
-
-.logo {
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    max-width: 100%;
-    display: block;
-}
-
-
-/* DROPDOWN MENU */
-
-.dropdown {
-    position: relative;
-    display: block;
-}
-
-
-.dropdown-title {
-    font-family: 'Mansory Regular', sans-serif;
-    color: var(--kapa-dark); 
-    text-transform: uppercase;
-    padding: 3vh 5%;
-    display: block;
-    text-align: center;
-    font-weight: normal;
-    font-size: 2.5rem;
-}
-
-.dropdown-title:hover {
-    color: var(--kapa-featured); 
-}
-
-.dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: 0rem;
-    padding: 0rem;
-    display: none;
-    background-color: var(--kapa-featured);
-    z-index: 2;
-    text-align: left;
-    min-width: 15rem;
-}
-
-
-.dropdown:hover .dropdown-content{
-    display: block;
-    min-width: 100%;
-}
-
-.dropdown-content a{
-    margin: 0.05rem;
-    background-color: var(--kapa-background);
-    font-size: 1rem;
-    font-style: oblique;
-    font-family: 'Mansory Regular', sans-serif;
-    padding: 2rem;
-}
-
-a.dropdown-link {
-    font-family: 'Mansory Regular', sans-serif;
-    text-transform: lowercase;
-    font-weight: normal;
-    font-size: 2rem;
-}
-
-.dropdown-link:hover {
-    color:var(--kapa-blue);
-}
-
-
-/* HAMBURGER MENU  */
-
-/* this is where you style the button
- if you want to add more space between the spans 
- then add padding to this div 
- but make sure you also add it to the top and bottom active classes on their top/bottom or else your cross wont line up*/
-
-.burger-button {
-    position:fixed;
-    top: 8vh;
-    right: 8vh;
-    z-index: 9;
-    padding: 8.5px;
-  }
-
-  /*this is where you can change the color of the buttons*/
-  .burger-button span{
-    width: 40px;
-    border: 1.5px solid #FE654F;
-    background-color: #676767;
-    display: block;
-    border-radius: 22px;
-    transition: 1.5s;
-  }
-
-  .burger-button.active span{
-    border-color: #676767;
-    background-color:#676767;
-  }
-  
-  .burger-top, .burger-bottom{
-    position: absolute;
-  }
-  
-  .burger-top{
-    top: -02px;
-  }
-  
-  .burger-bottom{
-    bottom: -02px;
-  }
-
-
-  /* make sure this has the same top as the burger button has padding*/
-  .burger-button.active .burger-top{
-    position: absolute;
-    top: 8.5px;
-    transform: rotateZ(45deg);
-  }
-  
-
-  .burger-button.active .burger-middle{
-  /*   transform: rotateZ(270deg); */
-    border-color: rgba(0,0,0,0);
-    background-color:rgba(0,0,0,0);
-  }
-  
-  /* make sure this has the same bottom as the burger button has padding*/
-  
-  .burger-button.active .burger-bottom{
-    position: absolute;
-    bottom: 8.5px;
-    transform: rotateZ(-45deg);
-  }
-  
-  .burger-menu {
-      display: flex;
-      position: fixed;
-      top: 0vh;
-      left:100vw;
-      right: -100vw;
-      bottom: 0vh;
-      background-color: var(--kapa-background);
-      padding:5px;
-      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-      z-index: 8;
-      transition:1s;
-      justify-content:space-around;
-      flex-direction:column;
-  }
-
-
-  .burger-menu.active{
-    left:0vw;
-    right:0;
-  }
-
-
-  .burger-menu a {
-    text-decoration: none;
-    color: var(--kapa-dark);
-    display:block;
-    text-align:center;
-    white-space:nowrap;
-  }
-
-a.link {
-    font-family: 'Mansory Regular', sans-serif;
-    text-decoration: none; 
-    color: var(--kapa-dark); 
-    padding: 3vh 5%;
-    display: block;
-    font-weight: normal;
-    font-size: 2.5rem;
-}
-
-a.link:hover {
-    text-decoration: none; 
-    color: var(--kapa-featured); 
-    padding: 3vh 5%;
-    display: block;
-    font-weight: normal;
-}
-
-
-
-
-/* ------------------ FOOTER STYLES -----------------------------*/ 
-.submark-logo {
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    display: block;
-    max-width: 60%;
-}
-
-
-
-a.footer.sm-padded-0 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-}
-
-a.footer.sm-padded-0:hover {
-    color: var(--kapa-featured);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-}
-
-
-p.footer {
-    font-size:1.1rem;
-    font-family: 'Mansory', 'Open Sans';
-    letter-spacing: 0.1rem;
-    font-style: italic;
-    margin:0;
-    padding-right:0.5rem;
-    text-align: right;
-    padding-bottom: 0.2rem;
-    color:var(--kapa-dark);
-}
-
-/* ICONS SOCIAL MEDIA */
-.fa-facebook-square{
-    color: var(--kapa-dark);
-    font-size: 1.5rem;
-}
-
-.fa-instagram{
-    color: var(--kapa-dark);
-    font-size: 1.5rem;
-}
-
-
-/* ALL RIGHTS RESERVED */
-
-p.copyright {
-    font-size: 0.9rem;
-    text-align: center;
-    padding-top: 2.5rem;
-  }
 
 
 /* ------------------ ROLLING BANNER ---------------------------------------- */
@@ -2757,9 +2614,9 @@ apply to devices smaller than 768px ------------------------------------------*/
         line-height: 1.1;
       }
 
-    .gallery-button {margin: 1rem 0;}
+    .subtle-button {margin: 1rem 0;}
 
-    .gallery-button:hover {
+    .subtle-button:hover {
         color:white;
         border: 0px solid;
         border-bottom: 2px solid white;
@@ -2975,8 +2832,6 @@ apply to devices smaller than 576px ------------------------------------*/
 
     h3.latest-projects-title {padding-bottom: 1rem;}
 
-    a.view-project-button:hover {color: #c9c9c9;}
-
     p.latest-projects-text {font-size: 1.1rem;}
 
 
@@ -3121,7 +2976,7 @@ apply to devices smaller than 320px --------------------------------------------
     .tag {font-size: 0.9rem;}
 
 
-    button.gallery-button {font-size: 1rem;}
+    button.subtle-button {font-size: 1rem;}
 
     .padding-15 {
         padding-bottom: 0.8rem;
