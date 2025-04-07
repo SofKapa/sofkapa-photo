@@ -1258,32 +1258,6 @@ form label {
 
 
 
-/* LINE BREAKS */
-
-
-hr.short {
-    border: 1px solid var(--dark-text);
-    width: 2rem;
-    margin: 1rem 0;
-  }
-  
-hr.short.center {
-    margin:auto;
-    margin: 1rem auto;
-    justify-content: center;
-  }
-
-
-/* PAGE NAME */
-
-
-
-/* OTHER ELEMENTS */
-.location-icon-styles {
-    display: block;
-    text-align: right;
-    font-size: 2rem;
-}
 
 
 
