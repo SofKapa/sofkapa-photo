@@ -1038,6 +1038,31 @@ p.copyright {
 
 /* ---------- CATEGORY PAGES | STYLES ------------------------------------------------------------------------------------------------ */
 
+/* Banner images ---------------------------------------------------- */
+.banner-brands {
+    background-image: url('/assets/brands/EPL/peopleeatinginside.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    min-height: 60vh;
+    padding: 5%;
+}
+.banner-travel {
+    background-image: url('/assets/travel/MYANMAR/fishermanandbirds.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    min-height: 60vh;
+    padding: 5%;
+}
+.banner-portrait {
+    background-image: url('/assets/portrait/CAROLINA/reflection.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    min-height: 60vh;
+    padding: 5%;
+}
+
+
+
 /* .banner-text {
     font-family: 'Mansory Regular Oblique', sans-serif;
     font-size: 2rem;
@@ -1058,433 +1083,7 @@ p.copyright {
     position: relative;
 }
 
-
-
-
-/* ---------- GALLERY PAGES | STYLES ------------------------------------------------------------------------------------------------- */
-
-.project-description {
-    font-style: oblique;
-    margin-top: 2rem;
-}
-
-.sticky {
-    position: sticky;
-    top: 0; /* Sticks to the top of the viewport */
-    z-index: 1000; /* Ensures it stays above other content */
-    align-self: start; /* Helps sticky behave properly in a grid */
-}
-
-#title-sm {
-    color:white;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-
-
-
-
-
-
-
-
-/* ---------- PACKAGES PAGE | STYLES ------------------------------------------------------------------------------------------------- */
-
-
-
-/* ---------- ABOUT PAGE | STYLES ---------------------------------------------------------------------------------------------------- */
-
-.about-banner {
-    background-image: url("/assets/myportrait.jpg");
-    background-size: cover;
-    background-position: 50% 100%;
-    position: relative;
-}
-
-
-
-
-/* ---------- CONTACT PAGE | STYLES -------------------------------------------------------------------------------------------------- */
-
-
-
-/* Contact Form -------------------------------------------*/
-/* .form-title {
-    font-size: 2rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    color: var(--featured-text);
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.form {padding-bottom: 3rem;}
-
-form input,
-form textarea {
-    width: 100%;
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    border: none;
-    border-bottom: 1px solid #8b8b8b;
-    outline: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    color: #d5bdaf;
-    background-color: transparent;
-}
-
-form input:focus,
-form textarea:focus {
-  border-color: #d5bdaf;
-}
-
-textarea {
-    min-height: 5rem;
-}
-
-form label {
-    margin-top: 1rem;
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    color: #878787;
-    font-weight: borld;
-    text-align: center;
-}
-
-::placeholder { 
-    color: #676767;
-    opacity: 0.8; 
-    font-style: oblique;
-    text-align: center;
-  } */
-
-
-
-/* ---------- FEATURED PROJECTS ------------------------------------------------------------------------------------------------------ */
-
-/* .latest-projects-title {
-    font-family: 'Mansory Medium', sans-serif;
-    font-size: 2rem;
-    color: var(--featured-text);
-    padding-bottom: 2rem;
-    margin-bottom: 0rem;
-}
-
-.latest-projects-text {margin-bottom:2rem;}
-
-.location-tag {
-    font-family: 'Mansory Regular Oblique', sans-serif;
-    font-style: oblique;
-    font-weight: lighter;
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-}
-
-.category-tag {
-    font-family: 'Mansory Regular', sans-serif;
-    font-weight: lighter;
-    font-size: 1.1rem;
-    color: var(--featured-text);
-} */
-
-
-
-
-/* --------- BOOK NOW - ROLLING BANNER ----------------------------------------------------------------------------------------------- */
-.overflow-hidden {
-    overflow: hidden;
-}
-
-.justify-start {
-    justify-content: flex-start;
-}
-
-.whitespace-nowrap {
-    white-space: nowrap;
-}
-
-.scroll-banner {
-    display: flex;
-    animation: scrollBanner 12s infinite linear;
-    transition: all 1s ease;
-    margin-bottom: 0;
-}
-.scroll-banner img {
-    height: auto;
-    width: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.scroll-banner span {
-    display: inline-block; /* or 'block' */
-}
-
-.scroll-text {
-    display: inline-block;
-    padding-right: 3rem;
-    font-size: 2.5rem;
-    color: var(--kapa-dark);
-    text-align: center;
-    font-family: 'Malmont', sans-serif;
-}
-
-@keyframes scrollBanner {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------ IMAGES & IMAGE GALLERY STYLES---------------------------*/
-
-/* GENERAL */
-
-.transparent {opacity: 0.8;}
-
-
-/* COVER IMAGES */
-/* Homepage category covers */
-.bg-piagonzosofa { 
-    background-image: url('assets/portrait/coverportrait.jpg'); 
-    background-size: cover;
-    background-position: 30% 50%;
-}
-.bg-carolinafavourite { 
-    background-image: url('assets/portrait/CAROLINA/favourite.jpg'); 
-    background-size: cover;
-    background-position: 30% 50%;
-}
-.bg-familyepl { 
-    background-image: url('assets/brands/coverbrands.jpg');
-    background-size: cover;
-    background-position: 33% 50%;
-}
-.bg-fisherman { 
-    background-image: url('assets/travel/covertravel.jpg');
-    background-size: cover;
-    background-position: 33% 70%;
-}
-
-/* Category Page Banners */
-.banner-brands {
-    background-image: url('/assets/brands/EPL/peopleeatinginside.jpg');
-    background-size: cover;
-    background-position: 50% 65%;
-    min-height: 60vh;
-    padding: 5%;
-}
-
-.banner-travel {
-    background-image: url('/assets/travel/MYANMAR/fishermanandbirds.jpg');
-    background-size: cover;
-    background-position: 50% 65%;
-    min-height: 60vh;
-    padding: 5%;
-}
-
-.banner-portrait {
-    background-image: url('/assets/portrait/CAROLINA/reflection.jpg');
-    background-size: cover;
-    background-position: 50% 65%;
-    min-height: 60vh;
-    padding: 5%;
-}
-
-/* Booking Calendar Banner */
-.banner-bookings {
-    background-image: url('/assets/travel/AUSTRALIA/kakadugunlomfalls.jpg');
-    opacity: 0.8;
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 60vh;
-    padding: 5%;
-}
-
-/* Testimonials Banner */
-.banner-testimonials {
-    background-image: url('/assets/portrait/BABIES/hospital-bts.JPEG');
-    background-size: cover;
-    background-position: 50% 20%;
-    min-height: 60vh;
-    padding: 5%;
-}
-
-/* Project covers */
-/* Brands */
-.bg-bmv {
-    background-image: url('assets/brands/BMV/bartenderserving.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-epl {
-    background-image: url('assets/brands/EPL/sofiagarcio.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-lechat {
-    background-image: url('assets/brands/LECHAT/moscowmule.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-mozza {
-    background-image: url('assets/brands/MOZZA/littlegirls.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-woven {
-    background-image: url('assets/brands/WOVEN/beetrootlatte.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-stagshead {
-    background-image: url('assets/brands/STAGS/antipastoboard.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-
-/* Travel */
-.bg-greece {
-    background-image: url('assets/travel/GREECE/manstairs.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-prague {
-    background-image: url('assets/travel/PRAGUE/bridgeseller.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-melbourne {
-    background-image: url('assets/travel/MELBOURNE/blue.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-vietnam {
-    background-image: url('assets/travel/VIETNAM/foodtruckladies.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-myanmar {
-    background-image: url('assets/travel/MYANMAR/twoladieslooking.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.bg-newzealand {
-    background-image: url('assets/travel/NEWZEALAND/mountcookview.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-
-/* Portrait */
-.bg-carolina {
-    background-image: url('assets/portrait/CAROLINA/favourite.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-
-.bg-piaandgonzo {
-    background-image: url('assets/portrait/PIAANDGONZO/flowers.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-
-.bg-maddyandsam {
-    background-image: url('assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg');
-    background-size: cover;
-    background-position: 50% 55%;
-}
-
-
-/* GALLERY STYLES */
-
-.gallery [class*="col-"] {padding: 0.3rem;}
-
-
-/* POP-UP GALLERY WHEN ACTIVE */
-.lg-image {
-border-radius: 25px;
-border: 2px solid var(--kapa-featured);
-}
-
-.lg-backdrop {
-    background: #C6FFDD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #AAC7CB, #FBD786, #FE654F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #AAC7CB, #FBD786, #FE654F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        ;
-}
-
-
-.lg-backdrop.in {opacity: 0.8;}
-
-.lg-next, .lg-prev {
-    background-color: transparent;
-    color: white;
-    font-size: 60px;
-  }
-
-picture.lg-img-wrap {padding-bottom: 3rem;}
-
-
-/* CAROLINA GALLERY */
-.allbrown         { background-image: url('assets/portrait/CAROLINA/allbrown.jpg');background-position: 25% 50%; }
-.byhouse          { background-image: url('assets/portrait/CAROLINA/byhouse.jpg'); background-position: 50% 86%;}
-.favourite        { background-image: url('assets/portrait/CAROLINA/favourite.jpg'); }
-.fitness          { background-image: url('assets/portrait/CAROLINA/fitness.jpg'); }
-.hat              { background-image: url('assets/portrait/CAROLINA/hat.jpg'); }
-.inwater          { background-image: url('assets/portrait/CAROLINA/inwater.jpg'); }
-.laughinglikemom  { background-image: url('assets/portrait/CAROLINA/laughinglikemom.jpg'); }
-.laughingsitting  { background-image: url('assets/portrait/CAROLINA/laughingsitting.jpg'); }
-.lookinghorizon   { background-image: url('assets/portrait/CAROLINA/lookinghorizon.jpg'); background-position: 69% 50%;}
-.lyingtowel       { background-image: url('assets/portrait/CAROLINA/lyingtowel.jpg'); background-position: 50% 50%;}
-.reflection       { background-image: url('assets/portrait/CAROLINA/reflection.jpg'); }
-.sittinginwater   { background-image: url('assets/portrait/CAROLINA/sittinginwater.jpg'); }
-.sittingtowel     { background-image: url('assets/portrait/CAROLINA/sittingtowel.jpg'); background-position: 50% 95%;}
-.towel            { background-image: url('assets/portrait/CAROLINA/towel.jpg'); }
-.umberellas       { background-image: url('assets/portrait/CAROLINA/umberellas.jpg'); }
-
-
-
-
-
+/* Scrolling Cards -------------------------------------------------- */
 
 /* ------------------ GALLERY CARDS BASED ON IOC TEMPLATE --------------------*/
 /* THE SECTION */
@@ -1699,6 +1298,259 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     font-weight: 100;
     line-height: 1.1;
   }
+
+
+
+/* ---------- GALLERY PAGES | STYLES ------------------------------------------------------------------------------------------------- */
+
+/* Gallery description banner ---------------------------------- */
+.project-description {
+    font-style: oblique;
+    margin-top: 2rem;
+}
+
+.sticky {
+    position: sticky;
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000; /* Ensures it stays above other content */
+    align-self: start; /* Helps sticky behave properly in a grid */
+}
+
+#title-sm {
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/* Gallery photos section -------------------------------------- */
+.gallery [class*="col-"] {padding: 0.3rem;}
+
+.lg-image {
+border-radius: 25px;
+border: 2px solid var(--kapa-featured);
+}
+
+.lg-backdrop {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #AAC7CB, #FBD786, #FE654F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AAC7CB, #FBD786, #FE654F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ;
+}
+
+.lg-backdrop.in {opacity: 0.8;}
+
+.lg-next, .lg-prev {
+    background-color: transparent;
+    color: white;
+    font-size: 60px;
+}
+
+picture.lg-img-wrap {padding-bottom: 3rem;}
+  
+  
+
+
+
+
+
+
+
+
+/* ---------- PACKAGES PAGE | STYLES ------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------- ABOUT PAGE | STYLES ---------------------------------------------------------------------------------------------------- */
+
+.about-banner {
+    background-image: url("/assets/myportrait.jpg");
+    background-size: cover;
+    background-position: 50% 100%;
+    position: relative;
+}
+
+
+/* Testimonials Banner ------------------------------------*/
+.banner-testimonials {
+    background-image: url('/assets/portrait/BABIES/hospital-bts.JPEG');
+    background-size: cover;
+    background-position: 50% 20%;
+    min-height: 60vh;
+    padding: 5%;
+}
+
+
+
+
+/* ---------- CONTACT PAGE | STYLES -------------------------------------------------------------------------------------------------- */
+
+
+
+/* Contact Form -------------------------------------------*/
+/* .form-title {
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: var(--featured-text);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.form {padding-bottom: 3rem;}
+
+form input,
+form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #8b8b8b;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #d5bdaf;
+    background-color: transparent;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #d5bdaf;
+}
+
+textarea {
+    min-height: 5rem;
+}
+
+form label {
+    margin-top: 1rem;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #878787;
+    font-weight: borld;
+    text-align: center;
+}
+
+::placeholder { 
+    color: #676767;
+    opacity: 0.8; 
+    font-style: oblique;
+    text-align: center;
+  } */
+
+
+
+
+
+/* ---------- BOOKING CALENDAR PAGE | STYLES ----------------------------------------------------------------------------------------- */
+.banner-bookings {
+    background-image: url('/assets/travel/AUSTRALIA/kakadugunlomfalls.jpg');
+    opacity: 0.8;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 60vh;
+    padding: 5%;
+}
+
+/* ---------- FEATURED PROJECTS ------------------------------------------------------------------------------------------------------ */
+
+/* .latest-projects-title {
+    font-family: 'Mansory Medium', sans-serif;
+    font-size: 2rem;
+    color: var(--featured-text);
+    padding-bottom: 2rem;
+    margin-bottom: 0rem;
+}
+
+.latest-projects-text {margin-bottom:2rem;}
+
+.location-tag {
+    font-family: 'Mansory Regular Oblique', sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.category-tag {
+    font-family: 'Mansory Regular', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    color: var(--featured-text);
+} */
+
+
+
+
+/* --------- BOOK NOW - ROLLING BANNER ----------------------------------------------------------------------------------------------- */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.scroll-banner {
+    display: flex;
+    animation: scrollBanner 12s infinite linear;
+    transition: all 1s ease;
+    margin-bottom: 0;
+}
+.scroll-banner img {
+    height: auto;
+    width: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.scroll-banner span {
+    display: inline-block; /* or 'block' */
+}
+
+.scroll-text {
+    display: inline-block;
+    padding-right: 3rem;
+    font-size: 2.5rem;
+    color: var(--kapa-dark);
+    text-align: center;
+    font-family: 'Malmont', sans-serif;
+}
+
+@keyframes scrollBanner {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Package Page Cards */
