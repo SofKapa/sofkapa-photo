@@ -566,9 +566,8 @@ a.bg-image {display: block;}
 /* Text sizing */
 .sm-text  {font-size: 1rem;}
 .md-text  {font-size: 1.5rem;}
-.lg-text  {font-size: 4.5rem;}
-.xl-text  {font-size: 3rem;}
-
+.lg-text  {font-size: 3rem;}
+.xl-text  {font-size: 4.5rem;}
 
 /* Text type */
 .oblique  {font-style: oblique;}
@@ -738,8 +737,8 @@ p a:hover {
 /* BUTTONS STYLING ----------------------------------------*/
 
 .featured-button {
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-family: 'Mansory', sans-serif;
+    font-size: 3rem;
     display: block;
     margin-bottom: 0.5rem;
     margin-top: 2rem;
@@ -1184,6 +1183,7 @@ p.copyright {
     border-radius: 25px;
 }
 
+/* How much space cards take up on viewport */
 .w-1\/4  {width: 25%;}
 .h-2\/5 {height: 40%;}
 
@@ -1191,22 +1191,19 @@ p.copyright {
     margin-left: 1.5rem;
 }
 
+.card-shadow {
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+/* CARD CONTENT */
 .bottom-shade {
     bottom: 0;
     left: 0;
     right: 0;
 }
 
-.shade-color {
-    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
-}
-
-.cursor-pointer {
-    cursor: pointer;
-}
-
-
+/* How text spreads */
 .inset-0 {
     top: 0;
     right: 0;
@@ -1222,15 +1219,6 @@ p.copyright {
     font-style: oblique;
     line-height: 1.25rem;
 }
-
-
-.text-md {
-    font-size: 2.7rem;
-    font-family: 'Mansory Regular', sans-serif;
-    font-weight: 100;
-    line-height: 1.1;
-}
-
 
 
 /* Sustainability values banner -------------------------------------- */
@@ -1526,7 +1514,7 @@ form label {
     background-color: rgba(170, 199, 203, 0.8);
 }
 
-.shadow {
+.package-card-shadow {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -2236,13 +2224,6 @@ apply to devices smaller than 768px ------------------------------------------*/
     .sm\:w-1\/2 {width: 50%;}
 
     .tag {font-size: 0.7rem;}
-
-    .text-md {
-        font-size: 1.7rem;
-        font-family: 'Mansory Regular', sans-serif;
-        font-weight: 100;
-        line-height: 1.1;
-      }
 
     .subtle-button {margin: 1rem 0;}
 
