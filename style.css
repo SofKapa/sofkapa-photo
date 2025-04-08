@@ -1229,11 +1229,6 @@ p.copyright {
     padding: 5%;
 }
 
-.bg-gradient-overlay {
-    background: linear-gradient(0deg,rgba(22,22,30,.9) 3%,rgba(22,22,30,0) 100%);
-    border-radius: 25px;
-}
-
 /* .banner-text {
     font-family: 'Mansory Regular Oblique', sans-serif;
     font-size: 2rem;
@@ -1295,6 +1290,11 @@ p.copyright {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.bg-gradient-overlay {
+    background: linear-gradient(0deg,rgba(22,22,30,.9) 3%,rgba(22,22,30,0) 100%);
+    border-radius: 25px;
 }
 
 /* How text spreads */

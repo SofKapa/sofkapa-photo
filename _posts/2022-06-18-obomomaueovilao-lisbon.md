@@ -1,8 +1,8 @@
 ---
 layout: post
-title: O Bom o Mau e o Vilão, Lisbon
+title: Moody nights in Lisbon cocktail bar
 description: A busy bar located in the heart of Lisbon,<br> known by its vibrant colours and cheerful live music
-location: Portugal
+location: Lisbon, Portugal
 featured: true
 live_url: https://www.google.com
 main_category: brands
