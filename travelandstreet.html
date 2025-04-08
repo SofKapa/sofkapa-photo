@@ -42,11 +42,11 @@ seo:
     <!-- Loop through projects -->
     {% for post in travel-posts %}
 
-    <div class="w-1/4 md:w-1/3 sm:w-1/2 flex-shrink-0 margin-r-15 first:margin-l-6 card">
+    <div class="w-1/4 md:w-1/3 sm:w-1/2 flex-shrink-0 margin-r-1 first:margin-l-6 card">
 
-      <a href="{{ post.url }}" class="bg-image round-corners portrait relative shadow-sm" style="background-image: url('{{ post.cover_image }}');">
-            <div class="absolute h-2/5 bottom-0 left-0 right-0 rounded-2xl bg-gradient-overlay"></div>
-            <div class="absolute inset-0 flex stack space-between padding-15 text-center">
+      <a href="{{ post.url }}" class="bg-image round-corners portrait relative shade-color" style="background-image: url('{{ post.cover_image }}');">
+            <div class="absolute h-2/5 bottom-shade rounded-2xl bg-gradient-overlay"></div>
+            <div class="absolute inset-0 flex stack space-between padded-1 text-center">
 
               <p class="tag">{{ post.location }}</p>
               <h3 class="white leading-none mb-0">{{ post.title }} </h3>
