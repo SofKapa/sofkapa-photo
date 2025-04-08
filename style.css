@@ -1031,6 +1031,7 @@ p.copyright {
 
 /* ---------- HOMEPAGE | STYLES ------------------------------------------------------------------------------------------------------ */
 
+/* Cards general styles --------------------------------------------- */
 .fade-image {
     width: 100%;
     height: 100%;
@@ -1074,8 +1075,9 @@ p.copyright {
 }
 
 
+/* Slideshow -------------------------------------------------------- */
 
-/* Slide of images ----------------------------------------------- */
+/* SLIDE STYLES */
 .slider-container-homepage-cards { 
     /* border: 2px  solid blue;  */
     display: flex; /* Ensures child elements stretch */
@@ -1109,6 +1111,97 @@ p.copyright {
     background-position: center;
     border-radius: 25px;
 }
+
+/* SLIDE IMAGES */
+.bg-travel-1 { 
+    background-image: url('assets/travel/VIETNAM/foodtruckladies.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-travel-2 { 
+    background-image: url('assets/travel/MYANMAR/fisherman.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-travel-3 { 
+    background-image: url('assets/travel/GREECE/manstairs.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-travel-4 { 
+    background-image: url('assets/travel/NEWZEALAND/mountainreflection.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-food-1 { 
+    background-image: url('assets/brands/LECHAT/moscowmule.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-food-2 { 
+    background-image: url('assets/brands/MOZZA/seafoodpasta.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-food-3 { 
+    background-image: url('assets/brands/BMV/menlaughing.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-food-4 { 
+    background-image: url('assets/brands/EPL/pinkcouple.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-portrait-1 { 
+    background-image: url('assets/portrait/PIAANDGONZO/kimandpiahug.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-portrait-2 { 
+    background-image: url('assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-portrait-3 { 
+    background-image: url('assets/portrait/CAROLINA/fitness.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-portrait-4 { 
+    background-image: url('assets/portrait/CAROLINA/favourite.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+
+
 
 /* ---------- CATEGORY PAGES | STYLES ------------------------------------------------------------------------------------------------ */
 
@@ -1287,17 +1380,32 @@ border: 2px solid var(--kapa-featured);
 }
 
 picture.lg-img-wrap {padding-bottom: 3rem;}
-  
-  
-
-
-
-
 
 
 
 
 /* ---------- PACKAGES PAGE | STYLES ------------------------------------------------------------------------------------------------- */
+
+/* The cards ------------------------------------------------------- */
+
+/* Makes the overflow hidden on large screens 
+(the full cards are visible, without being cut to indicate scrolling */
+.overflow-x-scroll-packages {
+    overflow-x: hidden; 
+    justify-content: center;
+}
+
+.package-card-shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.border-featured {
+    border: 1px solid var(--kapa-featured);
+}
+
+.w-9\/12 {width: 75%;}
+
+
 .rounded-top {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -1308,6 +1416,53 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 }
 
 
+/* Best seller tag -------------------------------------------------- */
+
+.bestseller-package {
+    position: relative; /* Ensures the tag is positioned relative to this div */
+}
+
+.bestseller-tag {
+    position: absolute;
+    top: 13px;
+    right: -25px; /* Moves it slightly out */
+    background: var(--kapa-featured); /* Bright color for attention */
+    color: white;
+    font-family: 'Mansory', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transform: rotate(35deg); /* Rotates the tag */
+    transform-origin: center;
+}
+
+
+/* Card content ----------------------------------------------------- */
+
+.package-title {
+    text-align: center;
+    padding: 2.5%;
+    margin-bottom: 0;
+    color: white;
+    background-color: rgba(170, 199, 203, 0.8);
+}
+
+/* LIST MARKERS */
+li::marker {
+    content: "✓ "; /* Adds a checkmark before each list item */
+    color: var(--kapa-featured);
+    padding-right: 1rem;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+
+
+
 /* ---------- ABOUT PAGE | STYLES ---------------------------------------------------------------------------------------------------- */
 
 .about-banner {
@@ -1315,6 +1470,179 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     background-size: cover;
     background-position: 50% 100%;
     position: relative;
+}
+
+
+/* Slideshow section ----------------------------------------------------*/
+
+/* SLIDER DOTS*/
+.slick-dots li button::before {
+    font-size: 6px;
+    color: var(--kapa-dark);
+}
+.slick-dots li.slick-active button::before {
+    color: var(--kapa-featured);
+}
+/* Position in (positive)/out (negative) of container  */
+.slick-dots {
+    bottom: 0%;
+    left: 0; /* This align the dots perfectly to the center, do not delete */
+}
+/* Space in between dots */
+.slick-dots li,
+.slick-dots li button {
+    width: 6px;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+/* Image Tag */
+.slider-tag {
+    font-family: 'Mansory Regular Oblique', sans-serif;
+    font-style: oblique;
+    color: var(--kapa-dark);
+    font-weight: lighter;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+/* Images ------------------------- */
+
+/* Travel Slider */
+
+.bg-moonbeach { 
+    background-image: url('assets/travel/GREECE/moonbeach.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-ricefields {
+    background-image: url('assets/travel/VIETNAM/ricefields.jpg'); 
+    background-size: cover;
+    background-position: 100% 100%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-saovicente {
+    background-image: url('assets/travel/CAPEVERDE/saovicentecapeverde.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-petra {
+    background-image: url('assets/travel/JORDAN/petrajordan.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+/* Food Slider  */
+.bg-coffee {
+    background-image: url('assets/brands/WOVEN/phonecoffee.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-cocktails {
+    background-image: url('assets/brands/BMV/twococktails.jpg'); 
+    background-size: cover;
+    background-position: 65% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-tikibar {
+    background-image: url('assets/brands/VAULT/tikibar.jpeg'); 
+    background-size: cover;
+    background-position: 50% 72%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-mozzarellabar {
+    background-image: url('assets/brands/MOZZA/outdoordining.jpg'); 
+    background-size: cover;
+    background-position: 50% 65%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+
+/* Portrait Slider */
+.bg-studiobaby {
+    background-image: url('assets/portrait/BABIES/studiobaby.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-francesperry {
+    background-image: url('assets/portrait/BABIES/hospital.JPEG'); 
+    background-size: cover;
+    background-position: 50% 20%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-babysmile {
+    background-image: url('assets/portrait/BABIES/babysmile.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+.bg-baptism {
+    background-image: url('assets/portrait/BABIES/baptism.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
+
+/* ------------------ SLICK SLIDER - TESTIMONIALS --------------------------- */
+
+.testimonial-slider-container {
+    padding-top: 5%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.quote-icon {
+    font-size: 3rem;
+    color: var(--kapa-background);
+}
+
+.slider-item {
+    padding: 1rem;
+}
+
+
+.slider-item p {
+    text-align: center;
+    font-family: "Mansory", serif;
+    font-style: italic;
+    font-size: 1.8rem;
+    color: var(--kapa-background);
+}
+
+.author.text-right {
+    font-size: 1.3rem;
+    color: var(--kapa-blue);
+    margin-top: 0.5rem;
+    font-style: italic;
+    text-align: right;
 }
 
 
@@ -1492,388 +1820,6 @@ form label {
 
 
 
-
-
-
-
-/* Package Page Cards */
-
-
-/* Makes the overflow hidden on large screens (the full cards are visible, without being cut to indicate scrolling */
-.overflow-x-scroll-packages {
-    overflow-x: hidden; 
-    justify-content: center;
-}
-
-
-.package-title {
-    text-align: center;
-    padding: 2.5%;
-    margin-bottom: 0;
-    color: white;
-    background-color: rgba(170, 199, 203, 0.8);
-}
-
-.package-card-shadow {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-
-.border-featured {
-    border: 1px solid var(--kapa-featured);
-}
-
-
-.w-9\/12 {width: 75%;}
-
-/* Bestseller tag */
-
-.bestseller-package {
-    position: relative; /* Ensures the tag is positioned relative to this div */
-}
-
-.bestseller-tag {
-    position: absolute;
-    top: 13px;
-    right: -25px; /* Moves it slightly out */
-    background: var(--kapa-featured); /* Bright color for attention */
-    color: white;
-    font-family: 'Mansory', sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.3em;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    transform: rotate(35deg); /* Rotates the tag */
-    transform-origin: center;
-}
-
-/* Styles list markers */
-li::marker {
-    content: "✓ "; /* Adds a checkmark before each list item */
-    color: var(--kapa-featured);
-    padding-right: 1rem;
-}
-
-ul {
-    list-style-position: inside;
-}
-
-
-
-/* Overlay - Packages Section */
-.bg-overlay-packages::before {
-    content: ""; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(170, 199, 203, 0.2);
-}
-
-.bg-overlay-packages::after { 
-    z-index: 1;
-    content: "";
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(170, 199, 203, 0.2);
-}
-
-
-/* Takes anything inside the banner and pushes it to the front */
-.bg-overlay-packages > * {
-    z-index: 2;
-    position: relative;
-} 
-
-
-/* ------------------ SLICK SLIDER - GALLERY --------------------------- */
-/* Homepage cards */
-.bg-travel-1 { 
-    background-image: url('assets/travel/VIETNAM/foodtruckladies.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-
-.bg-travel-2 { 
-    background-image: url('assets/travel/MYANMAR/fisherman.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-travel-3 { 
-    background-image: url('assets/travel/GREECE/manstairs.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-travel-4 { 
-    background-image: url('assets/travel/NEWZEALAND/mountainreflection.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-food-1 { 
-    background-image: url('assets/brands/LECHAT/moscowmule.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-food-2 { 
-    background-image: url('assets/brands/MOZZA/seafoodpasta.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-food-3 { 
-    background-image: url('assets/brands/BMV/menlaughing.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-food-4 { 
-    background-image: url('assets/brands/EPL/pinkcouple.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-portrait-1 { 
-    background-image: url('assets/portrait/PIAANDGONZO/kimandpiahug.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-portrait-2 { 
-    background-image: url('assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-portrait-3 { 
-    background-image: url('assets/portrait/CAROLINA/fitness.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-portrait-4 { 
-    background-image: url('assets/portrait/CAROLINA/favourite.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-/* Base code -----------------------*/
-.slider-container {
-    /* border: 2px solid lightblue; */
-}
-    
-.slider-item {
-    /* padding: 1rem; */
-    /* border: 2px solid orange; */
-}
-
-/* Slider dots ---------------------*/
-/* Size & colour */
-.slick-dots li button::before {
-    font-size: 6px;
-    color: var(--kapa-dark);
-}
-
-/* Colour when hovered */
-.slick-dots li.slick-active button::before {
-    color: var(--kapa-featured);
-}
-
-/* Position in (positive)/out (negative) of container  */
-.slick-dots {
-    bottom: 0%;
-    left: 0; /* This align the dots perfectly to the center, do not delete */
-}
-
-/* Space in between dots */
-.slick-dots li,
-.slick-dots li button {
-    width: 6px;
-}
-
-.slick-dotted.slick-slider {
-    margin-bottom: 0px;
-}
-
-/* Image Tag */
-.slider-tag {
-    font-family: 'Mansory Regular Oblique', sans-serif;
-    font-style: oblique;
-    color: var(--kapa-dark);
-    font-weight: lighter;
-    font-size: 0.8rem;
-    padding-top: 0.5rem;
-}
-
-/* Images ------------------------- */
-
-/* Travel Slider */
-
-.bg-moonbeach { 
-    background-image: url('assets/travel/GREECE/moonbeach.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-ricefields {
-    background-image: url('assets/travel/VIETNAM/ricefields.jpg'); 
-    background-size: cover;
-    background-position: 100% 100%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-saovicente {
-    background-image: url('assets/travel/CAPEVERDE/saovicentecapeverde.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-petra {
-    background-image: url('assets/travel/JORDAN/petrajordan.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-/* Food Slider  */
-.bg-coffee {
-    background-image: url('assets/brands/WOVEN/phonecoffee.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-cocktails {
-    background-image: url('assets/brands/BMV/twococktails.jpg'); 
-    background-size: cover;
-    background-position: 65% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-tikibar {
-    background-image: url('assets/brands/VAULT/tikibar.jpeg'); 
-    background-size: cover;
-    background-position: 50% 72%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-mozzarellabar {
-    background-image: url('assets/brands/MOZZA/outdoordining.jpg'); 
-    background-size: cover;
-    background-position: 50% 65%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-
-/* Portrait Slider */
-.bg-studiobaby {
-    background-image: url('assets/portrait/BABIES/studiobaby.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-francesperry {
-    background-image: url('assets/portrait/BABIES/hospital.JPEG'); 
-    background-size: cover;
-    background-position: 50% 20%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-babysmile {
-    background-image: url('assets/portrait/BABIES/babysmile.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-.bg-baptism {
-    background-image: url('assets/portrait/BABIES/baptism.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-
-
-/* ------------------ SLICK SLIDER - TESTIMONIALS --------------------------- */
-
-.testimonial-slider-container {
-    padding-top: 5%;
-    max-width: 900px;
-    margin: auto;
-}
-
-.quote-icon {
-    font-size: 3rem;
-    color: var(--kapa-background);
-}
-
-.slider-item {
-    padding: 1rem;
-}
-
-
-.slider-item p {
-    text-align: center;
-    font-family: "Mansory", serif;
-    font-style: italic;
-    font-size: 1.8rem;
-    color: var(--kapa-background);
-}
-
-.author.text-right {
-    font-size: 1.3rem;
-    color: var(--kapa-blue);
-    margin-top: 0.5rem;
-    font-style: italic;
-    text-align: right;
-}
 
 
 
