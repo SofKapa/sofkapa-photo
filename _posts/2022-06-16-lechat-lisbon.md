@@ -5,7 +5,7 @@ description: Overlookig the Tagus river, this open room restaurant offers great 
 location: Portugal
 featured: false
 live_url: https://www.google.com
-main_category: brands
+main_category: food
 categories: [brands, hospitality, restaurant, small event, music, food]
 cover_image: /assets/brands/LECHAT/moscowmule.jpg
 featured_image: /assets/brands/LECHAT/yellowlady.jpg

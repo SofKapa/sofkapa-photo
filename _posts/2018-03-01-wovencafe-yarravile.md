@@ -5,7 +5,7 @@ description: Former textile factory transformed into a cozy industrial cafe in t
 location: Melbourne - Australia
 featured: false
 live_url: https://www.google.com
-main_category: brands
+main_category: food
 categories: [brands, hospitality, cafe, food]
 cover_image: /assets/brands/WOVEN/beetrootlatte.jpg
 featured_image: /assets/brands/WOVEN/phonecoffee.jpg

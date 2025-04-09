@@ -5,7 +5,7 @@ description: Authentic Italian cuisine and cozy atmosphere in the heart of Seddo
 location: Melbourne - Australia
 featured: false
 live_url: https://www.google.com
-main_category: brands
+main_category: food
 categories: [brands, hospitality, restaurant, food]
 cover_image: /assets/brands/MOZZA/littlegirls.jpg
 featured_image: /assets/brands/MOZZA/pizzainair.jpg

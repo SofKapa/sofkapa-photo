@@ -5,7 +5,7 @@ description: One of Williamstown's oldest pubs, a favourite among locals for aft
 location: Melbourne - Australia
 featured: false
 live_url: https://www.google.com
-main_category: brands 
+main_category: food 
 categories: [brands, hospitality, pub, food]
 cover_image: /assets/brands/STAGS/antipastoboard.jpg
 featured_image: /assets/brands/STAGS/chapies.jpg

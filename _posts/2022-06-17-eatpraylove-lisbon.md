@@ -5,7 +5,7 @@ description: Capturing the light in this holistic health cafe was easy. From the
 location: Portugal
 featured: false
 live_url: https://www.google.com
-main_category: brands
+main_category: food
 categories: [brands, hospitality, restaurant, cafe, health, food]
 cover_image: /assets/brands/EPL/sofiagarcio.jpg
 featured_image: /assets/brands/EPL/cutefamily.jpg

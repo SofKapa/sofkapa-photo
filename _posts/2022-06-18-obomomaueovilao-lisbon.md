@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Moody nights in Lisbon cocktail bar
-description: A busy bar located in the heart of Lisbon,<br> known by its vibrant colours and cheerful live music
-location: Lisbon, Portugal
+title: Moody nights <br> in Lisbon's <br> cocktail bar
+description: Through photography we lean into low-light storytelling, using ambient glows, deep shadows, and rich tones to preserve the venue’s authentic vibe without artificial polish. Each image invites the viewer to feel the music, taste the cocktails, and step into the scene as if they’ve already been there.
+location: Portugal
 featured: true
 live_url: https://www.google.com
-main_category: brands
+main_category: food
 categories: [drinks, live music, nightlife]
 cover_image: /assets/brands/BMV/bartenderserving.jpg
 featured_image: /assets/brands/BMV/bartenderserving.jpg
 seo:
     title: O Bom O Mau e O Vilao Lisbon | Sof Kapa Photography
-    description: My photography gallery of this busy bar located in the heart of Lisbon
+    description: A moody photo story of Lisbon's vibrant cocktail bar O Bom O Mau e O Vilão — capturing music, movement, and nightlife through cinematic photography.
     social_image: /assets/brands/BMV/bartenderserving.jpg
     keywords: [brand photographer, bar, small event, music, drinks, nightlife, lisbon]
     hide-from-google: false 

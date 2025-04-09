@@ -560,7 +560,6 @@ a.bg-image {display: block;}
 .text-right   {text-align: right;}
 .text-center  {text-align: center;}
 .text-justify {text-align: justify;}
-.uppercase    {text-transform: uppercase;}
 
 
 /* Text sizing */
@@ -572,6 +571,7 @@ a.bg-image {display: block;}
 /* Text type */
 .oblique  {font-style: oblique;}
 .italic   {font-style: italic;}
+.uppercase    {text-transform: uppercase;}
 
 
 /* Unique texts*/
