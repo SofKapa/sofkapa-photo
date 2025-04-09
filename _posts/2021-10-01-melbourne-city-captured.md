@@ -6,6 +6,7 @@ location: Melbourne, Australia
 featured: false
 live_url: https://www.google.com
 main_category: travel
+main_category_url: /travelandstreet.html
 categories: [travel, street, city, oceania]
 tags: []
 cover_image: /assets/travel/MELBOURNE/blue.jpg

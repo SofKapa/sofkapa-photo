@@ -6,6 +6,7 @@ location: Melbourne, Australia
 featured: true
 live_url: /project-gallery.html
 main_category: portrait
+main_category_url: /portraitandlifestyle.html
 categories: [portrait, small event, wedding]
 tags: []
 cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg

@@ -6,6 +6,7 @@ location: New Zealand
 featured: false
 live_url: https://www.google.com
 main_category: travel
+main_category_url: /travelandstreet.html
 categories: [travel, landscape, nature, oceania]
 cover_image: /assets/travel/NEWZEALAND/mountcookview.jpg
 featured_image: /assets/travel/NEWZEALAND/tongariro4.jpg

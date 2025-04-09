@@ -6,6 +6,7 @@ location: Australia
 featured: true
 live_url: https://www.google.com
 main_category: travel
+main_category_url: /travelandstreet.html
 categories: [travel, nature, australia]
 tags: []
 cover_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg

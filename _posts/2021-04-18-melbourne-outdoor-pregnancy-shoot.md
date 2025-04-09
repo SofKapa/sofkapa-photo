@@ -6,6 +6,7 @@ location: Melbourne, Australia
 featured: false
 live_url: /project-gallery.html
 main_category: portrait
+main_category_url: /portraitandlifestyle.html
 categories: [portrait, pregnancy, forest]
 tags: []
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg

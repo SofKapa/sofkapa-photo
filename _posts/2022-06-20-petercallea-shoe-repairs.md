@@ -6,6 +6,7 @@ location: Melbourne, Australia
 featured: false
 live_url: /project-gallery.html
 main_category: portrait
+main_category_url: /portraitandlifestyle.html
 categories: [portrait, documentary, traditional trade]
 tags: []
 cover_image: /assets/portrait/PETERCALLEA/squarecobbler.jpg

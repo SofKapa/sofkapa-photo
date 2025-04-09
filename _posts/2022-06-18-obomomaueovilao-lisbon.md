@@ -6,6 +6,7 @@ location: Lisbon, Portugal
 featured: true
 live_url: https://www.google.com
 main_category: food
+main_category_url: /brandsandevents.html
 categories: [hospitality, music venues, nightlife]
 tags: [moody photography, cocktail bar, live music, bar branding, ambient lighting, Lisbon nightlife, creative spaces, event photography, low-light photography, brand storytelling]
 cover_image: /assets/brands/BMV/bartenderserving.jpg

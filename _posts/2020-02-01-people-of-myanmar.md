@@ -6,6 +6,7 @@ location: Myanmar
 featured: false
 live_url: https://www.google.com
 main_category: travel
+main_category_url: /travelandstreet.html
 categories: [travel, street, asia]
 tags: []
 cover_image: /assets/travel/MYANMAR/twoladieslooking.jpg

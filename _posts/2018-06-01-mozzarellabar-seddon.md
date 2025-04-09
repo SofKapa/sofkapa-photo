@@ -6,6 +6,7 @@ location: Melbourne, Australia
 featured: false
 live_url: https://www.google.com
 main_category: food
+main_category_url: /brandsandevents.html
 categories: [brands, hospitality, restaurant, food]
 tags: []
 cover_image: /assets/brands/MOZZA/littlegirls.jpg

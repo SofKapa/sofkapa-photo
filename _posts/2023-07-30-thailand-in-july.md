@@ -6,6 +6,7 @@ location: Thailand
 featured: true
 live_url: https://www.google.com
 main_category: travel
+main_category_url: /travelandstreet.html
 categories: [travel, street, asia, tropical]
 tags: []
 cover_image: /assets/travel/THAILAND/manwithdreadlocks.jpg

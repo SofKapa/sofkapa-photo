@@ -6,6 +6,7 @@ location: Lisbon, Portugal
 featured: false
 live_url: https://www.google.com
 main_category: food
+main_category_url: /brandsandevents.html
 categories:  [hospitality, brands, lifestyle]
 tags: [wellness photography, café branding, food photography, natural light, Lisbon brunch, yoga studio, calm spaces, brand storytelling, lifestyle photography, slow living]
 cover_image: /assets/brands/EPL/sofiagarcio.jpg
