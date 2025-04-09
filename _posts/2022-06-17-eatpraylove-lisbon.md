@@ -1,19 +1,20 @@
 ---
 layout: post
-title: Eat Pray Love, Lisbon
-description: Capturing the light in this holistic health cafe was easy. From their delicious brunches to restoring yoga classes... 
-location: Portugal
+title: Wellness Meets Brunch in Lisbon
+description: This light-filled holistic cafe in Lisbon blends nourishing food, soulful spaces, and restorative wellness classes. Through photography, we captured its warm atmosphere, vibrant brunches, and the calm energy that defines its brand. 
+location: Lisbon, Portugal
 featured: false
 live_url: https://www.google.com
 main_category: food
-categories: [brands, hospitality, restaurant, cafe, health, food]
+categories:  [hospitality, brands, lifestyle]
+tags: [wellness photography, café branding, food photography, natural light, Lisbon brunch, yoga studio, calm spaces, brand storytelling, lifestyle photography, slow living]
 cover_image: /assets/brands/EPL/sofiagarcio.jpg
 featured_image: /assets/brands/EPL/cutefamily.jpg
 seo:
-    title: Eat Pray Love Lisbon | Sof Kapa Photography
-    description: Capturing the light in this holistic health cafe was easy. From their delicious brunches to restoring yoga classes... 
+    title: Wellness Café & Lifestyle Photography in Lisbon | Sof Kapa Photography
+    description: A warm, light-filled photography story of this wellness café in Lisbon — capturing vibrant brunch moments, holistic branding, and the soul of Eat Pray Love’s serene space. 
     social_image: /assets/brands/EPL/cutefamily.jpg
-    keywords: [food photographer, brands, restaurant, cafe, health, food, lisbon]
+    keywords: [Lisbon photographer, wellness brand photography, food photographer Lisbon, lifestyle café photos, yoga studio photography, restaurant branding, holistic cafe, Portugal photography]
     hide-from-google: false 
 gallery:
 - column-size: col-4

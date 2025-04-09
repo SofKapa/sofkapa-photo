@@ -2,11 +2,12 @@
 layout: post
 title: Intimate wedding in Carlton Gardens
 description: Moments of love and celebration in the middle of the longest lockdown in the world
-location: Melbourne - Australia
+location: Melbourne, Australia
 featured: true
 live_url: /project-gallery.html
 main_category: portrait
 categories: [portrait, small event, wedding]
+tags: []
 cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg
 featured_image: /assets/portrait/PIAANDGONZO/cheers.jpg
 seo:

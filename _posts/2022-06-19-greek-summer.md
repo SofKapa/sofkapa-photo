@@ -7,6 +7,7 @@ featured: false
 live_url: https://www.google.com
 main_category: travel
 categories: [travel, street, europe, summer]
+tags: []
 cover_image: /assets/travel/GREECE/manstairs.jpg
 featured_image: /assets/travel/GREECE/ladyinblue.jpg
 seo:

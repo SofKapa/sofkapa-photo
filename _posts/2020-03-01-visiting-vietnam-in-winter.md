@@ -2,11 +2,12 @@
 layout: post
 title: Winter in Vietnam
 description: Among rice fields, lovely people and delicious street food
-location: Southeast Asia
+location: Vietnam
 featured: true
 live_url: https://www.google.com
 main_category: travel
 categories: [travel, street, asia]
+tags: []
 cover_image: /assets/travel/VIETNAM/foodtruckladies.jpg
 featured_image: /assets/travel/VIETNAM/girllanterns.jpg
 seo:

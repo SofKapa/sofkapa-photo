@@ -2,11 +2,12 @@
 layout: post
 title: Melbourne outdoor pregnancy shoot
 description: Back to the forest where they first met...
-location: Victoria - Australia
+location: Melbourne, Australia
 featured: false
 live_url: /project-gallery.html
 main_category: portrait
 categories: [portrait, pregnancy, forest]
+tags: []
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
 featured_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
 seo:

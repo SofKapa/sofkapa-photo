@@ -2,11 +2,12 @@
 layout: post
 title: Maternity session at the beach
 description: This mom-to-be loves the Portuguese ocean and we couldn't think of a better place for her maternity shoot
-location: Lisbon - Portugal
+location: Lisbon, Portugal
 featured: false
 live_url: /project-gallery.html
 main_category: portrait
 categories: [portrait, pregnancy, beach]
+tags: []
 cover_image: /assets/portrait/CAROLINA/favourite.jpg
 featured_image: /assets/portrait/CAROLINA/favourite.jpg
 seo:

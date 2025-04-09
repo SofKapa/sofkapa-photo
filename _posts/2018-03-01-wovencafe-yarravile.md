@@ -2,11 +2,12 @@
 layout: post
 title: Woven Cafe, Yarraville
 description: Former textile factory transformed into a cozy industrial cafe in the heart of Yarraville
-location: Melbourne - Australia
+location: Melbourne, Australia
 featured: false
 live_url: https://www.google.com
 main_category: food
 categories: [brands, hospitality, cafe, food]
+tags: []
 cover_image: /assets/brands/WOVEN/beetrootlatte.jpg
 featured_image: /assets/brands/WOVEN/phonecoffee.jpg
 seo:

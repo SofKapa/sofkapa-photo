@@ -2,7 +2,7 @@
 layout: post
 title: New Zealand landscapes
 description: A country where nature is the queen and everything looks like a painting
-location: Oceania
+location: New Zealand
 featured: false
 live_url: https://www.google.com
 main_category: travel

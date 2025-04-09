@@ -7,6 +7,7 @@ featured: true
 live_url: https://www.google.com
 main_category: travel
 categories: [travel, nature, australia]
+tags: []
 cover_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
 featured_image: /assets/travel/AUSTRALIA/karijiniredgorge.jpg
 seo:

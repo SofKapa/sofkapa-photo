@@ -2,11 +2,12 @@
 layout: post
 title: Le Chat, Lisbon
 description: Overlookig the Tagus river, this open room restaurant offers great views, food and atmosphere to its customers
-location: Portugal
+location: Lisbon, Portugal
 featured: false
 live_url: https://www.google.com
 main_category: food
 categories: [brands, hospitality, restaurant, small event, music, food]
+tags: []
 cover_image: /assets/brands/LECHAT/moscowmule.jpg
 featured_image: /assets/brands/LECHAT/yellowlady.jpg
 seo:

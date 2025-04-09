@@ -2,11 +2,12 @@
 layout: post
 title: People of Myanmar 
 description: Mysterious and captivating are the two first words that come to my mind when thinking of you...
-location: Southeast Asia
+location: Myanmar
 featured: false
 live_url: https://www.google.com
 main_category: travel
 categories: [travel, street, asia]
+tags: []
 cover_image: /assets/travel/MYANMAR/twoladieslooking.jpg
 featured_image: /assets/travel/MYANMAR/threemonks.jpg
 seo:

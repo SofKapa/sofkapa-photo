@@ -2,11 +2,12 @@
 layout: post
 title: The Stags Head Hotel, Williamstown
 description: One of Williamstown's oldest pubs, a favourite among locals for afterwork drinks
-location: Melbourne - Australia
+location: Melbourne, Australia
 featured: false
 live_url: https://www.google.com
 main_category: food 
 categories: [brands, hospitality, pub, food]
+tags: []
 cover_image: /assets/brands/STAGS/antipastoboard.jpg
 featured_image: /assets/brands/STAGS/chapies.jpg
 seo:
