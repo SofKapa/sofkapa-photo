@@ -4,7 +4,6 @@ title: Winter in Vietnam
 description: Among rice fields, lovely people and delicious street food
 location: Vietnam
 featured: true
-live_url: https://www.google.com
 main_category: travel
 main_category_url: /travelandstreet.html
 categories: [travel, street, asia]

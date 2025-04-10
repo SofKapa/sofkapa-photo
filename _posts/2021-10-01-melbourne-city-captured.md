@@ -4,7 +4,6 @@ title: Melbourne Vibes
 description: Busy laneways, cultural diversity, endless entertainment and best coffee breaks are just a few words to describe you...
 location: Melbourne, Australia
 featured: false
-live_url: https://www.google.com
 main_category: travel
 main_category_url: /travelandstreet.html
 categories: [travel, street, city, oceania]

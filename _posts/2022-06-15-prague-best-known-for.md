@@ -4,7 +4,6 @@ title: Prague's Gems
 description: Magical streets in the city of a hundred spires
 location: Prague, Czech Republic
 featured: false
-live_url: https://www.google.com
 main_category: travel
 main_category_url: /travelandstreet.html
 categories: [travel, street, city, europe]

@@ -4,7 +4,6 @@ title: People of Myanmar
 description: Mysterious and captivating are the two first words that come to my mind when thinking of you...
 location: Myanmar
 featured: false
-live_url: https://www.google.com
 main_category: travel
 main_category_url: /travelandstreet.html
 categories: [travel, street, asia]

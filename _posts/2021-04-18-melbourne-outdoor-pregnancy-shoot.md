@@ -4,7 +4,6 @@ title: Melbourne outdoor pregnancy shoot
 description: Back to the forest where they first met...
 location: Melbourne, Australia
 featured: false
-live_url: /project-gallery.html
 main_category: portrait
 main_category_url: /portraitandlifestyle.html
 categories: [portrait, pregnancy, forest]

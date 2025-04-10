@@ -4,7 +4,6 @@ title: Greek summer
 description: White walls, translucid waters and a slow paced life ponctuated by sips of freddo cappuccino
 location: Greece
 featured: false
-live_url: https://www.google.com
 main_category: travel
 main_category_url: /travelandstreet.html
 categories: [travel, street, europe, summer]

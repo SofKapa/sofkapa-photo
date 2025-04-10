@@ -4,7 +4,6 @@ title: Capturing decades of craftsmanship
 description: Peter Callea was born in the South of Italy and emigrated to Australia as a young man. In the 1957, 24 year old Peter opened this shoe repair shop in Kingsville (Melbourne), and has been working as a cobbler alongside his wife ever since...
 location: Melbourne, Australia
 featured: false
-live_url: /project-gallery.html
 main_category: portrait
 main_category_url: /portraitandlifestyle.html
 categories: [portrait, documentary, traditional trade]
