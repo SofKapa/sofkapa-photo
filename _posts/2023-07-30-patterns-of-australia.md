@@ -1,20 +1,22 @@
 ---
 layout: post
-title: Australian Patterns
-description: Breathtaking views and spectacular diversity are uncovered with every step on this blood red country
+title: Textures & Patterns of Australia
+description: A photographic exploration of Australian landscapes and built environments through patterns, textures, and light. A quiet look at place and detail — dirt, shadows and bird's-eye view for the wandering eye
 location: Australia
 featured: true
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, nature, australia]
-tags: []
+categories: [travel, landscape, textures]
+tags: [Australian photography, abstract landscapes, texture photography, fine art travel imagery, minimalist photographer, Sof Kapa Photography]
+cover_image: /assets/personal/patterns/bushroad.jpg
 cover_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
 featured_image: /assets/travel/AUSTRALIA/karijiniredgorge.jpg
 seo:
-    title: Patterns of Australia | Sof Kapa Photography
-    description: Travel and nature photos that uncover one of the most diverse and vast countries in the world, Australia
+    title: Australian Patterns & Textures in Photography | Sof Kapa Photography
+    description: A photo collection focusing on the patterns of Australia captured through texture, light, and minimal composition.
+    social_image: /assets/personal/patterns/sand.jpg
     social_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg
-    keywords: [travel photographer, nature photography, australia, australian nature]
+    keywords: [texture photography Australia, minimalist travel photographer, abstract photography, Australian landscape photographer, Sof Kapa Photography]
     hide-from-google: false
 gallery:
 - column-size: col-12
