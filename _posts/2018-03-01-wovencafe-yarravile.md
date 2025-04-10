@@ -4,7 +4,6 @@ title: Café Lifestyle Shoot
 description: A relaxed, inviting set of lifestyle and brand images featuring cozy café moments, artisanal food, natural textures, and morning light — perfect for small business and hospitality storytelling.
 location: Melbourne, Australia
 featured: false
-live_url: https://sofkapaphotography.com/gallery/wovencafe-yarravile
 main_category: food
 main_category_url: /brandsandevents.html
 categories: [cafe, lifestyle, small business]

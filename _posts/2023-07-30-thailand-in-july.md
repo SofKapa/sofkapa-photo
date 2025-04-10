@@ -1,21 +1,20 @@
 ---
 layout: post
-title: Thailand in July
-description: Slow mornings, tropical rain and fast bikes sum up an unforgettable week in Thailand
+title: A Visual Diary of Thailand in July
+description: A photo journal of real, sensory travel moments — capturing daily life, tropical textures, rich colors, and the atmosphere of a humid July in Thailand. Ideal for tourism brands looking for authentic, immersive visuals.
 location: Thailand
 featured: true
-live_url: https://www.google.com
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, street, asia, tropical]
-tags: []
+categories: [travel, storytelling, documentary]
+tags: [Thailand travel photography, lifestyle photography, documentary photographer, personal photo journal, storytelling visuals, Sof Kapa Photography]
 cover_image: /assets/travel/THAILAND/manwithdreadlocks.jpg
 featured_image: /assets/travel/THAILAND/motorbikeladywithkid.jpg
 seo:
-    title: Thailand in July | Sof Kapa Photography
-    description: Travel and street photos from a week in Bangkok and Koh Tao - Thailand
+    title: Travel & Documentary Photography in Thailand | Sof Kapa Photography
+    description: Honest, sensory photography capturing real moments in Bangkok and Koh Tao — from humid rooftops to street textures and everyday life. A story-driven approach to travel imagery.
     social_image: /assets/travel/THAILAND/manwithdreadlocks.jpg
-    keywords: [travel photographer, street photography, asia, thailand in july]
+    keywords: [Thailand travel photography, documentary style, storytelling visuals, lifestyle travel photography, Sof Kapa Photography]
     hide-from-google: false
 gallery:
 - column-size: col-4

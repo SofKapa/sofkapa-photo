@@ -4,7 +4,6 @@ title: Classic Pub & Hospitality Photography
 description: A relaxed and character-filled gallery capturing classic pub food, pints, and lively local gathering in a warm, welcoming setting — ideal for traditional hospitality brands and local venues.
 location: Melbourne, Australia
 featured: false
-live_url: https://sofkapaphotography.com/gallery/stagshotel-williamstown
 main_category: food 
 main_category_url: /brandsandevents.html
 categories: [pub, food, hospitality]

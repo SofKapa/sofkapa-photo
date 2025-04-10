@@ -4,7 +4,6 @@ title: Wellness Meets Brunch in Lisbon
 description: This light-filled holistic cafe in Lisbon blends nourishing food, soulful spaces, and restorative wellness classes. Through photography, we captured its warm atmosphere, vibrant brunches, and the calm energy that defines its brand. 
 location: Lisbon, Portugal
 featured: false
-live_url: https://sofkapaphotography.com/gallery/eatpraylove-lisbon
 main_category: food
 main_category_url: /brandsandevents.html
 categories:  [restaurant, brands, lifestyle]

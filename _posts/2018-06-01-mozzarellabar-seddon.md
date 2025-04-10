@@ -4,7 +4,6 @@ title: Italian Cozy Food & Interiors
 description: A cozy and intimate set of lifestyle photos featuring natural light, fresh food styling, and inviting interior scenes — captured in a small Melbourne eatery. 
 location: Melbourne, Australia
 featured: false
-live_url: https://sofkapaphotography.com/gallery/mozzarellabar-seddon
 main_category: food
 main_category_url: /brandsandevents.html
 categories: [hospitality, food, interior]

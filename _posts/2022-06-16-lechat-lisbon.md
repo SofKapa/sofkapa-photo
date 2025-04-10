@@ -4,7 +4,6 @@ title: Stories driven by Light & Space
 description: A collection of warm-toned lifestyle and hospitality photos showcasing vibrant food, cocktails, and ambient moments at a riverside Lisbon venue. Perfect for brands seeking natural, storytelling visuals.
 location: Lisbon, Portugal
 featured: false
-live_url: https://sofkapaphotography.com/gallery/lechat-lisbon
 main_category: food
 main_category_url: /brandsandevents.html
 categories: [brands, restaurant, music venues]

@@ -4,7 +4,6 @@ title: Australian Patterns
 description: Breathtaking views and spectacular diversity are uncovered with every step on this blood red country
 location: Australia
 featured: true
-live_url: https://www.google.com
 main_category: travel
 main_category_url: /travelandstreet.html
 categories: [travel, nature, australia]
