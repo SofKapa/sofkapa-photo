@@ -1,21 +1,21 @@
 ---
 layout: post
-title: Le Chat, Lisbon
-description: Overlookig the Tagus river, this open room restaurant offers great views, food and atmosphere to its customers
+title: Storytelling Through Light & Space
+description: A collection of warm-toned lifestyle and hospitality photos showcasing vibrant food, cocktails, and ambient moments at a riverside Lisbon venue. Perfect for brands seeking natural, storytelling visuals.
 location: Lisbon, Portugal
 featured: false
-live_url: https://www.google.com
+live_url: https://sofkapaphotography.com/gallery/lechat-lisbon
 main_category: food
 main_category_url: /brandsandevents.html
-categories: [brands, hospitality, restaurant, small event, music, food]
-tags: []
+categories: [brands, restaurant, music venues]
+tags: [restaurant photography, Lisbon food scene, event photography, hospitality photography, Sof Kapa Photography]
 cover_image: /assets/brands/LECHAT/moscowmule.jpg
 featured_image: /assets/brands/LECHAT/yellowlady.jpg
 seo:
-    title: Le Chat Lisbon | Sof Kapa Photography
-    description: Photographing the unmatching atmosphere of this beautiful open room restaurant overlooking the Tagus river
+    title: Lisbon Hospitality & Food Photography – Warm, Story-Driven Visuals | Sof Kapa Photography
+    description: Explore the soulful atmosphere of Le Chat in Lisbon through vibrant restaurant and event photography, capturing views of the Tagus River, delicious food, and live music moments.
     social_image: /assets/brands/LECHAT/yellowlady.jpg
-    keywords: [food photographer, brands, restaurant, small event, music, lisbon]
+    keywords:  [Melbourne restaurant photography, food photographer Melbourne, hospitality photography, Le Chat Lisbon, event photographer Australia, Sof Kapa]
     hide-from-google: false 
 gallery:
 - column-size: col-4

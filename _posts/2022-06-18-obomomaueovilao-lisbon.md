@@ -4,11 +4,11 @@ title: Moody nights <br> in Lisbon's <br> cocktail bar
 description: Through photography we lean into low-light storytelling, using ambient glows, deep shadows, and rich tones to preserve the venue’s authentic vibe without artificial polish. Each image invites the viewer to feel the music, taste the cocktails, and step into the scene as if they’ve already been there.
 location: Lisbon, Portugal
 featured: true
-live_url: https://www.google.com
+live_url: https://sofkapaphotography.com/gallery/obomomaueovilao-lisbon
 main_category: food
 main_category_url: /brandsandevents.html
 categories: [hospitality, music venues, nightlife]
-tags: [moody photography, cocktail bar, live music, bar branding, ambient lighting, Lisbon nightlife, creative spaces, event photography, low-light photography, brand storytelling]
+tags: [moody photography, cocktail bar, live music, bar branding, ambient lighting, Lisbon nightlife, creative spaces, event photography, low-light photography, brand storytelling, Sof Kapa Photography]
 cover_image: /assets/brands/BMV/bartenderserving.jpg
 featured_image: /assets/brands/BMV/bartenderserving.jpg
 seo:
