@@ -1,21 +1,21 @@
 ---
 layout: post
-title: The Stags Head Hotel, Williamstown
-description: One of Williamstown's oldest pubs, a favourite among locals for afterwork drinks
+title: Classic Pub & Hospitality Photography
+description: A relaxed and character-filled gallery capturing classic pub food, pints, and lively local gathering in a warm, welcoming setting — ideal for traditional hospitality brands and local venues.
 location: Melbourne, Australia
 featured: false
-live_url: https://www.google.com
+live_url: https://sofkapaphotography.com/gallery/stagshotel-williamstown
 main_category: food 
 main_category_url: /brandsandevents.html
-categories: [brands, hospitality, pub, food]
-tags: []
+categories: [pub, food, hospitality]
+tags: [Melbourne pub photography, hospitality photographer, bar and food imagery, Sof Kapa Photography]
 cover_image: /assets/brands/STAGS/antipastoboard.jpg
 featured_image: /assets/brands/STAGS/chapies.jpg
 seo:
-  title: The Stags Head Hotel Williamstown | Sof Kapa Photography
-  description: One of Williamstown's oldest pubs, a favourite among locals for afterwork drinks
+  title: Traditional Pub & Hospitality Photography in Melbourne | Sof Kapa Photography
+  description: Honest, character-driven imagery showcasing hearty pub food, beer taps, bar culture, and lively ambiance — perfect for classic venues wanting warm, authentic brand visuals.
   social_image: /assets/brands/STAGS/chapies.jpg
-  keywords: [melbourne photographer, stags head hotel, brands, hospitality, pub, food]
+  keywords: [traditional pub photography, Melbourne food photographer, hospitality branding, local pub event photography, Sof Kapa Photography]
   hide-from-google: false 
 gallery:
 - column-size: col-6

@@ -1,21 +1,22 @@
 ---
 layout: post
-title: Mozzarella Bar, Seddon
-description: Authentic Italian cuisine and cozy atmosphere in the heart of Seddon 
+title: Italian Cozy Food & Interiors
+description: A cozy and intimate set of lifestyle photos featuring natural light, fresh food styling, and inviting interior scenes — captured in a small Melbourne eatery. 
 location: Melbourne, Australia
 featured: false
-live_url: https://www.google.com
+live_url: https://sofkapaphotography.com/gallery/mozzarellabar-seddon
 main_category: food
 main_category_url: /brandsandevents.html
-categories: [brands, hospitality, restaurant, food]
-tags: []
+categories: [hospitality, food, interior]
+tags: [Melbourne food photography, lifestyle photography, small business branding, restaurant interior photography, Sof Kapa Photography]
 cover_image: /assets/brands/MOZZA/littlegirls.jpg
 featured_image: /assets/brands/MOZZA/pizzainair.jpg
 seo:
-    title: Mozzarella Bar Seddon | Sof Kapa Photography
-    description: Authentic Italian cuisine and cozy atmosphere in the heart of Seddon
+    title: Natural Light Food & Lifestyle Photography in Melbourne | Sof Kapa Photography
+    description: A warm, brand-focused photo collection featuring artisanal food, cozy interiors, and soft natural light — ideal for hospitality and small business storytelling.
     social_image: /assets/brands/MOZZA/pizzainair.jpg
-    keywords: [melbourne photographer, mozzarella bar, brands, hospitality, restaurant, food]
+    keywords: [Melbourne food photographer, restaurant branding photography, cozy cafe photos, lifestyle photographer Australia, Sof Kapa Photography]
+    hide-from-google: false
     hide-from-google: false 
 gallery:
 - column-size: col-4

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Storytelling Through Light & Space
+title: Stories driven by Light & Space
 description: A collection of warm-toned lifestyle and hospitality photos showcasing vibrant food, cocktails, and ambient moments at a riverside Lisbon venue. Perfect for brands seeking natural, storytelling visuals.
 location: Lisbon, Portugal
 featured: false

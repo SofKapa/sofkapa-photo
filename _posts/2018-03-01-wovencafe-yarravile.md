@@ -1,21 +1,22 @@
 ---
 layout: post
-title: Woven Cafe, Yarraville
-description: Former textile factory transformed into a cozy industrial cafe in the heart of Yarraville
+title: Café Lifestyle Shoot
+description: A relaxed, inviting set of lifestyle and brand images featuring cozy café moments, artisanal food, natural textures, and morning light — perfect for small business and hospitality storytelling.
 location: Melbourne, Australia
 featured: false
-live_url: https://www.google.com
+live_url: https://sofkapaphotography.com/gallery/wovencafe-yarravile
 main_category: food
 main_category_url: /brandsandevents.html
-categories: [brands, hospitality, cafe, food]
-tags: []
+categories: [cafe, lifestyle, small business]
+tags: [Melbourne café photographer, hospitality branding, lifestyle photography, soft light photography, Sof Kapa Photography]
+cover_image: /assets/brands/WOVEN/cappuccino.jpg
 cover_image: /assets/brands/WOVEN/beetrootlatte.jpg
 featured_image: /assets/brands/WOVEN/phonecoffee.jpg
 seo:
-    title: Woven Cafe Yarraville | Sof Kapa Photography
-    description: Former textile factory transformed into a cozy industrial cafe in the heart of Yarraville
+    title: Melbourne Café & Lifestyle Photography in Soft Light | Sof Kapa Photography
+    description: A cozy and natural photo story capturing a warm café experience — ideal for small businesses and hospitality brands wanting light-filled, authentic visuals.
     social_image: /assets/brands/WOVEN/phonecoffee.jpg
-    keywords: [melbourne photographer, woven cafe, brands, hospitality, cafe, food]
+    keywords: [café photography Melbourne, lifestyle photographer, small business branding, hospitality photography Australia, natural light photos, Sof Kapa Photography]
     hide-from-google: false 
 gallery:
 - column-size: col-12
