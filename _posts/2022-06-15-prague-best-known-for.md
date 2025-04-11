@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Prague's Gems
-description: Magical streets in the city of a hundred spires
+title: Landmarks & Light in Prague
+description: A visual photo series capturing Prague’s best-known sights — from Charles Bridge to baroque streets and riverside life — all through the lens of slow travel and observational photography. Perfect for those seeking immersive travel visuals.
 location: Prague, Czech Republic
 featured: false
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, street, city, europe]
-tags: []
+categories:  [street photography, editorial, documentary]
+tags: [Prague photography, Czech Republic travel, storytelling travel imagery, lifestyle photography, Sof Kapa Photography]
 cover_image: /assets/travel/PRAGUE/bridgeseller.jpg
 featured_image: /assets/travel/PRAGUE/charlesbridge.jpg
 seo:
-    title: Prague's Gems | Sof Kapa Photography
-    description: Capturing the magical streets in the city of a hundred spires
+    title: The Architecture of Prague’s Charm | Sof Kapa Photography
+    description: An intimate and atmospheric photo journal of Prague’s most iconic views, landmarks, and quiet moments — captured in a documentary and artistic style.
     social_image: /assets/travel/PRAGUE/charlesbridge.jpg
-    keywords: [travel photographer, street photography, city, europe]
+    keywords:  [Prague photography, travel photographer, Prague visual storytelling, lifestyle travel imagery, Sof Kapa Photography]
     hide-from-google: false 
 gallery:
 - column-size: col-4

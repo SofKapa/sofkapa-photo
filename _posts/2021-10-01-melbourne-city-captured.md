@@ -1,20 +1,21 @@
 ---
 layout: post
-title: Melbourne Vibes
-description: Busy laneways, cultural diversity, endless entertainment and best coffee breaks are just a few words to describe you...
+title: Urban Scenes from Melbourne
+description: A photo series capturing the rhythm, architecture, and atmosphere of Melbourne’s city centre — blending lifestyle, street, and documentary photography. Ideal for those seeking natural, story-driven imagery.
+location: Melbourne, Australia
 location: Melbourne, Australia
 featured: false
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, street, city, oceania]
-tags: []
+categories: [city, documentary, street photography]
+tags:  [Melbourne photography, lifestyle photographer Australia, street photography, urban documentary, Sof Kapa Photography]
 cover_image: /assets/travel/MELBOURNE/blue.jpg
 featured_image: /assets/travel/MELBOURNE/manwithcocacola.jpg
 seo:
-    title: Melbourne city captured | Sof Kapa Photography
-    description: Photographs of Melbourne's busy laneways, cultural diversity, endless entertainment and best coffee breaks
+    title: Melbourne City Photography | Sof Kapa Photography
+    description:  A curated photo series of Melbourne city, capturing its urban textures, architecture, movement, and moments in a documentary-lifestyle style.
     social_image: /assets/travel/MELBOURNE/manwithcocacola.jpg
-    keywords: [melbourne photographer, australian, travel photographer, street photography melbourne, city, oceania]
+    keywords: [Melbourne photography, street photographer Melbourne, documentary city photography, lifestyle urban imagery, Sof Kapa Photography]
     hide-from-google: false 
 gallery:
 - column-size: col-6

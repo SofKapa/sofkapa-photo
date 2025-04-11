@@ -1,20 +1,21 @@
 ---
 layout: post
-title: Greek summer
-description: White walls, translucid waters and a slow paced life ponctuated by sips of freddo cappuccino
+title: Greece Travel Photo Journal
+description: A visual diary of Greek island life and summer rhythms — captured through golden light, sea-worn textures, and quiet everyday moments. A personal and immersive approach to travel and lifestyle photography.
 location: Greece
 featured: false
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, street, europe, summer]
-tags: []
+categories: [lifestyle, storytelling, documentary]
+tags: [Greece travel photography, lifestyle photographer, golden hour photography, Mediterranean textures, documentary style, Sof Kapa Photography]
+cover_image: /assets/personal/greece/greekchairs.jpg
 cover_image: /assets/travel/GREECE/manstairs.jpg
 featured_image: /assets/travel/GREECE/ladyinblue.jpg
 seo:
-    title: Greek Summer | Sof Kapa Photography
-    description: Photos of my summer travels accross the Greek Islands
+    title: Greece Travel Photography | Sof Kapa Photography
+    description: A personal travel photo series capturing summer in the Greek Islands — from golden light and coastal textures to slow moments and Mediterranean charm.
     social_image: /assets/travel/GREECE/ladyinblue.jpg
-    keywords: [travel photographer, street, europe, greece, greek islands]
+    keywords: [Greece travel photography, Mediterranean lifestyle, sunset greek islands, storytelling photography, slow travel imagery, Sof Kapa Photography]
     hide-from-google: false 
 gallery:
 - column-size: col-4
