@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Capturing decades of craftsmanship
-description: Peter Callea was born in the South of Italy and emigrated to Australia as a young man. In the 1957, 24 year old Peter opened this shoe repair shop in Kingsville (Melbourne), and has been working as a cobbler alongside his wife ever since...
+title: Melbourne’s Hidden Makers
+description: A photo series capturing the textures, tools, and timeless atmosphere of a traditional shoe repair shop in Melbourne's Inner West — highlighting the story of decades of craftmanship and the beauty of honest work through a documentary lens. 
 location: Melbourne, Australia
 featured: false
 main_category: portrait
 main_category_url: /portraitandlifestyle.html
-categories: [portrait, documentary, traditional trade]
-tags: []
+categories: [small business, artisan, documentary, behind the scenes]
+tags: [brand photography, artisan photography, Melbourne small business, documentary photography, shoe repair branding, old craft, Sof Kapa Photography]
 cover_image: /assets/portrait/PETERCALLEA/squarecobbler.jpg
 featured_image: /assets/portrait/PETERCALLEA/squarecobbler.jpg
 seo:
-    title: Capturing decades of craftsmanship | Sof Kapa Photography
-    description: Peter was born in South of Italy and emigrated to Australia as a young man. In 1957, 24 year old Peter opened this shoe repair shop in Kingsville (Melbourne), and has been working as a cobbler alongside his wife ever since...
+    title: Artisan Workshop Photography | Sof Kapa Photography
+    description: A behind-the-scenes photo series of a traditional Melbourne shoe repair shop — capturing textures, tools, and the authenticity of artisan craft through documentary-style brand photography.
     social_image: /assets/portrait/PETERCALLEA/squarecobbler.jpg
-    keywords: [portrait photographer, documentary, cobbler]
+    keywords: [artisan photography, brand photography Melbourne, small business visuals, shoe repair branding, documentary brand photography, Sof Kapa Photography]
     hide-from-google: false
 gallery:
   - column-size: col-12

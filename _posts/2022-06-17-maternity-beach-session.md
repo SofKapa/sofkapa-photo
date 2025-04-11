@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maternity session at the beach
-description: This mom-to-be loves the Portuguese ocean and we couldn't think of a better place for her maternity shoot
+description: A soft, emotive maternity session by the ocean — capturing connection, movement, and beauty in natural light. A storytelling approach to beach maternity photography.
 location: Lisbon, Portugal
 featured: false
 main_category: portrait
