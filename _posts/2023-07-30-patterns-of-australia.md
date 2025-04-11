@@ -6,7 +6,7 @@ location: Australia
 featured: true
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, landscape, textures]
+categories: [landscape, nature, Oceania]
 tags: [Australian photography, abstract landscapes, texture photography, fine art travel imagery, minimalist photographer, Sof Kapa Photography]
 cover_image: /assets/personal/patterns/bushroad.jpg
 cover_image: /assets/travel/AUSTRALIA/kakadugunlomfalls.jpg

@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Winter in Vietnam
-description: Among rice fields, lovely people and delicious street food
+title: Tropical Tones of Vietnam
+description: A Southeast Asia photo series capturing Vietnam’s vibrant street scenes, lush tones, and natural light — blending documentary and lifestyle photography. Created with a focus on everyday life, atmosphere, and visual storytelling.
 location: Vietnam
 featured: true
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, street, asia]
-tags: []
+categories: [lifestyle, documentary, Southeast Asia]
+tags: [Vietnam photography, tropical travel photography, Southeast Asia photographer, documentary lifestyle, Sof Kapa Photography]
 cover_image: /assets/travel/VIETNAM/foodtruckladies.jpg
 featured_image: /assets/travel/VIETNAM/girllanterns.jpg
 seo:
-    title: Visiting Vietnam in Winter | Sof Kapa Photography
-    description: Among rice fields, lovely people and delicious Vietnamese street food
+    title: Vietnam Travel Photography | Sof Kapa Photography
+    description: A tropical photo series capturing the rhythm of life in Vietnam — street scenes, warm tones, and lush textures through a documentary lens.
     social_image: /assets/travel/VIETNAM/girllanterns.jpg
-    keywords:  [travel photographer, vietnam, travel, street, asia]
+    keywords:  [Vietnam photography, travel photography Southeast Asia, street photography Vietnam, tropical travel images, Sof Kapa Photography]
     hide-from-google: false 
 gallery:
 - column-size: col-4

@@ -7,7 +7,7 @@ location: Melbourne, Australia
 featured: false
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [city, documentary, street photography]
+categories: [documentary, street photography, Oceania]
 tags:  [Melbourne photography, lifestyle photographer Australia, street photography, urban documentary, Sof Kapa Photography]
 cover_image: /assets/travel/MELBOURNE/blue.jpg
 featured_image: /assets/travel/MELBOURNE/manwithcocacola.jpg

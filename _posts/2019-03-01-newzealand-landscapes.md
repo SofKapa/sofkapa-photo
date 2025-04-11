@@ -1,19 +1,21 @@
 ---
 layout: post
-title: New Zealand landscapes
-description: A country where nature is the queen and everything looks like a painting
+title: New Zealand Landscapes - Open & Untamed
+description: A minimal, atmospheric series of landscape photography from New Zealand — capturing the vastness, stillness, and textures of the Islands through a natural and documentary lens.
 location: New Zealand
 featured: false
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, landscape, nature, oceania]
+categories: [landscape, nature, oceania]
+tags: [New Zealand photography, landscape photography, nature photographer, South Island NZ, North Island NZ, travel photography, Sof Kapa Photography]
 cover_image: /assets/travel/NEWZEALAND/mountcookview.jpg
 featured_image: /assets/travel/NEWZEALAND/tongariro4.jpg
 seo:
     title: New Zealand landscapes | Sof Kapa Photography
-    description: A country where nature is the queen and everything looks like a painting
+    description: A photo series capturing the raw beauty of New Zealand's North and South Islands — atmospheric landscapes and quiet scenes told through a documentary lens.
+    social_image: /assets/personal/newzealand/tekapo-min.jpg
     social_image: /assets/travel/NEWZEALAND/tongariro4.jpg
-    keywords: [travel photographer, new zealand, travel, landscape, nature, oceania]
+    keywords: [New Zealand photography, landscape photographer, South Island New Zealand, travel photography NZ, documentary nature photography]
     hide-from-google: false 
 gallery:
 - column-size: col-12

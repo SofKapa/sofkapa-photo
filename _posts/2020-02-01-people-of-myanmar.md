@@ -1,20 +1,20 @@
 ---
 layout: post
-title: People of Myanmar 
-description: Mysterious and captivating are the two first words that come to my mind when thinking of you...
+title: Faces of Myanmar 
+description: A soulful documentary-style photo series capturing the people of Myanmar — everyday life, street moments, and portraits that reflect quiet strength, culture, and connection.
 location: Myanmar
 featured: false
 main_category: travel
 main_category_url: /travelandstreet.html
-categories: [travel, street, asia]
-tags: []
+categories: [lifestyle, documentary, Southeast Asia]
+tags: [Myanmar photography, Southeast Asia travel, cultural portraits, people photography, documentary style, Sof Kapa Photography]
 cover_image: /assets/travel/MYANMAR/twoladieslooking.jpg
 featured_image: /assets/travel/MYANMAR/threemonks.jpg
 seo:
-    title: People of Myanmar | Sof Kapa Photography
-    description: A photo series of the captivating and mysterious Burmese country 
+    title: Myanmar People Photography | Sof Kapa Photography
+    description: A photography series capturing the people of Myanmar — portraits and street scenes reflecting culture, connection, and everyday life through a documentary lens. 
     social_image: /assets/travel/MYANMAR/threemonks.jpg
-    keywords: [travel photographer, myanmar, travel, street, asia]
+    keywords: [Myanmar photography, people of Myanmar, Southeast Asia portraits, cultural photography, travel photographer Myanmar, Sof Kapa Photography]
     hide-from-google: false 
 gallery:
 - column-size: col-4
