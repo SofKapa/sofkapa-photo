@@ -8,7 +8,7 @@ main_category: portrait
 main_category_url: /portraitandlifestyle.html
 categories: [family, outdoor session, pets, lifestyle photography]
 tags: [family photography, baby and dog photoshoot, golden hour session, natural family photography, Melbourne family photographer,  picnic photography, Sof Kapa Photography]
-cover_image: /assets/portrait/PICNICFAMILY/picnic_basket.jpg
+cover_image: /assets/portrait/FAMILYSUNSETBEACH/mother_with_baby_at_beach_blue_hour.jpg
 featured_image: /assets/portrait/family_picnic_in_park_with_dog.jpg
 seo:
     title: Golden Hour Family Picnic with Baby & Dog | Melbourne Photographer

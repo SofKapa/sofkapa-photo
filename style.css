@@ -1142,14 +1142,14 @@ p.copyright {
     border: 1px solid var(--kapa-featured);
 }
 .bg-travel-2 { 
-    background-image: url('assets/travel/MYANMAR/fisherman.jpg');
+    background-image: url('assets/travel/GREECE/manstairs.jpg'); 
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
 .bg-travel-3 { 
-    background-image: url('assets/travel/GREECE/manstairs.jpg'); 
+    background-image: url('assets/travel/MYANMAR/fisherman.jpg');
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
@@ -1200,26 +1200,27 @@ p.copyright {
     border: 1px solid var(--kapa-featured);
 }
 .bg-portrait-2 { 
-    background-image: url('assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%;
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-.bg-portrait-3 { 
     background-image: url('assets/portrait/CAROLINA/fitness.jpg'); 
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
-.bg-portrait-4 { 
+.bg-portrait-3 { 
     background-image: url('assets/portrait/CAROLINA/favourite.jpg'); 
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
+.bg-portrait-4 { 
+    background-image: url('assets/portrait/PICNICFAMILY/family_picnic_in_park_with_dog.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
 
 
 

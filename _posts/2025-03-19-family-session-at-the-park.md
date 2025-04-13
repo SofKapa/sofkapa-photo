@@ -53,7 +53,38 @@ gallery:
     aspect-ratio: landscape
     background_image: /assets/portrait/PICNICFAMILY/family_picnic_in_park_with_dog.jpg
     alt: A family with a young baby and golden retriever having a picnic in the park at sunset
-
+  - column-size: col-6
+    aspect-ratio: landscape
+    background_image: /assets/portrait/PICNICFAMILY/family_laughing_with_baby.jpg
+    alt: Close up of mom and dad laying down and giggling with their baby girl
+  - column-size: col-6
+    aspect-ratio: landscape
+    background_image: /assets/portrait/PICNICFAMILY/mom_holding_baby.jpg
+    alt: Mother holding her baby with a lush green park in the background
+  - column-size: col-4
+    aspect-ratio: portrait
+    background_image: /assets/portrait/PICNICFAMILY/dad_holding_baby.jpg
+    alt: Dad in black t-shirt holding his baby in front of him and smiling at her
+  - column-size: col-4
+    aspect-ratio: portrait
+    background_image: /assets/portrait/PICNICFAMILY/golden_retriever_smiling.jpg
+    alt: Golden retriever smiling at camera and wagging his tail
+  - column-size: col-4
+    aspect-ratio: portrait
+    background_image: /assets/portrait/PICNICFAMILY/closeup_baby_looking.jpg
+    alt: Close up of baby starring at camera
+  - column-size: col-12
+    aspect-ratio: landscape
+    background_image: /assets/portrait/PICNICFAMILY/family_with_dog_park.jpg
+    alt: Young family with their 4 month old baby and golden retriever standing in a park next to a creek smiling at the camera
+  - column-size: col-6
+    aspect-ratio: landscape
+    background_image: /assets/portrait/PICNICFAMILY/baby_rolls.jpg
+    alt: Close up of a chunky 4 month old baby girl beeing held in the air and looking into the distance
+  - column-size: col-6
+    aspect-ratio: landscape
+    background_image: /assets/portrait/PICNICFAMILY/family_tummy_time.jpg
+    alt: Mom and dad doing tummy time with their baby and smiling at her while she smiles at the camera
 
 ---
 
