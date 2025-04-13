@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Intimate wedding in Carlton Gardens
-description: Moments of love and celebration in the middle of the longest lockdown in the world
+title: Intimate wedding at Carlton Gardens
+description: Set among the lush greenery of Carlton Gardens, this small Melbourne wedding embraced nature, intimacy, and honest storytelling, photographed through a minimalist, documentary lens.
 location: Melbourne, Australia
 featured: true
 main_category: portrait
 main_category_url: /portraitandlifestyle.html
-categories: [portrait, small event, wedding]
-tags: []
+categories: [weddings, elopement, intimate ceremonies]
+tags: [Melbourne small wedding photographer, Carlton Gardens wedding, intimate wedding photography, elopement photographer, natural light wedding, storytelling photographer]
 cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg
 featured_image: /assets/portrait/PIAANDGONZO/cheers.jpg
 seo:
-    title: Intimate wedding in Melbourne Carlton Gardens | Sof Kapa Photography
-    description: Captures of an intimate wedding ceremony in the heart of Melbourne
+    title: Intimate Wedding at Carlton Gardens | Melbourne Photographer
+    description: An intimate wedding ceremony photographed in Carlton Gardens, Melbourne. A calm, natural-light session that captures love in its simplest and most beautiful form.
     social_image: /assets/portrait/PIAANDGONZO/cheers.jpg
-    keywords: [melbourne photographer, small wedding, portrait, small ceremony, small event]
+    keywords: [intimate wedding Melbourne, Carlton Gardens wedding, elopement photographer Melbourne, natural wedding photography, Sof Kapa Photography]
     hide-from-google: false
 gallery:
   - column-size: col-12

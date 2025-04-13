@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Maternity session at the beach
-description: A soft, emotive maternity session by the ocean — capturing connection, movement, and beauty in natural light. A storytelling approach to beach maternity photography.
+title: Natural Maternity Session at the Beach
+description: A maternity session by the sea that embraces light, proving that powerful imagery and raw emotion aren't reserved for golden hour. 
 location: Lisbon, Portugal
 featured: false
 main_category: portrait
 main_category_url: /portraitandlifestyle.html
-categories: [portrait, pregnancy, beach]
-tags: []
+categories: [lifestyle, maternity, beach session]
+tags: [maternity photography, beach maternity session, natural light photographer, storytelling photography, Melbourne maternity photographer, Sof Kapa Photography]
 cover_image: /assets/portrait/CAROLINA/favourite.jpg
 featured_image: /assets/portrait/CAROLINA/favourite.jpg
 seo:
-    title: Maternity session at the beach | Sof Kapa Photography
-    description: This mom-to-be loves the Portuguese ocean and we couldn't think of a better place for the photoshoot
+    title: Beach Maternity Photography Melbourne | Sof Kapa Photography
+    description: A maternity shoot captured in bright, midday sun, this series shows that emotion, connection, and beauty aren’t limited to soft light. Natural, honest photography that celebrates motherhood in every kind of light.
     social_image: /assets/portrait/CAROLINA/reflection.jpg
-    keywords: [portrait photographer, pregnancy, beach]
+    keywords: [maternity photographer Melbourne, beach maternity session, natural maternity photography, storytelling maternity, Sof Kapa Photography]
     hide-from-google: false
 gallery:
   - column-size: col-6

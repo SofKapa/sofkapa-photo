@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Melbourne outdoor pregnancy shoot
-description: Back to the forest where they first met...
+title: Wild and Rooted Motherhood Session
+description: A maternity session captured deep in the forest near Melbourne. This series celebrates motherhood in the natural setting, focusing on the intimate moments shared by these soon-to-be parents
 location: Melbourne, Australia
 featured: false
 main_category: portrait
 main_category_url: /portraitandlifestyle.html
-categories: [portrait, pregnancy, forest]
-tags: []
+categories: [maternity, nature, outdoor session]
+tags: [maternity photography, Melbourne maternity photographer, forest maternity shoot, natural light photography, storytelling maternity, Sof Kapa Photography]
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
 featured_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
 seo:
-    title: Melbourne outdoor pregnancy shoot | Sof Kapa Photography
-    description: Pregnancy shoot in a special place - the forest where they first met
+    title:  Maternity in the Forest | Melbourne Outdoor Photography
+    description: A forest maternity shoot near Melbourne, captured in honest light and grounded nature. Natural, movement-driven frames that reflect the beauty of motherhood beyond the four walls of a studio.
     social_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
-    keywords: [melbourne photographer, portrait, pregnancy, forest]
+    keywords: [forest maternity photography, outdoor maternity shoot, Melbourne maternity photographer, natural pregnancy photos, storytelling photography, Sof Kapa Photography]
     hide-from-google: false
 gallery:
 - column-size: col-12
