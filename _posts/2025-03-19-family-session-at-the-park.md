@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Golden Hour Family Picnic in the Park
+title: Family Picnic in the Park
 description: Outdoor family sessions photographed in soft evening light, focusing on quiet interactions and everyday beauty. For those looking to capture love, laughter, and connection with loved ones. 
 location: Melbourne, Australia
 featured: false
@@ -9,11 +9,11 @@ main_category_url: /portraitandlifestyle.html
 categories: [family, outdoor session, pets, lifestyle photography]
 tags: [family photography, baby and dog photoshoot, golden hour session, natural family photography, Melbourne family photographer,  picnic photography, Sof Kapa Photography]
 cover_image: /assets/portrait/PICNICFAMILY/picnic_basket.jpg
-featured_image: /assets/portrait/family_picnic_in_park_with_dog.jpg
+featured_image: /assets/portrait/PICNICFAMILY/family_picnic_in_park_with_dog.jpg
 seo:
     title: Golden Hour Family Picnic with Baby & Dog | Melbourne Photographer
     description: A golden hour family session in the park featuring a 4-month-old baby and their golden retriever. Honest, natural light photography focused on connection, not posing.
-    social_image: /assets/portrait/.....jpg
+    social_image: /assets/portrait/PICNICFAMILY/family_picnic_in_park_with_dog.jpg
     keywords: [family photographer Melbourne, golden hour family session, baby and dog photoshoot, natural family photography, Sof Kapa Photography]
     hide-from-google: false
 gallery:

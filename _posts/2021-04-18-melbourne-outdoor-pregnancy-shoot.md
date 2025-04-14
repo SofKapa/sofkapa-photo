@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: false
 main_category: portrait
 main_category_url: /portraitandlifestyle.html
-categories: [maternity, nature, outdoor session]
+categories: [motherhood, nature, outdoor session]
 tags: [maternity photography, Melbourne maternity photographer, forest maternity shoot, natural light photography, storytelling maternity, Sof Kapa Photography]
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
 featured_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
