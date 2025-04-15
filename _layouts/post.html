@@ -32,7 +32,12 @@ layout: default
 
     {% for item in page.gallery %}
     
-    <a class="{{item.column-size}} gallery-item" href="{{item.background_image}}">
+    <a 
+    class="{{item.column-size}} gallery-item"
+    href="{{item.background_image}}"
+    data-thumb="{{ item.thumbnail | default: item.background_image }}"
+    data-sub-html="{{ item.alt }}"
+    >
       <div class="bg-image {{item.aspect-ratio}}" 
           style="background-image: url('{{item.background_image}}'); border-radius: 25px; border: 2px solid var(--kapa-featured);" alt="{{item.alt}}";>
       </div>

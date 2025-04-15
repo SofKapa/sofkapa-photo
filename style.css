@@ -1135,7 +1135,7 @@ p.copyright {
 
 /* SLIDE IMAGES */
 .bg-travel-1 { 
-    background-image: url('assets/travel/VIETNAM/foodtruckladies.jpg'); 
+    background-image: url('assets/travel/MYANMAR/fisherman.jpg');
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
@@ -1149,7 +1149,7 @@ p.copyright {
     border: 1px solid var(--kapa-featured);
 }
 .bg-travel-3 { 
-    background-image: url('assets/travel/MYANMAR/fisherman.jpg');
+    background-image: url('assets/travel/VIETNAM/foodtruckladies.jpg'); 
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
@@ -1164,7 +1164,7 @@ p.copyright {
 }
 
 .bg-food-1 { 
-    background-image: url('assets/brands/LECHAT/moscowmule.jpg');
+    background-image: url('assets/brands/BMV/menlaughing.jpg'); 
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
@@ -1178,7 +1178,7 @@ p.copyright {
     border: 1px solid var(--kapa-featured);
 }
 .bg-food-3 { 
-    background-image: url('assets/brands/BMV/menlaughing.jpg'); 
+    background-image: url('assets/brands/LECHAT/moscowmule.jpg');
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
@@ -1207,7 +1207,7 @@ p.copyright {
     border: 1px solid var(--kapa-featured);
 }
 .bg-portrait-3 { 
-    background-image: url('assets/portrait/CAROLINA/favourite.jpg'); 
+    background-image: url('/assets/portrait/FAMILYSUNSETBEACH/mother_and_grandma_holding_baby_while_sitting.jpg'); 
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 25px;
