@@ -460,6 +460,10 @@ p:last-child {
 
 /* ---------- BORDERS -----------------------------------------------------------------------------------------------------------------*/
 
+.border {
+    border: 1px solid var(--kapa-featured);;
+}
+
 .border-t {border-top: 1px solid var(--kapa-featured);}
 .border-b {border-bottom: 1px solid var(--kapa-featured);}
 .border-l {border-left: 1px solid var(--kapa-featured);}
