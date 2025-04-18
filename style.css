@@ -1500,9 +1500,9 @@ ul {
 /* ---------- ABOUT PAGE | STYLES ---------------------------------------------------------------------------------------------------- */
 
 .about-banner {
-    background-image: url("/assets/myportrait.jpg");
+    background-image: url("/assets/myportraitcamera.jpg");
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 50% 20%;
     position: relative;
 }
 
