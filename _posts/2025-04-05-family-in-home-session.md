@@ -21,60 +21,60 @@ gallery:
   - column-size: col-6
     aspect-ratio: landscape
     background_image: /assets/portrait/INHOMEFAMILY/parents_hold_baby_girl_by_window.jpg
-    alt: 
+    alt: Mom and dad smiling at their baby girl by the window
   - column-size: col-6
     aspect-ratio: landscape
     background_image: /assets/portrait/INHOMEFAMILY/baby_girl_smiling_at_camera.jpg
-    alt: 
+    alt: Four month old baby girl wearing a bow looking surprised at the camera
   - column-size: col-12
     aspect-ratio: landscape
     background_image: /assets/portrait/INHOMEFAMILY/parents_tickling_baby.jpg
-    alt: 
+    alt: Mom and dad tickling their baby while they are all lying on the bed
   - column-size: col-6
     aspect-ratio: portrait
     background_image: /assets/portrait/INHOMEFAMILY/bw_parents_feeding_baby_bottle.jpg
-    alt: 
+    alt: Mother holding her baby while dad feeds her the bottle
   - column-size: col-6
     aspect-ratio: portrait
     background_image: /assets/portrait/INHOMEFAMILY/mom_kissing_baby_feet.jpg
-    alt: 
+    alt: Close-up of mom kissing her baby's feet
   - column-size: col-12
     aspect-ratio: landscape
     background_image: /assets/portrait/INHOMEFAMILY/reflection_parents_feeding_baby_bottle.jpg
-    alt: 
+    alt: Reflection in the mirror of parents feeding their baby a bottle while sitting on their bed
   - column-size: col-6
     aspect-ratio: landscape
     background_image: /assets/portrait/INHOMEFAMILY/baby_and_mom_feet.jpg
-    alt: 
+    alt: Close-up of baby and mom's feet
   - column-size: col-6
     aspect-ratio: landscape
     background_image: /assets/portrait/INHOMEFAMILY/dad_pulling_funny_faces.jpg
-    alt: 
+    alt: Dad holding his baby up and doing silly faces while mom smiles at them sitting behind on the couch
   - column-size: col-4
     aspect-ratio: square
     background_image: /assets/portrait/INHOMEFAMILY/mom_feeding_bottle_to_baby.jpg
     bg_img-position: 0% 50%
-    alt: 
+    alt: Baby looking at the camera while her mom feeds her and smiles
   - column-size: col-4
     aspect-ratio: square
     background_image: /assets/portrait/INHOMEFAMILY/mom_holding_baby_hands.jpg
-    alt:
+    alt: Close-up of an adult hand holding a tiny baby hand
   - column-size: col-4
     aspect-ratio: square
     background_image: /assets/portrait/INHOMEFAMILY/eskimo_kisses_mom_and_baby.jpg
-    alt:  
+    alt: Cute moment between a mom and her baby doing an eskimo kiss 
   - column-size: col-12
     aspect-ratio: landscape
     background_image: /assets/portrait/INHOMEFAMILY/baby_flying.jpg
-    alt: 
+    alt: Woman resting her head on her husband's lap while she holds her baby up in the air and they both smile at her 
   - column-size: col-6
     aspect-ratio: portrait
     background_image: /assets/portrait/INHOMEFAMILY/dad_holds_baby_by_window.jpg
-    alt: 
+    alt: Dad holding his baby girl by the window and smiling down at her
   - column-size: col-6
     aspect-ratio: portrait
     background_image: /assets/portrait/INHOMEFAMILY/sneak_peek_tender_moments_between_parents_and_baby.jpg
-    alt: 
+    alt: Sneak peek behind the door of a mom and dad having a quiet moment exchanging smiles with their baby laying in bed
 ---
 
 
