@@ -39,7 +39,7 @@ layout: default
     data-sub-html="{{ item.alt }}"
     >
       <div class="bg-image {{item.aspect-ratio}}" 
-          style="background-image: url('{{item.background_image}}'); border-radius: 25px; border: 2px solid var(--kapa-featured);" alt="{{item.alt}}";>
+          style="background-image: url('{{item.background_image}}'); background-position: {{ item.bg_img-position | default: 'center' }}; border-radius: 25px; border: 2px solid var(--kapa-featured);" alt="{{item.alt}}";>
       </div>
     </a> 
 

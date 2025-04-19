@@ -9,7 +9,8 @@ main_category_url: /portraitandlifestyle.html
 categories: [family, generational, beach session, sunset]
 tags: [three generation photoshoot, family beach photography, Melbourne family photographer, baby and grandmother shoot, sunset family session]
 cover_image: /assets/portrait/FAMILYSUNSETBEACH/baby_boy_doing_tummy_time_at_grassy_location.jpg
-featured_image: /assets/portrait/family_picnic_in_park_with_dog.jpg
+bg_position: 60% 50%
+featured_image: /assets/portrait/three_generations_looking_at_camera_backlit_by_sunset.jpg
 seo:
     title: Three Generations at the Beach | Melbourne Family Photographer
     description: Sunset family session at the beach with three generations — mother, grandmother, and baby. Captured in soft, natural light with a focus on real connection and storytelling.

@@ -9,6 +9,7 @@ main_category_url: /portraitandlifestyle.html
 categories: [motherhood, nature, outdoor session]
 tags: [maternity photography, Melbourne maternity photographer, forest maternity shoot, natural light photography, storytelling maternity, Sof Kapa Photography]
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
+bg_position: 50% 100%
 featured_image: /assets/portrait/MADDYANDSAM/samholdingbellylandscape.jpg
 seo:
     title:  Maternity in the Forest | Melbourne Outdoor Photography
