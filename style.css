@@ -638,7 +638,19 @@ p.handwritten-text{
 }
 
 
-
+#typed {
+    font-size: 2rem;
+}
+.typed-cursor {
+    font-size: 2rem;
+    font-family: 300;
+    color: #e0e0e0;
+}
+.typed-fade-out {
+    font-size: 2rem;
+    font-family: 300;
+    color: #e0e0e0;
+}
 
 
 
