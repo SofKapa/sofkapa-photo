@@ -641,7 +641,7 @@ p.handwritten-text{
 #typed {
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
-    line-height: 2;
+    /* line-height: 2; */
     font-weight: 600;
     letter-spacing: 4.2px;
     text-transform: uppercase;
@@ -650,11 +650,11 @@ p.handwritten-text{
 }
 
 .typed-cursor {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #e0e0e0;
 }
 .typed-fade-out {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #e0e0e0;
 }
 
