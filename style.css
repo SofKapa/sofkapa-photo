@@ -639,16 +639,22 @@ p.handwritten-text{
 
 
 #typed {
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    font-weight: 600;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
 }
+
 .typed-cursor {
     font-size: 2rem;
-    font-family: 300;
     color: #e0e0e0;
 }
 .typed-fade-out {
     font-size: 2rem;
-    font-family: 300;
     color: #e0e0e0;
 }
 

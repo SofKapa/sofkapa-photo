@@ -73,8 +73,8 @@ $( document ).ready(function() {
 
     // TYPING ANIMATION
     var typed = new Typed('#typed', {
-      stringsElement: '#typed-strings'
-      typeSpeed: 10, // How fast each character being typed in milliseconds
+      stringsElement: '#typed-strings',
+      typeSpeed: 50, // How fast each character being typed in milliseconds
       startDelay: 500, // How long the string (the series of characters) inside a single element tag (for example the paragraph <p> tag) should wait before it starts typing the string inside the next element tag
       backSpeed: 10, // How fast each character should be removed after it’s done typing
       backDelay: 1000, // After it’s done typing, how long it should wait before it starts backspacing
