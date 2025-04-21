@@ -72,21 +72,57 @@ $( document ).ready(function() {
 
 
     // TYPING ANIMATION
-    var typed = new Typed('#typed', {
-      stringsElement: '#typed-strings',
-      typeSpeed: 50, // How fast each character being typed in milliseconds
-      startDelay: 500, // How long the string (the series of characters) inside a single element tag (for example the paragraph <p> tag) should wait before it starts typing the string inside the next element tag
-      backSpeed: 10, // How fast each character should be removed after it’s done typing
-      backDelay: 1000, // After it’s done typing, how long it should wait before it starts backspacing
-      smartBackspace: true, // Only backspace the characters in the current string that don't match the previous element.
-      shuffle: false, // To shuffle the order of the strings
-      fadeOut: false, // To make the string fades out instead of backspace
-      fadeOutClass: 'typed-fade-out', // Required to add a CSS class for the fade animation
-      fadeOutDelay: 500, // After the string is done typing, how long it should wait before it starts fading out
-      loop: false, // Do we want it to repeat after being done typing all the strings
-      loopCount: Infinity, // If loop is active (true), then how many times we want it to repeat. You can add any number or simply add Infinity to repeat endlessly.
-      showCursor: false // To show or hide the cursor animation
-    });
+    // var typed = new Typed('#typed', {
+    //   stringsElement: '#typed-strings',
+    //   typeSpeed: 50, // How fast each character being typed in milliseconds
+    //   startDelay: 500, // How long the string (the series of characters) inside a single element tag (for example the paragraph <p> tag) should wait before it starts typing the string inside the next element tag
+    //   backSpeed: 10, // How fast each character should be removed after it’s done typing
+    //   backDelay: 1000, // After it’s done typing, how long it should wait before it starts backspacing
+    //   smartBackspace: true, // Only backspace the characters in the current string that don't match the previous element.
+    //   shuffle: false, // To shuffle the order of the strings
+    //   fadeOut: false, // To make the string fades out instead of backspace
+    //   fadeOutClass: 'typed-fade-out', // Required to add a CSS class for the fade animation
+    //   fadeOutDelay: 500, // After the string is done typing, how long it should wait before it starts fading out
+    //   loop: false, // Do we want it to repeat after being done typing all the strings
+    //   loopCount: Infinity, // If loop is active (true), then how many times we want it to repeat. You can add any number or simply add Infinity to repeat endlessly.
+    //   showCursor: false // To show or hide the cursor animation
+    // });
+
+    // Function to start Typed animation
+    function startTyped() {
+      new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        typeSpeed: 50,
+        startDelay: 500,
+        backSpeed: 10,
+        backDelay: 1000,
+        smartBackspace: true,
+        shuffle: false,
+        fadeOut: false,
+        fadeOutClass: 'typed-fade-out',
+        fadeOutDelay: 500,
+        loop: false,
+        loopCount: Infinity,
+        showCursor: false
+      });
+    }
+
+    // Use Intersection Observer
+    const typedTarget = document.querySelector('#typed');
+
+    if (typedTarget) {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            startTyped(); // Start the animation
+            observer.unobserve(entry.target); // Stop observing so it doesn’t retrigger
+          }
+        });
+      }, { threshold: 0.5 }); // Adjust threshold as needed
+
+      observer.observe(typedTarget);
+    }
+
 
     // Cursor scripts ------------------------------------------------------------------
     document.addEventListener("DOMContentLoaded", function () {
