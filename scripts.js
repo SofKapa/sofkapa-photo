@@ -124,40 +124,60 @@ $( document ).ready(function() {
     }
 
 
-    // Cursor scripts ------------------------------------------------------------------
-    document.addEventListener("DOMContentLoaded", function () {
-    // Select the custom cursor element
-        const cursor = document.querySelector(".custom-cursor");
+    // CURSOR SCRIPTS
+    const cursor = document.querySelector('.custom-cursor');
+
+    document.addEventListener('mousemove', e => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
     });
 
-    // Update cursor position
-    document.addEventListener("mousemove", (e) => {
-      cursor.style.top = `${e.clientY}px`;
-      cursor.style.left = `${e.clientX}px`;
+    document.querySelectorAll('a, button, input, textarea, .hover-target, .burger-button').forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.classList.add('hovered'));
+      el.addEventListener('mouseleave', () => cursor.classList.remove('hovered'));
     });
 
-    // Add event listeners for expanding the cursor on interactive elements
-    document.querySelectorAll("button, a").forEach((el) => {
-      el.addEventListener("mouseenter", () => cursor.classList.add("expand"));
-      el.addEventListener("mouseleave", () =>
-        cursor.classList.remove("expand")
-      );
-    });
-
-
-    // Initialize Lenis
-    const lenis = new Lenis();
-
-    // Listen for the scroll event and log the event data
-    lenis.on("scroll", (e) => {});
-
-    // Use requestAnimationFrame to continuously update the scroll
-    function raf(time) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
+    // Touch device check
+    if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+      document.body.classList.add('no-cursor');
     }
 
-    requestAnimationFrame(raf);
+
+
+
+    // document.addEventListener("DOMContentLoaded", function () {
+    // // Select the custom cursor element
+    //     const cursor = document.querySelector(".custom-cursor");
+    // });
+
+    // // Update cursor position
+    // document.addEventListener("mousemove", (e) => {
+    //   cursor.style.top = `${e.clientY}px`;
+    //   cursor.style.left = `${e.clientX}px`;
+    // });
+
+    // // Add event listeners for expanding the cursor on interactive elements
+    // document.querySelectorAll("button, a").forEach((el) => {
+    //   el.addEventListener("mouseenter", () => cursor.classList.add("expand"));
+    //   el.addEventListener("mouseleave", () =>
+    //     cursor.classList.remove("expand")
+    //   );
+    // });
+
+
+    // // Initialize Lenis
+    // const lenis = new Lenis();
+
+    // // Listen for the scroll event and log the event data
+    // lenis.on("scroll", (e) => {});
+
+    // // Use requestAnimationFrame to continuously update the scroll
+    // function raf(time) {
+    //     lenis.raf(time);
+    //     requestAnimationFrame(raf);
+    // }
+
+    // requestAnimationFrame(raf);
 
   //End cursor scripts-------------------------------------------------------------------------
 

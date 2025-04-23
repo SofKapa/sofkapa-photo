@@ -45,6 +45,7 @@ body {
     color:var(--dark-text);
     font-family: 'Open Sans', sans-serif;
     background-color: var(--kapa-background);
+    cursor: none; /* Hide default cursor */
 }
  
 /* .border {
@@ -53,11 +54,41 @@ body {
 }  */
   
 
-
+/* If we have a custom cursor, this makes the pointer cursor disappear from our clickable elements */
+body, a, button, input, textarea, .burger-button, .hover-target {
+    cursor: none !important;
+  }
 
 
 /* ---------- CUSTOM CURSOR STYLES ----------------------------------------------------------------------------------------------------*/
-  /* Base styles for the custom cursor */
+
+.custom-cursor {
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    pointer-events: none;
+    background: url('/assets/cursor/cursor_kapafeatured.svg') no-repeat center/contain;
+    z-index: 9999;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), background 0.3s ease;
+}
+  
+/* Hover effect: bigger and different color */
+.custom-cursor.hovered {
+    transform: scale(1.8); /* Slightly larger */
+    background: url('/assets/cursor/cursor-hover_gradient.svg') no-repeat center/contain; /* NEW COLOR SVG */
+}
+
+
+/* To hide custom cursors on mobile */
+.custom-cursor {
+    display: block;
+}
+  
+body.no-cursor .custom-cursor {
+    display: none !important;
+}
+
+/* Base styles for the custom cursor */
 /* .custom-cursor {
     position: fixed;
     top: 0;
@@ -1999,9 +2030,9 @@ apply to devices smaller than 1024px--------------------------------------------
 
     div.col-7_md-2_xs-3.show-md {padding: 1rem 1rem 6rem 2rem;}
 
-    div.hamburger-button {padding: 0rem 0rem 0rem 0rem;}
+    div.burger-button {padding: 0rem 0rem 0rem 0rem;}
 
-    .hamburger-button {
+    .burger-button {
         padding: 2%;
         font-size: 3.5rem;
         cursor: pointer;
