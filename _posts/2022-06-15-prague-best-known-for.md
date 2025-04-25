@@ -5,7 +5,7 @@ description: A visual photo series capturing Prague’s best-known sights — fr
 location: Prague, Czech Republic
 featured: false
 main_category: travel
-main_category_url: /travelandstreet.html
+main_category_url: /travel.html
 categories:  [street photography, editorial, Europe]
 tags: [Prague photography, Czech Republic travel, storytelling travel imagery, lifestyle photography, Sof Kapa Photography]
 cover_image: /assets/travel/PRAGUE/bridgeseller.jpg

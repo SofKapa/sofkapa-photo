@@ -5,7 +5,7 @@ description: A cozy and intimate set of lifestyle photos featuring natural light
 location: Melbourne, Australia
 featured: false
 main_category: food
-main_category_url: /brandsandevents.html
+main_category_url: /food.html
 categories: [hospitality, food, interior]
 tags: [Melbourne food photography, lifestyle photography, small business branding, restaurant interior photography, Sof Kapa Photography]
 cover_image: /assets/brands/MOZZA/littlegirls.jpg

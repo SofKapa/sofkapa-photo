@@ -5,7 +5,7 @@ description: A soulful documentary-style photo series capturing the people of My
 location: Myanmar
 featured: false
 main_category: travel
-main_category_url: /travelandstreet.html
+main_category_url: /travel.html
 categories: [lifestyle, documentary, Southeast Asia]
 tags: [Myanmar photography, Southeast Asia travel, cultural portraits, people photography, documentary style, Sof Kapa Photography]
 cover_image: /assets/travel/MYANMAR/twoladieslooking.jpg

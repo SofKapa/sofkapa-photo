@@ -5,7 +5,7 @@ description: A photo journal of real, sensory travel moments — capturing daily
 location: Thailand
 featured: true
 main_category: travel
-main_category_url: /travelandstreet.html
+main_category_url: /travel.html
 categories: [storytelling, documentary, Southeast Asia]
 tags: [Thailand travel photography, lifestyle photography, documentary photographer, personal photo journal, storytelling visuals, Sof Kapa Photography]
 cover_image: /assets/travel/THAILAND/manwithdreadlocks.jpg

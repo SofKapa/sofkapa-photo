@@ -5,7 +5,7 @@ description: A maternity session by the sea that embraces light, proving that po
 location: Lisbon, Portugal
 featured: false
 main_category: portrait
-main_category_url: /portraitandlifestyle.html
+main_category_url: /portrait.html
 categories: [lifestyle, maternity, beach session]
 tags: [maternity photography, beach maternity session, natural light photographer, storytelling photography, Melbourne maternity photographer, Sof Kapa Photography]
 cover_image: /assets/portrait/CAROLINA/favourite.jpg

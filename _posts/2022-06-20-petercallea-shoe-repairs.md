@@ -5,7 +5,7 @@ description: A photo series capturing the textures, tools, and timeless atmosphe
 location: Melbourne, Australia
 featured: false
 main_category: portrait
-main_category_url: /portraitandlifestyle.html
+main_category_url: /portrait.html
 categories: [small business, artisan, documentary, behind the scenes]
 tags: [brand photography, artisan photography, Melbourne small business, documentary photography, shoe repair branding, old craft, Sof Kapa Photography]
 cover_image: /assets/portrait/PETERCALLEA/squarecobbler.jpg

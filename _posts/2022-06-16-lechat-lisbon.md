@@ -5,7 +5,7 @@ description: A collection of warm-toned lifestyle and hospitality photos showcas
 location: Lisbon, Portugal
 featured: false
 main_category: food
-main_category_url: /brandsandevents.html
+main_category_url: /food.html
 categories: [brands, restaurant, music venues]
 tags: [restaurant photography, Lisbon food scene, event photography, hospitality photography, Sof Kapa Photography]
 cover_image: /assets/brands/LECHAT/moscowmule.jpg

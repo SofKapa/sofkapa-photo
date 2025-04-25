@@ -5,7 +5,7 @@ description: A relaxed, inviting set of lifestyle and brand images featuring coz
 location: Melbourne, Australia
 featured: false
 main_category: food
-main_category_url: /brandsandevents.html
+main_category_url: /food.html
 categories: [cafe, lifestyle, small business]
 tags: [Melbourne café photographer, hospitality branding, lifestyle photography, soft light photography, Sof Kapa Photography]
 cover_image: /assets/brands/WOVEN/cappuccino.jpg

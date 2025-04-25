@@ -5,7 +5,7 @@ description: A photographic exploration of Australian landscapes and built envir
 location: Australia
 featured: true
 main_category: travel
-main_category_url: /travelandstreet.html
+main_category_url: /travel.html
 categories: [landscape, nature, Oceania]
 tags: [Australian photography, abstract landscapes, texture photography, fine art travel imagery, minimalist photographer, Sof Kapa Photography]
 cover_image: /assets/personal/patterns/bushroad.jpg

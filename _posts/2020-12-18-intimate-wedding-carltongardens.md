@@ -5,7 +5,7 @@ description: Set among the lush greenery of Carlton Gardens, this small Melbourn
 location: Melbourne, Australia
 featured: true
 main_category: portrait
-main_category_url: /portraitandlifestyle.html
+main_category_url: /portrait.html
 categories: [weddings, elopement, intimate ceremonies]
 tags: [Melbourne small wedding photographer, Carlton Gardens wedding, intimate wedding photography, elopement photographer, natural light wedding, storytelling photographer]
 cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg

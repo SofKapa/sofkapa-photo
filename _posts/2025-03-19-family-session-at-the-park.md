@@ -5,7 +5,7 @@ description: Outdoor family sessions photographed in soft evening light, focusin
 location: Melbourne, Australia
 featured: false
 main_category: portrait
-main_category_url: /portraitandlifestyle.html
+main_category_url: /portrait.html
 categories: [family, outdoor session, pets, lifestyle photography]
 tags: [family photography, baby and dog photoshoot, golden hour session, natural family photography, Melbourne family photographer,  picnic photography, Sof Kapa Photography]
 cover_image: /assets/portrait/PICNICFAMILY/picnic_basket.jpg

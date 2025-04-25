@@ -5,7 +5,7 @@ description: A relaxed in-home family session in soft natural light — for fami
 location: Melbourne, Australia
 featured: false
 main_category: portrait
-main_category_url: /portraitandlifestyle.html
+main_category_url: /portrait.html
 categories: [family, in-home session, lifestyle]
 tags:  [melbourne family photographer, in-home baby photos, candid family photography, baby girl, relaxed family photoshoot, natural light photography]
 cover_image: /assets/portrait/INHOMEFAMILY/reflection_parents_feeding_baby_bottle.jpg
