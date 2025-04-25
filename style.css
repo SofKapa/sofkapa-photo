@@ -910,7 +910,7 @@ nav a:hover {
     position:fixed;
     top: 8vh;
     right: 8vh;
-    z-index: 9;
+    z-index: 1000 !important;
     padding: 8.5px;
 }
 
@@ -961,7 +961,7 @@ bottom: -02px;
     bottom: 0vh;
     background-color: var(--kapa-background);
     padding:5px;
-    z-index: 8;
+    z-index: 999;
     transition:1s;
     justify-content:space-around;
     flex-direction:column;
@@ -1424,7 +1424,7 @@ p.copyright {
 .sticky {
     position: sticky;
     top: 0; /* Sticks to the top of the viewport */
-    z-index: 1000; /* Ensures it stays above other content */
+    z-index: 900; /* Ensures it stays above other content */
     align-self: start; /* Helps sticky behave properly in a grid */
 }
 
@@ -1876,9 +1876,10 @@ form label {
 
 
 #cookie-notice {
-    font-family: 'Mansory', 'Open Sans';
+    font-family: 'Mansory','Open Sans';
+    font-style: italic;
     z-index: 9;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     display: none;
     text-align: center;
     position: fixed;
@@ -1887,7 +1888,8 @@ form label {
     bottom: 0;
     width: 100%;
     background: var(--kapa-blue);
-    color: var(--kapa-background);
+    color: var(--kapa-dark);
+    border-top: 1px solid var(--kapa-featured);
 }
 
 #cookie-notice a {
@@ -1903,7 +1905,27 @@ form label {
 }
 
 #cookie-notice .button-subtle {
-  opacity: 0.8;
+    opacity: 0.8;
+}
+#cookie-notice .button-subtle:hover {
+    color: var(--kapa-featured);
+}
+
+
+
+#cookie-notice-accept.button {
+    background-color: var(--kapa-background);
+    color: var(--kapa-dark); 
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+#cookie-notice-accept.button:hover {
+    background-color: var(--kapa-blue);
+    color: white;
+    border: 1px solid white
 }
 
 #close-cookie-banner {
