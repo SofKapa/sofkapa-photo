@@ -609,6 +609,9 @@ a.bg-image {display: block;}
 .uppercase    {text-transform: uppercase;}
 
 
+/* Text decoration*/
+.underlined {text-decoration: underline;}
+
 /* Unique texts*/
 .featured {
     color: var(--kapa-featured);
@@ -1081,13 +1084,6 @@ p.footer {
     text-align: right;
     padding-bottom: 0.2rem;
     color:var(--kapa-dark);
-}
-
-p.copyright {
-    font-size: 0.9rem;
-    text-align: center;
-    padding-top: 2.5rem;
-    color: white;;
 }
 
 /* Social Media icons ---------------------------------------- */
