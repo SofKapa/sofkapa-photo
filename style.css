@@ -745,21 +745,22 @@ If set to multiple lines, it also defines the cross-axis which determines the di
     text-underline-offset: 15px; /* Adjust space between text and underline */
 }
 
-.arrow-down-left {
-    background: url(assets/arrows/arrow-down-left.svg) bottom left no-repeat;
-    background-size: 100% 5rem;
-}
+.arrow-down-left {background: url(assets/arrows/arrow-down-left.svg) bottom left no-repeat;}
 
-.arrow-down-right {
-    background: url(assets/arrows/arrow-down-right.svg) bottom left no-repeat;
-    background-size: 100% 5rem;
+.arrow-down-right {background: url(assets/arrows/arrow-down-right.svg) bottom left no-repeat;}
+
+.arrow-down-white {
+    background: url(assets/arrows/arrow-down-white.svg) bottom left no-repeat;
+    padding-top: 3rem;
 }
 
 .arrow-down-left,
-.arrow-down-right {
+.arrow-down-right,
+.arrow-down-white {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    min-height: 7rem;
 }
 
 /* Social Share Nav --------------------------------------*/
