@@ -11,46 +11,51 @@ seo:
   hide-from-google: false
 ---
 
-<!-- MAIN QUESTION -->
-<section class="grid text-center">
 
-    <div class="col-12 gradient border-b">
+<section class="flex flex-column items-center text-center">
+
+    <!-- MAIN QUESTION ------------------------------------------------------------------>
+    <div class="gradient border-b" style="width:100%;">
         <h2 class="featured-bold margin-b-0" style="font-family: 'mansory', sans-serif;">Found the right fit and ready to book?</h2>
     </div>
 
-    <div class="col-6 border-r grid">
+    <!-- TWO ANSWERS -------------------------------------------------------------------->
+    <div class="flex flex-container" style="width:100%;">
 
-        <div class="col-12 padded-md padded-t-4">
-            <p class="handwritten-text-xl" style="font-size: 3.5rem;">Yes, let's do it!</p>
+        <!-- LEFT SIDE - READY TO BOOK --> 
+        <div class="border-r flex flex-column items-center" style="flex: 1 1 50%;">
+
+            <div class="padded-md padded-t-4 max-width-md">
+                <p class="handwritten-text-xl" style="font-size: 3.5rem;">Yes, let's do it!</p>
+            </div>
+
+            <div class="padded-md arrow-down-left">
+            </div>
+
+            <div class="padded-lg" style="text-align: center;">
+                <p class="featured-bold padded-sm padded-t-0">Amazing! <br>Lock in your date <br>I'll take care of the rest!</p>
+                <a href="/booking-calendar.html" class="cta-button" style="font-size: 2rem;">Book Now !</a>
+            </div>
+        
         </div>
 
-        <div class="col-12 padded-md arrow-down-left">
-        </div>
+        <!-- RIGHT SIDE - NEED TO CHAT --> 
+        <div class="border-r flex flex-column items-center" style="flex: 1 1 50%;">
 
-        <div class="col-12 padded-lg">
-            <p class="featured-bold padded-sm padded-t-0">Amazing! <br>Lock in your date <br>I'll take care of the rest!</p>
-            <a href="/booking-calendar.html" class="cta-button" style="font-size: 2rem;">Book Now !</a>
-        </div>
+            <div class="padded-md padded-t-4 max-width-md">
+                <p class="handwritten-text-xl" style="font-size: 3.5rem;">Need to chat first?</p>
+            </div>
+        
+            <div class="padded-md arrow-down-right"></div>
+        
+            <div class="padded-lg" style="text-align: center;">
+                <p class="featured-bold padded-sm padded-t-0">No problem! <br>Message me<br>I’ll get back to you ASAP!</p>
+                <button onclick="window.HubSpotConversations.widget.open()" class="cta-button" style="border:none; font-size: 2rem;">Chat with Me</button>
+            </div>
 
+        </div>
 
     </div>
-
-    <div class="col-6 grid">
-
-        <div class="col-12 padded-md padded-t-4">
-            <p class="handwritten-text-xl" style="font-size: 3.5rem;">Need to chat first?</p>
-        </div>
-
-        <div class="col-12 padded-md arrow-down-right"></div>
-
-        <div class="col-12 padded-lg">
-            <p class="featured-bold padded-sm padded-t-0">No problem! <br>Message me<br>I’ll get back to you ASAP!</p>
-            <button onclick="window.HubSpotConversations.widget.open()" class="cta-button" style="border:none; font-size: 2rem;">Chat with Me</button>
-        </div>
-
-    </div>
-
-    
 
 </section>
 
