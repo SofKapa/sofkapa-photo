@@ -1140,15 +1140,13 @@ p.footer {
     /* border: 2px solid red; */
 }
 .fade-overlay {
-    background-color: var(--kapa-blue);
-    opacity: 0;
-    transition: 0.5s ease;
+    background-color: rgba(170, 199, 203, 0); /* transparent kapa-blue */
+    transition: background-color 0.5s ease;
     border-radius: 25px;
     z-index: 2;
-    /* border: 2px solid green; */
 }
 .fade-container:hover .fade-overlay {
-    opacity: 0.8;
+    background-color: rgba(170, 199, 203, 0.8); /* kapa-blue with 80% opacity */
 }
 
 .fade-text {
