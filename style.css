@@ -617,8 +617,9 @@ a.bg-image {display: block;}
 /* Unique texts*/
 .featured {
     color: var(--kapa-featured);
-    font-weight: 400;
     font-style: italic;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .handwritten-text {
