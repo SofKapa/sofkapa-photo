@@ -755,9 +755,26 @@ If set to multiple lines, it also defines the cross-axis which determines the di
     padding-top: 3rem;
 }
 
+.arrow-down-no-leg {
+    background: url('assets/arrows/arrow-down-no-leg.svg') no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    width: 8rem;    /* ✅ Add width */
+    height: 8rem;   /* ✅ Add height */
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+  display: inline-block; /* Needed for transform to work on span */
+}
+
+.arrow.rotated {
+  transform: rotate(180deg);
+}
+
 .arrow-down-left,
 .arrow-down-right,
-.arrow-down-white {
+.arrow-down-white{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1289,6 +1306,30 @@ p.footer {
     background-position: 50% 50%;
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
+}
+
+
+/* Toggle - reveal hidden paragraphs --------------------------------------------- */
+/* .toggle-button {
+    background: none;
+    border: none;
+    color: var(--kapa-featured);
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+    margin-top: -1rem;
+} */
+
+
+.toggle-button {
+  display: flex;             /* Make button flex container */
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  width: 100%;               /* Optional: button full width */
+  background: transparent;   /* Ensure no background color if needed */
+  border: none;              /* Remove default button border */
+  cursor: pointer;
+  padding: 0.5rem 0;         /* Adjust padding as needed */
 }
 
 

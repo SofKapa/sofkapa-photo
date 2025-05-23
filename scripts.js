@@ -143,43 +143,18 @@ $( document ).ready(function() {
     }
 
 
+    // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
+    $('.toggle-button').on('click', function () {
+      const $button = $(this);
+      const $content = $button.next('.extra-paragraphs');
+      const $arrow = $button.find('.arrow');
 
+      const isOpen = $content.is(':visible');
 
-    // document.addEventListener("DOMContentLoaded", function () {
-    // // Select the custom cursor element
-    //     const cursor = document.querySelector(".custom-cursor");
-    // });
+      $content.slideToggle(300); // for a smoother animation
+      $arrow.toggleClass('rotated', !isOpen);
+    });
 
-    // // Update cursor position
-    // document.addEventListener("mousemove", (e) => {
-    //   cursor.style.top = `${e.clientY}px`;
-    //   cursor.style.left = `${e.clientX}px`;
-    // });
-
-    // // Add event listeners for expanding the cursor on interactive elements
-    // document.querySelectorAll("button, a").forEach((el) => {
-    //   el.addEventListener("mouseenter", () => cursor.classList.add("expand"));
-    //   el.addEventListener("mouseleave", () =>
-    //     cursor.classList.remove("expand")
-    //   );
-    // });
-
-
-    // // Initialize Lenis
-    // const lenis = new Lenis();
-
-    // // Listen for the scroll event and log the event data
-    // lenis.on("scroll", (e) => {});
-
-    // // Use requestAnimationFrame to continuously update the scroll
-    // function raf(time) {
-    //     lenis.raf(time);
-    //     requestAnimationFrame(raf);
-    // }
-
-    // requestAnimationFrame(raf);
-
-  //End cursor scripts-------------------------------------------------------------------------
 
 });
 
