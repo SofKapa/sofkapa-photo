@@ -146,14 +146,17 @@ $( document ).ready(function() {
     // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
     $('.toggle-button').on('click', function () {
       const $button = $(this);
-      const $content = $button.next('.extra-paragraphs');
-      const $arrow = $button.find('.arrow');
-
+      const $container = $button.closest('.padded-tb-2');
+      const $content = $container.find('.extra-paragraphs');
       const isOpen = $content.is(':visible');
 
-      $content.slideToggle(300); // for a smoother animation
-      $arrow.toggleClass('rotated', !isOpen);
+      // Slide toggle the hidden content
+      $content.slideToggle(300);
+
+      // Toggle arrow rotation on all arrows in this section
+      $container.find('.arrow').toggleClass('rotated', !isOpen);
     });
+
 
 
 });
