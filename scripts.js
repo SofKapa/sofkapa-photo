@@ -148,15 +148,16 @@ $( document ).ready(function() {
       const $button = $(this);
       const $container = $button.closest('.padded-tb-2');
       const $content = $container.find('.extra-paragraphs');
-      const isOpen = $content.is(':visible');
+      const $arrows = $container.find('.arrow');
 
-      // Slide toggle the hidden content
-      $content.slideToggle(300);
+      const isOpen = $content.hasClass('open');
 
-      // Toggle arrow rotation on all arrows in this section
-      $container.find('.arrow').toggleClass('rotated', !isOpen);
+      // Toggle visibility with CSS transitions
+      $content.toggleClass('open');
+
+      // Toggle arrow rotation
+      $arrows.toggleClass('rotated', !isOpen);
     });
-
 
 
 });
