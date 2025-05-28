@@ -1396,7 +1396,10 @@ p.footer {
 /* Parent container set as a flexible element */
 .flex {display: flex;}
 /* Parent container set as  */
-.flex-nowrap {flex-wrap: nowrap;}
+.flex-nowrap {
+    flex-wrap: nowrap;
+    align-items: stretch; /* 👈 add this */
+}
 /* Children elements of the flex container will display in a row */
 .flex-row {flex-direction: row;}
 /* Children elements of the flex container will display in a column */
@@ -1404,7 +1407,10 @@ p.footer {
 /* Makes the cards scroll without getting out of the screen */
 .overflow-x-scroll {overflow-x: scroll;}
 /* Content won't shrink with viewport size and will stack on top of each other */
-.flex-shrink-0 {flex-shrink: 0;}
+.flex-shrink-0 {
+    flex-shrink: 0;
+    display: flex;          /* 👈 add this */
+    flex-direction: column; /* 👈 add this */}
 .stack {flex-direction: column;}
 
 
@@ -1421,6 +1427,9 @@ p.footer {
     padding: auto;
     border-radius: 25px;
     border: 2px solid var(--kapa-featured);
+    height: 100%;            /* 👈 fill parent height */
+    display: flex;
+    flex-direction: column;
 }
 .card:hover {
     box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2); 
@@ -1559,6 +1568,9 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 .package-card-shadow {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    flex: 1;                 /* 👈 take full space */
+    display: flex;
+    flex-direction: column;
 }
 
 .border-featured {
