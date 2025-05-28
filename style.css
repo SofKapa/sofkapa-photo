@@ -1635,6 +1635,26 @@ ul {
 }
 
 
+/* Steps of the process -------------------------------------- */
+
+/* Hidden state */
+.step {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.8s ease-out;
+}
+
+.step.from-left {
+    transform: translateX(-100px);
+}
+
+.step.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
 
 
 /* ---------- ABOUT PAGE | STYLES ---------------------------------------------------------------------------------------------------- */

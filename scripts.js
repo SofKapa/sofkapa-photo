@@ -159,6 +159,28 @@ $( document ).ready(function() {
       $arrows.toggleClass('rotated', !isOpen);
     });
 
+    // STEPS OF THE PROCESS APPEARING FROM LEFT AND RIGHT
+    // Select all .step elements
+    const steps = document.querySelectorAll('.step');
+
+    const observer = new IntersectionObserver(
+        (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                    observer.unobserve(entry.target);
+                }
+            });
+        },
+        {
+            threshold: 0.2
+        }
+    );
+
+    steps.forEach(step => {
+        observer.observe(step);
+    });
+
 
 });
 
