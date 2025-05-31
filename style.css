@@ -1152,20 +1152,24 @@ p.footer {
 
 /* Cards general styles --------------------------------------------- */
 
+
 .grid-spaceAround {
     display: flex;
-    flex-wrap: nowrap; /* prevent wrapping */
+    flex-wrap: nowrap; 
     gap: 1rem;
-    justify-content: center; /* or flex-start */
+    justify-content: center; 
 }
 
-/* .grid-spaceAround {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 1rem;
-    justify-content: center;
-    padding: 1rem;
-} */
+.fade-container {
+    position: relative;
+    display: block;
+    aspect-ratio: 1/1; 
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+    width: 300px; 
+}
 
 .fade-image {
     width: 100%;
@@ -1174,16 +1178,7 @@ p.footer {
     border-radius: 25px; /* Match the container’s rounded corners */
 }
 
-.fade-container {
-    position: relative;
-    display: block;
-    aspect-ratio: 1/1; /* or height: 100%; if you're using .square classes */
-    overflow: hidden;
-    border-radius: 25px;
-    margin: 0;
-    padding: 0;
-    width: 300px; /* or whatever fixed size you want */
-}
+
 
 .persistent-overlay {
   position: absolute;
