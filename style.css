@@ -1151,6 +1151,22 @@ p.footer {
 /* ---------- HOMEPAGE | STYLES ------------------------------------------------------------------------------------------------------ */
 
 /* Cards general styles --------------------------------------------- */
+
+.grid-spaceAround {
+    display: flex;
+    flex-wrap: nowrap; /* prevent wrapping */
+    gap: 1rem;
+    justify-content: center; /* or flex-start */
+}
+
+/* .grid-spaceAround {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+} */
+
 .fade-image {
     width: 100%;
     height: 100%;
@@ -1161,18 +1177,42 @@ p.footer {
 .fade-container {
     position: relative;
     display: block;
-    width: 100%;       /* or a fixed width */
     aspect-ratio: 1/1; /* or height: 100%; if you're using .square classes */
     overflow: hidden;
     border-radius: 25px;
-    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    width: 300px; /* or whatever fixed size you want */
 }
+
+.persistent-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 20, 30, 0.15); /* subtle dark tint */
+  z-index: 1;
+  pointer-events: none; /* lets clicks pass through */
+  border-radius: inherit;
+}
+
 .fade-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensures both elements fully fill .fade-container */
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Remove extra margin */
     background-color: rgba(170, 199, 203, 0); /* transparent kapa-blue */
     transition: background-color 0.5s ease;
     border-radius: 25px;
     z-index: 2;
 }
+
 .fade-container:hover .fade-overlay {
     background-color: rgba(170, 199, 203, 0.8); /* kapa-blue with 80% opacity */
 }
@@ -1196,32 +1236,19 @@ p.footer {
 
 /* SLIDE STYLES */
 .slider-container-homepage-cards { 
-    /* border: 2px  solid blue;  */
-    display: flex; /* Ensures child elements stretch */
+    display: flex;
     align-items: stretch;
     justify-content: center;
-}
-.slider-container-homepage-cards,
-.fade-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%; /* Ensures both elements fully fill .fade-container */
-      border-radius: 25px;
-      overflow: hidden;
-      padding: 0; /* Remove extra padding */
-      margin: 0; /* Remove extra margin */
-}
-.slider-item {
     width: 100%;
     height: 100%;
-    flex-grow: 1; /* Ensure it expands */
-    min-width: 100%;
-    min-height: 100%;
-    padding: 1rem;
-    /* border: 2px  solid purple;  */
+    overflow: hidden; /* ensures only one slide is visible */
 }
+
+.slider-item {
+    min-height: 100%;
+    flex: 0 0 100%; /* only one item visible at a time */
+}
+
 .slider-item .bg-image {
     width: 100%;
     height: 100%;
@@ -1229,6 +1256,8 @@ p.footer {
     background-position: center;
     border-radius: 25px;
 }
+
+
 
 /* SLIDE IMAGES */
 .bg-travel-1 { 
