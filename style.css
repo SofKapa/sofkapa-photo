@@ -617,6 +617,18 @@ a.bg-image {display: block;}
     margin-bottom: 0;
 }
 
+
+.tag {
+    display: inline-block;
+    font-family: 'Mansory Regular', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-style: oblique;
+    line-height: 1.25rem;
+    color: var(--kapa-dark);
+}
+
+
 .vertical-text {
     writing-mode: vertical-rl; /* Vertical text, top to bottom */
     text-orientation: mixed;
@@ -666,11 +678,25 @@ a.bg-image {display: block;}
 .column-bottom-to-top                {flex-direction: column-reverse;}
 .flip-order-alternate:nth-child(even){flex-direction: row-reverse;}
 
-
+/* Parent container set as a flexible element */
+.flex {display: flex;}
 /* The flex-wrap property is a sub-property of the Flexible Box Layout module. 
 It defines wheather the flex items are forced in a single line or can be flowed into multiple lines. 
 If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in. */
+/* Parent container set as  */
 .flex-container {flex-wrap: wrap;}
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+/* Children elements of the flex container will display in a row */
+.flex-row {flex-direction: row;}
+/* Children elements of the flex container will display in a column */
+.flex-column {flex-direction: column;}
+/* Makes the cards scroll without getting out of the screen */
+.overflow-x-scroll {overflow-x: scroll;}
+/* Content won't shrink with viewport size and will stack on top of each other */
+.flex-shrink-0 {flex-shrink: 0;}
+.stack {flex-direction: column;}
 
 
 /* Vertically align items */
@@ -679,6 +705,11 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 
 .relative {position: relative;}
 .absolute {position: absolute;}
+
+
+/* How much space cards take up on viewport */
+.w-1\/4  {width: 25%;}
+.h-2\/5 {height: 40%;}
 
 
 /* --------- UNIQUE ELEMENTS ----------------------------------------------------------------------------------------------------------*/
@@ -733,6 +764,15 @@ If set to multiple lines, it also defines the cross-axis which determines the di
     background-size: contain;
     min-height: 7rem;
 }
+
+.hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
 
 /* Social Share Nav --------------------------------------*/
 .social-share a {
@@ -1279,38 +1319,29 @@ p.footer {
 
 
 /* Toggle - reveal hidden paragraphs --------------------------------------------- */
-/* .toggle-button {
-    background: none;
-    border: none;
-    color: var(--kapa-featured);
-    cursor: pointer;
-    font-size: 1rem;
-    padding: 0;
-    margin-top: -1rem;
-} */
 
 
 .toggle-button {
-  display: flex;             /* Make button flex container */
-  justify-content: center;   /* Center horizontally */
-  align-items: center;       /* Center vertically */
-  width: 100%;               /* Optional: button full width */
-  background: transparent;   /* Ensure no background color if needed */
-  border: none;              /* Remove default button border */
-  cursor: pointer;
-  padding: 0.5rem 0;         /* Adjust padding as needed */
+    display: flex;             /* Make button flex container */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    width: 100%;               /* Optional: button full width */
+    background: transparent;   /* Ensure no background color if needed */
+    border: none;              /* Remove default button border */
+    cursor: pointer;
+    padding: 0.5rem 0;         /* Adjust padding as needed */
 }
 
 .extra-paragraphs {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 1.5s ease, opacity 0.8s ease;
-  opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease, opacity 0.8s ease;
+    opacity: 0;
 }
 
 .extra-paragraphs.open {
-  max-height: 1000px; /* adjust to suit your content */
-  opacity: 1;
+    max-height: 1000px; /* adjust to suit your content */
+    opacity: 1;
 }
 
 
@@ -1346,109 +1377,6 @@ p.footer {
     color: white;
     text-align:center;
 } */
-
-
-
-/* Scrolling Cards -------------------------------------------------- */
-
-/* THE SECTION */
-/* Parent container set as a flexible element */
-.flex {display: flex;}
-/* Parent container set as  */
-.flex-nowrap {
-    flex-wrap: nowrap;
-    align-items: stretch; /* 👈 add this */
-}
-/* Children elements of the flex container will display in a row */
-.flex-row {flex-direction: row;}
-/* Children elements of the flex container will display in a column */
-.flex-column {flex-direction: column;}
-/* Makes the cards scroll without getting out of the screen */
-.overflow-x-scroll {overflow-x: scroll;}
-/* Content won't shrink with viewport size and will stack on top of each other */
-.flex-shrink-0 {
-    flex-shrink: 0;
-    display: flex;          /* 👈 add this */
-    flex-direction: column; /* 👈 add this */}
-.stack {flex-direction: column;}
-
-
-.hide-scrollbar {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
-}
-.hide-scrollbar::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
-}
-
-/* EACH CARD */
-.card {
-    padding: auto;
-    border-radius: 25px;
-    border: 2px solid var(--kapa-featured);
-    height: 100%;            /* 👈 fill parent height */
-    display: flex;
-    flex-direction: column;
-}
-.card:hover {
-    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2); 
-    transform: translateY(-10px);
-    transition: transform 0.3s ease;
- }
-
-.round-corners {
-    border-radius: 25px;
-}
-
-/* How much space cards take up on viewport */
-.w-1\/4  {width: 25%;}
-.h-2\/5 {height: 40%;}
-
-.first\:margin-l-6:first-child {
-    margin-left: 1.5rem;
-}
-
-.card-shadow {
-    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
-}
-
-/* CARD CONTENT */
-.bottom-shade {
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.bg-gradient-overlay {
-    background: linear-gradient(0deg,rgba(22,22,30,.9) 3%,rgba(22,22,30,0) 100%);
-    border-radius: 25px;
-}
-
-/* How text spreads */
-.inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.tag {
-    display: inline-block;
-    font-family: 'Mansory Regular', sans-serif;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-style: oblique;
-    line-height: 1.25rem;
-    color: var(--kapa-dark);
-}
-
-
-
-
-
-
-
 
 
 
@@ -1619,6 +1547,30 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 /* ---------- PACKAGES PAGE | STYLES ------------------------------------------------------------------------------------------------- */
 
 /* The cards ------------------------------------------------------- */
+
+/* Card design */
+.card {
+    padding: auto;
+    border-radius: 25px;
+    border: 2px solid var(--kapa-featured);
+    height: 100%;           
+    display: flex;
+    flex-direction: column;
+}
+.card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2); 
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+ }
+
+.round-corners {
+    border-radius: 25px;
+}
+
+.card-shadow {
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
 
 /* Makes the overflow hidden on large screens 
 (the full cards are visible, without being cut to indicate scrolling */
