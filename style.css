@@ -421,6 +421,11 @@ p:last-child {
 .margin-l-2 {margin-left: 2rem;}
 .margin-r-2 {margin-right: 2rem;}
 
+.margin-t-3 {margin-top: 3rem;}
+.margin-b-3 {margin-bottom: 3rem;}
+.margin-l-3 {margin-left: 3rem;}
+.margin-r-3 {margin-right: 3rem;}
+
 .margin-tb-1 {margin-top:1rem;margin-bottom:1rem;}
 .margin-tb-2 {margin-top:2rem;margin-bottom:2rem;}
 .margin-tb-3 {margin-top:3rem;margin-bottom:3rem;}
@@ -686,6 +691,14 @@ a.bg-image {display: block;}
 .column-top-to-bottom                {flex-direction: column;}
 .column-bottom-to-top                {flex-direction: column-reverse;}
 .flip-order-alternate:nth-child(even){flex-direction: row-reverse;}
+
+.centered-list {
+    list-style-position: inside;  /* Keeps bullets inside the container */
+    padding-left: 0;              /* Removes default left padding */
+    margin: 0 auto;               /* Centers the list container */
+    max-width: 800px;             /* Optional: limits width for better readability */
+    text-align: left;           /* Centers the text and bullets */
+}
 
 /* Parent container set as a flexible element */
 .flex {display: flex;}
