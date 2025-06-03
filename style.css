@@ -609,12 +609,13 @@ a.bg-image {display: block;}
     text-transform: uppercase;
 }
 
-.test-style {
+.sub-heading {
     font-family: 'Mansory', sans-serif;
     font-size: 1.3rem;
     text-transform: uppercase;
     color: white;  
     font-style: italic;
+    text-align: center;
 }
 
 .notes {
