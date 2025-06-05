@@ -1246,10 +1246,13 @@ p.footer {
 .homepage-gallery .bg-image-cards {
     width: 100%;
     height: 100%;
+    aspect-ratio: 1 / 1; 
     background-size: cover;
     background-position: center;
     border-radius: 25px;
 }
+
+
 
 /* SLIDE IMAGES */
 .bg-travel-1 { 
@@ -1471,18 +1474,6 @@ p.footer {
     text-align: center;
     z-index: 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
