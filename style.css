@@ -1723,9 +1723,6 @@ ul {
 .slick-dots li button {
     width: 6px;
 }
-.slick-dotted.slick-slider {
-    margin-bottom: 0px;
-}
 
 /* IMAGES */
 .slider-tag {
@@ -1855,6 +1852,7 @@ ul {
     position: relative;
     text-align: center;
     color: white;
+    padding-bottom: 1rem; /* Creates space for the dots */
 }
 
 
