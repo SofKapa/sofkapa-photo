@@ -58,35 +58,22 @@ $( document ).ready(function() {
 
     // SLICK SLIDER - TESTIMONIALS
     $('.testimonial-slider-container').slick({
-        autoplay: true, // Do we want it to autoplay? true or false
-        autoplaySpeed:5000, // How long between each slide when auto-playing
-        speed: 500, // How fast is the transition in milliseconds
-        arrows: false, // Do you want to show arrows to trigger each slide
-        accessibility: true, // Enables keyboard tabbing and arrow key navigation
-        dots: false, // Enables the dots below to show how many slides
-        fade: false, // Changes the animate from slide to fade if true
-        infinite: true, // When true, means that it will scroll in a circle
-        pauseOnHover: true, // When true means the autoplay pauses when hovering
-        pauseOnDotsHover: true // Pauses the autoplay when hovering over the dots
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 500,
+        arrows: true,
+        accessibility: true,
+        dots: false,
+        fade: false,
+        infinite: true,
+        pauseOnHover: true,
+        pauseOnDotsHover: true,
+        prevArrow: '<button type="button" class="custom-prev slick-arrow">&#10094;</button>',
+        nextArrow: '<button type="button" class="custom-next slick-arrow">&#10095;</button>',
     });
 
 
     // TYPING ANIMATION
-    // var typed = new Typed('#typed', {
-    //   stringsElement: '#typed-strings',
-    //   typeSpeed: 50, // How fast each character being typed in milliseconds
-    //   startDelay: 500, // How long the string (the series of characters) inside a single element tag (for example the paragraph <p> tag) should wait before it starts typing the string inside the next element tag
-    //   backSpeed: 10, // How fast each character should be removed after it’s done typing
-    //   backDelay: 1000, // After it’s done typing, how long it should wait before it starts backspacing
-    //   smartBackspace: true, // Only backspace the characters in the current string that don't match the previous element.
-    //   shuffle: false, // To shuffle the order of the strings
-    //   fadeOut: false, // To make the string fades out instead of backspace
-    //   fadeOutClass: 'typed-fade-out', // Required to add a CSS class for the fade animation
-    //   fadeOutDelay: 500, // After the string is done typing, how long it should wait before it starts fading out
-    //   loop: false, // Do we want it to repeat after being done typing all the strings
-    //   loopCount: Infinity, // If loop is active (true), then how many times we want it to repeat. You can add any number or simply add Infinity to repeat endlessly.
-    //   showCursor: false // To show or hide the cursor animation
-    // });
 
     // Function to start Typed animation
     function startTyped() {
