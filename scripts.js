@@ -29,6 +29,18 @@ $( document ).ready(function() {
 
 
     // SLICK SLIDER - HOMEPAGE CARDS
+    $('.slick-slideshow').slick({
+        autoplay: true,
+        autoplaySpeed: 2500,
+        fade: true,
+        speed: 800,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        cssEase: 'ease-in-out'
+    });
+
+
     $('.slider-container-homepage-cards').slick({
         autoplay: true, // Do we want it to autoplay? true or false
         autoplaySpeed: 2000, // How long between each slide when auto-playing
