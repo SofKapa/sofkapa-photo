@@ -62,14 +62,12 @@ $( document ).ready(function() {
         autoplaySpeed: 5000,
         speed: 500,
         arrows: true,
-        accessibility: true,
         dots: false,
         fade: false,
         infinite: true,
         pauseOnHover: true,
-        pauseOnDotsHover: true,
-        prevArrow: '<button type="button" class="custom-prev slick-arrow">&#10094;</button>',
-        nextArrow: '<button type="button" class="custom-next slick-arrow">&#10095;</button>',
+        prevArrow: '<button type="button" class="custom-prev slick-arrow" aria-label="Previous"></button>',
+        nextArrow: '<button type="button" class="custom-next slick-arrow" aria-label="Next"></button>',
     });
 
 

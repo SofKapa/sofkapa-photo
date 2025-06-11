@@ -1831,7 +1831,9 @@ ul {
 
 /* Testimonials slideshow section -----------------------------------------------*/
 
+
 .banner-testimonials {
+    position: relative;
     background-image: url('/assets/portrait/BABIES/hospital-bts.JPEG');
     background-size: cover;
     background-position: 50% 20%;
@@ -1839,62 +1841,110 @@ ul {
     padding: 5%;
 }
 
+
+/* The slider container ------ */
 .testimonial-slider-container {
+    max-width: 800px;
+    margin: 0 auto;
     position: relative;
-    padding-top: 5%;
-    max-width: 900px;
-    margin: auto;
+    padding: 2rem;
 }
 
-.quote-icon {
-    font-size: 3rem;
-    color: var(--kapa-background);
-}
-
-.slider-item p {
+/* Slide content --------------*/
+.slider-item {
+    position: relative;
     text-align: center;
-    font-family: "Mansory", serif;
-    font-style: italic;
-    font-size: 1.8rem;
-    color: var(--kapa-background);
+    color: white;
 }
 
-.author.text-right {
-    font-size: 1.3rem;
-    color: var(--kapa-blue);
-    margin-top: 0.5rem;
-    font-style: italic;
-    text-align: right;
+
+.author {
+    font-size: 1rem;
+    color: var(--kapa-featured);
+    margin-top: 1rem;
 }
 
+p.author {
+    margin-top: 0;
+}
+
+
+/* Quotes --------------------- */
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.quote-mark {
+  font-size: 2.5rem;
+  color: var(--kapa-background);
+  font-family: "Mansory", serif;
+  margin-bottom:0rem;
+  margin-top: 0rem;
+}
+
+.quote-mark.open {
+  align-self: flex-start;
+  margin-bottom: 0rem;
+}
+
+.quote-mark.close {
+  align-self: flex-end;
+  margin-top: 0rem;
+}
+
+.quote-text {
+  font-family: "Mansory", serif;
+  font-style: italic;
+  font-size: 1.8rem;
+  color: var(--kapa-background);
+  text-align: center;
+  max-width: 100%;
+}
+
+p.quote-text {
+    margin-bottom: 0rem;
+}
+
+
+/* Arrows ---------------------*/
 .custom-prev,
 .custom-next {
-  background: none;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
   border: none;
-  font-size: 2.5rem;
-  color: white;
+  cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   z-index: 10;
-  cursor: pointer;
   opacity: 0.8;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.3s ease;
 }
 
-.custom-prev:hover,
-.custom-next:hover {
-  opacity: 1;
-}
-
-/* Positioning the arrows further from the quote icons */
+/* Use your custom SVGs */
 .custom-prev {
-  left: -4rem; /* adjust to taste */
+  left: -5rem;
+  background-image: url('/assets/arrows/slider-arrow-previous.svg'); /* Adjust path as needed */
 }
 
 .custom-next {
-  right: -4rem; /* adjust to taste */
+  right: -5rem;
+  background-image: url('/assets/arrows/slider-arrow-next.svg'); /* Adjust path as needed */
 }
+
+
+
+
+
+
+
 
 
 /* ---------- CONTACT PAGE | STYLES -------------------------------------------------------------------------------------------------- */
