@@ -1260,6 +1260,7 @@ p.footer {
     aspect-ratio: 1 / 1;
     overflow: hidden;
     border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
     margin: 0;
     padding: 0;
     transition: transform 0.3s ease;
@@ -1318,27 +1319,27 @@ p.footer {
 
 
 /* --- Slider Container --- */
-.homepage-gallery .slider-container-homepage-cards {
-    display: flex;
+.slider-container-homepage-cards {
     width: 100%;
     height: 100%;
+    position: relative;
+    aspect-ratio: 1 / 1;
     overflow: hidden;
 }
 
 
 .homepage-gallery .slider-item {
-    flex: 0 0 100%;
-    height: 100%;
-    position: relative;
-}
-
-.homepage-gallery .bg-image-cards {
     width: 100%;
     height: 100%;
-    aspect-ratio: 1 / 1; 
-    background-size: cover;
-    background-position: center;
+}
+
+.homepage-gallery .slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+    display: block;
 }
 
 
@@ -1397,7 +1398,7 @@ p.footer {
 .bg-food-4 { 
     background-image: url('assets/brands/EPL/pinkcouple.jpg'); 
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 80%;
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
@@ -1419,7 +1420,7 @@ p.footer {
 .bg-portrait-3 { 
     background-image: url('/assets/portrait/FAMILYSUNSETBEACH/mother_and_grandma_holding_baby_while_sitting.jpg'); 
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 30%;
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
