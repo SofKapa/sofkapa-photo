@@ -4,8 +4,8 @@ title: Intimate wedding at Carlton Gardens
 description: Set among the lush greenery of Carlton Gardens, this small Melbourne wedding embraced nature, intimacy, and honest storytelling, photographed through a minimalist, documentary lens.
 location: Melbourne, Australia
 featured: true
-main_category: food
-main_category_url: /food.html
+main_category: portrait
+main_category_url: /portrait.html
 categories: [weddings, elopement, intimate ceremonies]
 tags: [Melbourne small wedding photographer, Carlton Gardens wedding, intimate wedding photography, elopement photographer, natural light wedding, storytelling photographer]
 cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg
