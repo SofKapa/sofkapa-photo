@@ -1815,6 +1815,35 @@ ul {
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
+.bg-newborn-curled-up {
+    background-image: url('assets/portrait/BABIES/newborn-curled-up.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-arms-up {
+    background-image: url('assets/portrait/BABIES/newborn-arms-up.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-baby-flying {
+    background-image: url('assets/portrait/INHOMEFAMILY/baby_flying.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+.bg-parents-kissing-baby {
+    background-image: url('assets/portrait/PICNICFAMILY/parents_kissing_baby.jpg'); 
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+}
+
 
 
 /* Testimonials slideshow section -----------------------------------------------*/
