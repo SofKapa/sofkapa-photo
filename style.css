@@ -1715,6 +1715,11 @@ ul {
     width: 6px;
 }
 
+
+.travel-section .portrait {
+  padding-bottom: 110%; /* or whatever ratio looks best */
+}
+
 /* IMAGES */
 .slider-tag {
     font-family: 'Mansory Regular Oblique', sans-serif;
