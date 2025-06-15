@@ -954,49 +954,43 @@ nav a:hover {
  make sure you also add it to the top and bottom active classes on their top/bottom or else your cross wont line up*/
 
 .burger-button {
-    position:fixed;
-    top: 8vh;
-    right: 8vh;
-    z-index: 1000 !important;
-    padding: 8.5px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1000;
 }
 
 /*color of the buttons*/
-.burger-button span{
+.burger-button span {
     width: 40px;
-    border: 1.5px solid #FE654F;
-    display: block;
-    border-radius: 22px;
-    transition: 1.5s;
+    height: 1.5px;
+    background-color: #FE654F;
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+    transform-origin: center;
 }
 
-.burger-top, .burger-bottom{
-    position: absolute;
-}
-.burger-top{
-top: -02px;
-}
-.burger-bottom{
-bottom: -02px;
-}
 
 
 /* make sure this has the same top as the burger button has padding*/
-.burger-button.active .burger-top{
-    position: absolute;
-    top: 8.5px;
-    transform: rotateZ(45deg);
+.burger-button.active .burger-top {
+    transform: translateY(0.60em) rotate(45deg);
 }
-.burger-button.active .burger-middle{
-/*   transform: rotateZ(270deg); */
-    border-color: rgba(0,0,0,0);
-    background-color:rgba(0,0,0,0);
+
+.burger-button.active .burger-middle {
+    opacity: 0;
+    transform: scaleX(0);
 }
 /* make sure this has the same bottom as the burger button has padding*/
-.burger-button.active .burger-bottom{
-    position: absolute;
-    bottom: 8.5px;
-    transform: rotateZ(-45deg);
+.burger-button.active .burger-bottom {
+    transform: translateY(-0.60em) rotate(-45deg);
 }
 
 .burger-menu {
@@ -2206,18 +2200,21 @@ apply to devices smaller than 1024px--------------------------------------------
 
 /* Main navigation menu */
 
-    div.col-7_md-2_xs-3.show-md {padding: 1rem 1rem 6rem 2rem;}
-
-    div.burger-button {padding: 0rem 0rem 0rem 0rem;}
-
     .burger-button {
-        padding: 2%;
-        font-size: 3.5rem;
-        cursor: pointer;
-        position: relative;
-        z-index: 2;
-        padding: 1rem 0rem 4rem 1rem;
+        top: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+        gap: 6px;
     }
+
+    .burger-button.active .burger-top {
+        transform: translateY(0.30em) rotate(45deg);
+    }
+    .burger-button.active .burger-bottom {
+        transform: translateY(-0.30em) rotate(-45deg);
+    }
+
 
     header nav {
         font-family: 'Open Sans', sans-serif;
@@ -2366,6 +2363,14 @@ apply to devices smaller than 768px --------------------------------------------
     }
 
 /* Navigation Menu */
+
+    .burger-button.active .burger-top {
+        transform: translateY(0.30em) rotate(45deg);
+    }
+    .burger-button.active .burger-bottom {
+        transform: translateY(-0.30em) rotate(-45deg);
+    }
+
     div.col-7_md-2_xs-3.show-md {padding: 0rem 0rem 4rem 1rem;}
 
     .dropdown-content a {font-size: 0.9rem;}
