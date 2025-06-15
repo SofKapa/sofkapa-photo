@@ -796,6 +796,8 @@ If set to multiple lines, it also defines the cross-axis which determines the di
 }
 
 
+
+
 /* Social Share Nav --------------------------------------*/
 .social-share a {
     padding: 0.25rem 0.5rem;
@@ -1039,21 +1041,39 @@ nav a:hover {
     color: var(--kapa-featured); 
 }
 
+
 .dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: 0rem;
-    padding: 0rem;
-    display: none;
-    background-color: var(--kapa-background); 
-    z-index: 2;
-    text-align: left;
-    min-width: 15rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  background-color: var(--kapa-background);
+  border-bottom: 1px solid var(--kapa-featured);
+  z-index: 100;
+  display: none;
+  padding: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
-.dropdown:hover .dropdown-content{
+
+/* Center the inner dropdown links in a max-width container */
+.dropdown-content-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.dropdown.open .dropdown-content {
+  display: flex;
+}
+
+
+.dropdown.open .dropdown-content {
     display: block;
-    min-width: 100%;
 }
+
 .dropdown-content a{
     margin: 0.05rem;
     background-color: var(--kapa-background);
@@ -1087,6 +1107,34 @@ a.link:hover {
     padding: 3vh 5%;
     display: block;
     font-weight: normal;
+}
+
+/* Hide by default */
+.dropdown-close {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 1rem auto 0;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+}
+
+/* Show when dropdown is open */
+.dropdown.open .dropdown-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SVG background styling */
+.arrow-close {
+  background: url('/assets/arrows/arrow-close.svg') no-repeat center center;
+  background-size: contain;
+  width: 10rem;
+  height: 10rem;
+  display: block;
 }
 
 

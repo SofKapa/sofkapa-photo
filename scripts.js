@@ -3,16 +3,32 @@ $( document ).ready(function() {
     
 
     // HAMBURGER MENU 
-    // If you click on element with 'burger-button' class... 
+    // Toggle burger
+    $('.burger-button').click(function () {
+      $('.burger-button').toggleClass('active');
+      $('.burger-menu').toggleClass('active');
+    });
 
-    $('.burger-button').click(function(){
-  
-        // ...the element with the class of 'burger-button' (in this case our div containing the links) will slide toggle:
-        $(".burger-button").toggleClass("active");
-    
-        // ...the hamburger element itself:
-        $(".burger-menu").toggleClass("active");
+    // Toggle dropdown on title click
+    $('.dropdown-title').on('click', function (e) {
+      e.stopPropagation(); // Stop the event from bubbling up to document
+      $(this).parent().toggleClass('open');
+    });
 
+    // Close dropdown with arrow
+    $('.dropdown-close').on('click', function (e) {
+      e.stopPropagation(); // Prevent document click from firing
+      $(this).closest('.dropdown').removeClass('open');
+    });
+
+    // Prevent click inside dropdown-content from closing it
+    $('.dropdown-content').on('click', function (e) {
+      e.stopPropagation(); // Allow interactions inside the dropdown
+    });
+
+    // Close if clicking outside
+    $(document).on('click', function () {
+      $('.dropdown').removeClass('open');
     });
 
 
