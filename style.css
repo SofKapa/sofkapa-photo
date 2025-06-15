@@ -1966,16 +1966,6 @@ p.quote-text {
 
 
 
-
-
-
-
-/* ---------- CONTACT PAGE | STYLES -------------------------------------------------------------------------------------------------- */
-
-
-
-
-
 /* ---------- BOOKING CALENDAR PAGE | STYLES ----------------------------------------------------------------------------------------- */
 .banner-bookings {
     background-image: url('/assets/travel/AUSTRALIA/kakadugunlomfalls.jpg');
@@ -1985,34 +1975,6 @@ p.quote-text {
     min-height: 60vh;
     padding: 5%;
 }
-
-/* ---------- FEATURED PROJECTS ------------------------------------------------------------------------------------------------------ */
-
-/* .latest-projects-title {
-    font-family: 'Mansory Medium', sans-serif;
-    font-size: 2rem;
-    color: var(--featured-text);
-    padding-bottom: 2rem;
-    margin-bottom: 0rem;
-}
-
-.latest-projects-text {margin-bottom:2rem;}
-
-.location-tag {
-    font-family: 'Mansory Regular Oblique', sans-serif;
-    font-style: oblique;
-    font-weight: lighter;
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-}
-
-.category-tag {
-    font-family: 'Mansory Regular', sans-serif;
-    font-weight: lighter;
-    font-size: 1.1rem;
-    color: var(--featured-text);
-} */
-
 
 
 
@@ -2266,9 +2228,18 @@ apply to devices smaller than 1024px--------------------------------------------
       }
 
 
-/* Cards Homepage */
+/* HOMEPAGE -----------------------------------------------*/
 
-      h3 {font-size: 4rem;}
+    .featured-text-bold {
+        line-height: 1.5;
+        padding:1rem;
+    }
+    .max-width-md {
+        max-width: 800px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    h3 {font-size: 4rem;}
 
 
 /* Category Page Banner */
@@ -2296,8 +2267,6 @@ apply to devices smaller than 1024px--------------------------------------------
     .tag {font-size: 0.9rem;}
 
     .sof-kapa-tag {font-size: 1.1rem;}
-
-    .max-width-md {max-width: 840px; margin: auto;}
 
     #title-sm {
         color:white;
@@ -2401,10 +2370,16 @@ apply to devices smaller than 768px --------------------------------------------
 
     .dropdown-content a {font-size: 0.9rem;}
 
-/* Homepage */
+/* HOMEPAGE -----------------------------------------------*/
     .homepage-gallery .fade-container {
         flex: 1 1 100%;
         max-width: 100%;
+    }
+    .fade-text, .absolute {font-size: 4rem;}
+    .max-width-md {
+        max-width: 600px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
 /* About Section */
