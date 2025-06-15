@@ -1045,7 +1045,7 @@ nav a:hover {
     left: 0rem;
     padding: 0rem;
     display: none;
-    background-color: var(--kapa-featured);
+    background-color: var(--kapa-background); 
     z-index: 2;
     text-align: left;
     min-width: 15rem;
@@ -1057,6 +1057,7 @@ nav a:hover {
 .dropdown-content a{
     margin: 0.05rem;
     background-color: var(--kapa-background);
+    border-bottom: 1px solid var(--kapa-featured);
     font-size: 1rem;
     font-style: oblique;
     font-family: 'Mansory Regular', sans-serif;
@@ -2192,37 +2193,26 @@ apply to devices smaller than 1024px--------------------------------------------
         padding-bottom: 0%;
     }
 
-/* Header styles */
+/* HEADER STYLES ----------------------------------------- */
 
     .secondary-logo {
-        max-width: 75%;
+        max-width: 65%;
     }
-
-/* Main navigation menu */
 
     .burger-button {
         top: 2.2rem;
-        right: 3rem;
+        right: 2rem;
         width: 40px;
         height: 40px;
         gap: 6px;
     }
 
     .burger-button.active .burger-top {
-        transform: translateY(0.30em) rotate(45deg);
+        transform: translateY(0.4em) rotate(45deg);
     }
     .burger-button.active .burger-bottom {
-        transform: translateY(-0.30em) rotate(-45deg);
+        transform: translateY(-0.4em) rotate(-45deg);
     }
-
-
-    header nav {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        /* padding: 2rem 0rem 2rem 0rem; */
-        margin: auto;
-      }
 
 
 /* HOMEPAGE -----------------------------------------------*/
@@ -2357,23 +2347,17 @@ apply to devices smaller than 768px --------------------------------------------
     .sm-landscape     {padding-bottom: 66%;}
 
 
-/* Header Stlyes */
+/* HEADER STYLES ----------------------------------------- */
     .secondary-logo {
         max-width: 60%;
     }
 
-/* Navigation Menu */
-
     .burger-button.active .burger-top {
-        transform: translateY(0.30em) rotate(45deg);
+        transform: translateY(0.37em) rotate(45deg);
     }
     .burger-button.active .burger-bottom {
-        transform: translateY(-0.30em) rotate(-45deg);
+        transform: translateY(-0.37em) rotate(-45deg);
     }
-
-    div.col-7_md-2_xs-3.show-md {padding: 0rem 0rem 4rem 1rem;}
-
-    .dropdown-content a {font-size: 0.9rem;}
 
 /* HOMEPAGE -----------------------------------------------*/
     .homepage-gallery .fade-container {
@@ -2566,11 +2550,8 @@ apply to devices smaller than 576px --------------------------------------------
     .xs-padded-5 {padding: 5%;}
     .xs-padded-b-0 {padding-bottom: 0%;}
 
-/* Main Navigation Menu */
+/* HEADER STYLES ----------------------------------------- */
 
-    a.link {font-size: 1.3rem;}
-
-    a.link:hover {font-size: 1.3rem;}
 
 
 /* Homepage Cards */
@@ -2706,7 +2687,8 @@ apply to devices smaller than 320px --------------------------------------------
 /* General */
     .hide-xxs    {display: none;}
 
-/* Main Navigation Menu */
+
+/* HEADER STYLES ----------------------------------------- */
 
     nav a {font-size:0.7rem;
            padding:0.1rem;}
