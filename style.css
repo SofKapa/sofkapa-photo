@@ -1116,9 +1116,9 @@ a.link:hover {
   border: none;
   cursor: pointer;
   margin: 1rem auto 0;
-  width: 3rem;
-  height: 3rem;
   padding: 0;
+  width: auto;
+  height: auto;
 }
 
 /* Show when dropdown is open */
@@ -1130,12 +1130,17 @@ a.link:hover {
 
 /* SVG background styling */
 .arrow-close {
-  background: url('/assets/arrows/arrow-close.svg') no-repeat center center;
+  display: inline-block;
+  width: 3rem !important; /* Change this to any size */
+  height: 3rem !important;;
+  background-image: url('/assets/arrows/arrow-close.svg');
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
-  width: 10rem;
-  height: 10rem;
-  display: block;
+  flex-shrink: 0; /* prevent flexbox from resizing it */
 }
+
+
 
 
 
