@@ -954,17 +954,17 @@ nav a:hover {
  make sure you also add it to the top and bottom active classes on their top/bottom or else your cross wont line up*/
 
 .burger-button {
-    width: 48px;
-    height: 48px;
+    position: absolute; /* more flexible than fixed */
+    top: 2rem;           /* matches header's .padded-2 */
+    right: 2rem;         /* matches logo's left space */
+    z-index: 1000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    z-index: 1000;
+    gap: 8px;            /* spacing between lines */
+    width: 48px;         /* line length */
+    height: 48px;
 }
 
 /*color of the buttons*/
@@ -2201,8 +2201,8 @@ apply to devices smaller than 1024px--------------------------------------------
 /* Main navigation menu */
 
     .burger-button {
-        top: 1rem;
-        right: 1rem;
+        top: 2.2rem;
+        right: 3rem;
         width: 40px;
         height: 40px;
         gap: 6px;
@@ -2708,16 +2708,14 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* Main Navigation Menu */
 
-    .burger-button {
-        position: fixed;
-        top: 7vh;
-        right: 3vh;
-        z-index: 9;
-        padding: 8.5px;
-    }
-
     nav a {font-size:0.7rem;
            padding:0.1rem;}
+
+    
+    .burger-button {
+        top: 1.8rem;
+        right: 2rem;
+    }
 
 
 /* Home Page Cards */
