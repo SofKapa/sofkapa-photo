@@ -15,22 +15,6 @@ $( document ).ready(function() {
       $(this).parent().toggleClass('open');
     });
 
-    // Close dropdown with arrow
-    $('.dropdown-close').on('click', function (e) {
-      e.stopPropagation(); // Prevent document click from firing
-      $(this).closest('.dropdown').removeClass('open');
-    });
-
-    // Prevent click inside dropdown-content from closing it
-    $('.dropdown-content').on('click', function (e) {
-      e.stopPropagation(); // Allow interactions inside the dropdown
-    });
-
-    // Close if clicking outside
-    $(document).on('click', function () {
-      $('.dropdown').removeClass('open');
-    });
-
 
 
     // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS

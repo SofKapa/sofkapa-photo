@@ -1022,18 +1022,26 @@ nav a:hover {
 }
 
 .dropdown-title {
-    font-family: 'Mansory Regular', sans-serif;
-    color: var(--kapa-dark); 
-    text-transform: uppercase;
-    padding: 3vh 5%;
-    display: block;
-    text-align: center;
-    font-weight: normal;
-    font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;  /* stack vertically */
+  align-items: center;     /* center horizontally */
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  font-family: 'Mansory Regular', sans-serif;
+  color: var(--kapa-dark);
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.5rem;
+  cursor: pointer;         /* so it's clear it's clickable */
 }
 
 .dropdown-title:hover {
     color: var(--kapa-featured); 
+}
+
+.dropdown-label {
+  display: inline-block;
 }
 
 .dropdown.open .dropdown-content {
@@ -1146,7 +1154,7 @@ a.link {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 0.5rem;
-  background-image: url('/assets/icons/arrow-down.svg');
+  background-image: url('/assets/arrows/dropdown-arrow.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
