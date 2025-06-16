@@ -13,6 +13,7 @@
 *{ padding: 0;
     margin:0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 
 img {
@@ -45,6 +46,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--kapa-background);
     cursor: none; /* Hide default cursor */
+    overflow-x: hidden;
+    max-width: 100%;
 }
  
 /* .border {
@@ -983,23 +986,26 @@ nav a:hover {
 }
 
 .burger-menu {
-    display: flex;
     position: fixed;
-    top: 0vh;
-    left: 100vw;
-    right: -100vw;
-    bottom: 0vh;
+    top: 0;
+    left: 100%;
+    /* right: -100vw; */
+    width: 100%;
+    height: 100%;
+    /* bottom: 0vh; */
     background-color: var(--kapa-background);
     padding: 5px;
     z-index: 999;
-    transition: 1s;
+    transition: left 1s;
+    display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
 .burger-menu.active {
-    left: 0vw;
-    right: 0;
+    /* left: 0vw;
+    right: 0; */
+    left: 0;
 }
 
 .burger-menu a {
@@ -1114,7 +1120,7 @@ a.dropdown-link,
 
 .dropdown-link:hover {
     background-color: var(--kapa-blue);
-    border-color: var(--kapa-blue);
+    border-color: white;
     color: white;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
@@ -2278,7 +2284,7 @@ apply to devices smaller than 1024px--------------------------------------------
 /* HEADER STYLES ----------------------------------------- */
 
     .secondary-logo {
-        max-width: 65%;
+        max-width: 55%;
     }
 
     .burger-button {
@@ -2288,7 +2294,6 @@ apply to devices smaller than 1024px--------------------------------------------
         height: 40px;
         gap: 6px;
     }
-
     .burger-button.active .burger-top {
         transform: translateY(0.4em) rotate(45deg);
     }
@@ -2430,9 +2435,6 @@ apply to devices smaller than 768px --------------------------------------------
 
 
 /* HEADER STYLES ----------------------------------------- */
-    .secondary-logo {
-        max-width: 60%;
-    }
 
     .burger-button.active .burger-top {
         transform: translateY(0.37em) rotate(45deg);
