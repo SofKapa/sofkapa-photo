@@ -32,6 +32,46 @@ $( document ).ready(function() {
     });
 
 
+
+    // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
+    $('.toggle-button').on('click', function () {
+      const $button = $(this);
+      const $container = $button.closest('.padded-tb-2');
+      const $content = $container.find('.extra-paragraphs');
+      const $arrows = $container.find('.arrow');
+
+      const isOpen = $content.hasClass('open');
+
+      // Toggle visibility with CSS transitions
+      $content.toggleClass('open');
+
+      // Toggle arrow rotation
+      $arrows.toggleClass('rotated', !isOpen);
+    });
+
+    // STEPS OF THE PROCESS APPEARING FROM LEFT AND RIGHT
+    // Select all .step elements
+    const steps = document.querySelectorAll('.step');
+
+    const observer = new IntersectionObserver(
+        (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                    observer.unobserve(entry.target);
+                }
+            });
+        },
+        {
+            threshold: 0.2
+        }
+    );
+
+    steps.forEach(step => {
+        observer.observe(step);
+    });
+
+
     // ANIMATE ON SCROLL - ACTIVATE
     AOS.init();
 
@@ -144,43 +184,7 @@ $( document ).ready(function() {
     }
 
 
-    // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
-    $('.toggle-button').on('click', function () {
-      const $button = $(this);
-      const $container = $button.closest('.padded-tb-2');
-      const $content = $container.find('.extra-paragraphs');
-      const $arrows = $container.find('.arrow');
 
-      const isOpen = $content.hasClass('open');
-
-      // Toggle visibility with CSS transitions
-      $content.toggleClass('open');
-
-      // Toggle arrow rotation
-      $arrows.toggleClass('rotated', !isOpen);
-    });
-
-    // STEPS OF THE PROCESS APPEARING FROM LEFT AND RIGHT
-    // Select all .step elements
-    const steps = document.querySelectorAll('.step');
-
-    const observer = new IntersectionObserver(
-        (entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                    observer.unobserve(entry.target);
-                }
-            });
-        },
-        {
-            threshold: 0.2
-        }
-    );
-
-    steps.forEach(step => {
-        observer.observe(step);
-    });
 
 
 });

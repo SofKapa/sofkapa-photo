@@ -901,25 +901,15 @@ p a:hover {
 
 
 
-
-
-/* ---------- HEADER | STYLES -------------------------------------------------------------------------------------------------------- */
-
+/* =======================================================
+   HEADER & NAVIGATION STYLES
+======================================================= */
 
 header {
     padding: 3rem 5%;
     min-height: 10vh;
     background-color: var(--kapa-background); 
 }
-
-/* Resets padding of the div containing the nav menu to 0 */
-/* div.col-7_sm-12.hide-md.right {padding: 0%;} */
-
-/* header nav {
-    font-family: 'Open Sans', sans-serif;
-    font-size:1.2rem;
-    text-align: right;
-} */
 
 header h2 {
     font-size: 7rem;
@@ -931,45 +921,45 @@ header h1 {
     line-height: 4rem;
 }
 
-
 nav a {
     padding: 0.5rem;
     text-transform: uppercase;
     display: inline-block;
     text-decoration: none;
 }
+
 nav a:hover {
-    color:#ccd2d8;
+    color: #ccd2d8;
 }
 
+/* Logo Image */
 .logo {
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     max-width: 100%;
     display: block;
 }
 
 
-/* Hamburger button & menu ----------------------------------------*/
-/* to add more space between the spans, add padding to this div 
- make sure you also add it to the top and bottom active classes on their top/bottom or else your cross wont line up*/
+/* =======================================================
+   BURGER MENU
+======================================================= */
 
 .burger-button {
-    position: absolute; /* more flexible than fixed */
-    top: 2rem;           /* matches header's .padded-2 */
-    right: 2rem;         /* matches logo's left space */
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
     z-index: 1000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;            /* spacing between lines */
-    width: 48px;         /* line length */
+    gap: 8px;
+    width: 48px;
     height: 48px;
 }
 
-/*color of the buttons*/
 .burger-button span {
     width: 40px;
     height: 1.5px;
@@ -979,9 +969,6 @@ nav a:hover {
     transform-origin: center;
 }
 
-
-
-/* make sure this has the same top as the burger button has padding*/
 .burger-button.active .burger-top {
     transform: translateY(0.60em) rotate(45deg);
 }
@@ -990,7 +977,7 @@ nav a:hover {
     opacity: 0;
     transform: scaleX(0);
 }
-/* make sure this has the same bottom as the burger button has padding*/
+
 .burger-button.active .burger-bottom {
     transform: translateY(-0.60em) rotate(-45deg);
 }
@@ -999,32 +986,39 @@ nav a:hover {
     display: flex;
     position: fixed;
     top: 0vh;
-    left:100vw;
+    left: 100vw;
     right: -100vw;
     bottom: 0vh;
     background-color: var(--kapa-background);
-    padding:5px;
+    padding: 5px;
     z-index: 999;
-    transition:1s;
-    justify-content:space-around;
-    flex-direction:column;
+    transition: 1s;
+    justify-content: space-around;
+    flex-direction: column;
 }
-.burger-menu.active{
-    left:0vw;
-    right:0;
+
+.burger-menu.active {
+    left: 0vw;
+    right: 0;
 }
+
 .burger-menu a {
     text-decoration: none;
     color: var(--kapa-dark);
-    display:block;
-    text-align:center;
-    white-space:nowrap;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
 }
 
+
+/* =======================================================
+   DROPDOWN MENU
+======================================================= */
 
 .dropdown {
     position: relative;
     display: block;
+    overflow: visible; /* allow dropdown-content's shadow to show */
 }
 
 .dropdown-title {
@@ -1037,43 +1031,39 @@ nav a:hover {
     font-weight: normal;
     font-size: 2.5rem;
 }
+
 .dropdown-title:hover {
     color: var(--kapa-featured); 
 }
-
-
-.dropdown-content {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100vw;
-  background-color: var(--kapa-background);
-  z-index: 100;
-  display: none;
-  padding: 2rem 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
-/* Center the inner dropdown links in a max-width container */
-.dropdown-content-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2%;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.dropdown.open .dropdown-content {
-  display: flex;
-}
-
 
 .dropdown.open .dropdown-content {
     display: block;
 }
 
-.dropdown-content a{
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: none;
+    background-color: var(--kapa-background);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0 2rem; /* horizontal breathing space */
+    box-sizing: border-box;
+}
+
+.dropdown-content-inner {
+    max-width: 1200px;
+    margin: 2rem auto; /* consistent space all around */
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.dropdown-content a {
     margin: 0.05rem;
     background-color: var(--kapa-background);
     border-bottom: 1px solid var(--kapa-featured);
@@ -1083,38 +1073,58 @@ nav a:hover {
     padding: 1rem;
 }
 
-a.dropdown-link {
-    font-size: 2rem;
-    font-family: 'Open Sans', sans-serif;
+
+/* =======================================================
+   DROPDOWN LINKS
+======================================================= */
+
+a.dropdown-link,
+.dropdown-link {
+    display: block;
+    background-color: rgba(254, 101, 79, 0.1); /* faint coral background */
+    border: 1px solid var(--kapa-featured);
+    padding: 1.5rem;
+    border-radius: 8px;
     color: white;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 4.2px;
+    text-decoration: none;
     font-style: normal;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* Make the entire dropdown-link act like a block */
-.dropdown-link {
-  display: block;
-  background-color: var(--kapa-background);
-  border: 1px solid var(--kapa-featured);
-  padding: 1.5rem;
-  border-radius: 8px;
-  color: white;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+.dropdown-link:hover {
+    background-color: var(--kapa-blue);
+    border-color: var(--kapa-blue);
+    color: white;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Make sure the <p> inside is also styled cleanly */
 .dropdown-link p {
-  margin: 0.5rem 0 0;
-  font-style: italic;
-  font-size: 1rem;
-  color: white; /* match text color */
-  transition: color 0.3s ease;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    transition: color 0.3s ease;
 }
 
+.dropdown-link:hover p {
+    color: white;
+}
+
+.dropdown-link span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 4.2px;
+    display: block;
+}
+
+
+/* =======================================================
+   OTHER LINKS
+======================================================= */
 
 a.link {
     font-family: 'Mansory Regular', sans-serif;
@@ -1126,61 +1136,27 @@ a.link {
     font-size: 2.5rem;
 }
 
-.dropdown-link span {
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: 4.2px;
-  display: block;
-}
 
-/* On hover, change the entire block style */
-.dropdown-link:hover {
-  background-color: var(--kapa-blue);
-  color: white; /* ensures text stays readable */
-  border-color: var(--kapa-blue);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-}
+/* =======================================================
+   DROPDOWN ARROW
+======================================================= */
 
-/* Make sure p text also turns white on hover if needed */
-.dropdown-link:hover p {
-  color: white;
-}
-
-/* Hide by default */
-.dropdown-close {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin: 1rem auto 0;
-  padding: 0;
-  width: auto;
-  height: auto;
-}
-
-/* Show when dropdown is open */
-.dropdown.open .dropdown-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* SVG background styling */
-.arrow-close {
+.dropdown-arrow {
   display: inline-block;
-  width: 3rem !important; /* Change this to any size */
-  height: 3rem !important;;
-  background-image: url('/assets/arrows/arrow-close.svg');
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  background-image: url('/assets/icons/arrow-down.svg');
   background-repeat: no-repeat;
-  background-position: center;
   background-size: contain;
-  flex-shrink: 0; /* prevent flexbox from resizing it */
+  background-position: center;
+  transition: transform 0.3s ease;
 }
 
-
-
-
-
+/* When dropdown is open, rotate the arrow */
+.dropdown.open .dropdown-arrow {
+  transform: rotate(180deg);
+}
 
 /* ---------- FOOTER | STYLES -------------------------------------------------------------------------------------------------------- */
 
