@@ -929,7 +929,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ccd2d8;
+    color: var(--kapa-featured);
 }
 
 /* Logo Image */
@@ -1025,8 +1025,6 @@ nav a:hover {
   display: flex;
   flex-direction: column;  /* stack vertically */
   align-items: center;     /* center horizontally */
-  padding-left: 0;
-  padding-right: 0;
   width: 100%;
   font-family: 'Mansory Regular', sans-serif;
   color: var(--kapa-dark);
@@ -1045,20 +1043,30 @@ nav a:hover {
 }
 
 .dropdown.open .dropdown-content {
-    display: block;
+    max-height: 1000px; /* or a safe estimate based on your content height */
+    opacity: 1;
 }
 
 .dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    display: none;
-    background-color: var(--kapa-background);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 0 2rem; /* horizontal breathing space */
-    box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%); /* center horizontally */
+  z-index: 100;
+
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+
+  background-color: var(--kapa-background);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  width: 90%;           /* optional responsive width */
+  max-width: 1000px;    /* limit max width */
+  padding: 0 2rem;
+  box-sizing: border-box;
+
+  transition: max-height 2s ease, opacity 1s ease;
 }
 
 .dropdown-content-inner {
@@ -1151,14 +1159,14 @@ a.link {
 
 .dropdown-arrow {
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 3rem;
+  height: 3rem;
   margin-left: 0.5rem;
   background-image: url('/assets/arrows/dropdown-arrow.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  transition: transform 0.3s ease;
+  transition: transform 0.6s ease;
 }
 
 /* When dropdown is open, rotate the arrow */
