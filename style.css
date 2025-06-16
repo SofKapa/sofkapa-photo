@@ -1048,7 +1048,6 @@ nav a:hover {
   left: 0;
   width: 100vw;
   background-color: var(--kapa-background);
-  border-bottom: 1px solid var(--kapa-featured);
   z-index: 100;
   display: none;
   padding: 2rem 0;
@@ -1059,7 +1058,7 @@ nav a:hover {
 .dropdown-content-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 2%;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -1081,32 +1080,70 @@ nav a:hover {
     font-size: 1rem;
     font-style: oblique;
     font-family: 'Mansory Regular', sans-serif;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 a.dropdown-link {
-    text-transform: lowercase;
     font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 4.2px;
+    font-style: normal;
 }
-.dropdown-link:hover {
-    color:var(--kapa-blue);
+
+/* Make the entire dropdown-link act like a block */
+.dropdown-link {
+  display: block;
+  background-color: var(--kapa-background);
+  border: 1px solid var(--kapa-featured);
+  padding: 1.5rem;
+  border-radius: 8px;
+  color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
+/* Make sure the <p> inside is also styled cleanly */
+.dropdown-link p {
+  margin: 0.5rem 0 0;
+  font-style: italic;
+  font-size: 1rem;
+  color: white; /* match text color */
+  transition: color 0.3s ease;
+}
+
 
 a.link {
     font-family: 'Mansory Regular', sans-serif;
     text-decoration: none; 
     color: var(--kapa-dark); 
-    padding: 3vh 5%;
+    padding: 2vh 5%;
     display: block;
     font-weight: normal;
     font-size: 2.5rem;
 }
-a.link:hover {
-    text-decoration: none; 
-    color: var(--kapa-featured); 
-    padding: 3vh 5%;
-    display: block;
-    font-weight: normal;
+
+.dropdown-link span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 4.2px;
+  display: block;
+}
+
+/* On hover, change the entire block style */
+.dropdown-link:hover {
+  background-color: var(--kapa-blue);
+  color: white; /* ensures text stays readable */
+  border-color: var(--kapa-blue);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* Make sure p text also turns white on hover if needed */
+.dropdown-link:hover p {
+  color: white;
 }
 
 /* Hide by default */
