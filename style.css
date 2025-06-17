@@ -1130,6 +1130,8 @@ a.dropdown-link,
     font-size: 1rem;
     color: white;
     transition: color 0.3s ease;
+    overflow-wrap: break-word;   /* ensures wrapping in all browsers */
+    white-space: normal;         /* allow line wrapping */
 }
 
 .dropdown-link:hover p {
@@ -2774,6 +2776,9 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* HEADER STYLES ----------------------------------------- */
 
+    .secondary-logo {max-width: 75%;}
+
+
     nav a {font-size:0.7rem;
            padding:0.1rem;}
 
@@ -2782,6 +2787,10 @@ apply to devices smaller than 320px --------------------------------------------
         top: 1.8rem;
         right: 2rem;
     }
+
+    .dropdown-link p {display: none;}
+
+    .dropdown-content-inner {padding: 1rem;}
 
 
 /* Home Page Cards */
