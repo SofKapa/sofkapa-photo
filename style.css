@@ -906,6 +906,8 @@ p a:hover {
 
 /* =======================================================
    HEADER & NAVIGATION STYLES
+
+   
 ======================================================= */
 
 header {
@@ -935,7 +937,8 @@ nav a:hover {
     color: var(--kapa-featured);
 }
 
-/* Logo Image */
+
+/* ==== LOGO ============================================= */
 .logo {
     background-size: cover;
     background-position: center;
@@ -945,9 +948,7 @@ nav a:hover {
 }
 
 
-/* =======================================================
-   BURGER MENU
-======================================================= */
+/* ==== BURGER MENU ====================================== */
 
 .burger-button {
     position: absolute;
@@ -1017,9 +1018,7 @@ nav a:hover {
 }
 
 
-/* =======================================================
-   DROPDOWN MENU
-======================================================= */
+/* ==== DROPDOWN MENU ==================================== */
 
 .dropdown {
     position: relative;
@@ -1096,9 +1095,7 @@ nav a:hover {
 }
 
 
-/* =======================================================
-   DROPDOWN LINKS
-======================================================= */
+/* === DROPDOWN LINKS */
 
 a.dropdown-link,
 .dropdown-link {
@@ -1117,7 +1114,6 @@ a.dropdown-link,
     transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-
 .dropdown-link:hover {
     background-color: var(--kapa-blue);
     border-color: white;
@@ -1133,7 +1129,6 @@ a.dropdown-link,
     overflow-wrap: break-word;   /* ensures wrapping in all browsers */
     white-space: normal;         /* allow line wrapping */
 }
-
 .dropdown-link:hover p {
     color: white;
 }
@@ -1146,9 +1141,8 @@ a.dropdown-link,
 }
 
 
-/* =======================================================
-   OTHER LINKS
-======================================================= */
+
+/* === OTHER LINKS */
 
 a.link {
     font-family: 'Mansory Regular', sans-serif;
@@ -1161,9 +1155,8 @@ a.link {
 }
 
 
-/* =======================================================
-   DROPDOWN ARROW
-======================================================= */
+
+/* === DROPDOWN ARROW */
 
 .dropdown-arrow {
   display: inline-block;
@@ -1182,8 +1175,14 @@ a.link {
   transform: rotate(180deg);
 }
 
-/* ---------- FOOTER | STYLES -------------------------------------------------------------------------------------------------------- */
 
+
+/* =======================================================
+   FOOTER STYLES
+======================================================= */
+
+
+/* ==== LOGO ========================================== */
 .submark-logo {
     background-size:cover;
     background-position:center;
@@ -1192,16 +1191,8 @@ a.link {
     max-width: 60%;
 }
 
-a.footer.sm-padded-0 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-}
-a.footer.sm-padded-0:hover {
-    color: var(--kapa-featured);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-}
+/* ==== SLOGAN  ======================================= */
+
 
 p.footer {
     font-size:1.1rem;
@@ -1215,26 +1206,44 @@ p.footer {
     color:var(--kapa-dark);
 }
 
+/* ==== FOOTER LINKS  ================================= */
+
+a.footer-link {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+a.footer-link:hover {color: var(--kapa-blue);}
+
+
+.footer a.subtle-button {
+    color: var(--kapa-blue);
+    border-bottom: 2px solid var(--kapa-blue);
+}
+.footer a.subtle-button:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* ==== FOOTER NOTICE  ================================ */
+
 #footer-notice {
     text-align: center;
     font-size: 0.8rem;
 }
-#footer-notice p {
-    font-size: 0.8rem;
-}
-#footer-notice a {
-    color: var(--kapa-dark);
-}
+#footer-notice p {font-size: 0.8rem;}
+#footer-notice a {color: var(--kapa-dark);}
 
-/* Social Media icons ---------------------------------------- */
-.fa-facebook-square{
+
+/* ==== SOCIAL MEDIA  ================================= */
+/* .fa-facebook-square{
     color: var(--kapa-dark);
     font-size: 1.5rem;
 }
 .fa-instagram{
     color: var(--kapa-dark);
     font-size: 1.5rem;
-}
+} */
 
 
 
