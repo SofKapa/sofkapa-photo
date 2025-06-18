@@ -23,20 +23,20 @@ $( document ).ready(function() {
 
 
     // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
-    $('.toggle-button').on('click', function () {
-      const $button = $(this);
-      const $container = $button.closest('.padded-tb-2');
-      const $content = $container.find('.extra-paragraphs');
-      const $arrows = $container.find('.arrow');
+  $('.toggle-button').on('click', function () {
+    const $button = $(this);
+    const $container = $button.closest('.padded-tb-2');
+    const $content = $container.find('.extra-paragraphs');
+    const $arrow = $button.find('.arrow-down-no-leg'); // ← targets the inline SVG
 
-      const isOpen = $content.hasClass('open');
+    const isOpen = $content.hasClass('open');
 
-      // Toggle visibility with CSS transitions
-      $content.toggleClass('open');
+    $content.toggleClass('open');
+    $arrow.toggleClass('rotated', !isOpen);
+  });
 
-      // Toggle arrow rotation
-      $arrows.toggleClass('rotated', !isOpen);
-    });
+
+
 
     // STEPS OF THE PROCESS APPEARING FROM LEFT AND RIGHT
     // Select all .step elements
