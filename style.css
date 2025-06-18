@@ -1430,18 +1430,45 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 /* Toggle - reveal hidden paragraphs --------------------------------------------- */
 
-
 .toggle-button {
     display: flex;
-    flex-direction: column;  /* stack children vertically */
-    align-items: center;     /* center horizontally */
-    justify-content: center; /* center vertically (optional) */
-    gap: 0.25rem;            /* space between text and arrow */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
     background: transparent;
     border: none;
     cursor: pointer;
-    width: 100%;             /* optional, if you want full width */
+    width: 100%;
     padding: 0.5rem 0;
+    color: var(--kapa-featured);         /* Needed for currentColor */
+    transition: color 0.3s ease;
+}
+
+.toggle-button:hover {
+    color: white;             /* Affects text + arrow */
+}
+
+.toggle-instruction {
+    color: inherit;                      /* Follows parent color */
+    font-family: 'Malmont', 'sans serif';
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 4.2px;
+    margin-bottom: 0.2rem;
+    user-select: none;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+.toggle-arrow {
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.toggle-arrow.rotated {
+    transform: rotate(180deg);
 }
 
 .extra-paragraphs {
@@ -1452,43 +1479,10 @@ a.footer-link:hover {color: var(--kapa-blue);}
 }
 
 .extra-paragraphs.open {
-    max-height: 1000px; /* adjust to suit your content */
+    max-height: 1000px;
     opacity: 1;
 }
 
-.toggle-instruction {
-    color: var(--kapa-featured);
-    font-family: 'Malmont', 'sans serif';
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.1mm;
-    margin: 0;
-    font-size: 1.3rem;
-    user-select: none;
-    transition: color 0.3s ease;
-    text-align: center;
-}
-
-.arrow-down-no-leg {
-  stroke: var(--kapa-featured);   /* instead of color */
-  width: 40px;
-  height: auto;
-  transition: stroke 0.3s ease;
-}
-
-.toggle-button:hover .arrow-down-no-leg,
-.arrow-down-no-leg.rotated {
-  stroke: var(--kapa-blue);
-}
-
-.arrow {
-  transition: transform 0.6s ease;
-  display: inline-block;
-}
-
-.arrow.rotated {
-  transform: rotate(180deg);
-}
 
 /* ---------- CATEGORY PAGES | STYLES ------------------------------------------------------------------------------------------------ */
 

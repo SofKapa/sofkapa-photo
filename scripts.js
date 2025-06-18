@@ -22,19 +22,27 @@ $( document ).ready(function() {
 
 
     
-
     // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
-  $('.toggle-button').on('click', function () {
-    const $button = $(this);
-    const $container = $button.closest('.padded-tb-2');
-    const $content = $container.find('.extra-paragraphs');
-    const $arrow = $button.find('.arrow-down-no-leg'); // ← targets the inline SVG
+    $('.toggle-button').on('click', function () {
+      const $button = $(this);
+      const $container = $button.closest('.padded-tb-2');
+      const $content = $container.find('.extra-paragraphs');
+      const $arrow = $button.find('.toggle-arrow');
+      const $text = $button.find('.toggle-instruction');
 
-    const isOpen = $content.hasClass('open');
+      const isOpen = $content.hasClass('open');
 
-    $content.toggleClass('open');
-    $arrow.toggleClass('rotated', !isOpen);
-  });
+      // Toggle content visibility
+      $content.toggleClass('open');
+
+      // Toggle arrow rotation
+      $arrow.toggleClass('rotated', !isOpen);
+
+      // Change text
+      const openText = $button.data('open-text');
+      const closedText = $button.data('closed-text');
+      $text.text(isOpen ? closedText : openText);
+    });
 
 
 
