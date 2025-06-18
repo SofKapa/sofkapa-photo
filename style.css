@@ -906,8 +906,6 @@ p a:hover {
 
 /* =======================================================
    HEADER & NAVIGATION STYLES
-
-   
 ======================================================= */
 
 header {
@@ -2439,6 +2437,28 @@ apply to devices smaller than 768px --------------------------------------------
         transform: translateY(-0.37em) rotate(-45deg);
     }
 
+    .dropdown-content {
+        position: static;
+        transform: none;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        box-shadow: none;
+        width: 100%;
+        padding: 0;
+        transition: max-height 2s ease, opacity 0.6s ease;
+    }
+
+    .dropdown.open .dropdown-content {
+        max-height: 1000px; /* or however tall it needs to be */
+        opacity: 1;
+    }
+
+    .dropdown-content-inner {
+        margin: 0;
+        padding: 0;
+    }
+
 /* FOOTER STYLES ----------------------------------------- */
 
     #footer-logo .submark-logo {
@@ -2629,6 +2649,8 @@ apply to devices smaller than 576px --------------------------------------------
     .xs-text-center {text-align: center;}
 
 /* HEADER STYLES ----------------------------------------- */
+
+
 
 /* FOOTER STYLES ----------------------------------------- */
 

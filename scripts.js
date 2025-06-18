@@ -15,6 +15,11 @@ $( document ).ready(function() {
       $(this).parent().toggleClass('open');
     });
 
+    // === CLOSE DROPDOWN ON OUTSIDE CLICK ===
+    $(document).on('click', function () {
+      $('.dropdown').removeClass('open');
+    });
+
 
 
     // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
