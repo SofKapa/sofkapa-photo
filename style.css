@@ -1208,6 +1208,7 @@ p.footer {
 
 /* ==== FOOTER LINKS  ================================= */
 
+#footer-nav {text-align:right;}
 a.footer-link {
     color: var(--kapa-dark);
     font-family: 'Open Sans', sans-serif;
@@ -1216,6 +1217,7 @@ a.footer-link {
 a.footer-link:hover {color: var(--kapa-blue);}
 
 
+#footer-cta {text-align:right;}
 .footer a.subtle-button {
     color: white;
     border-bottom: 2px solid white;
@@ -2450,8 +2452,11 @@ apply to devices smaller than 768px --------------------------------------------
         padding-bottom: 0.5rem;
         padding-top: 1rem;
     }
+    #footer-notice {padding-top: 0rem;}
 
 
+
+    
     a.footer.sm-padded-0 {
         font-size: 1rem;
         padding: 0.1rem;
@@ -2621,12 +2626,13 @@ apply to devices smaller than 576px --------------------------------------------
     .xs-padded-5 {padding: 5%;}
     .xs-padded-b-0 {padding-bottom: 0%;}
 
+    .xs-text-center {text-align: center;}
+
 /* HEADER STYLES ----------------------------------------- */
 
 /* FOOTER STYLES ----------------------------------------- */
 
     #footer-logo{text-align: center;}
-
     #footer-logo .submark-logo {
         display: inline-block;
         max-width: 50%;
@@ -2635,9 +2641,19 @@ apply to devices smaller than 576px --------------------------------------------
     
     p.footer {
         line-height: 1;
-        padding-top: 3rem;}
+        padding-top: 3rem;
+        text-align:center;
+    }
+
+
+    #footer-nav {text-align:center;}
+    a.footer-link {font-size: 1.2rem;}
+
+    #footer-cta {text-align:center;}
 
     #footer-notice {padding-top: 2rem;}
+    #footer-notice p, a {font-size: 0.8rem;}
+  
 
 /* Homepage Cards */
     h1, h2, h3 {
@@ -2761,6 +2777,8 @@ apply to devices smaller than 320px --------------------------------------------
         padding-bottom: 1.5rem;
         font-size: 1rem;
     }
+
+    a.footer-link {font-size: 1.1rem;}
 
 
 /* Home Page Cards */
