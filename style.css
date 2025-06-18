@@ -2217,7 +2217,7 @@ p.quote-text {
 
 /* ------------------ RESPONSIVENESS / MEDIA QUERIES ----------------------------------------------------------------------------------*/
 
-/* General styles (apply everywhere) */
+/* WEB GENERAL STYLES ------------------------------------ */
 /* They won't be showing unless we activate them later */
 .show-phone {display: none;}
 
@@ -2291,7 +2291,7 @@ good for 24px screens and over -------------------------------------------------
 apply to devices smaller than 1024px-------------------------------------------------------------------------------------------------- */
 @media(max-width: 64em) {
 
-/* General  */
+/* GENERAL STYLES ---------------------------------------- */
     .show-md   {display: block;}
     .hide-md    {display: none;}
 
@@ -2413,7 +2413,7 @@ apply to devices smaller than 1024px--------------------------------------------
 apply to devices smaller than 768px ---------------------------------------------------------------------------------------------------*/
 @media(max-width: 48em) {
 
-/* General */
+/* GENERAL STYLES ---------------------------------------- */
     .show-sm {display: block;}
     .hide-sm {display: none;}
 
@@ -2513,16 +2513,10 @@ apply to devices smaller than 768px --------------------------------------------
 
 
 /* HOMEPAGE -----------------------------------------------*/
-    .homepage-gallery .fade-container {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-    .fade-text, .absolute {font-size: 4rem;}
-    .max-width-md {
-        max-width: 600px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+
+    .featured-text-bold {font-size:1rem;}
+
+    .handwritten-text-featured {font-size:1.5rem;}
 
 /* About Section */
 
@@ -2702,6 +2696,22 @@ apply to devices smaller than 576px --------------------------------------------
   
 
 /* Homepage Cards */
+
+
+    .homepage-gallery .fade-container {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .fade-text, .absolute {font-size: 4rem;}
+    .max-width-md {
+        max-width: 600px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+
+
     h1, h2, h3 {
         font-size: 3rem;
         line-height: 0.9;
