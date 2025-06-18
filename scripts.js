@@ -21,6 +21,7 @@ $( document ).ready(function() {
     });
 
 
+    
 
     // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
   $('.toggle-button').on('click', function () {

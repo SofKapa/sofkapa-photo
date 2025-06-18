@@ -764,14 +764,6 @@ If set to multiple lines, it also defines the cross-axis which determines the di
     padding-top: 3rem;
 }
 
-.arrow-down-no-leg {
-    background: url('assets/arrows/arrow-down-no-leg.svg') no-repeat center center;
-    background-size: contain;
-    display: inline-block;
-    width: 8rem;    /* ✅ Add width */
-    height: 3rem;   /* ✅ Add height */
-    transition: color 0.3s ease;
-}
 
 .arrow {
   transition: transform 0.6s ease;
@@ -1466,7 +1458,7 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 .toggle-instruction {
     color: var(--kapa-featured);
-    font-style: 'Malmont', 'sans serif';
+    font-family: 'Malmont', 'sans serif';
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.1mm;
@@ -1478,15 +1470,25 @@ a.footer-link:hover {color: var(--kapa-blue);}
 }
 
 .arrow-down-no-leg {
-  color: var(--kapa-featured); /* default */
-  transition: color 0.3s ease;
+  stroke: var(--kapa-featured);   /* instead of color */
+  width: 40px;
+  height: auto;
+  transition: stroke 0.3s ease;
 }
 
 .toggle-button:hover .arrow-down-no-leg,
 .arrow-down-no-leg.rotated {
-  color: var(--kapa-blue); /* make sure this variable is defined! */
+  stroke: var(--kapa-blue);
 }
 
+.arrow {
+  transition: transform 0.6s ease;
+  display: inline-block;
+}
+
+.arrow.rotated {
+  transform: rotate(180deg);
+}
 
 /* ---------- CATEGORY PAGES | STYLES ------------------------------------------------------------------------------------------------ */
 
