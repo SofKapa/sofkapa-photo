@@ -1446,7 +1446,7 @@ a.footer-link:hover {color: var(--kapa-blue);}
 }
 
 .toggle-button:hover {
-    color: white;             /* Affects text + arrow */
+    color: var(--kapa-blue);             /* Affects text + arrow */
 }
 
 .toggle-instruction {
