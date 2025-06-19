@@ -2714,8 +2714,7 @@ apply to devices smaller than 576px --------------------------------------------
     #footer-logo{text-align: center;}
     #footer-logo .submark-logo {
         display: inline-block;
-        max-width: 50%;
-        padding-top: 2rem;
+        max-width: 40%;
     }
     
     p.footer {
