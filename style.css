@@ -1172,6 +1172,10 @@ a.link {
    FOOTER STYLES
 ======================================================= */
 
+#footer {
+    padding-top:3rem;
+    padding-bottom:1rem;
+}
 
 /* ==== LOGO ========================================== */
 .submark-logo {
@@ -1179,14 +1183,14 @@ a.link {
     background-position:center;
     background-repeat:no-repeat;
     display: block;
-    max-width: 60%;
+    max-width: 50%;
 }
 
 /* ==== SLOGAN  ======================================= */
 
 
 p.footer {
-    font-size:1.4rem;
+    font-size:1.2rem;
     font-family: 'Mansory', sans-serif;
     letter-spacing: 0.1rem;
     font-style: italic;
@@ -1226,7 +1230,6 @@ a.footer-link:hover {color: var(--kapa-blue);}
     font-style: italic;
     font-size: 1rem;
     padding-top: 2rem;
-    margin-top: 2rem;
 }
 #footer-notice p {font-size: 1rem;}
 #footer-notice a {color: var(--kapa-dark);}
@@ -1238,8 +1241,21 @@ a.footer-link:hover {color: var(--kapa-blue);}
    HOMEPAGE STYLES
 ======================================================= */
 
+/* --- Home Tagline --------------------- */
+
+.home-tagline {
+    margin-bottom:0;
+    font-family: 'mansory', sans-serif;
+}
 
 /* --- Responsive Grid Container -------- */
+
+.homepage-gallery {
+    padding: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 .homepage-gallery .grid-spaceAround {
     display: flex;
     flex-wrap: wrap;
@@ -1429,6 +1445,12 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 
 /* Toggle - reveal hidden paragraphs --------------------------------------------- */
+
+#home-toggle {
+    padding-top: 2rem;
+    padding-bottom:4rem;
+}
+
 
 .toggle-button {
     display: flex;
@@ -2331,10 +2353,10 @@ apply to devices smaller than 1024px--------------------------------------------
 
 
 /* FOOTER STYLES ----------------------------------------- */
-
-    .submark-logo {max-width: 50%;}
     
     p.footer {padding-bottom: 0.5rem;}
+
+    #footer-notice {margin-top: 2rem;}
 
 
 /* HOMEPAGE -----------------------------------------------*/
@@ -2485,6 +2507,8 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* FOOTER STYLES ----------------------------------------- */
 
+    #footer {padding-top: 2rem;}
+
     #footer-logo .submark-logo {
         display: inline-block;
         max-width: 60%;
@@ -2496,27 +2520,42 @@ apply to devices smaller than 768px --------------------------------------------
         padding-bottom: 0.5rem;
         padding-top: 1rem;
     }
+
+    a.footer-link {
+        font-size: 1.1rem;
+        padding: 0.1rem;
+    }
+
     #footer-notice {padding-top: 0rem;}
+    #footer-notice p {font-size: 0.7rem;}
+    #footer-notice a {font-size: 0.7rem;}
 
-
-
-    
-    a.footer.sm-padded-0 {
-        font-size: 1rem;
-        padding: 0.1rem;
-    }
-    
-    a.footer.sm-padded-0:hover{
-        font-size: 1rem;
-        padding: 0.1rem;
-    }
 
 
 /* HOMEPAGE -----------------------------------------------*/
 
+    .home-tagline {
+        padding-bottom:2.2rem;
+    }
+
+    .line-break-sm {
+        display: block;
+        height: 0;
+    }
+
     .featured-text-bold {font-size:1rem;}
 
     .handwritten-text-featured {font-size:1.5rem;}
+
+    .max-width-md {max-width: 700px;}
+
+    .bold-italic {font-size:1.7rem;}
+
+    .cta-button {font-size:1.8rem;}
+
+
+
+
 
 /* About Section */
 
@@ -2695,27 +2734,33 @@ apply to devices smaller than 576px --------------------------------------------
     #footer-notice p, a {font-size: 0.8rem;}
   
 
-/* Homepage Cards */
+/* HOMEPAGE STYLES --------------------------------------- */
 
+    .home-tagline {font-size: 0.9rem;}
+
+    .homepage-gallery {padding: 5%;}
 
     .homepage-gallery .fade-container {
         flex: 1 1 100%;
         max-width: 100%;
     }
     .fade-text, .absolute {font-size: 4rem;}
+
     .max-width-md {
-        max-width: 600px;
+        max-width: 500px;
         padding-left: 1rem;
         padding-right: 1rem;
     }
 
-
+    #home-toggle {padding-top:0;}
 
 
     h1, h2, h3 {
         font-size: 3rem;
         line-height: 0.9;
     }
+
+    .featured-text-bold {font-size: 1.2rem;}
 
 
 /* About Section */

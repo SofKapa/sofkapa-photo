@@ -25,7 +25,7 @@ $( document ).ready(function() {
     // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
     $('.toggle-button').on('click', function () {
       const $button = $(this);
-      const $container = $button.closest('.padded-tb-2');
+      const $container = $button.closest('#home-toggle');
       const $content = $container.find('.extra-paragraphs');
       const $arrow = $button.find('.toggle-arrow');
       const $text = $button.find('.toggle-instruction');
