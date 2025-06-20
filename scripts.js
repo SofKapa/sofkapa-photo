@@ -2,6 +2,8 @@
 $( document ).ready(function() {
     
 
+
+
     // HAMBURGER MENU 
     // Toggle burger
     $('.burger-button').click(function () {
@@ -21,6 +23,8 @@ $( document ).ready(function() {
     });
 
 
+
+
     
     // HOMEPAGE TOGGLE - REVEAL HIDDEN PARAGRAPHS
     $('.toggle-button').on('click', function () {
@@ -32,8 +36,32 @@ $( document ).ready(function() {
 
       const isOpen = $content.hasClass('open');
 
-      // Toggle content visibility
-      $content.toggleClass('open');
+      if (isOpen) {
+        // Close: collapse content
+        $content.removeClass('open').css({
+          maxHeight: '0px',
+          opacity: '0',
+          overflow: 'hidden'
+        });
+      } else {
+        // Open: expand to full scrollHeight
+        $content.addClass('open').css({
+          maxHeight: 'none' // temporarily remove limit
+        });
+
+        const scrollHeight = $content[0].scrollHeight + 'px';
+
+        // Reset, then reflow, then animate
+        $content
+          .css('maxHeight', '0px'); // reset first
+        $content[0].offsetHeight; // force reflow
+        $content
+          .css({
+            maxHeight: scrollHeight,
+            opacity: '1',
+            overflow: 'visible'
+          });
+      }
 
       // Toggle arrow rotation
       $arrow.toggleClass('rotated', !isOpen);
@@ -70,8 +98,14 @@ $( document ).ready(function() {
     });
 
 
+
+
+
     // ANIMATE ON SCROLL - ACTIVATE
     AOS.init();
+
+
+
 
 
 
@@ -80,6 +114,9 @@ $( document ).ready(function() {
         speed: 500,
         download: false
     });
+
+
+
 
 
     // SLICK SLIDER - HOMEPAGE CARDS
@@ -96,6 +133,9 @@ $( document ).ready(function() {
         pauseOnDotsHover: true, // Pauses the autoplay when hovering over the dots
     });
 
+
+
+
       // SLICK SLIDER - ABOUT IMAGES
     $('.slider-container').slick({
         autoplay: true, // Do we want it to autoplay? true or false
@@ -109,6 +149,9 @@ $( document ).ready(function() {
         pauseOnHover: true, // When true means the autoplay pauses when hovering
         pauseOnDotsHover: true, // Pauses the autoplay when hovering over the dots
     });  
+
+
+
 
     // SLICK SLIDER - TESTIMONIALS
     $('.testimonial-slider-container').slick({
@@ -125,8 +168,10 @@ $( document ).ready(function() {
     });
 
 
-    // TYPING ANIMATION
 
+
+
+    // TYPING ANIMATION
     // Function to start Typed animation
     function startTyped() {
       new Typed('#typed', {
@@ -161,6 +206,9 @@ $( document ).ready(function() {
 
       observer.observe(typedTarget);
     }
+
+
+
 
 
     // CURSOR SCRIPTS

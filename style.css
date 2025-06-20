@@ -2702,6 +2702,7 @@ apply to devices smaller than 576px --------------------------------------------
 
     .xs-padded-5 {padding: 5%;}
     .xs-padded-b-0 {padding-bottom: 0%;}
+    .xs-padded-t-1 {padding-top: 1%;}
 
     .xs-text-center {text-align: center;}
 
@@ -2882,6 +2883,27 @@ apply to devices smaller than 320px --------------------------------------------
     .fade-container h1,
     .fade-container h3 {font-size: 2.3rem;}
 
+    .max-width-md {
+        max-width: 270px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .toggle-instruction  {
+        margin-bottom: 1rem;
+        max-width: 250px;
+    }
+
+ 
+    #home-toggle {padding-bottom: 2rem;}   
+
+    #home-toggle p.featured-text-bold  {
+        margin-bottom: 0rem;
+        padding-bottom: 3rem;
+    }
+
+
+    .padded-md {padding: 10%;}
 
 /* Latest Projects */
     .category-tag {
