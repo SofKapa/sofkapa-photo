@@ -2714,7 +2714,7 @@ apply to devices smaller than 576px --------------------------------------------
     #footer-logo{text-align: center;}
     #footer-logo .submark-logo {
         display: inline-block;
-        max-width: 40%;
+        max-width: 30%;
     }
     
     p.footer {
@@ -2752,12 +2752,6 @@ apply to devices smaller than 576px --------------------------------------------
     }
 
     #home-toggle {padding-top:0;}
-
-
-    h1, h2, h3 {
-        font-size: 3rem;
-        line-height: 0.9;
-    }
 
     .featured-text-bold {font-size: 1.2rem;}
 
@@ -2845,7 +2839,7 @@ apply to devices smaller than 320px --------------------------------------------
 @media (max-width:320px) {
 
 
-/* General */
+/* GENERAL STYLES ---------------------------------------- */
     .hide-xxs    {display: none;}
 
 
@@ -2881,8 +2875,12 @@ apply to devices smaller than 320px --------------------------------------------
     a.footer-link {font-size: 1.1rem;}
 
 
-/* Home Page Cards */
-    h1, h2, h3 {font-size: 2.8rem;}
+/* HOMEPAGE STYLES --------------------------------------- */
+
+    .home-tagline {font-size: 0.8rem;}
+
+    .fade-container h1,
+    .fade-container h3 {font-size: 2.3rem;}
 
 
 /* Latest Projects */
