@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moody Nights <br> in Lisbon's <br> Cocktail Bar
+title: Moody nights at Cocktail Bar
 description: Through photography we lean into low-light storytelling, using ambient glows, deep shadows, and rich tones to preserve the venue’s authentic vibe without artificial polish. Each image invites the viewer to feel the music, taste the cocktails, and step into the scene as if they’ve already been there.
 location: Lisbon, Portugal
 featured: true
