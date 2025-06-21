@@ -1511,7 +1511,7 @@ a.footer-link:hover {color: var(--kapa-blue);}
 ======================================================= */
 
 
-/* Banner images ---------------------------------------------------- */
+/* ---------- BANNER IMAGES ---------------------------------------------------------------- */
 .banner-brands {
     background-image: url('/assets/brands/EPL/peopleeatinginside.jpg');
     background-size: cover;
@@ -1609,9 +1609,25 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 
 
+/* ---------- TARGET AUDIENCE ---------------------------------------------------------------- */
+
+#who-i-work-with {
+    padding-bottom:6rem; 
+    row-gap: 4rem;
+}
 
 
-/* Sustainability values banner -------------------------------------- */
+/* ---------- WHAT TO EXPECT ---------------------------------------------------------------- */
+
+#what-to-expect .border {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2);
+    padding-bottom: 3rem;
+}
+ 
+
+
+/* ---------- SUSTAINABILITY BANNER ---------------------------------------------------------- */
+
 .eco-banner-travel {
     background-image: url("/assets/travel/THAILAND/landscapebeachsharkbay.jpg");
     background-size: cover;
@@ -1626,6 +1642,8 @@ a.footer-link:hover {color: var(--kapa-blue);}
 }
 
 .tall  { min-height: 80vh;}
+
+
 
 
 
@@ -2251,8 +2269,7 @@ p.quote-text {
 
 .show-inline   {display:inline-block;}
 
-/* LG DEVICES (min 1024px - 1200 X 1025 pixels)
-good for 24px screens and over ------------------------------------------------------------------------------------------------------- */
+/* LG DEVICES (min 1024px) ------------------------------------------------------------------------------------------------------- */
 @media(min-width: 72em) {
 
 /* GENERAL STYLES ----------------------------------------- */
@@ -2308,7 +2325,7 @@ good for 24px screens and over -------------------------------------------------
 
 }
 
-/* MD DEVICES (max 64em/1024px - 1024 X 769 pixels SMALL LAPTOPS)  
+/* MD DEVICES (max 64em/1024px) 
 apply to devices smaller than 1024px-------------------------------------------------------------------------------------------------- */
 @media(max-width: 64em) {
 
@@ -2374,7 +2391,9 @@ apply to devices smaller than 1024px--------------------------------------------
 
 /* CATEGORY PAGE ------------------------------------------*/
 
-    .tall  { min-height: 60vh;}
+    .tall { min-height: 60vh;}
+
+    #eco-banner .max-width-sm {max-width:770px;}
 
 
 
@@ -2419,7 +2438,7 @@ apply to devices smaller than 1024px--------------------------------------------
 }
 
 
-/* SM DEVICES (max 48em/768px - 481 X 768 pixels TABLETS) MOST PHONES
+/* SM DEVICES (max 48em/768px)
 apply to devices smaller than 768px ---------------------------------------------------------------------------------------------------*/
 @media(max-width: 48em) {
 
@@ -2548,9 +2567,19 @@ apply to devices smaller than 768px --------------------------------------------
 
     .sub-heading {font-size:0.9rem;}
 
-    .padded-sm {padding:8%;}
+    .padded-lg {padding:8%;}
 
     .scrolling-gallery__card {flex: 0 0 33%;}
+
+    #what-to-expect p {margin-bottom: 1.5rem;}  
+
+    #what-to-expect .border {
+        padding-top:2rem;
+        padding-bottom: 1rem;
+    }
+
+    .tall { min-height: 70vh;}
+    #eco-banner .max-width-sm {max-width:600px;}
 
 
  
@@ -2714,23 +2743,31 @@ apply to devices smaller than 576px --------------------------------------------
 
     .scrolling-gallery__card {flex: 0 0 40%;}
 
-    #who-i-work-with .col-4_xs-0 {
-        display: none;
-    }
+    .padded-lg {padding:12%;}
 
+    #who-i-work-with .text-center {
+        text-align: center;
+        padding:0;
+        margin:0;
+    }   
+    #who-i-work-with .col-4_sm-2_xs-0 {display: none;}
     #who-i-work-with {
-        text-align: left;
+        text-align: center;
+        padding-bottom: 5rem;
     }
+    #who-i-work-with .kapa-featured {
+        text-align: center !important;
+        padding-top:1rem;
+    }
+    #who-i-work-with p {text-align: center !important;}
 
-    /* Optional: override any inline or class-based right-alignments */
-    #who-i-work-with .text-right {
-        text-align: left !important;
-    }
+    #typed {font-size: 1rem;}
 
-    #who-i-work-with h2,
-    #who-i-work-with p {
-        text-align: left !important;
-    }
+    .tall { min-height: 100vh;}
+    #eco-banner .max-width-sm {max-width:400px;}
+
+
+
 
 
 
