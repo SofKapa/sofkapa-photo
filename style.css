@@ -2644,7 +2644,7 @@ apply to devices smaller than 768px --------------------------------------------
 }
 
 
-/* XS DEVICES (max 36em/576px - 320 X 480 pixels PHONES) 
+/* XS DEVICES (max 36em/576px) 
 apply to devices smaller than 576px ---------------------------------------------------------------------------------------------------*/
 @media(max-width: 36em) {
 
@@ -2712,9 +2712,22 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* CATEGORY PAGE ------------------------------------------*/
 
+    .scrolling-gallery__card {flex: 0 0 40%;}
+
+    #who-i-work-with .col-4_xs-0 {
+        display: none;
+    }
 
 
 
+/* Scrolling Gallery */
+
+
+    h3.white {font-size: 2.6rem;}
+
+    .tag {font-size: 1rem;}
+
+    .sm\:w-1\/2 {width: 75%;}
 
 
 /* About Section */
@@ -2725,45 +2738,7 @@ apply to devices smaller than 576px --------------------------------------------
     a.link-in-text {font-size: 1rem;}
 
 
-/* Contact Form */
 
-    .form-title {
-        font-size: 1.6rem;
-        padding-top: 3rem;
-        padding-bottom: 3rem;}
-
-    .form label {margin-top: 3rem;}
-
-    .form input {padding: 0.2rem;}
-
-
-
-
-/* Scrolling Gallery */
-
-
-    .scrolling-gallery__card {
-        flex: 0 0 100%;
-    }
-
-
-    h3.white {font-size: 2.6rem;}
-
-    .tag {font-size: 1rem;}
-
-    .sm\:w-1\/2 {width: 75%;}
-
-
-
-/* Latest Projects */
-    .location-tag {font-size: 1rem;}
-    .category-tag {font-size: 1rem;}
-
-    div.padded-t-2{padding: 0rem;}
-
-    h3.latest-projects-title {padding-bottom: 1rem;}
-
-    p.latest-projects-text {font-size: 1.1rem;}
 
 
 
@@ -2776,13 +2751,7 @@ apply to devices smaller than 576px --------------------------------------------
     p.tag.gray.margin-b-0{padding-bottom: 1rem;}
 
 
-/* Related Projects */
-
-    #title-sm {font-size: 30px;}
-
-
-  }
-
+}
 
 
 /* XXS DEVICES (max 320px) 
