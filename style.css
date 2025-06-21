@@ -2718,6 +2718,20 @@ apply to devices smaller than 576px --------------------------------------------
         display: none;
     }
 
+    #who-i-work-with {
+        text-align: left;
+    }
+
+    /* Optional: override any inline or class-based right-alignments */
+    #who-i-work-with .text-right {
+        text-align: left !important;
+    }
+
+    #who-i-work-with h2,
+    #who-i-work-with p {
+        text-align: left !important;
+    }
+
 
 
 /* Scrolling Gallery */
