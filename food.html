@@ -34,11 +34,11 @@ seo:
     Photography for tastemakers, artisans, and experience creators — from Melbourne chefs and crafters to event hosts and soulful product-based brands
   </p> -->
 
-  <p class="handwritten-text-featured padded-sm  max-width-sm">
+  <p class="handwritten-text-featured padded-sm max-width-sm">
    If you're crafting something delicious, daring, or downright beautiful — and want it to look as good on camera as it does in person — you’re in the right place
   </p>
 
-  <div class="scrolling-gallery__container padded-tb-3">
+  <div class="scrolling-gallery__container">
     {% assign food-posts = site.posts | where: 'main_category', 'food' %}
     {% for post in food-posts %}
       <div class="scrolling-gallery__card">
@@ -125,7 +125,7 @@ seo:
 
   <div class="col-8_xs-10 border padded-sm round-corners">
 
-    <h2 class="text-center padded-b-1 white" style="font-size: 2rem;">What You Can Expect</h2>
+    <h2 class="text-center padded-b-1 white">What You Can Expect</h2>
     <p class="oblique text-center">Professional food, product, or event photography tailored to your brand</p>
     <p class="oblique text-center">Low-fuss sessions that feel more like a collaboration than a photoshoot</p>
     <p class="oblique text-center">Direction if you’re stuck, or happy to follow your lead if you know what you want</p>
