@@ -2815,6 +2815,32 @@ apply to devices smaller than 320px --------------------------------------------
 
     .handwritten-text-xl {font-size: 4rem;}
 
+    .banner-brands h2 {padding: 1rem;}
+
+    .scrolling-gallery > p.handwritten-text-featured {padding:8%;}
+
+    .scrolling-gallery__card {flex: 0 0 70%;}
+
+    .scrolling-gallery__container {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    #food-catch-phrase.padded-md,
+    #portrait-catch-phrase.padded-md,
+    #travel-catch-phrase.padded-md {
+        padding: 5%;
+    }
+
+    #who-i-work-with .text-center {
+        font-size: 2.5rem;
+        padding-top: 1.5rem;
+    }
+
+    #who-i-work-with .kapa-featured {line-height: 1.5;}
+
+    #who-i-work-with .padded-lg {padding: 10%;}
+
 
 /* GALLERY PAGE STYLES ----------------------------------- */
 
