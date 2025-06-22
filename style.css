@@ -660,13 +660,19 @@ a.bg-image {display: block;}
 #typed {
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
-    /* line-height: 2; */
     font-weight: 600;
     letter-spacing: 4.2px;
     text-transform: uppercase;
     color: white;
     text-align: center;
+
+    display: block;
+    min-height: 2.4em; /* fallback */
 }
+
+/* #typed-strings {
+  display: none;
+} */
 
 .typed-cursor {
     font-size: 1.2rem;
