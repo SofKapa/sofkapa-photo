@@ -2853,6 +2853,8 @@ apply to devices smaller than 320px --------------------------------------------
 
     #what-to-expect h2 {font-size: 1.8rem;}
 
+    #what-to-expect .padded-sm {padding:6%;}
+
     #typed {padding:2%}
 
     #eco-banner .max-width-sm {max-width:250px;}
