@@ -1636,6 +1636,9 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 /* ---------- WHAT TO EXPECT ---------------------------------------------------------------- */
 
+
+#what-to-expect .col-8_xs-10 {padding: 2.5%;}
+
 #what-to-expect .border {
     box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2);
     padding-bottom: 3rem;
@@ -2351,7 +2354,7 @@ p.quote-text {
 
 /* MD DEVICES (max 64em/1024px) 
 apply to devices smaller than 1024px-------------------------------------------------------------------------------------------------- */
-@media(max-width: 64em) {
+@media(max-width: 1024px) {
 
 /* GENERAL STYLES ---------------------------------------- */
     .show-md   {display: block;}
@@ -2424,12 +2427,17 @@ apply to devices smaller than 1024px--------------------------------------------
 
     #eco-banner .max-width-sm {max-width:770px;}
 
+
+    #what-to-expect .col-8_xs-10 {padding: 5%;}
+
+
     #food-catch-phrase.padded-md,
     #portrait-catch-phrase.padded-md,
     #travel-catch-phrase.padded-md {
         padding-left: 5rem;
         padding-right: 5rem;
     }
+
 
 
 
@@ -2471,7 +2479,7 @@ apply to devices smaller than 1024px--------------------------------------------
 
 /* SM DEVICES (max 48em/768px)
 apply to devices smaller than 768px ---------------------------------------------------------------------------------------------------*/
-@media(max-width: 48em) {
+@media(max-width: 768px) {
 
 /* GENERAL STYLES ---------------------------------------- */
     .show-sm {display: block;}
@@ -2604,6 +2612,7 @@ apply to devices smaller than 768px --------------------------------------------
 
     .scrolling-gallery__card {flex: 0 0 40%;}
     
+    #what-to-expect .col-8_xs-10 {padding: 9%;}
 
     #what-to-expect p {margin-bottom: 1.5rem;}  
 
