@@ -1618,6 +1618,12 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 .scrolling-gallery p.tag {color: white;}
 
+.scrolling-gallery h3 {margin-bottom: 0rem;}
+
+.scrolling-gallery p.subtle-button {
+  margin-top:0;
+}
+
 
 
 /* ---------- TARGET AUDIENCE ---------------------------------------------------------------- */
@@ -2408,7 +2414,6 @@ apply to devices smaller than 1024px--------------------------------------------
 
 /* SERVICES PAGE STYLES ---------------------------------- */
 
-    .scrolling-gallery h3 {padding: 0rem;}
 
     .tall { min-height: 60vh;}
 
@@ -2454,6 +2459,9 @@ apply to devices smaller than 1024px--------------------------------------------
 
 
 }
+
+
+
 
 
 /* SM DEVICES (max 48em/768px)
