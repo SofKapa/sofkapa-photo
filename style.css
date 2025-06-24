@@ -2671,7 +2671,7 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* XS DEVICES (max 36em/576px) 
 apply to devices smaller than 576px ---------------------------------------------------------------------------------------------------*/
-@media(max-width: 36em) {
+@media(max-width: 576px) {
 
     
 /* General */
@@ -2805,7 +2805,7 @@ apply to devices smaller than 576px --------------------------------------------
 }
 
 
-@media (max-width:400px) {
+@media (max-width:450px) {
 
 .scrolling-gallery__card {
         flex: 0 0 70%;
