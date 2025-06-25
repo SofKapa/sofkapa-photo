@@ -1861,47 +1861,70 @@ ul {
 /* Price Guide Signup Form -----------------------------------*/
 
 .signup-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
 }
 
 .signup-form .input-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
 }
 
 .signup-form input.email-input {
-  flex: 1 1 250px;
-  max-width: 300px;
-  min-width: 150px;
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  margin: 0;
-  width: 100%;
+    flex: 1 1 250px;
+    max-width: 300px;
+    min-width: 150px;
+    padding: 0.75rem;
+    border-radius: 8px;
+    color: var(--kapa-featured);
+    background-color: var(--kapa-background);
+    border: 1px solid white;
+    margin: 0;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-style: oblique;
+    font-size: 1rem;
 }
 
-.signup-form .price-guide-btn {
-  width: 100%;
-  max-width: 400px;
-  font-family: 'Mansory', sans-serif;
-  padding: 0.75rem;
-  background-color: var(--kapa-be);
-  border: 2px solid white;
-  color: white;
-  border-radius: 8px;
-  transition: background 0.2s ease;
+.signup-form input.email-input::placeholder {
+    color: var(--kapa-dark);
 }
 
-.price-guide-btn:hover {
-  color: var(--kapa-dark);
-  background-color: var(--kapa-background);
+.signup-form input.email-input:focus {
+    outline: none; /* removes the default black outline */
+    border-color: var(--kapa-featured); /* or any color you prefer */
+    box-shadow: 0 0 0 2px rgba(254, 101, 79, 0.5); /* optional glow effect */
+    color: var(--kapa-featured);
+    background-color: var(--kapa-background);
+}
+
+.signup-form .price-guide-button {
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 250px;
+    font-family: 'Mansory', sans-serif;
+    padding: 0.75rem;
+    background-color: var(--kapa-blue);
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.price-guide-button:hover {
+    color: var(--kapa-dark);
+    background-color: var(--kapa-background);
+}
+
+#price-guide-signup .handwritten-text-dark {
+    color: white;
+    font-size: 2rem;
 }
 
 
@@ -1910,6 +1933,23 @@ ul {
    THANK YOU - PRICE GUIDE SIGNUP PAGE STYLES
 ====================================================================================================================================== */
 
+.banner-pricing-download {
+    background-image: url('/assets/travel/NEWZEALAND/royspeak.jpg');
+    background-size: cover;
+    background-position: 50% 40%;
+    min-height: 60vh;
+    padding: 5%;
+}
+
+
+#thank-you-page .handwritten-text-dark {
+    padding: 5%;
+    color: white;
+}
+
+#thank-you-page .oblique {
+    padding-bottom: 1.5rem;
+}
 
 
 
@@ -2738,7 +2778,7 @@ apply to devices smaller than 768px --------------------------------------------
     max-width: 100%;
   }
 
-  .signup-form .price-guide-btn {
+  .signup-form .price-guide-button {
     width: 100%;
   }
 }
