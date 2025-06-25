@@ -133,12 +133,33 @@ seo:
 </section>
 
 
-<section class="bg-kapafeatured white text-center">
+
+<!-- PRICE GUIDE SIGN UP FORM ----------------------------------------------->
+
+<!-- <section class="bg-kapafeatured white text-center">
   <p class="notes oblique">
     * Bonus details vary by project type<br>
     Prices shown do not include commercial usage rights. For tailored extras and licensing info, download the full pricing guide 
     <a href="/downloads/pricing-guide.pdf" download style="text-decoration: underline; color: inherit;">here</a>.
   </p>
+</section> -->
+
+
+<section class="bg-kapafeatured white text-center padded">
+  <p class="notes oblique">
+    * Bonus details vary by project type<br>
+    Prices shown do not include commercial usage rights. For tailored extras and licensing info, enter your name and email to receive the full pricing guide.
+  </p>
+
+  <form action="https://formspree.io/f/abcxyz" method="POST" class="signup-form">
+    <input type="text" name="name" placeholder="Your name" required class="email-input" />
+    <input type="email" name="email" placeholder="Your email address" required class="email-input" />
+    <!-- Redirect setting -->
+    <input type="hidden" name="_redirect" value="/thank-you-pricing" />
+    <button type="submit" class="btn">Get the Pricing Guide</button>
+  </form>
+
+  <p class="small-text">We’ll never spam you. Just the good stuff.</p>
 </section>
 
 <!-- STEPS OF THE PROCESS ------------------------------------------------------------->

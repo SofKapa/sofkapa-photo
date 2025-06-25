@@ -2807,12 +2807,12 @@ apply to devices smaller than 576px --------------------------------------------
 
 @media (max-width:450px) {
 
-.scrolling-gallery__card {
+    .scrolling-gallery__card {
         flex: 0 0 70%;
     }
 
-.scrolling-gallery__content p.subtle-button:last-child {
-    font-size:0.9rem;
+    .scrolling-gallery__content p.subtle-button:last-child {
+        font-size:0.9rem;
     }
 
     .handwritten-text-xl {
