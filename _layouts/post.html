@@ -13,13 +13,13 @@ layout: default
 
   <!-- description and project title ----------------------------------->
 
-  <div class="col-5 sticky" style="padding: 2rem;">
+  <div class="col-5 sticky" id="project-description">
 
-    <h1 class="xl-text uppercase white  text-right underline padded-t-3 padded-b-4">{{ page.title }}</h1>
-    <p class="project-description text-right padded-b-2 border-b"> {{ page.description }} </p>
-    <p class="handwritten-text-featured padded-t-1" style="text-align: right;"> - {{ page.location }} </p>
+    <h1 class="underline">{{ page.title }}</h1>
+    <p class="summary border-b"> {{ page.description }} </p>
+    <p class="location handwritten-text-featured"> - {{ page.location }} </p>
 
-    <div class="padded-sm padded-t-2 padded-r-0" style="text-align: right;">
+    <div class="back-to">
       <a href="{{page.main_category_url}}" class="basic-button">Back to {{ page.main_category }} gallery</a>
     </div>
 
@@ -53,10 +53,6 @@ layout: default
 <!-- Return to main gallery button ----------------------------------->
 
 <section class="bg-kapablue flex flex-container content-center">
-
-  <!-- <div class="padded-sm">
-    <a href="/booking-calendar.html" class="cta-button">Book Now</a>
-  </div> -->
 
   <div class="padded-sm">
     <a href="{{page.main_category_url}}" class="basic-button">Back to {{ page.main_category }} gallery</a>

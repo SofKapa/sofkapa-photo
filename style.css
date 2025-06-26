@@ -1674,10 +1674,6 @@ a.footer-link:hover {color: var(--kapa-blue);}
 ====================================================================================================================================== */
 
 /* Gallery description banner ---------------------------------- */
-.project-description {
-    font-style: oblique;
-    margin-top: 2rem;
-}
 
 .sticky {
     position: sticky;
@@ -1686,14 +1682,35 @@ a.footer-link:hover {color: var(--kapa-blue);}
     align-self: start; /* Helps sticky behave properly in a grid */
 }
 
-#title-sm {
-    color:white;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+#project-description {
+    text-align: right;
+    padding: 2rem;
+    padding-top:0;
+}
+
+#project-description h1 {
+    font-size: 3.3rem;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom:4rem;
+    line-height: 1.3;
+}
+
+#project-description .summary {
+    font-style: oblique;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#project-description .location {
+    padding-top:2rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+#project-description .back-to {
+    padding-top: 2rem;
 }
 
 
@@ -1718,10 +1735,38 @@ border: 2px solid var(--kapa-featured);
     background-color: transparent;
     color: white;
     font-size: 60px;
+
+    display: block !important;
+    opacity: 1 !important;
+    z-index: 1100 !important;
+    font-size: 60px;
+    /* pointer-events: auto; */
+}
+
+.lg-actions .lg-prev, 
+.lg-actions .lg-next {
+    visibility: visible !important;
+}
+
+/* Large Picture Close Icon */
+.lg-toolbar .lg-icon {
+    color: white;
+    font-size: 50px;
 }
 
 picture.lg-img-wrap {padding-bottom: 3rem;}
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
 
 /* Related posts ----------------------------------------*/
 .fade-image {
@@ -2537,27 +2582,10 @@ apply to devices smaller than 1024px--------------------------------------------
     }
 
 
-
-
-
 /* GALLERY PAGE STYLES ----------------------------------- */
 
-    
-/* Gallery Page */
 
-    .tag {font-size: 0.9rem;}
 
-    .sof-kapa-tag {font-size: 1.1rem;}
-
-    #title-sm {
-        color:white;
-        font-size: 30px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-    }
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
@@ -2905,11 +2933,7 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* GALLERY PAGE STYLES ----------------------------------- */
  
-    .project-description {margin-bottom: 3rem;}
 
-    .tag {font-size: 0.8rem;}
-
-    p.tag.gray.margin-b-0{padding-bottom: 1rem;}
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
@@ -3060,16 +3084,12 @@ apply to devices smaller than 320px --------------------------------------------
 
 
 
-    .sof-kapa-tag {font-size: 1rem;}
-
     .lg-next, .lg-prev {
         color: white;
         font-size: 20px;
+        width:80px;
     }
 
-    #title-sm {font-size: 20px;}
-
-    h4 {font-size: 1.2rem;}
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
