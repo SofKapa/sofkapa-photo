@@ -2585,7 +2585,11 @@ apply to devices smaller than 1024px--------------------------------------------
 /* GALLERY PAGE STYLES ----------------------------------- */
 
 
-
+    #project-description h1 {
+        font-size: 2.7rem;
+        padding-bottom:2rem;
+        line-height: 1.3;
+    }
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
