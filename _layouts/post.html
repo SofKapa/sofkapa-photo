@@ -3,49 +3,64 @@ layout: default
 ---
 
 
+<!-- Sticky top banner -->
+<!-- <div class="sticky-banner-wrapper gradient">
+  <p class="sticky featured-text-bold gradient border-b top-banner">
+    {{ page.categories | join: ' | ' }}
+  </p>
+</div> -->
 
-<!-- Trial new layout ---------------------------------------->
- 
-<p class="sticky featured-text-bold gradient border-b" style="font-family: 'mansory', open sans;"> {{ page.categories | join: ' | ' }} </p>
 
-<section class="grid tall-100 border-b padded-b-3">
+<!-- Gallery Section -->
+<section class="tall-100 border-b padded-b-3">
+
+  <!-- Top banner not inside grid -->
+  <p class="sticky top-banner featured-text-bold gradient border-b">
+    {{ page.categories | join: ' | ' }}
+  </p>
 
 
-  <!-- description and project title ----------------------------------->
+  <div class="grid">
 
-  <div class="col-5 sticky" id="project-description">
+    <!-- description and project title ----------------------------------->
 
-    <h1 class="underline">{{ page.title }}</h1>
-    <p class="summary border-b"> {{ page.description }} </p>
-    <p class="location handwritten-text-featured"> - {{ page.location }} </p>
+    <div class="col-5 sticky" id="project-description">
 
-    <div class="back-to">
-      <a href="{{page.main_category_url}}" class="basic-button">Back to {{ page.main_category }} gallery</a>
+      <h1 class="underline">{{ page.title }}</h1>
+      <p class="summary border-b"> {{ page.description }} </p>
+      <p class="location handwritten-text-featured"> - {{ page.location }} </p>
+
+      <div class="back-to">
+        <a href="{{page.main_category_url}}" class="basic-button">Back to {{ page.main_category }} gallery</a>
+      </div>
+
+    </div>
+          
+    
+    <!-- Gallery of photos ----------------------------------------------->
+
+    <div class="col-7 gallery grid" id="lightgallery" style="padding: 2rem;">
+
+      {% for item in page.gallery %}
+      
+      <a 
+      class="{{item.column-size}} gallery-item"
+      href="{{item.background_image}}"
+      data-thumb="{{ item.thumbnail | default: item.background_image }}"
+      data-sub-html="{{ item.alt }}"
+      >
+        <div class="bg-image {{item.aspect-ratio}}" 
+            style="background-image: url('{{item.background_image}}'); background-position: {{ item.bg_img-position | default: 'center' }}; border-radius: 25px; border: 2px solid var(--kapa-featured);" alt="{{item.alt}}";>
+        </div>
+      </a> 
+
+      {% endfor %}
+
     </div>
 
   </div>
-        
-   
-  <!-- Gallery of photos ----------------------------------------------->
 
-  <div class="col-7 gallery grid" id="lightgallery" style="padding: 2rem;">
 
-    {% for item in page.gallery %}
-    
-    <a 
-    class="{{item.column-size}} gallery-item"
-    href="{{item.background_image}}"
-    data-thumb="{{ item.thumbnail | default: item.background_image }}"
-    data-sub-html="{{ item.alt }}"
-    >
-      <div class="bg-image {{item.aspect-ratio}}" 
-          style="background-image: url('{{item.background_image}}'); background-position: {{ item.bg_img-position | default: 'center' }}; border-radius: 25px; border: 2px solid var(--kapa-featured);" alt="{{item.alt}}";>
-      </div>
-    </a> 
-
-    {% endfor %}
-
-  </div>
 
 </section>
 
