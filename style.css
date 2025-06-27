@@ -1693,6 +1693,12 @@ a.footer-link:hover {color: var(--kapa-blue);}
 }
 
 
+/* Hide the sticky banner when the gallery images are open in large screen */
+body.lg-open .gallery-banner {
+  display: none !important;
+}
+
+
 #project-description {
     position: sticky;
     top: 4.5rem; /* Adjust this to match .top-banner height + spacing */
@@ -2793,8 +2799,14 @@ apply to devices smaller than 768px --------------------------------------------
 
 
     #project-description h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
         padding-bottom: 2rem;
+        line-height: 1.6;
+    }
+
+    .sm-no-sticky {
+        position: static !important;
+        top: auto !important;
     }
 
 

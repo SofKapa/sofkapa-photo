@@ -110,11 +110,21 @@ $( document ).ready(function() {
 
 
     // POP-UP GALLERY
-    lightGallery(document.getElementById('lightgallery'), {
+    const gallery = document.getElementById('lightgallery');
+
+    lightGallery(gallery, {
         speed: 500,
         download: false
     });
 
+    // Add/remove class on <body> when gallery opens/closes
+    gallery.addEventListener('lgAfterOpen', () => {
+      document.body.classList.add('lg-open');
+    });
+
+    gallery.addEventListener('lgAfterClose', () => {
+      document.body.classList.remove('lg-open');
+    });
 
 
 
