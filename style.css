@@ -1683,16 +1683,12 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 
 #project-description {
-  position: sticky;
-  top: 4.5rem; /* Adjust this to match .top-banner height + spacing */
-  z-index: 900;
-  text-align: right;
-  padding: 2rem;
-  align-self: start; /* Optional: helps inside grid */
-}
-
-/* Optional: Make sure the rest of the page doesn't overlap it */
-#project-description {
+    position: sticky;
+    top: 4.5rem; /* Adjust this to match .top-banner height + spacing */
+    z-index: 900;
+    text-align: right;
+    padding: 2rem;
+    align-self: start; /* Optional: helps inside grid */
     text-align: right;
     padding: 2rem;
     z-index: 900; /* lower than top banner */
@@ -2613,6 +2609,9 @@ apply to devices smaller than 1024px--------------------------------------------
 /* GALLERY PAGE STYLES ----------------------------------- */
 
 
+    #project-description h1 {
+        font-size: 2.7rem;
+    }
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
@@ -2781,17 +2780,18 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* GALLERY PAGE STYLES ----------------------------------- */
 
-    .lg-prev {
-        left: 10px;
+
+    #project-description h1 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
     }
 
-    .lg-next {
-        right: 10px;
-    }
 
     .lg-components {
         padding: 0 20px;
     }
+
+    .basic-button {font-size:1rem;}
 
 
 

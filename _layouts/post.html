@@ -3,18 +3,11 @@ layout: default
 ---
 
 
-<!-- Sticky top banner -->
-<!-- <div class="sticky-banner-wrapper gradient">
-  <p class="sticky featured-text-bold gradient border-b top-banner">
-    {{ page.categories | join: ' | ' }}
-  </p>
-</div> -->
-
 
 <!-- Gallery Section -->
 <section class="tall-100 border-b padded-b-3">
 
-  <!-- Top banner not inside grid -->
+  <!-- Sticky top banner labels -->
   <p class="sticky top-banner featured-text-bold gradient border-b">
     {{ page.categories | join: ' | ' }}
   </p>
@@ -24,22 +17,18 @@ layout: default
 
     <!-- description and project title ----------------------------------->
 
-    <div class="col-5 sticky" id="project-description">
+    <div class="col-5_sm-col-12 sticky sm-no-sticky" id="project-description">
 
       <h1 class="underline">{{ page.title }}</h1>
       <p class="summary border-b"> {{ page.description }} </p>
       <p class="location handwritten-text-featured"> - {{ page.location }} </p>
-
-      <div class="back-to">
-        <a href="{{page.main_category_url}}" class="basic-button">Back to {{ page.main_category }} gallery</a>
-      </div>
 
     </div>
           
     
     <!-- Gallery of photos ----------------------------------------------->
 
-    <div class="col-7 gallery grid" id="lightgallery" style="padding: 2rem;">
+    <div class="col-7_sm-col-12 gallery grid" id="lightgallery" style="padding: 2rem;">
 
       {% for item in page.gallery %}
       
