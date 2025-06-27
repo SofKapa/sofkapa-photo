@@ -1675,6 +1675,17 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 /* Gallery description banner ---------------------------------- */
 
+.sticky.gallery-banner {
+    z-index: 9999 !important;
+    background: linear-gradient(to right,
+    rgba(170, 199, 203, 0.7),
+    rgba(251, 215, 134, 0.7),
+    rgba(254, 101, 79, 0.7)
+    ) !important;
+    backdrop-filter: blur(1px);
+    color: white;
+}
+
 .sticky {
     position: sticky;
     top: 0; /* Sticks to the top of the viewport */
@@ -2796,27 +2807,6 @@ apply to devices smaller than 768px --------------------------------------------
 
 
 
-
-
-
-
-    div.bg-image.square.gallery-banner {padding-bottom: 80%;}
-    
-    .sof-kapa-tag{font-size: 1rem; }
-
-    .gallery [class*="col-"] {
-        padding: 0.5%;
-      }
-
-    .lg-next, .lg-prev {
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-      }
-
-    h4 {font-size: 1.8rem;}
-
-    p.tag.gray.margin-b-0{padding-bottom: 1rem;}
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
