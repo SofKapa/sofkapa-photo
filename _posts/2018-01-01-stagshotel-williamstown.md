@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Classic Pub & Hospitality Photography
+title: Classic Pub & Hospitality Photos
 description: A relaxed and character-filled gallery capturing classic pub food, pints, and lively local gathering in a warm, welcoming setting — ideal for traditional hospitality brands and local venues.
 location: Melbourne, Australia
 featured: false

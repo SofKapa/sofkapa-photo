@@ -1739,6 +1739,16 @@ body.lg-open .gallery-banner {
 /* Gallery photos section -------------------------------------- */
 .gallery [class*="col-"] {padding: 0.3rem;}
 
+
+#lightgallery {
+  padding: 2rem;
+}
+
+#gallery-section .bg-image {
+  border-radius: 25px;
+}
+
+
 .lg-image {
 border-radius: 25px;
 border: 2px solid var(--kapa-featured);
@@ -2630,6 +2640,10 @@ apply to devices smaller than 1024px--------------------------------------------
         font-size: 2.7rem;
     }
 
+    .gallery [class*="col-"] {
+        padding: 0.15rem;
+    }
+
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
@@ -2807,6 +2821,10 @@ apply to devices smaller than 768px --------------------------------------------
     .sm-no-sticky {
         position: static !important;
         top: auto !important;
+    }
+
+    #gallery-section .bg-image {
+        border-radius: 15px;
     }
 
 
@@ -2995,6 +3013,14 @@ apply to devices smaller than 576px --------------------------------------------
         top: auto !important;
     }
 
+    .gallery [class*="col-"] {
+        padding: 0.1rem;
+    }
+
+    #gallery-section .bg-image {
+        border-radius: 10px;
+    }
+
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
 /* ABOUT PAGE STYLES ------------------------------------ */
@@ -3141,7 +3167,16 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* GALLERY PAGE STYLES ----------------------------------- */
 
+    .sticky.gallery-banner {font-size: 0.7rem;}
 
+
+    #lightgallery {
+        padding: 1rem;
+    }
+
+    #gallery-section .bg-image {
+        border-radius: 8px;
+    }
 
     .lg-next, .lg-prev {
         color: white;
