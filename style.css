@@ -2843,6 +2843,16 @@ apply to devices smaller than 768px --------------------------------------------
 
 
 @media (max-width: 600px) {
+
+
+/* Homepage ---------------------------------------------- */
+
+.fade-text, .absolute {
+    font-size: 2.6rem;
+}
+
+/* Packages Page ----------------------------------------- */
+
   .signup-form .input-row {
     flex-direction: column;
   }
@@ -2978,8 +2988,10 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* GALLERY PAGE STYLES ----------------------------------- */
  
-
-
+    .sm-no-sticky {
+        position: static !important;
+        top: auto !important;
+    }
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
