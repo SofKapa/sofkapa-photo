@@ -2937,6 +2937,10 @@ apply to devices smaller than 768px --------------------------------------------
         flex-shrink: 1;
     }
 
+    .scroll-packages > div {
+        width: 55%;         /* shows most of one card + peek of the next */
+        flex-shrink: 0;
+    }
 
 
 /* ABOUT PAGE STYLES ------------------------------------ */
@@ -3113,6 +3117,13 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
+    .scroll-packages > div {
+        width: 70%;         /* shows most of one card + peek of the next */
+        flex-shrink: 0;
+    }
+
+
+
 /* ABOUT PAGE STYLES ------------------------------------ */
 
 /* CONTACT PAGE STYLES ---------------------------------- */
@@ -3277,6 +3288,13 @@ apply to devices smaller than 320px --------------------------------------------
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
+
+    .scroll-packages > div {
+        width: 90%;         /* shows most of one card + peek of the next */
+        flex-shrink: 0;
+    }
+
+
 
 /* ABOUT PAGE STYLES ------------------------------------ */
 
