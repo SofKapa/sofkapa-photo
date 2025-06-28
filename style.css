@@ -1057,7 +1057,7 @@ nav a:hover {
   top: 100%;
   left: 50%;
   transform: translateX(-50%); /* center horizontally */
-  z-index: 100;
+  z-index: 950;
 
   max-height: 0;
   opacity: 0;
@@ -1693,7 +1693,7 @@ a.footer-link:hover {color: var(--kapa-blue);}
 /* Gallery description banner ---------------------------------- */
 
 .sticky.gallery-banner {
-    z-index: 9999 !important;
+    z-index: 910 !important;
     background: linear-gradient(to right,
     rgba(170, 199, 203, 0.7),
     rgba(251, 215, 134, 0.7),
@@ -1706,7 +1706,7 @@ a.footer-link:hover {color: var(--kapa-blue);}
 .sticky {
     position: sticky;
     top: 0; /* Sticks to the top of the viewport */
-    z-index: 900; /* Ensures it stays above other content */
+    z-index: 901; /* Ensures it stays above other content */
 }
 
 
@@ -1719,7 +1719,6 @@ body.lg-open .gallery-banner {
 #project-description {
     position: sticky;
     top: 4.5rem; /* Adjust this to match .top-banner height + spacing */
-    z-index: 900;
     text-align: right;
     padding: 2rem;
     align-self: start; /* Optional: helps inside grid */
@@ -1780,17 +1779,7 @@ border: 2px solid var(--kapa-featured);
 
 .lg-backdrop.in {opacity: 0.8;}
 
-.lg-next, .lg-prev {
-    background-color: transparent;
-    color: white;
-    font-size: 60px;
 
-    display: block !important;
-    opacity: 1 !important;
-    z-index: 1100 !important;
-    font-size: 60px;
-    /* pointer-events: auto; */
-}
 
 .lg-actions .lg-prev, 
 .lg-actions .lg-next {
@@ -1824,12 +1813,17 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
   position: absolute !important;
   top: 50% !important;
   transform: translateY(-50%);
-  z-index: 1100;
+  z-index: 1100 !important;
   font-size: 60px;
   color: white;
   background: none;
+  background-color: transparent;
+  display: block !important;
   opacity: 1 !important;
+  /* pointer-events: auto; */
 }
+
+
 
 /* Specifically push them further out */
 .lg-prev {
