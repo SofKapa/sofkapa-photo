@@ -1883,6 +1883,23 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     justify-content: center;
 }
 
+/* Enable horizontal scroll on smaller screens */
+.scroll-packages {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 1rem;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+}
+
+.scroll-packages > div {
+   scroll-snap-align: start;
+}
+
+.scroll-packages::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
 .package-card-shadow {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     flex: 1;                 /* 👈 take full space */
@@ -2663,6 +2680,17 @@ apply to devices smaller than 1024px--------------------------------------------
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
+
+  .scroll-packages {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+  }
+
+  .scroll-packages > div {
+        width: 40%; 
+        flex-shrink: 0;
+  }
+
 
 /* ABOUT PAGE STYLES ------------------------------------ */
 
