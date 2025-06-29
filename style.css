@@ -136,6 +136,7 @@ li {
     line-height: 1.3;
     margin-bottom:1rem;
     color: var(--kapa-dark);
+    text-align: center;
 }
 
 h1:last-child,
@@ -632,6 +633,8 @@ a.bg-image {display: block;}
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     margin-bottom: 0;
+    margin-bottom:3rem;
+    text-align: center;
 }
 
 
@@ -849,6 +852,7 @@ p a:hover {
     margin-bottom: 0.5rem;
     margin-top: 2rem;
     color: var(--kapa-featured);
+    text-align: center;
 }
 
 .basic-button {
@@ -1846,6 +1850,16 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
    PACKAGES PAGE STYLES
 ====================================================================================================================================== */
 
+
+#packages-page .scroll-arrow {
+  display: none;
+}
+
+#packages-page .white {
+    margin-bottom: 3rem;
+}
+
+
 /* The cards ------------------------------------------------------- */
 
 /* Card design */
@@ -1881,6 +1895,8 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
   box-sizing: border-box;
 }
 
+#price-guide-signup .notes {margin-bottom: 0;}
+
 
 
 /* Makes the overflow hidden on large screens 
@@ -1896,7 +1912,8 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     -webkit-overflow-scrolling: touch;
     padding-left: 0; /* no padding left by default */
     scroll-padding-left: 1rem; /* ensures snapping aligns with the padding */
-    padding-bottom: 1rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
     scroll-behavior: smooth;
     scrollbar-width: none; /* Firefox */
 }
@@ -1944,7 +1961,6 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
-
 
 /* Best seller tag -------------------------------------------------- */
 
@@ -1995,6 +2011,13 @@ ul {
 /* Steps of the process -------------------------------------- */
 
 /* Hidden state */
+
+#process-steps {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
 .step {
     opacity: 0;
     transform: translateX(100px);
@@ -2710,6 +2733,16 @@ apply to devices smaller than 1024px--------------------------------------------
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
+
+    #packages-page .scroll-arrow {
+        display: flex;
+    }
+
+    #packages-page .white {
+        margin-top: 2rem;
+    }
+
+
     .scroll-packages {
         overflow-x: auto;
         justify-content: flex-start; /* left align cards */
@@ -2929,6 +2962,9 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
+    #packages-page .featured-text-bold,
+    #process-steps .featured-text-bold {font-size:1.2rem;}
+
     .md\:overflow-auto {
         overflow: auto;
     }
@@ -2937,10 +2973,30 @@ apply to devices smaller than 768px --------------------------------------------
         flex-shrink: 1;
     }
 
+    .scroll-packages {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
     .scroll-packages > div {
         width: 55%;         /* shows most of one card + peek of the next */
         flex-shrink: 0;
     }
+
+    .notes {font-size: 1.2rem;}
+
+    .signup-form input.email-input {font-size: 1.2rem;}
+
+    .signup-form .price-guide-button {
+        font-size: 1.4rem;
+        max-width: 300px;
+    }
+
+    #process-steps {
+        padding-left:1.5rem;
+        padding-right: 1.5rem;
+    }
+
 
 
 /* ABOUT PAGE STYLES ------------------------------------ */
@@ -2961,23 +3017,26 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* Homepage ---------------------------------------------- */
 
-.fade-text, .absolute {
-    font-size: 2.6rem;
-}
+    .fade-text, .absolute {
+        font-size: 2.6rem;
+    }
 
 /* Packages Page ----------------------------------------- */
 
-  .signup-form .input-row {
-    flex-direction: column;
-  }
 
-  .signup-form input.email-input {
-    max-width: 100%;
-  }
+    .signup-form .input-row {
+        flex-direction: column;
+    }
 
-  .signup-form .price-guide-button {
-    width: 100%;
-  }
+    .signup-form input.email-input {
+        max-width: 100%;
+    }
+
+    .signup-form .price-guide-button {
+        width: 100%;
+    }
+
+
 }
 
 
