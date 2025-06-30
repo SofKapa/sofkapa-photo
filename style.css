@@ -1895,8 +1895,17 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
   box-sizing: border-box;
 }
 
+
+#price-guide-signup {
+    padding: 3%;
+}
+
 #price-guide-signup .notes {margin-bottom: 0;}
 
+#sign-up-form {
+    padding-top:2%;
+    padding-bottom: 2%;
+}
 
 
 /* Makes the overflow hidden on large screens 
@@ -1916,6 +1925,10 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     padding-bottom: 3%;
     scroll-behavior: smooth;
     scrollbar-width: none; /* Firefox */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: center; /* default behavior */
 }
 
 .scroll-packages > div {
@@ -2004,6 +2017,14 @@ li::marker {
 
 ul {
     list-style-position: inside;
+}
+
+#packages-page .subtle-button {
+    text-align:center;
+    color: var(--kapa-featured);
+    border-bottom: 2px solid var(--kapa-featured);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 
@@ -2985,6 +3006,9 @@ apply to devices smaller than 768px --------------------------------------------
 
     .notes {font-size: 1.2rem;}
 
+    #price-guide-signup {padding: 7%;}
+
+
     .signup-form input.email-input {font-size: 1.2rem;}
 
     .signup-form .price-guide-button {
@@ -3030,11 +3054,19 @@ apply to devices smaller than 768px --------------------------------------------
 
     .signup-form input.email-input {
         max-width: 100%;
+        flex: 1 1 85px;
+
     }
 
     .signup-form .price-guide-button {
         width: 100%;
     }
+
+    #price-guide-signup {
+        padding-top:10%;
+        padding-bottom: 10%;
+    }
+
 
 
 }
