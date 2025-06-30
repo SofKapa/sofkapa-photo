@@ -3006,7 +3006,7 @@ apply to devices smaller than 768px --------------------------------------------
 
     .notes {font-size: 1.2rem;}
 
-    #price-guide-signup {padding: 7%;}
+    .signup-form .input-row {padding: 7%;}
 
 
     .signup-form input.email-input {font-size: 1.2rem;}
@@ -3016,10 +3016,15 @@ apply to devices smaller than 768px --------------------------------------------
         max-width: 300px;
     }
 
+    p.notes.oblique {padding-top: 2rem;}
+
     #process-steps {
         padding-left:1.5rem;
         padding-right: 1.5rem;
+        padding-bottom: 2rem;
     }
+
+    #process-steps .grid-center {padding-bottom: 2rem;}
 
 
 
