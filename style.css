@@ -1956,7 +1956,6 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 }
 
 
-
 .package-card-shadow {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     flex: 1;            
@@ -2084,6 +2083,7 @@ ul {
     flex-wrap: wrap;
     gap: 1rem;
     padding-bottom: 5rem;
+    justify-content: space-between;
 }
 
 .step-label {
@@ -3303,7 +3303,7 @@ apply to devices smaller than 576px --------------------------------------------
 }
 
 
-@media (max-width:450px) {
+@media (max-width:465px) {
 
     .scrolling-gallery__card {
         flex: 0 0 70%;
@@ -3318,6 +3318,44 @@ apply to devices smaller than 576px --------------------------------------------
     }
 
 /* Packages Page */
+
+    .step-icon {
+        display: none !important;
+    }
+
+    .step-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 0.5rem;
+        padding-bottom: 10%;
+    }
+
+    .step-label,
+    .step-text {
+        width: 100%;
+    }
+
+    .step-label {
+        order: 1;
+    }
+
+    .step-text {
+        order: 2;
+    }
+
+    #process-steps .handwritten-text-featured {
+        margin-top: 2.5rem;
+    }
+
+    #process-steps .featured-text-bold {
+        text-align: center;
+    }
+
+    #process-steps .oblique {
+        text-align: center;
+    }
 
 }
 
