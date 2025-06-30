@@ -1954,9 +1954,29 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 .package-card-shadow {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    flex: 1;                 /* 👈 take full space */
+    flex: 1;            
     display: flex;
     flex-direction: column;
+}
+
+.package-card-shadow .rounded-bottom {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.package-card-shadow > a {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.package-card-shadow > a .rounded-bottom {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .border-featured {
@@ -2038,7 +2058,6 @@ ul {
     padding-bottom: 6rem;
 }
 
-
 .step {
     opacity: 0;
     transform: translateX(100px);
@@ -2052,6 +2071,49 @@ ul {
 .step.animate {
     opacity: 1;
     transform: translateX(0);
+}
+
+
+.step-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 5rem;
+}
+
+.step-label {
+  flex: 0 0 auto;
+  min-width: 70px;
+  text-align: center;
+}
+
+.step-icon {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.step-icon svg {
+  height: 5rem; /* adjust as needed */
+  width: auto;
+  display: block;
+}
+
+.step-text {
+  flex: 1 1 0;
+  min-width: 200px;
+}
+
+#process-steps .handwritten-text-featured {margin-bottom: 0rem;}
+
+.step.from-left .step-text .featured-text-bold {
+  text-align: left;
+}
+
+.step.from-right .step-text .featured-text-bold {
+  text-align: right;
 }
 
 /* Price Guide Signup Form -----------------------------------*/
@@ -3006,7 +3068,12 @@ apply to devices smaller than 768px --------------------------------------------
 
     .notes {font-size: 1.2rem;}
 
-    .signup-form .input-row {padding: 7%;}
+    .signup-form {padding-bottom: 2rem;}
+
+    .signup-form .input-row {
+        padding: 7%;
+        padding-bottom:1.5rem;
+    }
 
 
     .signup-form input.email-input {font-size: 1.2rem;}
@@ -3015,8 +3082,6 @@ apply to devices smaller than 768px --------------------------------------------
         font-size: 1.4rem;
         max-width: 300px;
     }
-
-    p.notes.oblique {padding-top: 2rem;}
 
     #process-steps {
         padding-left:1.5rem;
@@ -3052,6 +3117,9 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* Packages Page ----------------------------------------- */
 
+    .scroll-packages {
+        padding-top: 8%;
+    }
 
     .signup-form .input-row {
         flex-direction: column;
@@ -3071,6 +3139,8 @@ apply to devices smaller than 768px --------------------------------------------
         padding-top:10%;
         padding-bottom: 10%;
     }
+
+    #process-steps {padding-top:3rem;}
 
 
 
