@@ -1851,6 +1851,11 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 ====================================================================================================================================== */
 
 
+#packages-page {
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
 #packages-page .scroll-arrow {
   display: none;
 }
@@ -2055,7 +2060,7 @@ ul {
 
 #process-steps {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
 }
 
 .step {
@@ -2073,47 +2078,46 @@ ul {
     transform: translateX(0);
 }
 
-
 .step-row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 5rem;
 }
 
 .step-label {
-  flex: 0 0 auto;
-  min-width: 70px;
-  text-align: center;
+    flex: 0 0 auto;
+    min-width: 70px;
+    text-align: center;
 }
 
 .step-icon {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  height: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .step-icon svg {
-  height: 5rem; /* adjust as needed */
-  width: auto;
-  display: block;
+    height: 5rem; /* adjust as needed */
+    width: auto;
+    display: block;
 }
 
 .step-text {
-  flex: 1 1 0;
-  min-width: 200px;
+    flex: 1 1 0;
+    min-width: 200px;
 }
 
 #process-steps .handwritten-text-featured {margin-bottom: 0rem;}
 
 .step.from-left .step-text .featured-text-bold {
-  text-align: left;
+    text-align: left;
 }
 
 .step.from-right .step-text .featured-text-bold {
-  text-align: right;
+    text-align: right;
 }
 
 /* Price Guide Signup Form -----------------------------------*/
@@ -3041,8 +3045,6 @@ apply to devices smaller than 768px --------------------------------------------
 
 
 
-
-
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
     #packages-page .featured-text-bold,
@@ -3084,13 +3086,13 @@ apply to devices smaller than 768px --------------------------------------------
     }
 
     #process-steps {
-        padding-left:1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
         padding-bottom: 2rem;
+        padding-top: 4rem;
     }
 
-    #process-steps .grid-center {padding-bottom: 2rem;}
-
+    .step-row {padding-bottom: 3rem;}
 
 
 /* ABOUT PAGE STYLES ------------------------------------ */
@@ -3141,6 +3143,8 @@ apply to devices smaller than 768px --------------------------------------------
     }
 
     #process-steps {padding-top:3rem;}
+
+    .step-icon svg {height: 8rem;}
 
 
 
@@ -3312,6 +3316,9 @@ apply to devices smaller than 576px --------------------------------------------
     .handwritten-text-xl {
         font-size: 6rem;
     }
+
+/* Packages Page */
+
 }
 
 
