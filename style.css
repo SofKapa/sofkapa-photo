@@ -2268,6 +2268,9 @@ ul {
 
 /* Image slideshow section -----------------------------------------------*/
 
+
+
+
 /* SLIDER DOTS*/
 .slick-dots li button::before {
     font-size: 6px;
@@ -2443,7 +2446,10 @@ ul {
 }
 
 
+
+
 /* The slider container ------ */
+
 .testimonial-slider-container {
     max-width: 800px;
     margin: 0 auto;
@@ -3202,6 +3208,8 @@ apply to devices smaller than 768px --------------------------------------------
         line-height: 1.5;
         font-weight: bold;
     }
+
+
 
 /* CONTACT PAGE STYLES ---------------------------------- */
 
