@@ -2233,6 +2233,39 @@ ul {
     margin-bottom:0rem;
 }
 
+/* Desktop layout */
+
+.mobile-only { display: none; }
+.desktop-only { display: block; }
+
+#about-intro {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.about-intro-hero {
+  flex: 1 1 100%;
+  display: flex;
+}
+
+.about-intro-img {
+  flex: 1 1 50%;
+  background-image: url("/assets/myportraitcamera.jpg");
+  background-size: cover;
+  background-position: 50% 20%;
+  min-height: 100%;
+  border-right: 1px solid var(--kapa-featured);
+}
+
+.about-intro-text {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+}
+
+
 /* Image slideshow section -----------------------------------------------*/
 
 /* SLIDER DOTS*/
@@ -3114,7 +3147,61 @@ apply to devices smaller than 768px --------------------------------------------
 
 
 /* ABOUT PAGE STYLES ------------------------------------ */
+    .mobile-only { display: block; }
+    .desktop-only { display: none; }
 
+    #about-intro {
+        height: auto;
+    }
+
+    .about-intro-hero {
+        position: relative;
+        display: block;
+    }
+
+    .about-intro-img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        background-image: url("/assets/myportraitcamera.jpg");
+        background-size: cover;
+        background-position: 50% 20%;
+        border-bottom: none;
+    }
+
+    .about-intro-img::before {
+        content: "";
+        display: block;
+        padding-bottom: 100%; /* fallback square ratio */
+    }
+
+    .about-intro-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 2rem 1.5rem;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        background: rgba(0, 0, 0, 0.2); /* optional dark overlay */
+    }
+
+    .about-intro-text h2,
+    .about-intro-text p {
+        margin: 0;
+        line-height: 1.5;
+        font-size: 1.3rem;
+    }
+
+    #mobile-catch-phrase {
+        font-size: 1.3rem;
+        line-height: 1.5;
+        font-weight: bold;
+    }
 
 /* CONTACT PAGE STYLES ---------------------------------- */
 
