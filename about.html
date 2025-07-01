@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About | Sof Kapa Photography
+cta_sentence: I want this too!
 seo:
   title: About Sof Kapa Photography | Melbourne Photographer
   description: Get to know your photographer
@@ -13,7 +14,7 @@ seo:
 
 <!-- INTRO SECTION ------------------------------------------------------------->
 
-<section class="grid tall-80 border-b">
+<section class="grid tall-80 border-b" id="about-intro">
     
     <div class="col-6_md-5_sm-12 about-banner border-r">
     </div>
@@ -32,17 +33,15 @@ seo:
 
 <section class="bg-kapablue">
 
-            <!-- <p class="padded-md margin-b-0 featured-text-bold kapa-background">One of the great advantages of living in Melbourne is the abundance of creative talent available. When it comes to choosing your photographer, the challenge is to find someone who truly understands <span class="sketch-underline-sm">your vibe</span>, and delivers photos that feel <span class="sketch-underline-sm">authentic and true </span>to you or your brand</p> -->
-
-            <p class="padded-md margin-b-0 featured-text-bold kapa-background">Someone who sees the way your kid tugs your sleeve when they’re tired. Who notices the way the light hits your café counter just before the morning rush. Who’s tuned into the moments that would usually slip by</p>
+            <p class="margin-b-0 featured-text-bold kapa-background max-width-md"  id="about-catch-phrase">Someone who sees the way your kid tugs your sleeve when they’re tired. Who notices the way the light hits your café counter just before the morning rush. Who’s tuned into the moments that would usually slip by</p>
 
 </section>
 
 <!-- ABOUT ME SECTION ---------------------------------------------------------->
 
-<section class="padded-md border-t-b project-description" style="margin-top:0;">
+<section class="padded-md border-t-b project-description" style="margin-top:0;"  id="about-slide-section">
 
-
+  <h1 id="about-me">about me</h1>
 
   <!-- Travel section -->
   <div class="grid-spaceAround padded-sm travel-section">
@@ -50,8 +49,6 @@ seo:
     <!-- Text ----------------------------------------------->
 
     <div class="col-5_sm-12-middle text-justify border-b padded-b-2">
-
-      <h1 class="padded-b-2">about me</h1>
 
       <p class="sm-padded text-sm">Hey, I’m Sof. Czech-Portuguese, based in Melbourne, and interested in the <span class="subtle-italic">moments that don’t ask for attention — but deserve it anyway</span></p>
       <p class="sm-padded text-sm">Photography didn’t start as a career. It started as curiosity. I grew up moving countries, and somewhere between Cape Verde and what was meant to be a one-year backpacking trip around Australia, I picked up a camera and never really put it down</p>
@@ -194,10 +191,10 @@ seo:
 
 
 <!-- CTA SECTION ------------------------------------------------------------ -->
-<section class="bg-kapablue border-b padded-md padded-b-2">
+<section class="bg-kapablue border-b padded-md padded-b-2"  id="about-cta">
 
   <p class="margin-b-0 featured-text-bold kapa-background padded-b-2">Whether it’s home, business or somewhere far off <br>— I’ll frame it in a way that sticks</p>
-  <p class="margin-b-0 featured-text-bold kapa-background">Don’t just take my word for it — here’s what it’s felt like on the other side of the lens</p></p>
+  <p class="margin-b-0 featured-text-bold kapa-background">Don’t just take my word for it — here’s what it feels like on the other side of the lens</p></p>
 
   <div class="padded-md arrow-down-white">
   </div>
@@ -207,7 +204,7 @@ seo:
 
 <!-- TESTIMONIALS SECTION ------------------------------------------------------>
 
-<section class="bg-kapadark banner-testimonials bg-overlay bg-overlay-gradient grid-center padded-t-3">
+<section class="bg-kapadark banner-testimonials bg-overlay bg-overlay-gradient grid-center" id="testimonial-section">
   <div class="testimonial-slider-container">
 
 
@@ -301,7 +298,9 @@ seo:
 
 
 
-
+<!-- CTA - BOOK NOW -------------------------------------------------------------------->
+ 
+{% include book-cta.html %}
 
 
 

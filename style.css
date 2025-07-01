@@ -2226,6 +2226,12 @@ ul {
     position: relative;
 }
 
+#about-catch-phrase {padding: 3rem;}
+
+#about-me {
+    padding-left: 4rem;
+    margin-bottom:0rem;
+}
 
 /* Image slideshow section -----------------------------------------------*/
 
@@ -2385,6 +2391,13 @@ ul {
 
 
 /* Testimonials slideshow section -----------------------------------------------*/
+
+
+
+
+#testimonial-section {
+    margin-bottom:3rem;
+}
 
 
 .banner-testimonials {
@@ -2855,6 +2868,11 @@ apply to devices smaller than 1024px--------------------------------------------
 
 /* ABOUT PAGE STYLES ------------------------------------ */
 
+    #about-catch-phrase {padding: 2rem;}
+
+    #about-me {padding-left: 3rem;}
+
+
 /* CONTACT PAGE STYLES ---------------------------------- */
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
@@ -3096,6 +3114,7 @@ apply to devices smaller than 768px --------------------------------------------
 
 
 /* ABOUT PAGE STYLES ------------------------------------ */
+
 
 /* CONTACT PAGE STYLES ---------------------------------- */
 
