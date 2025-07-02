@@ -2302,7 +2302,7 @@ ul {
 }
 
 .travel-section .slider-container .bg-image {
-    aspect-ratio: 4 / 5; /* portrait */
+    aspect-ratio: 3 / 4; /* portrait */
     height: auto;
 }
 
@@ -2312,7 +2312,7 @@ ul {
 }
 
 .portrait-section .slider-container .bg-image {
-    aspect-ratio: 16 / 9; /* landscape */
+    aspect-ratio: 4 / 3; /* landscape */
     height: auto;
 }
 
@@ -2335,10 +2335,6 @@ ul {
     width: 6px;
 }
 
-
-.travel-section .portrait {
-  padding-bottom: 110%; /* or whatever ratio looks best */
-}
 
 /* IMAGES */
 .slider-tag {
@@ -2399,7 +2395,7 @@ ul {
 .bg-tikibar {
     background-image: url('assets/brands/VAULT/tikibar.jpeg'); 
     background-size: cover;
-    background-position: 50% 72%; 
+    background-position: 50% 73%; 
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
@@ -2412,34 +2408,15 @@ ul {
 }
 
 /* Portrait Slider */
-.bg-studiobaby {
-    background-image: url('assets/portrait/BABIES/studiobaby.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
+
 .bg-francesperry {
     background-image: url('assets/portrait/BABIES/hospital.JPEG'); 
     background-size: cover;
-    background-position: 50% 20%; 
+    background-position: 50% 60%; 
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
-.bg-babysmile {
-    background-image: url('assets/portrait/BABIES/babysmile.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
-.bg-baptism {
-    background-image: url('assets/portrait/BABIES/baptism.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
+
 .bg-newborn-curled-up {
     background-image: url('assets/portrait/BABIES/newborn-curled-up.jpg'); 
     background-size: cover;
@@ -2447,13 +2424,7 @@ ul {
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
-.bg-arms-up {
-    background-image: url('assets/portrait/BABIES/newborn-arms-up.jpg'); 
-    background-size: cover;
-    background-position: 50% 50%; 
-    border-radius: 25px;
-    border: 1px solid var(--kapa-featured);
-}
+
 .bg-baby-flying {
     background-image: url('assets/portrait/INHOMEFAMILY/baby_flying.jpg'); 
     background-size: cover;
