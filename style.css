@@ -2268,8 +2268,53 @@ ul {
 
 /* Image slideshow section -----------------------------------------------*/
 
+/* Default desktop layout */
+.about-pair {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    flex-direction: row; /* default normal order */
+}
 
+/* Every even .about-pair is reversed */
+.about-pair:nth-child(even) {
+    flex-direction: row-reverse;
+}
 
+.text-block, .slider-block {
+    flex: 1;
+}
+
+.slider-block {
+    max-width: 450px; /* adjust slider width */
+}
+
+.slider-container .bg-image {
+    aspect-ratio: 4 / 5;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    border: 1px solid var(--kapa-featured);
+    background-size: cover;
+    background-position: center;
+}
+
+.travel-section .slider-container .bg-image {
+    aspect-ratio: 4 / 5; /* portrait */
+    height: auto;
+}
+
+.food-section .slider-container .bg-image {
+    aspect-ratio: 1 / 1; /* square */
+    height: auto;
+}
+
+.portrait-section .slider-container .bg-image {
+    aspect-ratio: 16 / 9; /* landscape */
+    height: auto;
+}
 
 /* SLIDER DOTS*/
 .slick-dots li button::before {
@@ -3209,7 +3254,24 @@ apply to devices smaller than 768px --------------------------------------------
         font-weight: bold;
     }
 
+    .about-pair {
+        flex-direction: column !important; /* stack vertically */
+    }
 
+    .text-block {
+        order: 1 !important;
+    }
+
+    .slider-block {
+        order: 2 !important;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .slider-container .bg-image {
+        width: 100%;
+        height: auto;
+    }
 
 /* CONTACT PAGE STYLES ---------------------------------- */
 
