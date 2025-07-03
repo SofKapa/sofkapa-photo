@@ -2229,8 +2229,12 @@ ul {
 #about-catch-phrase {padding: 3rem;}
 
 #about-me {
-    padding-left: 4rem;
-    margin-bottom:0rem;
+    padding-left: 1rem;
+    margin-bottom:2rem;
+}
+
+.text-block {
+    max-width: 40%;
 }
 
 /* Desktop layout */
@@ -2274,7 +2278,6 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    margin-bottom: 3rem;
     flex-direction: row; /* default normal order */
 }
 
@@ -2315,6 +2318,8 @@ ul {
     aspect-ratio: 4 / 3; /* landscape */
     height: auto;
 }
+
+#about-slide-section .border-b {padding-bottom: 1rem;}
 
 /* SLIDER DOTS*/
 .slick-dots li button::before {
@@ -2412,7 +2417,7 @@ ul {
 .bg-francesperry {
     background-image: url('assets/portrait/BABIES/hospital.JPEG'); 
     background-size: cover;
-    background-position: 50% 60%; 
+    background-position: 50% 80%; 
     border-radius: 25px;
     border: 1px solid var(--kapa-featured);
 }
@@ -3244,6 +3249,14 @@ apply to devices smaller than 768px --------------------------------------------
         height: auto;
     }
 
+    .text-block {
+        max-width: 100%;
+        padding: 5%;
+        padding-top: 2%;
+    }
+
+
+    
 /* CONTACT PAGE STYLES ---------------------------------- */
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
