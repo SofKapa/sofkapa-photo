@@ -2579,7 +2579,13 @@ p.quote-text {
 /* Layout of section ---------- */
 #contact-section {
   width: 100%;
-  padding: 0; /* if needed */
+  background-image: url('/assets/travel/AUSTRALIA/kangarooislandcliffs.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* or fixed for parallax effect */
+  padding: 4rem 2rem; /* optional: gives space around your content */
+  position: relative;
 }
 
 
@@ -2601,6 +2607,8 @@ p.quote-text {
   background-clip: padding-box; /* ensures background/border don’t get clipped */
 }
 
+.contact-option.border-r {border-right: 2px solid var(--kapa-featured);}
+
 
 .contact-option > div {
   width: 100%;
@@ -2616,6 +2624,25 @@ p.quote-text {
 #contact-section .cta-button {
   font-size: 2rem;
 }
+
+/* Overlay for image of section */
+#contact-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: 0;
+}
+
+#contact-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+#contact-section .contact-option .handwritten-text-xl {
+  font-size: 3.5rem !important;
+}
+
 
 /* ---------- BOOKING CALENDAR PAGE | STYLES ----------------------------------------------------------------------------------------- */
 .banner-bookings {
@@ -3221,6 +3248,7 @@ apply to devices smaller than 768px --------------------------------------------
 
 
 /* ABOUT PAGE STYLES ------------------------------------ */
+
     .mobile-only { display: block; }
     .desktop-only { display: none; }
 
@@ -3348,6 +3376,40 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* CONTACT PAGE STYLES ---------------------------------- */
 
+    #contact-section {
+        background-position: top center;
+    }
+
+    #contact-container {
+        flex-direction: column;
+    }
+
+    .contact-option {
+        flex: 1 1 100%;
+        padding: 2rem;
+        padding-top: 5rem;
+        padding-bottom:0rem;
+    }
+
+    .handwritten-text-xl {
+        font-size: 2.5rem 
+    }
+
+    #contact-section .cta-button {
+        font-size: 1.6rem;
+    }
+
+    .contact-option > div {
+        padding: 0rem 0;
+    }
+
+    #contact-container .border-r {
+        border-bottom: 2px solid var(--kapa-featured);
+        border-right: none;
+        padding-top: 0rem;
+        padding-bottom: 5rem;
+        }
+
 /* BOOKINGS PAGE STYLES --------------------------------- */
 
 
@@ -3409,6 +3471,17 @@ apply to devices smaller than 768px --------------------------------------------
 
     .banner-testimonials {
         background-position-x: 100%;
+    }
+
+/* Contact Page */
+
+    #main-question .featured-text-bold {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    #contact-section .contact-option .featured-text-bold {
+        margin-bottom: 1.5rem;
     }
 
 }
@@ -3646,7 +3719,7 @@ apply to devices smaller than 576px --------------------------------------------
     }
 
 
- .about-intro-text {padding:0rem;}
+   .about-intro-text {padding:0rem;}
 
     #about-cta .featured-text-bold {font-size: 0.9rem;}
 
@@ -3696,9 +3769,32 @@ apply to devices smaller than 576px --------------------------------------------
 
     div.slider-item {padding: 0;}
 
+/* Contact Page */
 
+    #contact-section .contact-option .featured-text-bold {
+        padding: 0;
+    }
+
+    #contact-container .border-r {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    div.contact-option {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #contact-section .contact-option .handwritten-text-xl {
+        font-size: 3rem !important;
+    }
+
+    #contact-section .contact-option .featured-text-bold {
+        margin-bottom: 3rem !important;
+    }
 
 }
+
 
 
 
