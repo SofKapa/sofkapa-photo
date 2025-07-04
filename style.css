@@ -2576,7 +2576,7 @@ p.quote-text {
    CONTACT PAGE
 ====================================================================================================================================== */
 
-
+/* Layout of section ---------- */
 #contact-section {
   width: 100%;
   padding: 0; /* if needed */
@@ -2605,6 +2605,7 @@ p.quote-text {
 .contact-option > div {
   width: 100%;
   text-align: center;
+  padding: 5%; /* padding around all elements */
 }
 
 .contact-option p {
@@ -2612,6 +2613,9 @@ p.quote-text {
   margin: 0 auto;
 }
 
+#contact-section .cta-button {
+  font-size: 2rem;
+}
 
 /* ---------- BOOKING CALENDAR PAGE | STYLES ----------------------------------------------------------------------------------------- */
 .banner-bookings {
