@@ -12,7 +12,7 @@ seo:
 ---
 
 
-<section class="flex flex-column items-center text-center">
+<section class="flex flex-column items-center text-center" id="contact-section">
 
     <!-- MAIN QUESTION ------------------------------------------------------------------>
     <div class="gradient border-b" style="width:100%;">
@@ -22,10 +22,10 @@ seo:
 
 
     <!-- TWO ANSWERS -------------------------------------------------------------------->
-    <div class="flex flex-container" style="width:100%;">
+    <div class="flex flex-container" id="contact-container">
 
         <!-- LEFT SIDE - READY TO BOOK --> 
-        <div class="border-r flex-column items-center space-evenly" style="flex: 1 1 50%;">
+        <!-- <div class="contact-option border-r flex-column items-center space-evenly" style="flex: 1 1 50%;">
 
             <div class="padded-md padded-t-4 max-width-md" style="flex:1;">
                 <p class="handwritten-text-xl" style="font-size: 3.5rem;">Yes, <br>let's do it!</p>
@@ -42,10 +42,25 @@ seo:
                 <a href="/booking-calendar.html" class="cta-button show-inline" style="font-size: 2rem;">Book Now !</a>
             </div>
         
+        </div> -->
+
+        <div class="contact-option border-r">
+        <div>
+            <p class="handwritten-text-xl" style="font-size: 3.5rem;">Yes, <br>let's do it!</p>
+        </div>
+        <div class="arrow-down-left"></div>
+        <div>
+            <p class="featured-text-bold padded-sm padded-t-0">Amazing!<br><span class="bold-italic">Lock in your date</span><br>I'll take care of the rest!</p>
+        </div>
+        <div>
+            <a href="/booking-calendar.html" class="cta-button show-inline" style="font-size: 2rem;">Book Now !</a>
+        </div>
         </div>
 
+
+
         <!-- RIGHT SIDE - NEED TO CHAT --> 
-        <div class="border-r flex-column items-center space-evenly" style="flex: 1 1 50%;">
+        <!-- <div class="contact-option border-r flex-column items-center space-evenly" style="flex: 1 1 50%;">
 
             <div class="padded-md padded-t-4 max-width-md" style="flex:1;">
                 <p class="handwritten-text-xl" style="font-size: 3.5rem;">Need to <br>chat first?</p>
@@ -58,10 +73,42 @@ seo:
             </div>
 
             <div class="padded-md">
-                <button onclick="window.HubSpotConversations.widget.open()" class="cta-button" style="border:none; font-size: 2rem;">Chat with Me</button>
+                <button onclick="window.HubSpotConversations.widget.open()" class="cta-button" style="font-size: 2rem;">Chat with Me</button>
             </div>
 
+        </div> -->
+
+
+
+        <div class="contact-option">
+        
+        <!-- Title -->
+        <div>
+            <p class="handwritten-text-xl" style="font-size: 3.5rem;">Need to <br>chat first?</p>
         </div>
+
+        <!-- Arrow -->
+        <div class="arrow-down-right"></div>
+
+        <!-- Text Content -->
+        <div>
+            <p class="featured-text-bold padded-sm padded-t-0">
+            No problem! <br>
+            <span class="bold-italic">Message me</span><br>
+            I’ll get back to you ASAP!
+            </p>
+        </div>
+
+        <!-- CTA Button -->
+        <div>
+            <button onclick="window.HubSpotConversations.widget.open()" class="cta-button" style="font-size: 2rem;">
+            Chat with Me
+            </button>
+        </div>
+
+        </div>
+
+
 
     </div>
 
