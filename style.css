@@ -2588,33 +2588,40 @@ p.quote-text {
   position: relative;
 }
 
-
 #contact-container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  align-items: stretch;  /* ensures both .contact-option divs are equal height */
+  align-items: stretch; /* forces equal height */
 }
+
 
 .contact-option {
   flex: 1 1 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr auto; /* arrow and button fixed, texts stretch */
   align-items: center;
+  text-align: center;
   padding: 5%;
   box-sizing: border-box;
-  background-clip: padding-box; /* ensures background/border don’t get clipped */
 }
+
+.contact-option > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.contact-option > div:last-child {
+  margin-top: 3rem; /* adjust as needed */
+}
+
+
 
 .contact-option.border-r {border-right: 2px solid var(--kapa-featured);}
 
-
-.contact-option > div {
-  width: 100%;
-  text-align: center;
-  padding: 5%; /* padding around all elements */
-}
 
 .contact-option p {
   max-width: 90%;
@@ -3395,6 +3402,10 @@ apply to devices smaller than 768px --------------------------------------------
         font-size: 2.5rem 
     }
 
+    .contact-option > div:last-child {
+        margin-top: 0rem; /* adjust as needed */
+    }
+
     #contact-section .cta-button {
         font-size: 1.6rem;
     }
@@ -3408,7 +3419,7 @@ apply to devices smaller than 768px --------------------------------------------
         border-right: none;
         padding-top: 0rem;
         padding-bottom: 5rem;
-        }
+    }
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
 
