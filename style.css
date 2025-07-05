@@ -2654,21 +2654,46 @@ p.quote-text {
 /* ======================================================================================================================================
    BOOKINGS CALENDAR PAGE STYLES
 ====================================================================================================================================== */
+/* ----- SECTION BACKGROUND ----- */
+
 
 .banner-bookings {
-    background-image: url('/assets/travel/AUSTRALIA/kakadugunlomfalls.jpg');
-    opacity: 0.8;
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 60vh;
-    padding: 5%;
+  background-image: url('/assets/travel/AUSTRALIA/kakadugunlomfalls.jpg');
+  opacity: 0.8;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 60vh;
+  padding: 5%;
+  padding-bottom: 0rem;
 }
 
-#booking-calendar .featured-text-bold {max-width: 80%;}
+/* ----- TEXT WIDTH CONTROL ----- */
+#booking-calendar .featured-text-bold {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* ----- CALENDLY WRAPPER ----- */
+.calendly-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  overflow: hidden;
+}
+
+/* ----- CALENDLY WIDGET DEFAULT (DESKTOP) ----- */
+.calendly-inline-widget {
+  width: 100% !important;
+  min-width: 0 !important;
+  height: 700px;
+}
 
 
+/* ======================================================================================================================================
+ SCROLLING BANNER CTA - BOOK NOW
+====================================================================================================================================== */
 
-/* --------- BOOK NOW - ROLLING BANNER ----------------------------------------------------------------------------------------------- */
 .overflow-hidden {
     overflow: hidden;
 }
@@ -3674,9 +3699,32 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
 
+    #booking-calendar {
+        padding: 3% 0; /* Reduce vertical padding */
+    }
+
     #booking-calendar .featured-text-bold {
         font-size: 1rem;
     }
+
+    .calendly-container {
+        padding: 0 1rem;
+        overflow: hidden;
+        padding-top: 2rem;
+    }
+
+    .calendly-inline-widget {
+        transform: scale(0.85);       /* 🔍 Shrinks Calendly to 85% */
+        transform-origin: top;        /* ⬆️ Keeps it anchored at the top */
+        height: 595px !important;     /* 📏 700px * 0.85 = ~595px */
+        overflow: hidden !important;  /* 🧼 Removes fake scrollbars */
+    }
+
+    /* If grid-spaceAround is causing layout issues */
+    .grid-spaceAround {
+        display: block !important;
+    }
+
 
 
 }
