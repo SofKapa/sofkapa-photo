@@ -2651,7 +2651,10 @@ p.quote-text {
 }
 
 
-/* ---------- BOOKING CALENDAR PAGE | STYLES ----------------------------------------------------------------------------------------- */
+/* ======================================================================================================================================
+   BOOKINGS CALENDAR PAGE STYLES
+====================================================================================================================================== */
+
 .banner-bookings {
     background-image: url('/assets/travel/AUSTRALIA/kakadugunlomfalls.jpg');
     opacity: 0.8;
@@ -2660,6 +2663,8 @@ p.quote-text {
     min-height: 60vh;
     padding: 5%;
 }
+
+#booking-calendar .featured-text-bold {max-width: 80%;}
 
 
 
@@ -3429,6 +3434,13 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
 
+    #booking-calendar .featured-text-bold {max-width: 90%;}
+
+    #booking-calendar h1 {
+        font-size: 3rem;
+        padding-top:2rem;}
+
+    #booking-calendar .underline {text-underline-offset: 8px;}
 
 
 }
@@ -3505,6 +3517,7 @@ apply to devices smaller than 768px --------------------------------------------
     }
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
+
 
 }
 
@@ -3660,6 +3673,11 @@ apply to devices smaller than 576px --------------------------------------------
 /* CONTACT PAGE STYLES ---------------------------------- */
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
+
+    #booking-calendar .featured-text-bold {
+        font-size: 1rem;
+    }
+
 
 }
 
@@ -3823,6 +3841,19 @@ apply to devices smaller than 576px --------------------------------------------
     }
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
+
+    #booking-calendar .featured-text-bold {max-width: }
+
+    #booking-calendar h1 {
+        font-size: 2.2rem;
+        line-height: 1.2;
+        padding: 0;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #booking-calendar .underline {text-underline-offset: 9px;}
+
 
 }
 
