@@ -23,6 +23,10 @@ layout: default
       <p class="summary border-b"> {{ page.description }} </p>
       <p class="location handwritten-text-featured"> - {{ page.location }} </p>
 
+      <div class="padded-t-1">
+        <a href="{{page.main_category_url}}" class="basic-button">Back to {{ page.main_category }} gallery</a>
+      </div>
+
     </div>
           
     
@@ -56,9 +60,9 @@ layout: default
 
 <!-- Return to main gallery button ----------------------------------->
 
-<section class="bg-kapablue flex flex-container content-center">
+<section class="bg-kapablue flex flex-container content-center mobile-only">
 
-  <div class="padded-sm">
+  <div class="padded-sm text-center">
     <a href="{{page.main_category_url}}" class="basic-button">Back to {{ page.main_category }} gallery</a>
   </div>
 
