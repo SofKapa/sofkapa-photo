@@ -3468,6 +3468,18 @@ apply to devices smaller than 768px --------------------------------------------
     #booking-calendar .underline {text-underline-offset: 8px;}
 
 
+/* PRICING THANK YOU PAGE STYLES ------------------------ */
+
+    #thank-you-page .handwritten-text-dark{
+        font-size: 2.5rem;
+        padding: 2%;
+        padding-bottom: 3rem;
+    }
+
+    #thank-you-page p{
+        font-size: 1rem;
+    }
+
 }
 
 
@@ -3724,6 +3736,12 @@ apply to devices smaller than 576px --------------------------------------------
     .grid-spaceAround {
         display: block !important;
     }
+
+
+    /* PRICING THANK YOU PAGE STYLES ------------------------ */
+
+    #thank-you-page .handwritten-text-dark{
+        font-size: 2.2rem;
 
 
 
