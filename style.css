@@ -3530,14 +3530,15 @@ apply to devices smaller than 768px --------------------------------------------
 
     .cookie-notice-inner {
         flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
+        align-items: center; /* 👈 centers both columns */
+        text-align: center;  /* 👈 centers text */
     }
 
     .cookie-buttons {
-        justify-content: flex-start;
-        flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: center; /* 👈 center buttons */
+        padding-right: 0;        /* remove desktop offset */
+        /* flex-direction: row;
+        flex-wrap: wrap; */
     }
 
     .button-separator {
@@ -3547,6 +3548,7 @@ apply to devices smaller than 768px --------------------------------------------
     .cookie-text,
     .cookie-buttons {
         width: 100%;
+        text-align: center;  /* 👈 centers content inside */
     }
 
 }
