@@ -2825,13 +2825,6 @@ COOKIE BANNER
   opacity: 0.5
 }
 
-/* Ensure spacing is consistent */
-/* #cookie-notice span {
-  line-height: 1.5;
-  display: block;
-  margin-bottom: 0.5rem;
-} */
-
 /* Buttons column */
 .cookie-buttons {
   flex: 0 1 auto;
@@ -2853,6 +2846,50 @@ COOKIE BANNER
 }
 
 #cookie-notice .button-separator {margin-bottom: 0rem;}
+
+
+
+
+/* ======================================================================================================================================
+   PRIVACY POLICY PAGE
+====================================================================================================================================== */
+
+
+#privacy-policy {
+        padding: 5%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+}
+
+#privacy-policy li {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 50;
+    line-height: 1.3;
+}
+
+#privacy-policy p {
+    color: var(--kapa-dark);
+}
+
+
+/* ======================================================================================================================================
+   COOKIE POLICY PAGE
+====================================================================================================================================== */
+
+
+#cookie-policy {
+        padding: 5%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+}
+
+#cookie-policy p {
+    color: var(--kapa-dark);
+}
+
+
 
 /* ------------------------------------------------------------------------------------------------------------------------------------*/
 /* ------------------------------------------------------------------------------------------------------------------------------------*/
@@ -4156,9 +4193,6 @@ apply to devices smaller than 320px --------------------------------------------
 /* CONTACT PAGE STYLES ---------------------------------- */
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
-
-
-
 
 
 
