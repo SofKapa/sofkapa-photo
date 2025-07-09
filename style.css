@@ -1256,12 +1256,29 @@ a.footer-link:hover {color: var(--kapa-blue);}
 ====================================================================================================================================== */
 
 /* --- Home Tagline --------------------- */
-
 #home-tagline {
-    margin-bottom:0;
-    font-family: 'mansory', sans-serif;
-    font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  min-height: 80px;
+  text-align: center;
+  box-sizing: border-box;
 }
+
+#home-tagline .featured-text-bold {
+  font-family: 'mansory', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: normal;
+  color: white;
+  margin: 0;
+}
+
+.tagline-line {
+  display: inline; 
+}
+
 
 /* --- Responsive Grid Container -------- */
 
@@ -2936,6 +2953,7 @@ COOKIE BANNER
 /* SERVICES PAGE STYLES ---------------------------------- */
 
     .sketch-underline-lg {padding: 5%;}
+
 /* GALLERY PAGE STYLES ----------------------------------- */
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
@@ -2991,6 +3009,19 @@ COOKIE BANNER
 
 }
 
+
+@media(max-width: 1041px) {
+
+    .tagline-line:last-child {
+        display: block;
+    }
+
+    #home-tagline {
+        padding:1rem;
+    }
+
+}
+
 /* MD DEVICES (max 64em/1024px) 
 apply to devices smaller than 1024px-------------------------------------------------------------------------------------------------- */
 @media(max-width: 1024px) {
@@ -3043,10 +3074,7 @@ apply to devices smaller than 1024px--------------------------------------------
 
 /* HOMEPAGE -----------------------------------------------*/
 
-    .featured-text-bold {
-        line-height: 1.5;
-        padding:1rem;
-    }
+
     .max-width-md {
         max-width: 800px;
         padding-left: 1rem;
@@ -3188,6 +3216,10 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* HEADER STYLES ----------------------------------------- */
 
+    .secondary-logo {
+        max-width: 75%;
+    }
+
     .burger-button.active .burger-top {
         transform: translateY(0.37em) rotate(45deg);
     }
@@ -3246,20 +3278,16 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* HOMEPAGE -----------------------------------------------*/
 
+
     #home-tagline {
-        padding-bottom:2.2rem;
+        padding: 0.5rem;
     }
 
-    .line-break-sm {
-        display: block;
-        height: 0;
+    #home-tagline .featured-text-bold {
+        font-size: 1rem;
     }
-
-    .featured-text-bold {font-size:1rem;}
 
     .handwritten-text-featured {font-size:1.5rem;}
-
-    .max-width-md {max-width: 700px;}
 
     .bold-italic {font-size:1.7rem;}
 
@@ -3600,6 +3628,11 @@ apply to devices smaller than 768px --------------------------------------------
 /* FOOTER STYLES ----------------------------------------- */
 /* HOMEPAGE -----------------------------------------------*/
 
+
+    .tagline-line:last-child {
+        display: inline; /* remove the line break again under 600px */
+    }
+
     .fade-text, .absolute {
         font-size: 2.6rem;
     }
@@ -3689,7 +3722,9 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* HEADER STYLES ----------------------------------------- */
 
-
+    .secondary-logo {
+        max-width: 100%;
+    }
 
 /* FOOTER STYLES ----------------------------------------- */
 
@@ -3863,6 +3898,21 @@ apply to devices smaller than 576px --------------------------------------------
 /* HEADER STYLES ----------------------------------------- */
 /* FOOTER STYLES ----------------------------------------- */
 /* HOMEPAGE -----------------------------------------------*/
+
+
+    #home-tagline {
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+
+    #home-tagline .featured-text-bold {
+        font-size: 0.9rem;
+    }
+
+    .tagline-line:last-child {
+        display: block;
+    }
+
 /* SERVICES PAGE STYLES ---------------------------------- */
 
     .scrolling-gallery__card {
@@ -4049,8 +4099,6 @@ apply to devices smaller than 320px --------------------------------------------
 
 
 /* HEADER STYLES ----------------------------------------- */
-
-    .secondary-logo {max-width: 100%;}
 
 
     nav a {font-size:0.7rem;
