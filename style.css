@@ -2501,7 +2501,7 @@ ul {
 }
 
 /* Slide content --------------*/
-.slider-item {
+#testimonial-section.slider-item {
     position: relative;
     text-align: center;
     color: white;
@@ -3012,6 +3012,7 @@ COOKIE BANNER
 
 @media(max-width: 1041px) {
 
+/* HOMEPAGE ---------------------------------------------- */
     .tagline-line:last-child {
         display: block;
     }
@@ -3491,7 +3492,7 @@ apply to devices smaller than 768px --------------------------------------------
         padding: 3rem 1.5rem; /* more top/bottom padding, less side squeeze */
     }
 
-    .slider-item {
+    #testimonial-section.slider-item {
         padding: 2rem 1rem; /* adds extra spacing around individual slides */
     }
 
@@ -3711,8 +3712,13 @@ apply to devices smaller than 576px --------------------------------------------
     
 
 /* GENERAL STYLES ---------------------------------------- */
-    .show-xs {display: block;}
-    .hide-xs {display: none;}
+  .hide-xs {
+    display: none !important;
+  }
+
+  .show-xs {
+    display: block !important;
+  }
 
     .xs-padded-5 {padding: 5%;}
     .xs-padded-b-0 {padding-bottom: 0%;}
@@ -3772,6 +3778,43 @@ apply to devices smaller than 576px --------------------------------------------
 
     .featured-text-bold {font-size: 1.2rem;}
 
+
+  /* Show persistent overlay for mobile view */
+  .homepage-gallery .persistent-overlay {
+    display: block !important;
+    z-index: 1;
+  }
+
+
+  /* Make sure the image container still positions correctly */
+  .homepage-gallery .fade-container {
+    position: relative;
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  /* Keep text centered and visible */
+  .fade-text,
+  .absolute {
+    font-size: 4rem;
+    z-index: 3;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+    .slider-item > div {
+    position: relative;
+    z-index: 0; /* Keeps background under the persistent overlay */
+  }
+
+    /* Hide fade overlay since hover doesn't work */
+  .homepage-gallery .fade-overlay {
+    display: none !important;
+  }
 
 /* SERVICES PAGE STYLES ---------------------------------- */
 
@@ -4001,7 +4044,7 @@ apply to devices smaller than 576px --------------------------------------------
         padding: 0;
     }
 
-    .slider-item {
+    #testimonial-section.slider-item {
         padding: 1.2rem 0.5rem;
     }
 
@@ -4040,7 +4083,7 @@ apply to devices smaller than 576px --------------------------------------------
         min-height: unset; /* remove fixed height to allow natural resizing */
     }
 
-    div.slider-item {padding: 0;}
+    #testimonial-section.slider-item {padding: 0;}
 
 /* CONTACT PAGE STYLES ---------------------------------- */
 
