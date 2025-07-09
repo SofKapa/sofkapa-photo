@@ -1257,9 +1257,10 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 /* --- Home Tagline --------------------- */
 
-.home-tagline {
+#home-tagline {
     margin-bottom:0;
     font-family: 'mansory', sans-serif;
+    font-weight: normal;
 }
 
 /* --- Responsive Grid Container -------- */
@@ -3245,7 +3246,7 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* HOMEPAGE -----------------------------------------------*/
 
-    .home-tagline {
+    #home-tagline {
         padding-bottom:2.2rem;
     }
 
@@ -3716,7 +3717,7 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* HOMEPAGE STYLES --------------------------------------- */
 
-    .home-tagline {font-size: 0.9rem;}
+    #home-tagline {font-size: 0.9rem;}
 
     .homepage-gallery {padding: 5%;}
 
@@ -4049,7 +4050,7 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* HEADER STYLES ----------------------------------------- */
 
-    .secondary-logo {max-width: 75%;}
+    .secondary-logo {max-width: 100%;}
 
 
     nav a {font-size:0.7rem;
@@ -4081,7 +4082,7 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* HOMEPAGE STYLES --------------------------------------- */
 
-    .home-tagline {font-size: 0.8rem;}
+    #home-tagline {font-size: 0.8rem;}
 
     .fade-container h1,
     .fade-container h3 {font-size: 2.3rem;}
