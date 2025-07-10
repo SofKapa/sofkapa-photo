@@ -1544,21 +1544,21 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 
 /* ---------- BANNER IMAGES ---------------------------------------------------------------- */
-.banner-brands {
+#banner-brands {
     background-image: url('/assets/brands/EPL/peopleeatinginside.jpg');
     background-size: cover;
     background-position: 50% 65%;
     min-height: 60vh;
     padding: 5%;
 }
-.banner-travel {
+#banner-travel {
     background-image: url('/assets/travel/MYANMAR/fishermanandbirds.jpg');
     background-size: cover;
     background-position: 50% 65%;
     min-height: 60vh;
     padding: 5%;
 }
-.banner-portrait {
+#banner-portrait {
     background-image: url('/assets/portrait/CAROLINA/reflection.jpg');
     background-size: cover;
     background-position: 50% 43%;
@@ -2767,7 +2767,7 @@ COOKIE BANNER
 #cookie-notice {
   font-family: 'Mansory','Open Sans';
   font-style: italic;
-  z-index: 9;
+  z-index: 930;
   padding: 1rem;
   display: none;
   position: fixed;
@@ -4203,13 +4203,17 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* SERVICES PAGE STYLES ---------------------------------- */
 
-    .handwritten-text-xl {font-size: 4rem;}
+    #banner-brands .handwritten-text-xl,
+    #banner-portrait .handwritten-text-xl,
+    #banner-travel .handwritten-text-xl {
+        font-size: 3.5rem;
+    }
 
-    .banner-brands h2 {padding: 1rem;}
+    #banner-brands h2 {padding: 1rem;}
 
     .scrolling-gallery > p.handwritten-text-featured {padding:8%;}
 
-      .scrolling-gallery h3 {font-size: 0.9rem;}
+    .scrolling-gallery h3 {font-size: 0.9rem;}
 
     .scrolling-gallery__card {flex: 0 0 70%;}
 
