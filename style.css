@@ -1193,19 +1193,15 @@ a.link {
 
 .footer-content-wrapper {
   display: flex;
-  flex-direction: row; /* default layout */
+  flex-direction: row;
   flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 
+
 /* ==== LOGO ========================================== */
-/* .submark-logo {
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    display: block;
-    max-width: 50%;
-} */
+
 
 .submark-logo {
   max-width: 120px;
@@ -1214,8 +1210,24 @@ a.link {
   display: block;
 }
 
+#footer-logo {
+  padding-left: 1.5rem; /* space inside left */
+  /* or margin-right: 1.5rem; to separate from text block */
+  display: flex;
+  align-items: center; /* vertically center if needed */
+}
+
 /* ==== SLOGAN  ======================================= */
 
+#footer-text {
+  flex: 1 1 auto;  /* allow growing to fill space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertically center */
+  align-items: flex-end; /* right align text and nav */
+  padding-right: 1.5rem;
+  text-align: right;
+}
 
 p.footer {
     font-size:1.2rem;
@@ -1253,12 +1265,20 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 /* ==== FOOTER NOTICE  ================================ */
 
+
+
 #footer-notice {
-    text-align: center;
-    font-style: italic;
-    font-size: 1rem;
-    padding-top: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
+
+
 #footer-notice p {font-size: 1rem;}
 #footer-notice a {color: var(--kapa-dark);}
 #footer-notice a:hover {color: white;}
@@ -3084,7 +3104,6 @@ apply to devices smaller than 1024px--------------------------------------------
     
     p.footer {padding-bottom: 0.5rem;}
 
-    #footer-notice {margin-top: 2rem;}
 
 
 /* HOMEPAGE -----------------------------------------------*/
@@ -3268,11 +3287,11 @@ apply to devices smaller than 768px --------------------------------------------
 
     #footer {padding-top: 2rem;}
 
-    #footer-logo .submark-logo {
+    /* #footer-logo .submark-logo {
         display: inline-block;
         max-width: 60%;
         padding-top: 1rem;
-    }
+    } */
 
     p.footer {
         font-size: 1.2rem;
@@ -3286,7 +3305,7 @@ apply to devices smaller than 768px --------------------------------------------
     }
 
     #footer-notice {padding-top: 0rem;}
-    #footer-notice p {font-size: 0.7rem;}
+    #footer-notice p {font-size: 0.9rem;}
     #footer-notice a {font-size: 0.7rem;}
 
 
@@ -3756,10 +3775,12 @@ apply to devices smaller than 576px --------------------------------------------
         order: 3; /* move logo to bottom */
         text-align: center;
         margin-top: 2rem;
+        padding-left:0;
     }
 
     #footer-text {
         order: 1;
+        padding-right:0;
     }
 
     #footer-notice {
@@ -4341,34 +4362,4 @@ apply to devices smaller than 320px --------------------------------------------
 
 }
 
-
-
-
-
-/* ======================== */
-/* DEBUG FLEX TEST - PLACE AT THE VERY BOTTOM */
-/* ======================== */
-
-.footer-content-wrapper {
-  border: 2px solid red;  
-  display: flex !important;
-  flex-wrap: wrap !important;
-  flex-direction: column !important;
-  background: rgba(255, 0, 0, 0.1);
-}
-
-#footer-logo {
-  order: 3 !important;
-  background: rgba(0, 255, 0, 0.3);
-}
-
-#footer-text {
-  order: 1 !important;
-  background: rgba(0, 0, 255, 0.3);
-}
-
-#footer-notice {
-  order: 2 !important;
-  background: rgba(255, 255, 0, 0.3);
-}
 
