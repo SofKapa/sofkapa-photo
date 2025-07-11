@@ -1601,9 +1601,10 @@ a.footer-link:hover {color: var(--kapa-blue);}
 }
 
 
-.scroll-arrow {
+.scrolling-gallery .scroll-arrow {
   display: flex;
   justify-content: center;
+  padding: 2rem;
 }
 
 .scroll-arrow img {
@@ -1766,6 +1767,11 @@ a.footer-link:hover {color: var(--kapa-blue);}
     z-index: 901; /* Ensures it stays above other content */
 }
 
+#gallery-section .featured-text-bold {
+    font-family: 'Mansory', sans-serif;
+    padding: 0.5rem;
+    line-height: 1.3;
+}
 
 /* Hide the sticky banner when the gallery images are open in large screen */
 body.lg-open .gallery-banner {
@@ -3119,6 +3125,14 @@ apply to devices smaller than 1024px--------------------------------------------
 
 /* SERVICES PAGE STYLES ---------------------------------- */
 
+
+    #banner-brands .handwritten-text-xl,
+    #banner-portrait .handwritten-text-xl,
+    #banner-travel .handwritten-text-xl {
+        font-size: 8rem;
+    }
+
+
     .scrolling-gallery__card {
     flex: 0 0 30%;
     }
@@ -3325,7 +3339,7 @@ apply to devices smaller than 768px --------------------------------------------
         padding: 1.5rem;
     }
 
-    .handwritten-text-featured {font-size:1.5rem;}
+    #home-toggle .handwritten-text-featured {font-size:1.5rem;}
 
     .bold-italic {font-size:1.7rem;}
 
@@ -3334,7 +3348,11 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* SERVICES PAGE STYLES ---------------------------------- */
 
-    .handwritten-text-xl{font-size:7rem;}
+    #banner-brands .handwritten-text-xl,
+    #banner-portrait .handwritten-text-xl,
+    #banner-travel .handwritten-text-xl {
+        font-size: 5rem;
+    }
 
     .sub-heading {font-size:0.9rem;}
 
@@ -3968,6 +3986,10 @@ apply to devices smaller than 576px --------------------------------------------
         border-radius: 10px;
     }
 
+    #gallery-section .featured-text-bold {
+        font-size: 1rem;
+}
+
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
     .scroll-packages > div {
@@ -4053,9 +4075,9 @@ apply to devices smaller than 576px --------------------------------------------
         font-size:0.9rem;
     }
 
-    .handwritten-text-xl {
+    /* .handwritten-text-xl {
         font-size: 6rem;
-    }
+    } */
 
 /* GALLERY PAGE STYLES ----------------------------------- */
 /* PACKAGES PAGE STYLES ---------------------------------- */
@@ -4297,7 +4319,11 @@ apply to devices smaller than 320px --------------------------------------------
 
     #banner-brands h2 {padding: 1rem;}
 
-    .scrolling-gallery > p.handwritten-text-featured {padding:8%;}
+    .scrolling-gallery > p.handwritten-text-featured {
+        padding:8%;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        font-size: 2rem;}
 
     .scrolling-gallery h3 {font-size: 0.9rem;}
 
