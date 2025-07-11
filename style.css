@@ -1549,6 +1549,13 @@ a.footer-link:hover {color: var(--kapa-blue);}
     text-align: center;
 }
 
+
+#home-toggle .toggle-arrow {
+    margin: 2rem;
+    width: 150px;
+}
+
+
 .toggle-arrow {
     width: 80px;
     height: auto;
@@ -3919,7 +3926,7 @@ apply to devices smaller than 576px --------------------------------------------
         margin-bottom: 1.5rem;
     }
 
-    #home-toggle .toggle-arrow {width: 150px;}
+
 
 /* SERVICES PAGE STYLES ---------------------------------- */
 
