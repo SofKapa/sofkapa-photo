@@ -1191,13 +1191,27 @@ a.link {
     padding-bottom:1rem;
 }
 
+.footer-content-wrapper {
+  display: flex;
+  flex-direction: row; /* default layout */
+  flex-wrap: wrap;
+}
+
+
 /* ==== LOGO ========================================== */
-.submark-logo {
+/* .submark-logo {
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
     display: block;
     max-width: 50%;
+} */
+
+.submark-logo {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* ==== SLOGAN  ======================================= */
@@ -3734,6 +3748,37 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* FOOTER STYLES ----------------------------------------- */
 
+    .footer-content-wrapper {
+        flex-direction: column;
+    }
+
+    #footer-logo {
+        order: 3; /* move logo to bottom */
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #footer-text {
+        order: 1;
+    }
+
+    #footer-notice {
+        order: 2;
+    }
+
+
+
+    /* Clear any float/width from grid system */
+    #footer-logo,
+    #footer-text,
+    #footer-notice {
+        width: 100% !important;
+        float: none !important;
+        display: block !important;
+    }
+
+
+
     #footer-logo{text-align: center;}
     #footer-logo .submark-logo {
         display: inline-block;
@@ -3755,6 +3800,10 @@ apply to devices smaller than 576px --------------------------------------------
     #footer-notice {padding-top: 2rem;}
     #footer-notice p, a {font-size: 0.8rem;}
   
+
+    .submark-logo {
+        max-width: 100px;
+    }
 
 /* HOMEPAGE STYLES --------------------------------------- */
 
@@ -4160,7 +4209,6 @@ apply to devices smaller than 320px --------------------------------------------
 /* FOOTER STYLES ----------------------------------------- */
 
 
-    #footer-logo .submark-logo {max-width: 45%;}
 
     p.footer {
         padding-top: 1.5rem;
@@ -4291,6 +4339,36 @@ apply to devices smaller than 320px --------------------------------------------
 /* BOOKINGS PAGE STYLES --------------------------------- */
 
 
+}
 
+
+
+
+
+/* ======================== */
+/* DEBUG FLEX TEST - PLACE AT THE VERY BOTTOM */
+/* ======================== */
+
+.footer-content-wrapper {
+  border: 2px solid red;  
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: column !important;
+  background: rgba(255, 0, 0, 0.1);
+}
+
+#footer-logo {
+  order: 3 !important;
+  background: rgba(0, 255, 0, 0.3);
+}
+
+#footer-text {
+  order: 1 !important;
+  background: rgba(0, 0, 255, 0.3);
+}
+
+#footer-notice {
+  order: 2 !important;
+  background: rgba(255, 255, 0, 0.3);
 }
 
