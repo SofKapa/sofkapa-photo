@@ -485,7 +485,7 @@ a.bg-image {display: block;}
 .portrait-tall   {padding-bottom: 175%}
 .portrait-medium {padding-bottom: 140%}
 .portrait        {padding-bottom: 125%}
-.square          {padding-bottom: 100%}
+.square          {padding-bottom: 100%;}
 .landscape       {padding-bottom: 66%}
 .landscape-wide  {padding-bottom: 56%}
 
@@ -1406,9 +1406,19 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 
 .homepage-gallery .slider-item {
-    width: 100%;
-    height: 100%;
+  aspect-ratio: 1 / 1;
+  /* padding-bottom: 100%;  */
+  position: relative;
+  width: 100%;
 }
+
+
+
+.homepage-gallery .square  {
+    padding-bottom: 100%;
+    height: auto;
+}
+
 
 .homepage-gallery .slider-img {
     width: 100%;
@@ -1614,12 +1624,15 @@ a.footer-link:hover {color: var(--kapa-blue);}
   padding: 2rem;
 }
 
+
 .scroll-arrow img {
   width: 15rem; /* adjust size */
   height: auto;
   opacity: 0.7;
   animation: arrow-pulse 3s ease-in-out infinite;
 }
+
+
 
 @keyframes arrow-pulse {
   0%, 100% { transform: translateX(0); opacity: 0.6; }
@@ -1922,8 +1935,14 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     padding-bottom: 4%;
 }
 
-#packages-page .scroll-arrow {
+/* #packages-page .scroll-arrow {
   display: none;
+} */
+
+#packages-page .scroll-arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem; /* space below the intro text */
 }
 
 #packages-page .white {
@@ -3857,16 +3876,78 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* HOMEPAGE STYLES --------------------------------------- */
 
-    #home-tagline {font-size: 0.9rem;}
 
-    .homepage-gallery {padding: 5%;}
+    
+ #home-tagline {font-size: 0.9rem;}
 
-    .homepage-gallery .fade-container {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-    .fade-text, .absolute {font-size: 4rem;}
+.homepage-gallery .show-xs {font-size: 3rem;}
 
+.homepage-gallery {padding: 5%;}
+
+
+  /* Stack cards vertically */
+  .homepage-gallery .grid-spaceAround {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  /* Each card takes full width and stays square */
+  .homepage-gallery .fade-container {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid var(--kapa-featured);
+  }
+
+  /* Ensure slider and slides fill the card */
+  .slider-homepage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .slider-item .square {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+  }
+
+  /* Hide fade overlay, show simple heading */
+  .fade-overlay {
+    display: none !important;
+  }
+
+  .show-xs {
+    display: block !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .hide-xs {
+    display: none !important;
+  }
+
+
+
+
+/* Toggle section */
     .max-width-md {
         max-width: 500px;
         padding-left: 1rem;
@@ -3875,48 +3956,9 @@ apply to devices smaller than 576px --------------------------------------------
 
     #home-toggle {padding-top:0;}
 
-    .featured-text-bold {font-size: 1.2rem;}
 
 
-  /* Show persistent overlay for mobile view */
-  .homepage-gallery .persistent-overlay {
-    display: block !important;
-    z-index: 1;
-  }
-
-
-  /* Make sure the image container still positions correctly */
-  .homepage-gallery .fade-container {
-    position: relative;
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
-  /* Keep text centered and visible */
-  .fade-text,
-  .absolute {
-    font-size: 4rem;
-    z-index: 3;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-
-    .slider-item > div {
-    position: relative;
-    z-index: 0; /* Keeps background under the persistent overlay */
-  }
-
-    /* Hide fade overlay since hover doesn't work */
-  .homepage-gallery .fade-overlay {
-    display: none !important;
-  }
-
-
-      #home-toggle .handwritten-text-featured {
+    #home-toggle .handwritten-text-featured {
         padding: 2rem;
         font-size: 2.2rem;
     }
@@ -3925,6 +3967,14 @@ apply to devices smaller than 576px --------------------------------------------
         font-size: 2.2rem;
         margin-bottom: 1.5rem;
     }
+
+    .featured-text-bold {font-size: 1.2rem;}
+
+
+
+
+
+
 
 
 
@@ -4036,9 +4086,9 @@ apply to devices smaller than 576px --------------------------------------------
     }
 
     /* If grid-spaceAround is causing layout issues */
-    .grid-spaceAround {
+    /* .grid-spaceAround {
         display: block !important;
-    }
+    } */
 
 
     /* PRICING THANK YOU PAGE STYLES ------------------------ */
