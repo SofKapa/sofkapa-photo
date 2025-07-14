@@ -1877,17 +1877,9 @@ border: 2px solid var(--kapa-featured);
 }
 
 
-
-/* TEST TEST TEST */
-
-/* .lg-outer .lg-img-wrap {
-    padding: 10%;
-} */
-
 .lg-outer .lg-img-wrap {
-    padding: 10%;
-    padding-top: 0%;
-    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -1905,7 +1897,7 @@ border: 2px solid var(--kapa-featured);
   opacity: 1 !important;
 }
 
-/* TEST TEST TEST */
+
 
 picture.lg-img-wrap {padding-bottom: 3rem;}
 
@@ -4096,7 +4088,19 @@ apply to devices smaller than 576px --------------------------------------------
 
     #gallery-section .featured-text-bold {
         font-size: 1rem;
+    }
+
+    .lg-outer .lg-img-wrap {
+    padding-left: 2%;
+    padding-right: 2%;
 }
+
+    
+    .lg-prev,
+    .lg-next {
+        display: none !important;
+    }
+
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
@@ -4187,10 +4191,6 @@ apply to devices smaller than 576px --------------------------------------------
 
 /* GALLERY PAGE STYLES ----------------------------------- */
 
-    .lg-next,
-    .lg-prev {
-        font-size: 30px !important;
-    }
 
     .lg-toolbar .lg-icon {
         font-size: 30px;
@@ -4489,19 +4489,6 @@ apply to devices smaller than 320px --------------------------------------------
     #gallery-section .bg-image {
         border-radius: 8px;
     }
-
-    /* .lg-next, .lg-prev {
-        color: white;
-        font-size: 20px;
-        width:80px;
-    } */
-
-    .lg-prev,
-    .lg-next {
-        display: none !important;
-    }
-
-    
 
 
 
