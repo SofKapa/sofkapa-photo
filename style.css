@@ -1876,6 +1876,37 @@ border: 2px solid var(--kapa-featured);
     font-size: 50px;
 }
 
+
+
+/* TEST TEST TEST */
+
+/* .lg-outer .lg-img-wrap {
+    padding: 10%;
+} */
+
+.lg-outer .lg-img-wrap {
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+
+.lg-toolbar {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  z-index: 9999;
+}
+
+.lg-close {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* TEST TEST TEST */
+
 picture.lg-img-wrap {padding-bottom: 3rem;}
 
 .visually-hidden {
@@ -3426,9 +3457,22 @@ apply to devices smaller than 768px --------------------------------------------
         border-radius: 15px;
     }
 
+    .lg-next,
+    .lg-prev {
+        font-size: 40px !important;
+    }
+
 
     .lg-components {
         padding: 0 20px;
+    }
+
+    .lg-next {
+        right: 4px;
+    }
+
+    .lg-prev {
+        left: 4px;
     }
 
     .basic-button {font-size:1rem;}
@@ -4142,6 +4186,18 @@ apply to devices smaller than 576px --------------------------------------------
     #eco-banner .max-width-sm {max-width:320px;}
 
 /* GALLERY PAGE STYLES ----------------------------------- */
+
+    .lg-next,
+    .lg-prev {
+        font-size: 30px !important;
+    }
+
+    .lg-toolbar .lg-icon {
+        font-size: 30px;
+    }
+
+
+
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
     .step-icon {
@@ -4434,11 +4490,18 @@ apply to devices smaller than 320px --------------------------------------------
         border-radius: 8px;
     }
 
-    .lg-next, .lg-prev {
+    /* .lg-next, .lg-prev {
         color: white;
         font-size: 20px;
         width:80px;
+    } */
+
+    .lg-prev,
+    .lg-next {
+        display: none !important;
     }
+
+    
 
 
 

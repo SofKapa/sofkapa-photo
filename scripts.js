@@ -129,7 +129,11 @@ $( document ).ready(function() {
     // POP-UP GALLERY
     lightGallery(document.getElementById('lightgallery'), {
         speed: 500,
-        download: false
+        download: false,
+        counter: false, // 🚫 disables the "1 / 37" image counter
+        mobileSettings: {
+          showCloseIcon: true,     // ✅ show close button
+        }
     });
 
 
