@@ -606,6 +606,7 @@ a.bg-image {display: block;}
     font-family: 'Mansory', sans-serif;
     font-size: 2rem;
     margin-bottom: 0%;
+    font-style: italic;
   }
 .featured-text-bold {
     font-family: 'Open Sans', sans-serif;
@@ -1654,7 +1655,7 @@ a.footer-link:hover {color: var(--kapa-blue);}
     scrollbar-width: none;
     -ms-overflow-style: none;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 .scrolling-gallery__container::-webkit-scrollbar {
     display: none;
@@ -1935,9 +1936,6 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     padding-bottom: 4%;
 }
 
-/* #packages-page .scroll-arrow {
-  display: none;
-} */
 
 #packages-page .scroll-arrow {
   display: flex;
@@ -3388,6 +3386,12 @@ apply to devices smaller than 768px --------------------------------------------
 
     .scrolling-gallery p.padded-sm {padding:4%;}
 
+    .scrolling-gallery__card:hover {
+        box-shadow: none !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
     .scrolling-gallery__card {flex: 0 0 40%;}
     
     #what-to-expect .col-8_xs-10 {padding: 9%;}
@@ -3987,6 +3991,9 @@ apply to devices smaller than 576px --------------------------------------------
     .scrolling-gallery p.padded-sm {padding:7%;}
 
     .scrolling-gallery h3 {font-size: 1rem;}
+    .scrolling-gallery__container {
+        padding-bottom: 10%;
+    }
     .scrolling-gallery__content p.subtle-button:last-child {
     margin-bottom: 0.2rem !important;
     }
@@ -4132,9 +4139,7 @@ apply to devices smaller than 576px --------------------------------------------
         font-size:0.9rem;
     }
 
-    /* .handwritten-text-xl {
-        font-size: 6rem;
-    } */
+    #eco-banner .max-width-sm {max-width:320px;}
 
 /* GALLERY PAGE STYLES ----------------------------------- */
 /* PACKAGES PAGE STYLES ---------------------------------- */
@@ -4388,7 +4393,7 @@ apply to devices smaller than 320px --------------------------------------------
 
     .scrolling-gallery__container {
         padding-top: 1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
     }
 
     #who-i-work-with .text-center {

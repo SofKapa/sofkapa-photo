@@ -28,7 +28,7 @@ $( document ).ready(function() {
     // SLICK SLIDER - HOMEPAGE CARDS
     $('.slider-homepage').slick({
         autoplay: true, // Do we want it to autoplay? true or false
-        autoplaySpeed: 2000, // How long between each slide when auto-playing
+        autoplaySpeed: 1000, // How long between each slide when auto-playing
         speed: 1500, // How fast is the transition in milliseconds
         arrows: false, // Do you want to show arrows to trigger each slide
         accessibility: false, // Enables keyboard tabbing and arrow key navigation
