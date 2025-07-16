@@ -7,7 +7,9 @@
 /* html{border:none;} */
 
 
-
+/* * {
+  outline: 1px solid red;
+} */
 
 /* ---------- CSS RESET ---------------------------------------------------------------------------------------------------------------*/
 *{ padding: 0;
@@ -37,6 +39,10 @@ img {
 section {position: relative;}
 
 
+/* Get pages not to overflow if there are hidden elements waiting to be loaded/activated */
+html {
+  overflow-x: hidden;
+}
 
 /* ---------- BODY STYLES -------------------------------------------------------------------------------------------------------------*/
 
@@ -1656,7 +1662,10 @@ a.footer-link:hover {color: var(--kapa-blue);}
     -ms-overflow-style: none;
     padding-top: 3%;
     padding-bottom: 5%;
+    width: 100vw;
+    max-width: 100vw; 
 }
+
 .scrolling-gallery__container::-webkit-scrollbar {
     display: none;
 }
