@@ -1,8 +1,12 @@
+title: Sof Kapa Photography
+description: "Cinematic lifestyle photography in Melbourne"
+social_image: "/assets/social_images/social_share.png" # Default OG image
+url: "https://sofkapaphotography.com" # the base hostname & protocol for my site
 collections:
   posts:
     output: true
     permalink: /gallery/:slug 
-url: "https://sofkapaphotography.com" # the base hostname & protocol for my site
 plugins:
   - jekyll-sitemap
+
 
