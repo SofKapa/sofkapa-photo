@@ -235,6 +235,26 @@ $( document ).ready(function() {
 
 
 
+    // OVERRIDE FORMSPREE REDIRECT PAGE
+    $('#price-guide-form').on('submit', function (e) {
+      e.preventDefault(); // Stop default form submission
 
+      const form = this;
+      const formData = $(form).serialize();
+
+      $.ajax({
+        url: form.action,
+        method: form.method,
+        data: formData,
+        dataType: "json",
+        success: function () {
+          window.location.href = "/thank-you.html"; // Change this if needed
+        },
+        error: function () {
+          alert("Oops! There was a problem submitting the form.");
+        }
+      });
+
+    });
 
 });
