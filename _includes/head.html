@@ -34,10 +34,15 @@
 <!--  Social media sharing META Tags -->
 <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
 <meta property="og:description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}"> 
-<meta property="og:image" content="{{ page.seo.social_image | default: site.data.site-settings.seo.social_image }}">
+<meta property="og:image" content="{{ page.seo.social_image | default: site.data.site-settings.seo.social_image | absolute_url }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta name="twitter:card" content="{{ page.seo.twitter_card | default: site.data.site-settings.seo.twitter_card }}">
 <meta name="og:site_name" content="{{ site.data.site-settings.seo.site_name }}">
+<meta property="og:type" content="website" />
+<meta property="og:image:alt" content="{{ page.seo.social_image_alt | default: site.data.site-settings.seo.social_image_alt }}">
+<meta name="twitter:card" content="{{ page.seo.twitter_card | default: site.data.site-settings.seo.twitter_card }}">
+<meta name="twitter:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
+<meta name="twitter:description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}">
+<meta name="twitter:image" content="{{ (page.seo.social_image | default: site.data.site-settings.seo.social_image) | absolute_url }}">
 <link rel="icon" type="image/png" href="{{ site.data.site-settings.seo.favicon_image }}">
 
 <!-- Pinterest Meta Tags ------------>

@@ -3279,6 +3279,7 @@ apply to devices smaller than 1024px--------------------------------------------
 apply to devices smaller than 768px ---------------------------------------------------------------------------------------------------*/
 @media(max-width: 768px) {
 
+
 /* GENERAL STYLES ---------------------------------------- */
     .show-sm {display: block;}
     .hide-sm {display: none;}
@@ -3839,7 +3840,7 @@ apply to devices smaller than 768px --------------------------------------------
 apply to devices smaller than 576px ---------------------------------------------------------------------------------------------------*/
 @media(max-width: 576px) {
 
-    
+
 
 /* GENERAL STYLES ---------------------------------------- */
   .hide-xs {
