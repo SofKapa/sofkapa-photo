@@ -5,3 +5,4 @@ collections:
 url: "https://sofkapaphotography.com" # the base hostname & protocol for my site
 plugins:
   - jekyll-sitemap
+
