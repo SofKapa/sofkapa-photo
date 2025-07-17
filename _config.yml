@@ -1,6 +1,6 @@
 title: Sof Kapa Photography
 description: Cinematic lifestyle photography in Melbourne
-social_image: assets/social_images/social_banner_image.jpg
+social_image: /assets/social_images/social_banner_image.jpg
 url: "https://sofkapaphotography.com" # the base hostname & protocol for my site
 collections:
   posts:
