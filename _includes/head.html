@@ -19,17 +19,12 @@
 <!-- SEO METADATA --------------------------------------->
 <!-- General SEO -->
 <title> {{ page.seo.title | default: site.data.site-settings.seo.title }} </title> 
+
+
 <meta name="description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}">
 <meta name="keywords" content="{{ page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
 
-{% if page.seo.hide-from-google == true %}
-    <meta name="robots" content="noindex, nofollow">
-{% else %}
-    <meta name="robots" content="index, follow">
-{% endif %}
 
-<!-- Google Search Console Website Ownership Verification -->
-<meta name="google-site-verification" content="1-BVRD9KdHgAKIE9oq9uDip7T5dYi-JAG3l6oJMOlwM" />
 
 <!--  Social media sharing META Tags -->
 <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
@@ -46,6 +41,19 @@
 <meta name="twitter:image" content="{{ (page.seo.social_image | default: site.data.site-settings.seo.social_image) | absolute_url }}">
 
 <link rel="icon" type="image/png" href="{{ site.data.site-settings.seo.favicon_image }}">
+
+
+
+
+<!-- Google Page Indexation -->
+{% if page.seo.hide-from-google == true %}
+    <meta name="robots" content="noindex, nofollow">
+{% else %}
+    <meta name="robots" content="index, follow">
+{% endif %}
+
+<!-- Google Search Console Website Ownership Verification -->
+<meta name="google-site-verification" content="1-BVRD9KdHgAKIE9oq9uDip7T5dYi-JAG3l6oJMOlwM" />
 
 <!-- Pinterest Meta Tags ------------>
 <meta name="p:domain_verify" content="e6232f629ed53301b916672c4761039a"/>
