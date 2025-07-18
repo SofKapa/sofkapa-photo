@@ -1665,9 +1665,11 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
     scrollbar-width: none;
     -ms-overflow-style: none;
-    
+
     padding-top: 3%;
     padding-bottom: 5%;
+    padding-left: 1.5rem;
+    padding-right: 0.6rem; /* or whatever final card needs */
     width: 100vw;
     max-width: 100vw; 
 }
@@ -1688,7 +1690,7 @@ a.footer-link:hover {color: var(--kapa-blue);}
     box-sizing: content-box;  /* this may help prevent overflow issues */
 }
 .scrolling-gallery__card:first-child {
-    margin-left: 1.5rem;
+    margin-left: 0;
 }
 .scrolling-gallery__card:hover {
     box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2); 
