@@ -1692,12 +1692,24 @@ a.footer-link:hover {color: var(--kapa-blue);}
 .scrolling-gallery__card:first-child {
     margin-left: 0;
 }
-.scrolling-gallery__card:hover {
+
+/* .scrolling-gallery__card:hover {
     box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2); 
     transform: translateY(-10px);
     transition: transform 0.3s ease;
     border-radius: 25px;
- }
+ } */
+
+@media (hover: hover) and (pointer: fine) {
+  .scrolling-gallery__card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),
+                0 10px 10px -5px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+    border-radius: 25px;
+  }
+}
+
 
 .scrolling-gallery__image {
     display: block;
