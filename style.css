@@ -1650,16 +1650,22 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 .scrolling-gallery {
     padding: 3% 0;
-    overflow-x: auto;
+    /* overflow-x: auto; */
+      overflow: hidden; /* Disable all scrolling on parent */
 }
 
 .scrolling-gallery__container {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
+
+
+
     scrollbar-width: none;
     -ms-overflow-style: none;
+    
     padding-top: 3%;
     padding-bottom: 5%;
     width: 100vw;
@@ -1667,14 +1673,19 @@ a.footer-link:hover {color: var(--kapa-blue);}
 }
 
 .scrolling-gallery__container::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
     display: none;
+    background: transparent;
 }
+
 
 .scrolling-gallery__card {
     flex: 0 0 25%;
     margin-right: 1rem;
     border: 2px solid var(--kapa-featured);
     border-radius: 25px;
+    box-sizing: content-box;  /* this may help prevent overflow issues */
 }
 .scrolling-gallery__card:first-child {
     margin-left: 1.5rem;
