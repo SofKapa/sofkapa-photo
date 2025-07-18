@@ -2299,6 +2299,7 @@ ul {
     width: 100%;
     max-width: 250px;
     font-family: 'Mansory', sans-serif;
+    font-style: oblique;
     padding: 0.75rem;
     background-color: var(--kapa-blue);
     border: 2px solid white;
