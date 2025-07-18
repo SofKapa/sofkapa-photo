@@ -4530,17 +4530,33 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
-    .scroll-packages > div {
+    /* .scroll-packages > div {
         width: 80%;         /* shows most of one card + peek of the next */
         flex-shrink: 0;
-    }
+    } */
 
     #packages-page .handwritten-text-dark {font-size: 2.5rem;}
 
     #packages-page .package-title {font-size: 3rem;}
 
 
+    /* Test */
+    /* .scroll-packages {
+        flex-direction: column;
+        overflow-x: visible;
+        overflow-y: visible;
+        gap: 2rem;
+    }
 
+    .scroll-packages > div {
+        flex: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .package-card-shadow {
+        width: 100%;
+    } */
 
 
 /* ABOUT PAGE STYLES ------------------------------------ */
