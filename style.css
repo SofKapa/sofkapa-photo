@@ -1993,6 +1993,14 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     padding-bottom: 4%;
 }
 
+.package-section {
+    background-image: url(/assets/portrait/CAROLINA/towel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 65%; /* default desktop position */
+}
+
+
 
 #packages-page .scroll-arrow {
   display: flex;
@@ -3521,6 +3529,10 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
+    .package-section {
+        background-position: 0% 65%;
+    }
+
     #packages-page .featured-text-bold,
     #process-steps .featured-text-bold {font-size:1.2rem;}
 
@@ -4060,12 +4072,6 @@ apply to devices smaller than 576px --------------------------------------------
 
 
 
-
-
-
-
-
-
 /* SERVICES PAGE STYLES ---------------------------------- */
 
     .scrolling-gallery__card {
@@ -4151,6 +4157,11 @@ apply to devices smaller than 576px --------------------------------------------
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
+
+    .package-section {
+        background-position: 12% 65%; /* default desktop position */
+    }
+
 
     .scroll-packages > div {
         width: 70%;         /* shows most of one card + peek of the next */
@@ -4249,6 +4260,10 @@ apply to devices smaller than 576px --------------------------------------------
 
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
+
+    .package-section {
+        background-position: 35% 65%;
+    }
 
     .step-icon {
         display: none !important;
@@ -4548,6 +4563,13 @@ apply to devices smaller than 320px --------------------------------------------
         width: 80%;         /* shows most of one card + peek of the next
         flex-shrink: 0;
     } */
+
+    .scroll-packages {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .package-title {font-size: 3rem;}
 
 
 
