@@ -3,8 +3,8 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9M78DLKD8V"></script>
 
 
-<!-- Cookie Banner -->
-<div id="cookie-notice">
+<!-- Cookie Banner without "Decline" Option -->
+<!-- <div id="cookie-notice">
 
     <div class="cookie-notice-inner">
 
@@ -20,7 +20,33 @@
 
     </div>
      
+</div> -->
+
+
+<!-- Cookie Banner with "Decline" Option -->
+<div id="cookie-notice">
+  <div class="cookie-notice-inner">
+    <div class="cookie-text">
+      I value your privacy and to deliver the best browsing experience possible, my website uses cookies and similar tracking technologies. By approving this agreement, you automatically consent to the use of cookies.
+    </div>
+
+    <div class="cookie-buttons">
+      <a id="cookie-notice-accept" class="button">Approve</a>
+
+      <!-- <span class="button-separator">|</span> -->
+
+      <a href="/cookie-policy.html" class="button-subtle">More info</a>
+      <span class="button-separator">|</span>
+
+      <a id="cookie-notice-decline" class="button-subtle">Decline</a>
+    </div>
+  </div>
 </div>
+
+
+
+
+<!-- COOKIE BANNER ANIMATION --------------------------------------------------------------->
 
 
 <!-- Code that runs cookie banner -->
@@ -48,29 +74,33 @@
         createCookie(name,"",-1);
     }
 
-    if(readCookie('cookie-notice-dismissed')=='true') {
 
-        //Add tracking scripts here
-
-        // Check if cookie banner is working when testing
-        // alert('Tracking codes running');
-                
+    function runCookiedCodes() {
         {% include personal-tracking-scripts.js %}
-
-        //End tracking scripts here
-
-    } else {
-        document.getElementById('cookie-notice').style.display = 'block';
     }
-    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-        createCookie('cookie-notice-dismissed','true',31);
+
+    // Show banner after 30s delay
+    if (readCookie('cookie-notice-dismissed') !== 'true') {
+        setTimeout(() => {
+        document.getElementById('cookie-notice').classList.add('show');
+        }, 30000); // 30 seconds
+    } else {
+        runCookiedCodes();
+    }
+
+    // Approve
+    document.getElementById('cookie-notice-accept').addEventListener("click", function () {
+        createCookie('cookie-notice-dismissed', 'true', 31);
         document.getElementById('cookie-notice').style.display = 'none';
-        runCookiedCodes()
+        runCookiedCodes();
     });
-  
-    // document.querySelector("#close-cookie-banner").addEventListener("click", (e) => {
-        
-    //     document.querySelector("#cookie-notice").style.display = 'none';
-    // });
-  
-  </script>
+
+    // Decline
+    document.getElementById('cookie-notice-decline').addEventListener("click", function () {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        // Do NOT run tracking scripts
+    });
+
+
+    </script>

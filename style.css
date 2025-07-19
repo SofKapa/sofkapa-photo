@@ -2915,12 +2915,25 @@ p.quote-text {
 COOKIE BANNER
 ====================================================================================================================================== */
 
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 #cookie-notice {
   font-family: 'Mansory','Open Sans';
   font-style: italic;
   z-index: 930;
   padding: 1rem;
-  display: none;
+  display: block;
+  animation: slideUp 1s ease-out forwards;
   position: fixed;
   left: 0;
   right: 0;
@@ -2945,7 +2958,7 @@ COOKIE BANNER
 #cookie-notice a {
   display: inline-block;
   cursor: pointer;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
   text-decoration: none;
 }
 #cookie-notice a:hover {
@@ -2980,6 +2993,7 @@ COOKIE BANNER
     text-decoration: none;
     transition: all 0.3s ease;
     cursor: pointer;
+    margin-right: 1rem;
 }
 #cookie-notice-accept.button:hover {
     background-color: var(--kapa-blue);
@@ -3010,8 +3024,8 @@ COOKIE BANNER
   opacity: 0.6;
   font-weight: bold;
   font-size: 1rem;
-  font-style: normal;
-  padding: 0.5rem 1rem;
+  /* font-style: normal; */
+  /* padding: 0.5rem 1rem; */
 }
 
 #cookie-notice .button-separator {margin-bottom: 0rem;}
@@ -4573,6 +4587,7 @@ apply to devices smaller than 320px --------------------------------------------
         width: 80%;         /* shows most of one card + peek of the next
         flex-shrink: 0;
     } */
+    }
 
     .scroll-packages {
         padding-top: 15%;
@@ -4580,6 +4595,8 @@ apply to devices smaller than 320px --------------------------------------------
     }
 
     .package-title {font-size: 3rem;}
+
+    .signup-form input.email-input {text-align: center;}
 
 
 
@@ -4602,6 +4619,8 @@ apply to devices smaller than 320px --------------------------------------------
     .package-card-shadow {
         width: 100%;
     } */
+
+
 
 
 /* ABOUT PAGE STYLES ------------------------------------ */
