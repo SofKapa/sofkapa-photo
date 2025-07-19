@@ -1730,7 +1730,7 @@ a.footer-link:hover {color: var(--kapa-blue);}
     right: 0;
     height: 40%;
     background: linear-gradient(0deg, rgba(22,22,30,0.9) 3%, rgba(22,22,30,0) 100%);
-    border-radius: 25px;
+    /* border-radius: 25px; */
     z-index: 1;
 }
 
@@ -2138,6 +2138,17 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
+
+
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2), 0 10px 10px -5px rgba(0,0,0,0.2); 
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+  }
+}
+
 
 /* Best seller tag -------------------------------------------------- */
 
@@ -3801,6 +3812,7 @@ apply to devices smaller than 768px --------------------------------------------
 
     .scroll-packages {
         padding-top: 8%;
+        padding-bottom: 10%;
     }
 
     .signup-form .input-row {
@@ -4144,6 +4156,8 @@ apply to devices smaller than 576px --------------------------------------------
         width: 70%;         /* shows most of one card + peek of the next */
         flex-shrink: 0;
     }
+
+    #packages-page .handwritten-text-dark {font-size: 2.2rem;}
 
 
 
@@ -4530,14 +4544,13 @@ apply to devices smaller than 320px --------------------------------------------
 
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
-    /* .scroll-packages > div {
-        width: 80%;         /* shows most of one card + peek of the next */
+    .scroll-packages > div {
+        width: 80%;         /* shows most of one card + peek of the next
         flex-shrink: 0;
     } */
 
-    #packages-page .handwritten-text-dark {font-size: 2.5rem;}
 
-    #packages-page .package-title {font-size: 3rem;}
+
 
 
     /* Test */
