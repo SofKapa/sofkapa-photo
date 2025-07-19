@@ -1641,6 +1641,8 @@ a.footer-link:hover {color: var(--kapa-blue);}
 
 
 
+
+
 @keyframes arrow-pulse {
   0%, 100% { transform: translateX(0); opacity: 0.6; }
   50% { transform: translateX(6px); opacity: 1; }
@@ -2002,11 +2004,19 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
 
 
 
-#packages-page .scroll-arrow {
+#packages-page .scroll-arrow-white {
   display: flex;
   justify-content: center;
   margin-top: 2rem; /* space below the intro text */
 }
+
+.scroll-arrow-white img {
+    width: 15rem; /* adjust size */
+    height: auto;
+    opacity: 0.7;
+    animation: arrow-pulse 3s ease-in-out infinite;
+}
+
 
 #packages-page .white {
     margin-bottom: 3rem;
@@ -3270,7 +3280,7 @@ apply to devices smaller than 1024px--------------------------------------------
 /* PACKAGES PAGE STYLES ---------------------------------- */
 
 
-    #packages-page .scroll-arrow {
+    #packages-page .scroll-arrow-white {
         display: flex;
     }
 
