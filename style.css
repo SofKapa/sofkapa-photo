@@ -2034,11 +2034,7 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     display: flex;
     flex-direction: column;
 }
-.card:hover {
-    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2); 
-    transform: translateY(-10px);
-    transition: transform 0.3s ease;
- }
+
 
 .round-corners {
     border-radius: 25px;
@@ -2157,7 +2153,11 @@ picture.lg-img-wrap {padding-bottom: 3rem;}
     border-bottom-right-radius: 1rem;
 }
 
-
+/* .card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2),0 10px 10px -5px rgba(0,0,0,0.2); 
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+ } */
 
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
