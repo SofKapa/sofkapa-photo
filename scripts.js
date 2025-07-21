@@ -126,6 +126,10 @@ $( document ).ready(function() {
 
 
     // POP-UP GALLERY
+    const lgThumbnail = window.lgThumbnail;
+    const lgZoom = window.lgZoom;
+    const lgNavigation = window.lgNavigation;
+    
     lightGallery(document.getElementById('lightgallery'), {
         speed: 500,
         download: false,
@@ -296,24 +300,23 @@ $( document ).ready(function() {
     const $cookieNotice = $('#cookie-notice');
 
     if (readCookie('cookie-notice-dismissed') === 'true') {
-      $cookieNotice.hide();
+      $cookieNotice.remove(); // 💥 fully removes it from the DOM
       runCookiedCodes();
     } else {
       setTimeout(() => {
-        $cookieNotice.addClass('show');
+        $cookieNotice.addClass('show').show();
       }, 30000);
     }
 
     $('#cookie-notice-accept').on('click', function () {
       createCookie('cookie-notice-dismissed', 'true', 31);
-      $cookieNotice.hide();
+      $cookieNotice.remove(); // 🔁 change from .hide() to .remove()
       runCookiedCodes();
     });
 
     $('#cookie-notice-decline').on('click', function () {
       createCookie('cookie-notice-dismissed', 'true', 31);
-      $cookieNotice.hide();
-      // Don't run tracking scripts
+      $cookieNotice.remove(); // 🔁 ensures it never reappears
     });
 
 
