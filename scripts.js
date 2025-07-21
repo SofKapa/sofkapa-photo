@@ -130,11 +130,11 @@ $( document ).ready(function() {
         speed: 500,
         download: false,
         counter: false, // 🚫 disables the "1 / 37" image counter
+        plugins: [lgThumbnail, lgZoom, lgNavigation],
         mobileSettings: {
           showCloseIcon: true,     // ✅ show close button
         }
     });
-
 
 
 
