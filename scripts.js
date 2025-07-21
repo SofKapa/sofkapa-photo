@@ -125,7 +125,6 @@ $( document ).ready(function() {
 
 
 
-
     // POP-UP GALLERY
     lightGallery(document.getElementById('lightgallery'), {
         speed: 500,
@@ -135,7 +134,6 @@ $( document ).ready(function() {
           showCloseIcon: true,     // ✅ show close button
         }
     });
-
 
 
 
@@ -258,5 +256,65 @@ $( document ).ready(function() {
       });
 
     });
+
+
+
+    // COOKIE BANNER ANIMATION
+    function createCookie(name, value, days) {
+      let expires = "";
+      if (days) {
+        let date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function readCookie(name) {
+      const nameEQ = name + "=";
+      const ca = document.cookie.split(';');
+      for (let i = 0; i < ca.length; i++) {
+        let c = ca[i].trim();
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    }
+
+    function eraseCookie(name) {
+      createCookie(name, "", -1);
+    }
+
+    function runCookiedCodes() {
+      // Only run your tracking scripts if approved
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9M78DLKD8V');
+    }
+
+    const $cookieNotice = $('#cookie-notice');
+
+    if (readCookie('cookie-notice-dismissed') === 'true') {
+      $cookieNotice.hide();
+      runCookiedCodes();
+    } else {
+      setTimeout(() => {
+        $cookieNotice.addClass('show');
+      }, 30000);
+    }
+
+    $('#cookie-notice-accept').on('click', function () {
+      createCookie('cookie-notice-dismissed', 'true', 31);
+      $cookieNotice.hide();
+      runCookiedCodes();
+    });
+
+    $('#cookie-notice-decline').on('click', function () {
+      createCookie('cookie-notice-dismissed', 'true', 31);
+      $cookieNotice.hide();
+      // Don't run tracking scripts
+    });
+
 
 });
