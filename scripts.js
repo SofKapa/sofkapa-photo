@@ -301,7 +301,7 @@ $( document ).ready(function() {
     } else {
       setTimeout(() => {
         $cookieNotice.addClass('show').show();
-      }, 30000);
+      }, 3000);
     }
 
     $('#cookie-notice-accept').on('click', function () {
