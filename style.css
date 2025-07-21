@@ -2935,6 +2935,7 @@ COOKIE BANNER
   font-style: italic;
   z-index: 930;
   padding: 1rem;
+  padding-bottom: 5rem;  /* To allow clickability of buttons with hubspot live chat next to it */
   display: none; /* Hide by default */
   position: fixed;
   left: 0;
