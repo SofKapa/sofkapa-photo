@@ -126,18 +126,14 @@ $( document ).ready(function() {
 
 
     // POP-UP GALLERY
-    const lgThumbnail = window.lgThumbnail;
-    const lgZoom = window.lgZoom;
-    const lgNavigation = window.lgNavigation;
-    
+
     lightGallery(document.getElementById('lightgallery'), {
-        speed: 500,
-        download: false,
-        counter: false, // 🚫 disables the "1 / 37" image counter
-        plugins: [lgThumbnail, lgZoom, lgNavigation],
-        mobileSettings: {
-          showCloseIcon: true,     // ✅ show close button
-        }
+      speed: 500,
+      download: false,
+      counter: false,
+      mobileSettings: {
+        showCloseIcon: true,
+      }
     });
 
 

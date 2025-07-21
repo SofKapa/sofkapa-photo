@@ -78,6 +78,9 @@ body, a, button, input, textarea, .burger-button, .hover-target {
     background: url('/assets/cursor/cursor_kapafeatured.svg') no-repeat center/contain;
     z-index: 9999;
     transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), background 0.3s ease;
+    top: 0;          /* initial positioning */
+    left: 0;         /* initial positioning */
+    transform: translate(-50%, -50%); /* center the cursor around the pointer */
 }
   
 /* Hover effect: bigger and different color */
