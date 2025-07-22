@@ -1651,12 +1651,15 @@ a.footer-link:hover {color: var(--kapa-blue);}
   50% { transform: translateX(6px); opacity: 1; }
 }
 
+
+
 /* ---------- SCROLLING GALLERY ---------------------------------------------------------------- */
 
 .scrolling-gallery {
     padding: 3% 0;
     /* overflow-x: auto; */
-      overflow: hidden; /* Disable all scrolling on parent */
+    overflow: hidden; /* Disable all scrolling on parent */
+    position: relative;  /* For mouse scroll arrows to position correctly */
 }
 
 .scrolling-gallery__container {
@@ -1714,6 +1717,62 @@ a.footer-link:hover {color: var(--kapa-blue);}
     border-radius: 25px;
   }
 }
+
+
+
+/* Scroll on desktop with mouse */
+/* Show only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .only-desktop {
+    display: block;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .only-desktop {
+    display: none !important;
+  }
+}
+.scroll-buttons-desktop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+.scroll-buttons-desktop button {
+  pointer-events: all;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  background: rgba(170, 199, 203, 0.9); /* less transparent on hover */
+  border: 2px solid white;
+  border-radius: 8px; /* Instead of 25px — 25px on a 3rem (48px) box is too round */
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-buttons-desktop button:hover {
+    background: rgba(254, 101, 79, 0.7); /* 70% opacity for visibility */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border: 2px solid white;
+}
+
+.scroll-buttons-desktop .scroll-left {
+  left: 1rem;
+}
+
+.scroll-buttons-desktop .scroll-right {
+  right: 1rem;
+}
+
+/* -- end of mouse arrows -- */
+
 
 
 .scrolling-gallery__image {
@@ -2919,16 +2978,6 @@ COOKIE BANNER
 ====================================================================================================================================== */
 
 
-/* @keyframes slideUp {
-  from {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
 
 @keyframes slideUp {
     from {
@@ -2960,10 +3009,6 @@ COOKIE BANNER
 }
 
 /* Show banner when .show class is added, with animation */
-/* #cookie-notice.show {
-  display: block;
-  animation: slideUp 1s ease-out forwards;
-} */
 #cookie-notice.show {
   display: block;
   animation: slideUp 1s ease-out forwards;

@@ -92,6 +92,65 @@ $( document ).ready(function() {
 
 
 
+
+
+    // SCROLL FOR GALLERIES ON DESKTOP WITH MOUSE
+    setTimeout(function () {
+      if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+        const $container = $('.scrolling-gallery__container');
+        if (!$container.length) return;
+
+        const containerEl = $container[0];
+
+        // Use passive: false only if necessary
+        containerEl.addEventListener('wheel', function (e) {
+          // Skip if modifier keys (prevent accidental interference)
+          if (e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
+
+          // Avoid using preventDefault to protect custom cursor
+          if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+            containerEl.scrollBy({
+              left: e.deltaY,
+              behavior: 'smooth'
+            });
+          }
+        });
+
+        // Optional: Scroll buttons
+        $('.scroll-left').on('click', function () {
+          containerEl.scrollBy({ left: -400, behavior: 'smooth' });
+        });
+
+        $('.scroll-right').on('click', function () {
+          containerEl.scrollBy({ left: 400, behavior: 'smooth' });
+        });
+      }
+    }, 100); // Delay slightly to avoid cursor conflicts
+
+    function positionScrollButtons() {
+      const container = document.querySelector('.scrolling-gallery__container');
+      const buttons = document.querySelector('.scroll-buttons-desktop');
+
+      if (container && buttons) {
+        const containerRect = container.getBoundingClientRect();
+        const containerHeight = containerRect.height;
+
+        // Align buttons to middle of scroll container
+        buttons.style.top = `${container.offsetTop + containerHeight / 2}px`;
+        buttons.style.transform = 'translateY(-50%)';
+      }
+    }
+
+    // Call on load and on resize
+    window.addEventListener('load', positionScrollButtons);
+    window.addEventListener('resize', positionScrollButtons);
+
+
+
+
+    
+
+
     // STEPS OF THE PROCESS APPEARING FROM LEFT AND RIGHT
     // Select all .step elements
     const steps = document.querySelectorAll('.step');
@@ -216,7 +275,7 @@ $( document ).ready(function() {
     // CURSOR SCRIPTS
     const cursor = document.querySelector('.custom-cursor');
 
-    document.addEventListener('mousemove', e => {
+    document.addEventListener('pointermove', e => {
       cursor.style.left = e.clientX + 'px';
       cursor.style.top = e.clientY + 'px';
     });
