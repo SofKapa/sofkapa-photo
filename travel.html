@@ -38,6 +38,12 @@ seo:
     <img src="/assets/arrows/scroll-arrow.svg" alt="Scroll indicator" />
   </div>
 
+  <!-- Mouse scroll arrows -->
+  <div class="scroll-buttons-desktop only-desktop">
+    <button class="scroll-left" aria-label="Scroll left">‹</button>
+    <button class="scroll-right" aria-label="Scroll right">›</button>
+  </div>
+
   <div class="scrolling-gallery__container">
     {% assign travel-posts = site.posts | where: 'main_category', 'travel' %}
     {% for post in travel-posts %}
