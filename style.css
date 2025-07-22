@@ -1723,9 +1723,12 @@ a.footer-link:hover {color: var(--kapa-blue);}
 /* Scroll on desktop with mouse */
 /* Show only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
-  .only-desktop {
-    display: block;
-  }
+    .only-desktop {
+        display: block;
+    }
+    .only-touch {
+        display: none !important;
+    }
 }
 
 @media (hover: none) and (pointer: coarse) {
