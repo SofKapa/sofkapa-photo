@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: false
 main_category: food
 main_category_url: /food.html
-categories: [small business, artisan, documentary, behind the scenes]
+categories: [small business, artisan, documentary, behind the scenes, hidden_gallery]
 tags: [brand photography, artisan photography, Melbourne small business, documentary photography, shoe repair branding, old craft, Sof Kapa Photography]
 cover_image: /assets/portrait/PETERCALLEA/squarecobbler.jpg
 featured_image: /assets/portrait/PETERCALLEA/squarecobbler.jpg

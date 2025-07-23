@@ -3,13 +3,18 @@ layout: default
 ---
 
 
-
 <!-- Gallery Section -->
 <section class="tall-100 border-b padded-b-3" id="gallery-section">
 
   <!-- Sticky top banner labels -->
+  <!-- <p class="sticky featured-text-bold gradient border-b gallery-banner">
+     {{ page.categories | reject: "hidden_gallery" | join: ' | ' }}
+  </p> -->
+
+  <!-- Sticky top banner labels -->
   <p class="sticky featured-text-bold gradient border-b gallery-banner">
-    {{ page.categories | join: ' | ' }}
+    {% assign visible_categories = page.categories | where_exp: "cat", "cat != 'hidden_gallery'" %}
+    {{ visible_categories | join: ' | ' }}
   </p>
 
 

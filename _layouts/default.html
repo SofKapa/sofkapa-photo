@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="{% if page.categories contains 'hidden_gallery' %}gallery-page{% endif %}">
 
 
 <head>
@@ -14,7 +14,7 @@
 
 
 <!-- This is the body -->
-<body>
+<body class="{% if page.categories contains 'hidden_gallery' %}gallery-page{% endif %}">
 
 <!-- Custom cursor -->
 

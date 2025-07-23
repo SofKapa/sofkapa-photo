@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: false
 main_category: portrait
 main_category_url: /portrait.html
-categories: [family, outdoor session, pets, lifestyle photography]
+categories: [family, outdoor session, pets, lifestyle photography, hidden_gallery]
 tags: [family photography, baby and dog photoshoot, golden hour session, natural family photography, Melbourne family photographer,  picnic photography, Sof Kapa Photography]
 cover_image: /assets/portrait/PICNICFAMILY/picnic_basket.jpg
 featured_image: /assets/portrait/PICNICFAMILY/family_picnic_in_park_with_dog.jpg

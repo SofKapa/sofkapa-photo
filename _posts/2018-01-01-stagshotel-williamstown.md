@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: false
 main_category: food 
 main_category_url: /food.html
-categories: [pub, food, hospitality]
+categories: [pub, food, hospitality, hidden_gallery]
 tags: [Melbourne pub photography, hospitality photographer, bar and food imagery, Sof Kapa Photography]
 cover_image: /assets/brands/STAGS/antipastoboard.jpg
 featured_image: /assets/brands/STAGS/chapies.jpg

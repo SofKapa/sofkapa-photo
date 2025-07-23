@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: false
 main_category: portrait
 main_category_url: /portrait.html
-categories: [family, generational, beach session, sunset]
+categories: [family, generational, beach session, sunset, hidden_gallery]
 tags: [three generation photoshoot, family beach photography, Melbourne family photographer, baby and grandmother shoot, sunset family session]
 cover_image: /assets/portrait/FAMILYSUNSETBEACH/baby_boy_doing_tummy_time_at_grassy_location.jpg
 bg_position: 60% 50%

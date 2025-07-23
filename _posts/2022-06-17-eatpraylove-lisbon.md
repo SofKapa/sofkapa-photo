@@ -6,7 +6,7 @@ location: Lisbon, Portugal
 featured: false
 main_category: food
 main_category_url: /food.html
-categories:  [restaurant, brands, lifestyle]
+categories:  [restaurant, brands, lifestyle, hidden_gallery]
 tags: [wellness photography, café branding, food photography, natural light, Lisbon brunch, yoga studio, calm spaces, brand storytelling, lifestyle photography, slow living, Sof Kapa Photography]
 cover_image: /assets/brands/EPL/sofiagarcio.jpg
 featured_image: /assets/brands/EPL/cutefamily.jpg

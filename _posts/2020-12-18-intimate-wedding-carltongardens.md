@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: true
 main_category: portrait
 main_category_url: /portrait.html
-categories: [weddings, elopement, intimate ceremonies]
+categories: [weddings, elopement, intimate ceremonies, hidden_gallery]
 tags: [Melbourne small wedding photographer, Carlton Gardens wedding, intimate wedding photography, elopement photographer, natural light wedding, storytelling photographer]
 cover_image: /assets/portrait/PIAANDGONZO/flowers.jpg
 featured_image: /assets/portrait/PIAANDGONZO/cheers.jpg

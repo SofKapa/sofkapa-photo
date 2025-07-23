@@ -6,7 +6,7 @@ location: Lisbon, Portugal
 featured: false
 main_category: portrait
 main_category_url: /portrait.html
-categories: [lifestyle, maternity, beach session]
+categories: [lifestyle, maternity, beach session, hidden_gallery]
 tags: [maternity photography, beach maternity session, natural light photographer, storytelling photography, Melbourne maternity photographer, Sof Kapa Photography]
 cover_image: /assets/portrait/CAROLINA/favourite.jpg
 bg_position: 50% 100%

@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: false
 main_category: portrait
 main_category_url: /portrait.html
-categories: [family, in-home session, lifestyle]
+categories: [family, in-home session, lifestyle, hidden_gallery]
 tags:  [melbourne family photographer, in-home baby photos, candid family photography, baby girl, relaxed family photoshoot, natural light photography]
 cover_image: /assets/portrait/INHOMEFAMILY/reflection_parents_feeding_baby_bottle.jpg
 bg_position: 33% 50%

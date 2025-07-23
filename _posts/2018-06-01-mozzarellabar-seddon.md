@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: false
 main_category: food
 main_category_url: /food.html
-categories: [hospitality, food, interior]
+categories: [hospitality, food, interior, hidden_gallery]
 tags: [Melbourne food photography, lifestyle photography, small business branding, restaurant interior photography, Sof Kapa Photography]
 cover_image: /assets/brands/MOZZA/littlegirls.jpg
 featured_image: /assets/brands/MOZZA/pizzainair.jpg

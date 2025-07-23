@@ -6,7 +6,7 @@ location: Vietnam
 featured: true
 main_category: travel
 main_category_url: /travel.html
-categories: [lifestyle, documentary, Southeast Asia]
+categories: [lifestyle, documentary, Southeast Asia, hidden_gallery]
 tags: [Vietnam photography, tropical travel photography, Southeast Asia photographer, documentary lifestyle, Sof Kapa Photography]
 cover_image: /assets/travel/VIETNAM/foodtruckladies.jpg
 featured_image: /assets/travel/VIETNAM/girllanterns.jpg

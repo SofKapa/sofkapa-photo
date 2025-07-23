@@ -6,7 +6,7 @@ location: Lisbon, Portugal
 featured: true
 main_category: food
 main_category_url: /food.html
-categories: [hospitality, music venues, nightlife]
+categories: [hospitality, music venues, nightlife, hidden_gallery]
 tags: [moody photography, cocktail bar, live music, bar branding, ambient lighting, Lisbon nightlife, creative spaces, event photography, low-light photography, brand storytelling, Sof Kapa Photography]
 cover_image: /assets/brands/BMV/bartenderserving.jpg
 featured_image: /assets/brands/BMV/bartenderserving.jpg

@@ -6,7 +6,7 @@ location: Melbourne, Australia
 featured: false
 main_category: food
 main_category_url: /food.html
-categories: [cafe, lifestyle, small business]
+categories: [cafe, lifestyle, small business, hidden_gallery]
 tags: [Melbourne café photographer, hospitality branding, lifestyle photography, soft light photography, Sof Kapa Photography]
 cover_image: /assets/brands/WOVEN/cappuccino.jpg
 cover_image: /assets/brands/WOVEN/beetrootlatte.jpg

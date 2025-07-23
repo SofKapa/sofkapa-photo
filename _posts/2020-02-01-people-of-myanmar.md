@@ -6,7 +6,7 @@ location: Myanmar
 featured: false
 main_category: travel
 main_category_url: /travel.html
-categories: [lifestyle, documentary, Southeast Asia]
+categories: [lifestyle, documentary, Southeast Asia, hidden_gallery]
 tags: [Myanmar photography, Southeast Asia travel, cultural portraits, people photography, documentary style, Sof Kapa Photography]
 cover_image: /assets/travel/MYANMAR/twoladieslooking.jpg
 featured_image: /assets/travel/MYANMAR/threemonks.jpg

@@ -6,7 +6,7 @@ location: New Zealand
 featured: false
 main_category: travel
 main_category_url: /travel.html
-categories: [landscape, nature, oceania]
+categories: [landscape, nature, oceania, hidden_gallery]
 tags: [New Zealand photography, landscape photography, nature photographer, South Island NZ, North Island NZ, travel photography, Sof Kapa Photography]
 cover_image: /assets/travel/NEWZEALAND/mountcookview.jpg
 featured_image: /assets/travel/NEWZEALAND/tongariro4.jpg

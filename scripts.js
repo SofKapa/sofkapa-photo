@@ -195,7 +195,19 @@ $( document ).ready(function() {
       }
     });
 
+    // When gallery opens, add class
+    document.addEventListener('lgAfterOpen', () => {
+      document.body.classList.add('lg-open');
+    });
 
+    // When gallery closes, remove class
+    document.addEventListener('lgAfterClose', () => {
+      document.body.classList.remove('lg-open');
+    });
+
+
+
+    
 
       // SLICK SLIDER - ABOUT IMAGES
     $('.slider-container').slick({

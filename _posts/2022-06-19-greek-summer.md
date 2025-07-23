@@ -6,7 +6,7 @@ location: Greece
 featured: false
 main_category: travel
 main_category_url: /travel.html
-categories: [lifestyle, storytelling, Europe]
+categories: [lifestyle, storytelling, Europe, hidden_gallery]
 tags: [Greece travel photography, lifestyle photographer, golden hour photography, Mediterranean textures, documentary style, Sof Kapa Photography]
 cover_image: /assets/personal/greece/greekchairs.jpg
 cover_image: /assets/travel/GREECE/manstairs.jpg

@@ -6,7 +6,7 @@ location: Lisbon, Portugal
 featured: false
 main_category: food
 main_category_url: /food.html
-categories: [brands, restaurant, music venues]
+categories: [brands, restaurant, music venues, hidden_gallery]
 tags: [restaurant photography, Lisbon food scene, event photography, hospitality photography, Sof Kapa Photography]
 cover_image: /assets/brands/LECHAT/moscowmule.jpg
 featured_image: /assets/brands/LECHAT/yellowlady.jpg
