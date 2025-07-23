@@ -4,7 +4,7 @@ title: Melbourne’s Hidden Makers
 description: A photo series capturing the textures, tools, and timeless atmosphere of a traditional shoe repair shop in Melbourne's Inner West — highlighting the story of decades of craftmanship and the beauty of honest work through a documentary lens. 
 location: Melbourne, Australia
 featured: false
-main_category: food
+main_category: makers
 main_category_url: /food.html
 categories: [small business, artisan, documentary, behind the scenes, hidden_gallery]
 tags: [brand photography, artisan photography, Melbourne small business, documentary photography, shoe repair branding, old craft, Sof Kapa Photography]

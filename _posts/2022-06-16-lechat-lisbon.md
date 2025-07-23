@@ -4,7 +4,7 @@ title: Stories Driven by Light & Space
 description: A collection of warm-toned lifestyle and hospitality photos showcasing vibrant food, cocktails, and ambient moments at a riverside Lisbon venue. Perfect for brands seeking natural, storytelling visuals.
 location: Lisbon, Portugal
 featured: false
-main_category: food
+main_category: makers
 main_category_url: /food.html
 categories: [brands, restaurant, music venues, hidden_gallery]
 tags: [restaurant photography, Lisbon food scene, event photography, hospitality photography, Sof Kapa Photography]

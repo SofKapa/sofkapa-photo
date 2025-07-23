@@ -4,7 +4,7 @@ title: Italian Cozy Food & Interiors
 description: A cozy and intimate set of lifestyle photos featuring natural light, fresh food styling, and inviting interior scenes — captured in a small Melbourne eatery. 
 location: Melbourne, Australia
 featured: false
-main_category: food
+main_category: makers
 main_category_url: /food.html
 categories: [hospitality, food, interior, hidden_gallery]
 tags: [Melbourne food photography, lifestyle photography, small business branding, restaurant interior photography, Sof Kapa Photography]

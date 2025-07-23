@@ -74,7 +74,7 @@ seo:
   <div class="scrolling-gallery__container">
 
 
-    {% assign food-posts = site.posts | where: 'main_category', 'food' %}
+    {% assign food-posts = site.posts | where: 'main_category', 'makers' %}
     {% for post in food-posts %}
       <div class="scrolling-gallery__card">
         <a href="{{ post.url }}"

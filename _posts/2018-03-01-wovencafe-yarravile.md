@@ -4,7 +4,7 @@ title: Café Lifestyle Shoot
 description: A relaxed, inviting set of lifestyle and brand images featuring cozy café moments, artisanal food, natural textures, and morning light — perfect for small business and hospitality storytelling.
 location: Melbourne, Australia
 featured: false
-main_category: food
+main_category: makers
 main_category_url: /food.html
 categories: [cafe, lifestyle, small business, hidden_gallery]
 tags: [Melbourne café photographer, hospitality branding, lifestyle photography, soft light photography, Sof Kapa Photography]

@@ -4,7 +4,7 @@ title: Wellness Meets Brunch in Lisbon
 description: This light-filled holistic cafe in Lisbon blends nourishing food, soulful spaces, and restorative wellness classes. Through photography, we captured its warm atmosphere, vibrant brunches, and the calm energy that defines its brand. 
 location: Lisbon, Portugal
 featured: false
-main_category: food
+main_category: makers
 main_category_url: /food.html
 categories:  [restaurant, brands, lifestyle, hidden_gallery]
 tags: [wellness photography, café branding, food photography, natural light, Lisbon brunch, yoga studio, calm spaces, brand storytelling, lifestyle photography, slow living, Sof Kapa Photography]

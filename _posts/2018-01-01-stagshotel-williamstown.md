@@ -4,7 +4,7 @@ title: Classic Pub & Hospitality Photos
 description: A relaxed and character-filled gallery capturing classic pub food, pints, and lively local gathering in a warm, welcoming setting — ideal for traditional hospitality brands and local venues.
 location: Melbourne, Australia
 featured: false
-main_category: food 
+main_category: makers
 main_category_url: /food.html
 categories: [pub, food, hospitality, hidden_gallery]
 tags: [Melbourne pub photography, hospitality photographer, bar and food imagery, Sof Kapa Photography]
