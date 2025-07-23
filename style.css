@@ -52,14 +52,12 @@ html {
 }  */
 
 
-
 body {
   color: var(--dark-text);
   font-family: 'Open Sans', sans-serif;
   background-color: var(--kapa-background);
   cursor: none;
   max-width: 100%;
-  /* overflow-x: hidden;      reinforce horizontal scroll hidden */
   overflow-y: visible;     /* prevent vertical clipping */
 }
 
@@ -70,7 +68,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Gallery-specific override — must come AFTER */
+/* Gallery-specific override — must come AFTER | For sticky to work */
 html.gallery-page,
 body.gallery-page {
   overflow-x: visible !important;
