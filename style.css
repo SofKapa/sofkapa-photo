@@ -925,9 +925,9 @@ p a:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .cta-button:hover {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: rgba(227, 213, 202, 0.5); 
     color: var(--kapa-featured);
-
     box-shadow: rgba(	254, 101, 79, 0.8) 0px 3px 8px;
 }
 
@@ -2950,6 +2950,7 @@ ENQUIRY FORM
 /* --- Form Container --- */
 .form-container {
     padding: 2rem;
+    padding-bottom:4rem;
 }
 
 .inquiry-form {
@@ -2985,10 +2986,17 @@ ENQUIRY FORM
   width: 100%;
   padding: 0.8rem 1rem;
   margin-bottom: 1.5rem;
-  border: 1px solid var(--kapa-background);
+  border: 2px solid white;
   border-radius: 0.75rem;
   font-size: 1rem;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing:3.5px;
+  background-color: rgba(227, 213, 202, 0.5); 
 }
 
 .inquiry-form input:focus,
@@ -3001,25 +3009,66 @@ ENQUIRY FORM
 
 /* --- Button --- */
 .inquiry-form button {
-  display: block;       /* block so margins can apply */
-  margin: 1rem auto 0;  /* auto left/right centers it */
-  background: #222;
-  color: #fff;
+  display: block;       
+  margin: 1rem auto; 
+  background: var(--kapa-featured);
+  color:  var(--kapa-background);
   padding: 0.9rem 1.8rem;
   font-size: 1rem;
   font-weight: 600;
   border: none;
-  border-radius: 9999px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-family: 'Mansory Regular', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 
 .inquiry-form button:hover {
-  background: #444;
-  transform: translateY(-2px);
+  /* background: #444;
+  transform: translateY(-2px); */
+  background-color: rgba(227, 213, 202, 0.5); 
+  color: var(--kapa-featured);
+  box-shadow: rgba(	254, 101, 79, 0.8) 0px 3px 8px
 }
 
 
+/* --- Dropdown (Select) --- */
+.inquiry-form select {
+  /* width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 2px solid white;
+  border-radius: 0.75rem;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(6px); */
+  color: var(--kapa-dark);
+  appearance: none; /* removes default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  transition: border 0.3s ease, background 0.3s ease;
+
+  /* Arrow */
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 16px;
+  padding-right: 2.5rem; /* space for arrow */
+}
+
+/* Placeholder text */
+/* Style placeholder text for all inputs in your form */
+.inquiry-form input::placeholder,
+.inquiry-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6); /* lighter for placeholder */
+  font-family: 'Mansory', sans-serif;
+  text-transform: capitalize;
+  font-style: italic;              /* optional */
+}
 
 /* ======================================================================================================================================
  SCROLLING BANNER CTA - BOOK NOW
