@@ -319,7 +319,7 @@ $( document ).ready(function() {
         data: formData,
         dataType: "json",
         success: function () {
-          window.location.href = "/thank-you.html"; // Change this if needed
+          window.location.href = "/thank-you-pricing.html"; // Change this if needed
         },
         error: function () {
           alert("Oops! There was a problem submitting the form.");
