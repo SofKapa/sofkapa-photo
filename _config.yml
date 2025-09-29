@@ -41,7 +41,7 @@ plugins:
 
 
 # Permalinks & output
-permalink: pretty
+# permalink: pretty
 future: false
 
 collections:
