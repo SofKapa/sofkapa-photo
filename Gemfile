@@ -15,5 +15,5 @@ gem 'jekyll-feed'
 
 # Optional but useful
 gem 'jekyll-paginate-v2'
-gem 'jekyll-assets'
+# gem 'jekyll-assets'
 gem 'jekyll-redirect-from'

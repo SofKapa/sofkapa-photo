@@ -37,7 +37,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2   # enable if you need pagination for many galleries
   - jekyll-redirect-from # enable if you ever rename URLs
-  - jekyll-assets        # enable for image optimisation
+  # - jekyll-assets        # enable for image optimisation
 
 
 # Permalinks & output
