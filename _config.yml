@@ -1,12 +1,72 @@
-title: Sof Kapa Photography
-description: Cinematic lifestyle photography in Melbourne
-social_image: /assets/social_images/social_banner_image.jpg
-url: "https://sofkapaphotography.com" # the base hostname & protocol for my site
+# Site settings
+title: "Sof Kapa Photography"
+tagline: "Cinematic Lifestyle Photography in Melbourne"
+description: "Melbourne lifestyle photographer specialising in portraits, food, and travel. Cinematic photography for families, newborns, maternity, small weddings, food, drinks, artisans, events, and travel."
+url: "https://sofkapaphotography.com"   # your live domain
+baseurl: ""                             # leave blank if site is served from root
+
+# Author info
+author:
+  name: "Sof Kapa"
+  url: "https://sofkapaphotography.com"
+
+# SEO and social
+logo: "/assets/logos/header-logo.svg"
+image: "/assets/social_images/social_banner_image.jpg"
+
+
+twitter:
+  username: "  "  # update if you have one
+  card: summary_large_image
+
+facebook:
+  publisher: "https://www.facebook.com/sofkapaphoto"   # update with your FB page
+  app_id:    ""   # optional if you own a Facebook App
+
+social:
+  name: "Sof Kapa Photography"
+  links:
+    - https://www.instagram.com/sofkapaphotography
+    - https://www.facebook.com/sofkapaphoto
+    # - https://twitter.com/sofkapaphoto   # optional
+
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
+# Permalinks & output
+permalink: pretty
+future: false
+
 collections:
   posts:
     output: true
     permalink: /gallery/:slug 
-plugins:
-  - jekyll-sitemap
+
+
+# Defaults (front matter defaults)
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      seo_description_max_words: 160
+
+# Markdown & Liquid settings
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - tmp/
+  - _drafts/
 
 
