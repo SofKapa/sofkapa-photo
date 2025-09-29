@@ -11,9 +11,9 @@ author:
   url: "https://sofkapaphotography.com"
 
 # SEO and social
-image: "https://sofkapaphotography.com/assets/social_images/social_banner_image.jpg?v=2"
-
-
+seo:
+  social_image: "/assets/social_images/social_banner_image.jpg?v=2"
+  social_image_alt: "Sof Kapa Photography Banner"
 
 twitter:
   username: "  "  # update if you have one
