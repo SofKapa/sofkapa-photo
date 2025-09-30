@@ -16,38 +16,11 @@
 <link rel="manifest" href="/favicon/site.webmanifest" />
 
 
-<!-- SEO METADATA --------------------------------------->
-<!-- Force Facebook to use correct image -->
-<meta property="og:image" content="{{ page.seo.social_image | absolute_url }}">
-<meta property="og:image:alt" content="{{ page.seo.social_image_alt }}">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-
-<meta name="twitter:image" content="{{ page.seo.twitter_image | absolute_url }}">
-
+<!-- Jekyll SEO Tag - generates all meta tags including og:image, twitter:image -->
 {% seo %}
 
 <!-- General SEO -->
-<title> {{ page.seo.title | default: site.data.site-settings.seo.title }} </title> 
-
-
-<meta name="description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}">
-<meta name="keywords" content="{{ page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
-
-
-
-<!--  Social media sharing META Tags -->
-<meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
-<meta property="og:description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}"> 
-<meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta name="og:site_name" content="{{ site.data.site-settings.seo.site_name }}">
-<meta property="og:type" content="website" />
-
-
-<meta name="twitter:card" content="{{ page.seo.twitter_card | default: site.data.site-settings.seo.twitter_card }}">
-<meta name="twitter:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
-<meta name="twitter:description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}">
+<!-- <title> {{ page.seo.title | default: site.data.site-settings.seo.title }} </title>  -->
 
 <link rel="icon" type="image/png" href="{{ site.data.site-settings.seo.favicon_image }}">
 
@@ -62,7 +35,7 @@
 <!-- Google Search Console Website Ownership Verification -->
 <meta name="google-site-verification" content="1-BVRD9KdHgAKIE9oq9uDip7T5dYi-JAG3l6oJMOlwM" />
 
-<!-- Pinterest Meta Tags ------------>
+<!-- Pinterest Verification / Meta Tags ------------>
 <meta name="p:domain_verify" content="e6232f629ed53301b916672c4761039a"/>
 <meta property="article:author" content="{{ page.author | default: site.seo.author }}" />
 
@@ -71,7 +44,7 @@
 <!-- Fontawesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-<!-- Grid Stylesheet -->
+<!-- Gridlex Stylesheet -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     
 <!-- Google Fonts -->
@@ -79,13 +52,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,800&display=swap" rel="stylesheet">
     
-<!-- Lightgallery for pop-up galleries -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css" integrity="sha512-7xAjdVc23n18sYEAZKa79271IRUS1XzylIyJ8feyXvjrbbr4oId92993EiGTAP63Ob6KplRnmbNmBOg6bpLjYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     -->
 <!-- LightGallery bundle CSS and JS (includes all plugins) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
-
 
 <!-- Slick - Sliding galleries/testimonials -->
 <!--- Main CSS that handles all the functionality --->
