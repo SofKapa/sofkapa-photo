@@ -16,17 +16,28 @@
 <link rel="manifest" href="/favicon/site.webmanifest" />
 
 
+
+<!-- Explicit sharing meta to force correct social preview -->
+{% if page.seo and page.seo.image %}
+  <meta property="og:image" content="{{ page.seo.image | absolute_url }}">
+  <meta property="og:image:alt" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:image" content="{{ page.seo.image | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+{% elsif page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  <meta property="og:image:alt" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+{% elsif site.seo and site.seo.image %}
+  <meta property="og:image" content="{{ site.seo.image | absolute_url }}">
+  <meta property="og:image:alt" content="{{ site.title }}">
+  <meta name="twitter:image" content="{{ site.seo.image | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+{% endif %}
+
 <!-- Jekyll SEO Tag - generates all meta tags including og:image, twitter:image -->
 {% seo %}
 
-<!-- Social Share Image -->
-<!-- {% if page.image %}
-  <meta property="og:image" content="{{ page.image | absolute_url }}">
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
-{% elsif site.image %}
-  <meta property="og:image" content="{{ site.image | absolute_url }}">
-  <meta name="twitter:image" content="{{ site.image | absolute_url }}">
-{% endif %} -->
 
 <!-- General SEO -->
 <!-- <title> {{ page.seo.title | default: site.data.site-settings.seo.title }} </title>  -->
