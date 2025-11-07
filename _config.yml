@@ -4,7 +4,7 @@ tagline: "Cinematic Lifestyle Photography in Melbourne"
 description: "Melbourne lifestyle photographer specialising in portraits, food, and travel. Cinematic photography for families, newborns, maternity, small weddings, food, drinks, artisans, events, and travel."
 url: "https://sofkapaphotography.com"   # your live domain
 baseurl: ""                             # leave blank if site is served from root
-image: assets/social_sharing/new_social-banner_2025.jpg
+image: /assets/social_sharing/new_social-banner_2025.jpg
 
 # Author info
 author:
