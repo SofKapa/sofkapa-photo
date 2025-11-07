@@ -13,7 +13,7 @@ author:
 
 # SEO and social
 seo:
-  image: assets/social_sharing/new_social-banner_2025.jpg
+  image: "assets/social_sharing/new_social-banner_2025.jpg"
   social_image: "assets/social_sharing/new_social-banner_2025.jpg"
   social_image_alt: "Sof Kapa Photography Banner"
 
