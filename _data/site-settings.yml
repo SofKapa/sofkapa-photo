@@ -3,13 +3,13 @@ seo:
   title: Sof Kapa Photography | Melbourne Lifestyle Photographer
   description: Melbourne based lifestyle photographer working with people and brands
   keywords: photography, photographer, melbourne, brand, lifestyle, food, travel, street, small business
-  social_image: assets/social_sharing/new_social-banner_2025.jpg
-  social_image_alt: Sof Kapa Photography Banner
+  image: assets/social_sharing/new_social-banner_2025.jpg
+  image_alt: Sof Kapa Photography Banner
   author: Sof Kapa
   favicon_image: /favicon/favicon.ico
 _comments: 
   title: Max 70 characters
-  social_image: Landscape 1200 x 600 px
+  image: Landscape 1200 x 600 px
 social:
   instagram_username: sofkapa_photo
   facebook_url:
