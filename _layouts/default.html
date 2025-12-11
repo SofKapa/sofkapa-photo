@@ -3,7 +3,6 @@
 
 
 <head>
-{% include cookie-banner.html %} 
     
 <!-- This is the head - External Links & Ressources ---------->
 {% include head.html %}
@@ -15,6 +14,8 @@
 
 <!-- This is the body -->
 <body class="{% if page.categories contains 'hidden_gallery' %}gallery-page{% endif %}">
+
+{% include cookie-banner.html %} 
 
 <!-- Custom cursor -->
 
