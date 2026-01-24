@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A laid-back micro-Wedding ceremony set in the Australian Bush
+title: A micro-Wedding ceremony set in the Australian Bush
 description: Snapshots of a deeply personal celebration held in a bushy pocket of Australia, framed by native trees and open space behind a local pub 
 location: Melbourne, Australia
 featured: false
@@ -19,119 +19,105 @@ seo:
 gallery:
   - column-size: col-12
     aspect-ratio: landscape-wide
-    background_image: /assets/portrait/PIAANDGONZO/group2.jpg
-    alt: Small wedding ceremony in a public park
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/closeup-of-bride-and-groom-holding-hands.jpg
+    alt: Close-up of bridge and groom holding hands
+
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/pia.jpg
-    alt: Bohemian bride with floral crown in a park
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-couple-laughing.jpg
+    alt: Bride and groom candid laughs
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/flowers.jpg
-    alt: Clover wedding flower bouquet and wedding vows envelope
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-decorations-motion-blur.jpg
+    alt: A motion blur of wedding decoration candles and red roses
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/piaandcelebrant.jpg
-    alt: Bohemian bride hugging wedding celebrant dressed in black
-  - column-size: col-6
-    aspect-ratio: square
-    background_image: /assets/portrait/PIAANDGONZO/signing.jpg
-    alt: People signing wedding documents
-  - column-size: col-6
-    aspect-ratio: square
-    background_image: /assets/portrait/PIAANDGONZO/nick.jpg
-    alt: Guy with hair died in blonde
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/candid-bride-and-groom-moment.jpg
+    alt: Intimate moment between bride and groom
+
   - column-size: col-12
     aspect-ratio: landscape
-    background_image: /assets/portrait/PIAANDGONZO/piaandgonzokiss.jpg
-    alt: Groom kissing his bride in a park
-  - column-size: col-3
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/walk-down-the-isle.jpg
+    alt: Recessional toss as bride and groom exit ceremony smiling
+
+  - column-size: col-6
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/laurieflowers.jpg
-    alt: Man holding flower bouquets in a park and smiling at the camera
-  - column-size: col-3
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-ring-details-shot.jpg
+    alt: A close-up of bride's hand on groom's shoulder, showcasing wedding ring
+  - column-size: col-6
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/groupportraittall.jpg
-    alt: Wedding ceremony at the Royal Exhibition Building in Melbourne's Carlton Gardens 
-  - column-size: col-3
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/bride-and-groom-kissing.jpg
+    alt: Close-up of bride and groom kissing
+
+  - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/caroinbrown.jpg
-    alt: Woman in a brown leather coat holding a prosecco glass in a park
-  - column-size: col-3
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-dress-detailed-shot.jpg
+    alt: Bridal details shot of wedding dress hanging on wall waiting for bride to get ready
+  - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/celebrant.jpg
-    alt: Wedding celebrant Jam dressed in black and preparing for a ceremony in the park
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-details.jpg
+    alt: Details of wedding heirlooms
+  - column-size: col-4
+    aspect-ratio: portrait
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-table-setting.jpg
+    alt: Indoor wedding table setting in dim light
+
+
   - column-size: col-12
     aspect-ratio: landscape
-    background_image: /assets/portrait/PIAANDGONZO/kimandcelebrant.jpg
-    alt: Two ladies preparing wedding in public park
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-details-closeup.jpg
+    alt: Black and white close-up of bride and groom sitting and holding hands with wedding bouquet on bride's lap
+    
+
   - column-size: col-6
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/witness.jpg
-    alt: Bride and groom watching over as wedding witness signs papers
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/bride-running-motion-blur.jpg
+    alt: Black and white motion blur of bride running
   - column-size: col-6
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/cheers.jpg
-    alt: Bride and groom cheering champagne glasses with friends at their bohemian wedding
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/bride-and-groom-walking-candid.jpg
+    alt: Portrait of bride and groom walking in a bushy country location
+
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/ringexchange.jpg
-    alt: Bride and groom exchanging rings at their wedding ceremony
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/newlyweds-eating-pizza-2.jpg
+    alt: Bride and groom laughing while eating pizza after their ceremony, captured with flash photography
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/cake.jpg
-    alt: Bride and groom feeding each other cake
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/newlyweds-eating-pizza-1.jpg
+    alt: Playful post-ceremony moment of a bride and groom sharing pizza and laughing, photographed with off-camera flash
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/holdinghands.jpg
-    alt: Bride holding the wedding's flower bouquet and the groom's hand
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/newlyweds-eating-pizza-3.jpg
+    alt: Candid flash photo of newlyweds eating pizza together and laughing after an intimate wedding ceremony
+
   - column-size: col-6
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/kimandpiahug.jpg
-    alt: Bohemian bride hugging her friend in a park
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-couple-laughing-under-wisteria-tree.jpg
+    alt: Bride holding groom's hand and bursting into laughs
   - column-size: col-6
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/piaonphone.jpg
-    alt: Bohemian bride on a video call 
-  - column-size: col-12
-    aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/kiss.jpg
-    alt: First kiss as husband and wife
-  - column-size: col-6
-    aspect-ratio: square
-    background_image: /assets/portrait/PIAANDGONZO/moetandflowers.jpg
-    alt: Bridal flower bouquet and Moet champagne laying on park's grass 
-  - column-size: col-6
-    aspect-ratio: square
-    background_image: /assets/portrait/PIAANDGONZO/kimandbotchy.jpg
-    alt: Two happy friends piggybacking and laughing 
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/bride-and-groom-behind-country-fence.jpg
+    alt: Candid moment of bride and groom framed by country fence
+
   - column-size: col-12
     aspect-ratio: landscape
-    background_image: /assets/portrait/PIAANDGONZO/girlsoncouch.jpg
-    alt: Bohemian bride and friends posing for a photo on vintage couches
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/hands-holding-wedding-closeup.jpg
+    alt: Close-up of bride and groom hands touching
+
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/guysselfie.jpg
-    alt: Three wedding guests taking a selfie 
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-ceremony-in-bush.jpg
+    alt: Wide-shot of wedding ceremony under Australian native eucalyptus trees
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/lam.jpg
-    alt: Portrait of beautiful woman
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/bride-and-groom-sitting-pose.jpg
+    alt: Portrait of bride and groom sitting under a lush leafy gazebo holding hands
   - column-size: col-4
     aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/guystalking.jpg
-    alt: Wedding guests chatting
-  - column-size: col-12
-    aspect-ratio: portrait
-    background_image: /assets/portrait/PIAANDGONZO/piaandgonzooncouch.jpg
-    alt: Bohemian bride and groom posing for a photo on a vintage setting 
-  - column-size: col-6
-    aspect-ratio: landscape
-    background_image: /assets/portrait/PIAANDGONZO/coupleandcelebrant.jpg
-    alt: Small bohemian wedding ceremony in public park
-  - column-size: col-6
-    aspect-ratio: landscape
-    background_image: /assets/portrait/PIAANDGONZO/group1.jpg
-    alt: Wedding guests laughing at bride and groom's speech
+    background_image: /assets/portrait/HURSTBRIDGEWEDDING/bride-portrait-in-bush.jpg
+    alt: Outdoor bridal shots with bride smiling and holding the wedding bouquet
+
+
 ---
 
