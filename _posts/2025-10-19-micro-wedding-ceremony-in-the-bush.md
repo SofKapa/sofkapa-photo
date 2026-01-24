@@ -8,7 +8,7 @@ main_category: portrait
 main_category_url: /portrait.html
 categories: [micro-wedding, intimate ceremonies, bush wedding]
 tags: [Australian bush wedding photographer, micro wedding Australia, intimate bush ceremony, natural wedding photography, documentary wedding photographer]
-cover_image: /assets/portrait/HURSTBRIDGEWEDDING/bride-running-motion-blur.jpg
+cover_image: /assets/portrait/HURSTBRIDGEWEDDING/bride-and-groom-kissing.jpg
 featured_image: /assets/portrait/HURSTBRIDGEWEDDING/wedding-couple-laughing-under-wisteria-tree.jpg
 seo:
     title: Micro-wedding Ceremony in the Australian Bush | Documentary Wedding Photographer
