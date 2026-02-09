@@ -2,7 +2,8 @@
 # Keeps our LOCAL version of Jekyll up to date with the Netlify version
 
 source "https://rubygems.org"
-gem "jekyll"
+gem "jekyll", "~> 4.4"
+
 
 # Windows compatibility
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
