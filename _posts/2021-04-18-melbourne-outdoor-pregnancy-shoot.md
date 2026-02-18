@@ -4,8 +4,8 @@ title: Wild and Rooted Motherhood Session
 description: A maternity session captured deep in the forest near Melbourne. This series celebrates motherhood in the natural setting, focusing on the intimate moments shared by these soon-to-be parents
 location: Melbourne, Australia
 featured: false
-main_category: portrait
-main_category_url: /portrait.html
+main_category: 
+main_category_url: 
 categories: [motherhood, nature, outdoor session, hidden_gallery]
 tags: [maternity photography, Melbourne maternity photographer, forest maternity shoot, natural light photography, storytelling maternity, Sof Kapa Photography]
 cover_image: /assets/portrait/MADDYANDSAM/maddyandsamsitting.jpg
