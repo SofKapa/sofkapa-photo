@@ -3321,6 +3321,81 @@ body.landing-page {
 }
 
 
+/* ---------- DOLOMITES LANDING PAGE HERO ---------- */
+
+#banner-dolomites {
+    background-image: url('/ad-campaigns/images/dolomites/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 5%;
+}
+
+/* Darker cinematic overlay */
+#banner-dolomites::before {
+    background-color: rgba(0,0,0,0.35);
+}
+
+/* Softer gradient */
+#banner-dolomites::after {
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.15),
+        rgba(0,0,0,0.1)
+    );
+}
+
+/* Hero content */
+#banner-dolomites .hero-content {
+    max-width: 700px;
+}
+
+/* Small top text */
+.landing-eyebrow {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+/* Main title */
+#banner-dolomites .handwritten-text-xl {
+    font-size: clamp(5rem, 12vw, 10rem);
+    line-height: 0.9;
+    margin-bottom: 1rem;
+}
+
+/* Subtitle */
+#banner-dolomites .sub-heading {
+    color: white;
+    max-width: 500px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+/* Button */
+.landing-button {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.landing-button:hover {
+    background-color: white;
+    color: var(--kapa-dark);
+}
+
 
 
 
@@ -4070,6 +4145,21 @@ apply to devices smaller than 768px --------------------------------------------
     .cookie-buttons {
         width: 100%;
         text-align: center;  /* 👈 centers content inside */
+    }
+
+    
+/* LANDING PAGES - DOLOMITES ------------------------------ */
+    #banner-dolomites {
+        min-height: 85vh;
+        background-position: center;
+    }
+
+    #banner-dolomites .handwritten-text-xl {
+        font-size: 5rem;
+    }
+
+    #banner-dolomites .sub-heading {
+        font-size: 1rem;
     }
 
 }

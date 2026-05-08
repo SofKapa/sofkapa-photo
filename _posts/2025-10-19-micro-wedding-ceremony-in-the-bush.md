@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A micro-Wedding ceremony set in the Australian Bush
+title: Micro-Wedding ceremony set in the Australian Bush
 description: Snapshots of a deeply personal celebration held in a bushy pocket of Australia, framed by native trees and open space behind a local pub 
 location: Melbourne, Australia
 featured: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Intimate In-Home Family Session
+title: Intimate In-Home Family Session
 description: A relaxed in-home family session in soft natural light — for families looking to capture real connection, in-between moments and quiet everyday beauty with their baby
 location: Melbourne, Australia
 featured: false
