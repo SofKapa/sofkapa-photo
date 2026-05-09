@@ -3085,6 +3085,40 @@ ENQUIRY FORM
   font-style: italic;              /* optional */
 }
 
+
+/* ---------- DOLOMITES CAMPAIGN FORM SECTION ---------- */
+
+#dolomites-form-section h1 {
+  font-size: 3.3rem;
+  padding: 3rem 1rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-decoration: underline 1.5px dotted var(--kapa-featured);
+  text-underline-offset: 15px;
+}
+
+#dolomites-form-section {
+  padding: 4rem 1rem;
+}
+
+#dolomites-form-section .inquiry-form label {
+    color:var(--kapa-background);
+}
+
+
+.dolomites-form-bg-img {
+  background-image: url('/assets/ad-campaigns/dolomites/dolomites-form-bg-img.jpg');
+  opacity: 0.8;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 60vh;
+  padding: 5%;
+  padding-bottom: 0rem;
+}
+
+
 /* ======================================================================================================================================
  SCROLLING BANNER CTA - BOOK NOW
 ====================================================================================================================================== */

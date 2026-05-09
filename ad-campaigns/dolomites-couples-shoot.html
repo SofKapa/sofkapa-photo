@@ -95,50 +95,64 @@ permalink: /ad-campaigns/dolomites-sunset-session/
 </section>
 
 <!----------- FORM -->
-<section class="form-section" id="form-section">
+<section id="dolomites-form-section" class="form-section bg-kapablue dolomites-form-bg-img">
 
   <div class="form-container">
 
-    <h2>Apply</h2>
+    <h1>Apply for the Dolomites Session</h1>
 
-    <p>
-      One couple will be selected and contacted personally
-    </p>
+    <form 
+      class="inquiry-form"
+      action="https://formspree.io/f/mykonazp"
+      method="POST"
+    >
 
-    <!-- FORM HERE -->
-    <div class="max-width-md padded-b-5 sm-padded-b-0">
-    
-        <div class="bg-kapablue margin-lr-5 margin-tb-5">
-    
-            <h3 class="sm-padded-0">YOUR MESSAGE</h3>
-    
-            <div class="grid-center form">
-                <div class="col-9_sm-10">
-                    <form 
-                        action="https://formspree.io/f/mrgdpoqd"
-                        method="POST"
-                    >
+      <input type="hidden" name="_subject" value="New Dolomites Sunset Session application">
+      <input type="hidden" name="campaign" value="Dolomites Sunset Session">
+      <input type="hidden" name="shoot_date" value="3 June 2026">
+      <input type="hidden" name="page_url" value="{{ page.url }}">
 
-                        <label for="_name">NAME</label>
-                        <input type="text" name="_name" id="_name"/>
-    
-                        <label for="_replyto">EMAIL</label>
-                        <input type="email" name="_replyto" id="_replyto"/>
-    
-                        <label for="message" class="padded-b-2 padded-t-4 sm-padded-tb-0">TYPE YOUR MESSAGE</label>
-                        <textarea name="message" id="message" placeholder="tell me a bit about you, your business or brand and the project you'd like to work on"></textarea>
-                    
-                        <div class="grid-center sm-padded-5">
-                            <button type="submit" class="form-button col-3_sm-6" style="padding: 0.5rem 0.5rem">SUBMIT</button>
-                        </div>
-                        
-                    </form>
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
 
-                </div>
-            </div>
-    
-        </div>
-    </div>
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+
+      <label for="phone">WhatsApp / phone number</label>
+      <input type="text" id="phone" name="phone" placeholder="Your WhatsApp or phone number">
+
+      <label for="travelling-from">Where are you travelling from?</label>
+      <input type="text" id="travelling-from" name="travelling_from" placeholder="City / country">
+
+      <label for="availability">Will you be in the Dolomites on 3 June?</label>
+      <select id="availability" name="available_on_3_june" required>
+        <option value="">Please choose one</option>
+        <option value="Yes, we will be there">Yes, we will be there</option>
+        <option value="We are planning to be there">We are planning to be there</option>
+        <option value="Not sure yet">Not sure yet</option>
+      </select>
+
+      <label for="occasion">Is this for something special?</label>
+      <select id="occasion" name="occasion">
+        <option value="">Please choose one</option>
+        <option value="Romantic travel memory">Romantic travel memory</option>
+        <option value="Surprise proposal">Surprise proposal</option>
+        <option value="Elopement-style moment">Elopement-style moment</option>
+        <option value="Anniversary">Anniversary</option>
+        <option value="Just because">Just because</option>
+      </select>
+
+      <label for="story">Tell me a little about you two</label>
+      <textarea id="story" name="couple_story" rows="5" placeholder="Your story, vibe, or what drew you to this session"></textarea>
+
+      <label for="why-you">Why would you love to be selected?</label>
+      <textarea id="why-you" name="why_selected" rows="5" placeholder="A little note from you"></textarea>
+
+      <button type="submit">
+        Submit Application
+      </button>
+
+    </form>
 
   </div>
 
