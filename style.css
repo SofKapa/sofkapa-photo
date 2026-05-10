@@ -3086,38 +3086,6 @@ ENQUIRY FORM
 }
 
 
-/* ---------- DOLOMITES CAMPAIGN FORM SECTION ---------- */
-
-#dolomites-form-section h1 {
-  font-size: 3.3rem;
-  padding: 3rem 1rem;
-  line-height: 1.3;
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-  text-decoration: underline 1.5px dotted var(--kapa-featured);
-  text-underline-offset: 15px;
-}
-
-#dolomites-form-section {
-  padding: 4rem 1rem;
-}
-
-#dolomites-form-section .inquiry-form label {
-    color:var(--kapa-background);
-}
-
-
-.dolomites-form-bg-img {
-  background-image: url('/assets/ad-campaigns/dolomites/dolomites-form-bg-img.jpg');
-  opacity: 0.8;
-  background-size: cover;
-  background-position: 50% 50%;
-  min-height: 60vh;
-  padding: 5%;
-  padding-bottom: 0rem;
-}
-
 
 /* ======================================================================================================================================
  SCROLLING BANNER CTA - BOOK NOW
@@ -3355,10 +3323,10 @@ body.landing-page {
 }
 
 
-/* ---------- DOLOMITES LANDING PAGE - HERO ---------- */
+/* --- HERO ---------- */
 
 #banner-dolomites {
-    background-image: url('/assets/portrait/CRADLEMOUNTAINCOUPLE/man-leaning-over-for-kiss.jpg');
+    background-image: url('/assets/portrait/CRADLEMOUNTAINCOUPLE/man-leaning-over-for-kiss-woman-hair-in-wind.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -3381,9 +3349,7 @@ body.landing-page {
 }
 
 /* Hero content */
-#banner-dolomites .hero-content {
-    
-}
+
 
 /* Small top text */
 .landing-eyebrow {
@@ -3393,6 +3359,7 @@ body.landing-page {
     font-size: 0.8rem;
     margin-bottom: 5rem;
     text-transform: uppercase;
+    line-height: 1.8;;
 }
 
 /* Main title */
@@ -3432,7 +3399,7 @@ body.landing-page {
     color: var(--kapa-dark);
 }
 
-/* ---------- DOLOMITES LANDING PAGE - INTRO ---------- */
+/* --- LANDING PAGE - INTRO ---------- */
 
 #intro-ad-campaign {
     padding: 5rem;
@@ -3460,14 +3427,96 @@ body.landing-page {
 
 
 
-/* ---------- DOLOMITES LANDING PAGE - MOODBOARD ---------- */
+/* --- LANDING PAGE - MOODBOARD ---------- */
 .landing-moodboard {
     width: 100%;
     border-radius: 0.5rem;
 }
 
 
-/* ---------- DOLOMITES LANDING PAGE - NOTE ---------- */
+/* --- LANDING PAGE - FEATURED WORK SECTION */
+
+.featured-work-section {
+  background-color: var(--kapa-blue);
+  padding: 8% 5%;
+}
+
+
+.featured-work-intro {
+  max-width: 500px;
+  margin: 0 auto 3rem;
+  text-align: left;
+  text-align: center;
+}
+
+.featured-work-text {
+  color: inherit;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+
+
+.featured-work-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.8rem;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.featured-work-image {
+  width: 100%;
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.featured-work-image:nth-child(2),
+.featured-work-image:nth-child(5) {
+  margin-top: 3rem;
+}
+
+.featured-work-image:nth-child(3),
+.featured-work-image:nth-child(4) {
+  height: 500px;
+}
+
+
+/* Dolomites - Featured work images */
+
+.dolomites-featured-work .featured-work-image-1 {
+  background-image: url('/assets/ad-campaigns/dolomites/featured-work/dolomites-ad-kiss.jpg');
+}
+
+.dolomites-featured-work .featured-work-image-2 {
+  background-image: url('/assets/ad-campaigns/dolomites/featured-work/dolomites-ad-dip.jpg');
+}
+
+.dolomites-featured-work .featured-work-image-3 {
+  background-image: url('/assets/ad-campaigns/dolomites/featured-work/dolomites-ad-run.jpg');
+}
+
+.dolomites-featured-work .featured-work-image-4 {
+  background-image: url('/assets/ad-campaigns/dolomites/featured-work/dolomites-ad-hidden.jpg');
+}
+
+.dolomites-featured-work .featured-work-image-5 {
+  background-image: url('/assets/ad-campaigns/dolomites/featured-work/dolomites-ad-piggyback.jpg');
+  background-position: 40% 50%;
+}
+
+
+.dolomites-featured-work .featured-work-image-6 {
+  background-image: url('/assets/ad-campaigns/dolomites/featured-work/dolomites-ad-closeup.jpg');
+}
+
+
+/* --- LANDING PAGE - NOTE ---------- */
 .session-note-ad-campaign {
     padding: 5rem;
     background-color: var(--kapa-blue);
@@ -3496,6 +3545,57 @@ body.landing-page {
     text-align: center;
     font-style: italic;
 }
+
+
+
+
+.details-box ul {
+  margin-bottom: 3rem;
+}
+
+.details-box p {
+  max-width: 700px;
+  margin: 2rem auto 0;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+/* --- LANDING PAGE - FORM SECTION ---------- */
+
+.dolomites-form-bg-img {
+  background-image: url('/assets/ad-campaigns/dolomites/dolomites-form-bg-img.jpg');
+  opacity: 0.8;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 60vh;
+  padding: 5%;
+  padding-bottom: 0rem;
+}
+
+
+
+#landingpage-form-section h1 {
+  font-size: 3.3rem;
+  padding: 3rem 1rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-decoration: underline 1.5px dotted var(--kapa-featured);
+  text-underline-offset: 15px;
+}
+
+#landingpage-form-section {
+  padding: 4rem 1rem;
+}
+
+#landingpage-form-section .inquiry-form label {
+    color:var(--kapa-background);
+}
+
+
+
+
 
 
 
@@ -3761,6 +3861,23 @@ apply to devices smaller than 1024px--------------------------------------------
 /* CONTACT PAGE STYLES ---------------------------------- */
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
+
+
+/* LANDING PAGES ----------------------------------------- */
+    .featured-work-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured-work-image,
+    .featured-work-image:nth-child(3),
+    .featured-work-image:nth-child(4) {
+        height: 420px;
+    }
+
+    .featured-work-image:nth-child(2),
+    .featured-work-image:nth-child(5) {
+        margin-top: 0;
+    }
 
 
 }
@@ -4262,6 +4379,12 @@ apply to devices smaller than 768px --------------------------------------------
         font-size: 1rem;
     }
 
+    .featured-work-image,
+    .featured-work-image:nth-child(3),
+    .featured-work-image:nth-child(4) {
+        height: 340px;
+    }
+
 }
 
 
@@ -4343,6 +4466,25 @@ apply to devices smaller than 768px --------------------------------------------
 
 /* BOOKINGS PAGE STYLES --------------------------------- */
 
+/* LANDING PAGE STYLES ---------------------------------- */
+    .featured-work-section {
+        padding: 15% 5%;
+    }
+
+    .featured-work-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.7rem;
+    }
+
+    .featured-work-image,
+    .featured-work-image:nth-child(3),
+    .featured-work-image:nth-child(4) {
+        height: 240px;
+    }
+
+    .featured-work-intro h2 {
+        font-size: 1.8rem;
+    }
 
 }
 
