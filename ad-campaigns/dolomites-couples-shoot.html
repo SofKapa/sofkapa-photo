@@ -177,6 +177,17 @@ permalink: /ad-campaigns/dolomites-sunset-session/
       <label for="why-you">Why would you love to be selected?</label>
       <textarea id="why-you" name="why_selected" rows="5" placeholder="A little note from you"></textarea>
 
+      <!-- Anti-spam honeypot -->
+      <input type="text" name="_gotcha" style="display:none">
+
+      <!-- Redirect after successful submission -->
+      <input 
+        type="hidden" 
+        name="_redirect" 
+        value="/thank-you-dolomites-session.html"
+      />
+
+
       <button type="submit">
         Submit Application
       </button>

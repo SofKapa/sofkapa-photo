@@ -61,6 +61,15 @@ body {
   overflow-y: visible;     /* prevent vertical clipping */
 }
 
+body.landing-page,
+body.landing-page a,
+body.landing-page button,
+body.landing-page input,
+body.landing-page textarea,
+body.landing-page select {
+  cursor: auto !important;
+}
+
 
 /* Default: hide horizontal scroll */
 html,
